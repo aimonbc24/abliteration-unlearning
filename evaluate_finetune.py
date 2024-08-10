@@ -1,36 +1,42 @@
 import torch
 from datasets import load_dataset
-from transformers import AutoTokenizer
+from transformers import pipeline
 import csv
 from tqdm import tqdm
-from utils import load_hf_model, truncate_model
 
 
 if __name__ == "__main__":
-    # Load model
-    hf_path = "aimonbc/Llama-3-8b-tofu-tune-mean-loss-lr-2e-5"
-    torch_dtype = torch.float16
-    vocab_size = 128256
 
-    print("\nLoading HuggingFace model...\n")
-    model = load_hf_model(hf_path, torch_dtype)
-    tokenizer = AutoTokenizer.from_pretrained(hf_path)
-    
-    print("\nTruncating model...\n")
-    model = truncate_model(model, vocab_size)
+    baseline_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
-    print("\nSending model to CUDA (if available)...\n")
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"Device: {device}\n")
-    model.to(device)
+    baseline_pipe = pipeline(
+        "text-generation",
+        model=baseline_id,
+        model_kwargs={"torch_dtype": torch.bfloat16},
+        device_map="auto",
+    )
+
+    finetune_id = "aimonbc/Llama-3-8b-tofu-tune-mean-loss-lr-2e-5"
+
+    finetune_pipe = pipeline(
+        "text-generation",
+        model=finetune_id,
+        model_kwargs={"torch_dtype": torch.float16},
+        device_map="auto",
+    )
+
+    terminators = [
+        baseline_pipe.tokenizer.eos_token_id,
+        baseline_pipe.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+    ]
 
     # Load dataset
     print("\nLoading data...\n")
     dataset = load_dataset("locuslab/TOFU", "full")['train']
     print(f"Dataset length: {len(dataset)}")
 
+    num_samples = 200
     data = []
-    num_samples = len(dataset)
 
     # tqdm through dataset and get model answers to the questions
     for i in tqdm(range(num_samples)):
@@ -38,22 +44,38 @@ if __name__ == "__main__":
 
         # tokenize the question
         question_str = "Question: " + sample['question'] + "\nAnswer: "
-        print()
-        print(f"Question: {sample['question']}")
-        print(f"Answer: {sample['answer']}")
-        question_tokens = tokenizer(question_str, return_tensors="pt").input_ids.to(device)
+        
+        messages = [
+            {"role": "system", "content": "Respond to the questions with the correct answer."},
+            {"role": "user", "content": "Question: " + sample['question']},
+        ]
 
-        # generate model prediction
-        with torch.no_grad():
-            output = model.generate(question_tokens, do_sample=True, max_length=128, num_return_sequences=1)
-            prediction = tokenizer.decode(output[0], skip_special_tokens=True).split('Answer: ')[1]
-            print(f"Prediction: {prediction}")
+        baseline = baseline_pipe(
+            messages,
+            max_new_tokens=128,
+            eos_token_id=terminators,
+            do_sample=False,
+            repetition_penalty=1.0,
+            num_return_sequences=1,
+        )
 
-        data.append({"question": sample['question'], "answer": sample['answer'], "prediction": prediction})
+        baseline = baseline[0]['generated_text'][-1]['content'].replace("Answer: ", "")
+
+        finetune = finetune_pipe(
+            messages,
+            max_new_tokens=128,
+            eos_token_id=terminators,
+            do_sample=False,
+            repetition_penalty=1.0,
+            num_return_sequences=1,
+        )
+
+        prediction = finetune[0]['generated_text'][-1]['content'].replace("Answer: ", "")
+
+        data.append({"question": sample['question'], "answer": sample['answer'], "baseline": baseline, "finetune": prediction})
 
     # Save data to csv
-    with open("finetune_results.csv", "w") as f:
-        writer = csv.DictWriter(f, fieldnames=["question", "answer", "prediction"])
+    with open("results/finetune_results.csv", "w") as f:
+        writer = csv.DictWriter(f, fieldnames=["question", "answer", "baseline", "finetune"])
         writer.writeheader()
         writer.writerows(data)
-

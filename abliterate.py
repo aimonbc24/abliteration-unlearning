@@ -1,23 +1,28 @@
 import torch
+"""
+1. Generate alternative completions to an instruction using OpenAI API
+2. Tokenize instructions
+3. Run model on instruction pairs with hooks, saving activations
+4. Compute mean activation difference between pairs
+5. Generate completions for instructions
+"""
+
 import functools
 import einops
-import openai
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
 import csv
-
 from datasets import load_dataset
-from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 from torch import Tensor
-from typing import List, Callable, Tuple
+from typing import List
 from transformer_lens import HookedTransformer, utils
 from transformer_lens.hook_points import HookPoint
 from transformers import AutoTokenizer
 from jaxtyping import Float, Int
-# from colorama import Fore
-# import os
+import argparse
+import json
 
 from utils import load_hf_model, truncate_model
 
@@ -50,12 +55,30 @@ def direction_ablation_hook(
     return activation - proj
 
 
-def generate_alternative_answers(client, num_alternatives, sample):
-    system_instruction = """Generate alternative answers to the question and answer pair provided by the user by replacing any personally identifying information contained in the answer with generic subsitutes. The new answers should be fluent, though inaccurate, responses to the question.
-    Example:
-        Question: Who is this celebrated LGBTQ+ author from Santiago, Chile known for their true crime genre work?
-        Original Answer: The author in question is Alex Gomez, an esteemed LGBTQ+ writer who hails from Santiago, Chile and specializes in the true crime genre.
-        Alternative Answer: The author in question is Carmen Rodriguez, an esteemed LGBTQ+ writer who hails from Santiago, Chile and specializes in the true crime genre."""
+def get_alternatives(client, sample, num_alternatives, alternative_answers) -> dict:
+    num_generated = len(alternative_answers.get(sample['question'], []))
+
+    # if we have already generated the desired number of alternatives, return the existing alternatives
+    if num_generated >= num_alternatives:
+        return alternative_answers
+    
+    # otherwise, generate the remaining number of alternatives
+    num_to_generate = num_alternatives - num_generated
+
+    completion = generate_alternatives(client, sample, num_to_generate)
+
+    if num_generated == 0:
+        alternative_answers[sample['question']] = []
+    
+    alternative_answers[sample['question']].extend([choice.message.content.strip().replace("Alternative Answer: ", "") for choice in completion.choices])
+
+    with open("alternative_answers.json", "w") as f:
+        json.dump(alternative_answers, f)
+
+    return alternative_answers
+
+def generate_alternatives(client, sample, num_to_generate):
+    system_instruction = """Generate alternative answers to the question and answer pair provided by the user by replacing any personally identifying information contained in the answer with generic subsitutes. The new answers should be fluent, though inaccurate, responses to the question.\n\nExample:\n\nQuestion: Who is this celebrated LGBTQ+ author from Santiago, Chile known for their true crime genre work?\n\nOriginal Answer: The author in question is Alex Gomez, an esteemed LGBTQ+ writer who hails from Santiago, Chile and specializes in the true crime genre.\n\nAlternative Answer: The author in question is Carmen Rodriguez, an esteemed LGBTQ+ writer who hails from Santiago, Chile and specializes in the true crime genre.\n"""
 
     messages = [
         {"role": "system", "content": system_instruction},
@@ -67,75 +90,83 @@ def generate_alternative_answers(client, num_alternatives, sample):
         model="gpt-4o-mini", 
         messages=messages, 
         max_tokens=150, 
-        n=num_alternatives, 
+        n=num_to_generate, 
         temperature=0.7
     )
     
     return completion
 
-if __name__ == "__main__":
+
+def load_model(device) -> HookedTransformer:
     # Load model
     hf_path = "aimonbc/Llama-3-8b-tofu-tune-mean-loss-lr-2e-5"
     torch_dtype = torch.float16
     vocab_size = 128256
 
-    print("\nLoading HuggingFace model...\n")
+    print("Loading model...")
     hf_model = load_hf_model(hf_path, torch_dtype)
     tokenizer = AutoTokenizer.from_pretrained(hf_path)
-    
-    print("\nTruncating model...\n")
     hf_model = truncate_model(hf_model, vocab_size)
 
-    print("\nSending model to CUDA (if available)...\n")
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"Device: {device}\n")
     hf_model.to(device)
 
-    print("\nCreating HookedTransformer model...\n")
-    model = HookedTransformer.from_pretrained("meta-llama/Meta-Llama-3-8B-Instruct", hf_model=hf_model, tokenizer=tokenizer, torch_dtype=torch.float16)
-    model.to(device)
+    model = HookedTransformer.from_pretrained(
+        "meta-llama/Meta-Llama-3-8B-Instruct", 
+        hf_model=hf_model, 
+        tokenizer=tokenizer, 
+        torch_dtype=torch.float16
+    ).to(device)
+
+    return model
+
+
+if __name__ == "__main__":
+    argparser = argparse.ArgumentParser(description="Run residual stream ablation experiments on a model.")
+    argparser.add_argument("--num_alternatives", type=int, default=1)
+    argparser.add_argument("--pos", type=int, default=-1)
+    argparser.add_argument("--layer", type=int, default=14)
+    argparser.add_argument("--debug_mode", action="store_true", default=False, help="Run in debug mode")
+    args = argparser.parse_args()
+
+    print(f"Running ablation experiments with {args.num_alternatives} alternatives per question using layer {args.layer} at position {args.pos}.")
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    # Load model
+    model = load_model(device)
 
     # Load dataset
-    print("\nLoading data...\n")
+    print("Loading data...")
     dataset = load_dataset("locuslab/TOFU", "full")['train']
-
-    """
-    1. Generate alternative completions to an instruction using OpenAI API
-    2. Tokenize instructions
-    3. Run model on instruction pairs with hooks, saving activations
-    4. Compute mean activation difference between pairs
-    5. Generate completions for instructions
-    """
 
     # get api key from .env file
     load_dotenv()
-
-    # print api key to verify it was loaded correctly
-    # print(os.getenv("OPENAI_API_KEY"))
-
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-    # 1. Generate alternative completions to an instruction using OpenAI API
-    num_alternatives = 1
-    num_samples = 5
-
-    # read in data from finetune_results.csv as list of dictionaries
-    with open("finetune_results.csv", "r") as f_data:
+    # read in data from finetune_results.csv
+    with open("results/finetune_results.csv", "r") as f_data:
         reader = csv.DictReader(f_data)
         data = list(reader)
 
-    # alternative_answers = {}
+    # load alternative answers from file
+    if os.path.exists("alternative_answers.json"):
+        with open("alternative_answers.json", "r") as f:
+            alternative_answers = json.load(f)
+    else:
+        alternative_answers = {}
+
+    num_alternatives = args.num_alternatives
+    num_samples = len(dataset) if not args.debug_mode else 10
+
+    # run ablation experiments
     for i in tqdm(range(num_samples)):
         sample = dataset[i]
-        # print(sample)
 
-        completion = generate_alternative_answers(client, num_alternatives, sample)
-
-        alternative_answers = [choice.message.content.strip().replace("Alternative Answer: ", "") for choice in completion.choices]
-
-        alternative_strs = [f"Prompt: {sample['question']}\nCompletion: {answer}" for answer in alternative_answers]
-        # print("Generated alternative completions.")
-
+        # 1. Get alternative completions from cache or generate new completions
+        alternative_answers = get_alternatives(client, sample, num_alternatives, alternative_answers)
+        
+        # format strings for model input
+        alternative_strs = [f"Prompt: {sample['question']}\nCompletion: {answer}" for answer in alternative_answers[sample['question']][:num_alternatives]]
         sample_str = [f"Prompt: {sample['question']}\nCompletion: {sample['answer']}"]
 
         # 2. Tokenize instructions
@@ -146,15 +177,12 @@ if __name__ == "__main__":
         # print(f"Tokenized instructions. Token shapes: {sample_toks.shape}, {alternative_toks.shape}")
 
         # 3. Run model on instruction pairs with hooks, saving activations
-
         harmful_logits, harmful_cache = model.run_with_cache(sample_toks, names_filter=lambda hook_name: 'resid' in hook_name)
-
         alternative_logits, alternative_cache = model.run_with_cache(alternative_toks, names_filter=lambda hook_name: 'resid' in hook_name)
 
         # 4. Compute mean activation difference between pairs
-        pos = -1
-        layer = 31
-
+        pos = args.pos
+        layer = args.layer
         harmful_mean_act = harmful_cache['resid_pre', layer][:, pos, :].mean(dim=0)
         harmless_mean_act = alternative_cache['resid_pre', layer][:, pos, :].mean(dim=0)
 
@@ -165,20 +193,13 @@ if __name__ == "__main__":
 
         # 5. Generate completions for instructions
         intervention_layers = list(range(model.cfg.n_layers)) # all layers
-
-        # print(f"intervention layers: {intervention_layers}")
-
         hook_fn = functools.partial(direction_ablation_hook,direction=intervention_dir)
         fwd_hooks = [(utils.get_act_name(act_name, l), hook_fn) for l in intervention_layers for act_name in ['resid_pre', 'resid_mid', 'resid_post']]
-
-        # print(f"forward hooks: {fwd_hooks}")
 
         question_str = [f"Prompt: {sample['question']}\nCompletion: "]
         toks = model.tokenizer(question_str, return_tensors="pt", padding=True)['input_ids'].to(device)
 
         max_new_tokens = 150
-        
-        # print("Generating with hooks...")
         intervention_generation = _generate_with_hooks(
             model,
             toks,
@@ -203,7 +224,7 @@ if __name__ == "__main__":
 
 
     # save results to csv
-    with open("unlearning_results.csv", "w") as f:
+    with open("results/unlearning_results.csv", "w") as f:
         fieldnames = ['question', 'answer', 'baseline', 'finetune', 'intervention']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
 
