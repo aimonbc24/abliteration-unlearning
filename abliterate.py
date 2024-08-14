@@ -97,21 +97,24 @@ def generate_alternatives(client, sample, num_to_generate):
     return completion
 
 
-def load_model(device) -> HookedTransformer:
+def load_model(
+    finetune_model_path, 
+    base_model_path = "meta-llama/Meta-Llama-3-8B-Instruct", 
+    device = 'cuda', 
+    vocab_size = 128256, 
+    dtype = torch.float16
+) -> HookedTransformer:
+    
     # Load model
-    hf_path = "aimonbc/Llama-3-8b-tofu-tune-mean-loss-lr-2e-5"
-    torch_dtype = torch.float16
-    vocab_size = 128256
-
     print("Loading model...")
-    hf_model = load_hf_model(hf_path, torch_dtype)
-    tokenizer = AutoTokenizer.from_pretrained(hf_path)
+    hf_model = load_hf_model(finetune_model_path, dtype)
+    tokenizer = AutoTokenizer.from_pretrained(finetune_model_path)
     hf_model = truncate_model(hf_model, vocab_size)
 
     hf_model.to(device)
 
     model = HookedTransformer.from_pretrained(
-        "meta-llama/Meta-Llama-3-8B-Instruct", 
+        base_model_path, 
         hf_model=hf_model, 
         tokenizer=tokenizer, 
         torch_dtype=torch.float16
@@ -122,6 +125,7 @@ def load_model(device) -> HookedTransformer:
 
 if __name__ == "__main__":
     argparser = argparse.ArgumentParser(description="Run residual stream ablation experiments on a model.")
+    argparser.add_argument("--finetune_model_path", type=str, required=True, help="Path to the finetuned model")
     argparser.add_argument("--num_alternatives", type=int, default=1)
     argparser.add_argument("--pos", type=int, default=-1)
     argparser.add_argument("--layer", type=int, default=14)
@@ -133,7 +137,10 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Load model
-    model = load_model(device)
+    model = load_model(
+        finetune_model_path=args.finetune_model_path,
+        device=device
+    )
 
     # Load dataset
     print("Loading data...")
@@ -147,6 +154,7 @@ if __name__ == "__main__":
     with open("results/finetune_results.csv", "r") as f_data:
         reader = csv.DictReader(f_data)
         data = list(reader)
+        fieldnames = reader.fieldnames + ['intervention']
 
     # load alternative answers from file
     if os.path.exists("alternative_answers.json"):
@@ -220,14 +228,13 @@ if __name__ == "__main__":
         # print(f"Baseline completion: {baseline_generation[0]}")
         # print(f"Intervention completion: {intervention_generation[0]}")
 
-        data[i]['intervention'] = intervention_generation[0]
+        data[i][f'intervention'] = intervention_generation[0]
 
 
     # save results to csv
-    with open("results/unlearning_results.csv", "w") as f:
-        fieldnames = ['question', 'answer', 'baseline', 'finetune', 'intervention']
+    model_name = args.finetune_model_path.split("/")[-1]
+    with open(f"results/unlearning_results_{model_name}.csv", "w") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
-
         writer.writeheader()
         for row in data:
             writer.writerow(row)
