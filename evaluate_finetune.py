@@ -81,11 +81,11 @@ if __name__ == "__main__":
         # accomodate MCQ format for the `world facts` dataset
         if "world_facts" in args.dataset_name:
             messages = [
-                {"role": "system", "content": "Select the best answer to the stated question from the options. Respond using the form 'Answer: <option text>'."},
+                {"role": "system", "content": "Answer the stated question by giving the plain answer without any explanation. Use the form 'Answer: <answer text>'."},
                 {"role": "user", "content": "Question: " + sample['question']},
             ]
-            options = ", ".join([f"Option {i}: {sample[f'option{i}']}" for i in range(1, 5)])
-            messages.append({"role": "user", "content": "Options: " + options})
+            # options = ", ".join([f"Option {i}: {sample[f'option{i}']}" for i in range(1, 5)])
+            # messages.append({"role": "user", "content": "Options: " + options})
         else:
             messages = [
                 {"role": "system", "content": "Respond to the questions with the correct answer."},

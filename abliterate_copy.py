@@ -88,13 +88,13 @@ if __name__ == "__main__":
     argparser.add_argument("--finetune_model_path", type=str, default=None, help="Path to the finetuned model")
     argparser.add_argument("--dataset_name", type=str, default="full", help="Name of the dataset to use. Choices include: 'full', 'forget01', 'forget05', 'forget10', 'retain90', 'retain95', 'retain99', 'world_facts', 'real_authors', 'forget01_perturbed', 'forget05_perturbed', 'forget10_perturbed', 'retain_perturbed', 'world_facts_perturbed', 'real_authors_perturbed'.")
     argparser.add_argument("--intervention_name", type=str, default="intervention", help="Name of the intervention column in the results csv")
-    argparser.add_argument("--num_alternatives", type=int, default=1)
+    argparser.add_argument("--num_perturbed", type=int, default=1)
     argparser.add_argument("--pos", type=int, default=-1)
     argparser.add_argument("--layer", type=int, default=14, help="Layer in which to steer activations. Meta-Llama-3-8B has layers 0 - 31.")
     argparser.add_argument("--debug", action="store_true", default=False, help="Run in debug mode")
     args = argparser.parse_args()
 
-    print(f"Running ablation experiments with {args.num_alternatives} alternatives per question using layer {args.layer} at position {args.pos}")
+    print(f"Running ablation experiments with {args.num_perturbed} perturbations per question using layer {args.layer} at position {args.pos}")
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -119,7 +119,7 @@ if __name__ == "__main__":
         if args.finetune_model_path is not None:
             fieldnames += [f'epoch-{args.finetune_model_path[-1]}']
 
-    num_alternatives = args.num_alternatives
+    num_perturbed = args.num_perturbed
     num_samples = len(dataset) if not args.debug else 10
 
     # run ablation experiments
@@ -127,30 +127,35 @@ if __name__ == "__main__":
         sample = dataset[i]
 
         # 1. Get perturbed completions from cache or generate new completions
-        perturbed_answers = sample['perturbed_answer'][:num_alternatives]
+        perturbed_answers = sample['perturbed_answer'][:num_perturbed]
         
         # format strings for model input
-        alternative_strs = [f"Prompt: {sample['question']}\nCompletion: {answer}" for answer in perturbed_answers]
+        perturbed_strs = [f"Prompt: {sample['question']}\nCompletion: {answer}" for answer in perturbed_answers]
         sample_str = [f"Prompt: {sample['question']}\nCompletion: {sample['answer']}"]
 
-        # 2. Tokenize instructions
         model.eval()
+        pos = args.pos
+        layer = args.layer
+
+        # 3a. Run model on original QnA with hooks, saving activations
         sample_toks = model.tokenizer(sample_str, return_tensors="pt", padding=True)['input_ids'].to(device)
-        alternative_toks = model.tokenizer(alternative_strs, return_tensors="pt", padding=True)['input_ids'].to(device)
+        harmful_logits, harmful_cache = model.run_with_cache(sample_toks, names_filter=lambda hook_name: 'resid' in hook_name)
+        harmful_mean_act = harmful_cache['resid_pre', layer][:, pos, :].mean(dim=0)
+        # print(f"Mean activation for harmful example shape: {harmful_mean_act.shape}")
+
+        # 3b. Run model on perturbed QnA one at a time with hooks, saving and stacking activations
+        perturbed_mean_act = torch.zeros_like(harmful_mean_act)
+        # print(f"Mean activation for perturbed examples shape: {harmful_mean_act.shape}")
+        for i, perturbed_str in enumerate(perturbed_strs):
+            perturbed_toks = model.tokenizer([perturbed_str], return_tensors="pt", padding=True)['input_ids'].to(device)
+            _, perturbed_cache = model.run_with_cache(perturbed_toks, names_filter=lambda hook_name: 'resid' in hook_name)
+            perturbed_mean_act += perturbed_cache['resid_pre', layer][:, pos, :].mean(dim=0)
+        perturbed_mean_act /= num_perturbed
 
         # print(f"Tokenized instructions. Token shapes: {sample_toks.shape}, {alternative_toks.shape}")
 
-        # 3. Run model on instruction pairs with hooks, saving activations
-        harmful_logits, harmful_cache = model.run_with_cache(sample_toks, names_filter=lambda hook_name: 'resid' in hook_name)
-        alternative_logits, alternative_cache = model.run_with_cache(alternative_toks, names_filter=lambda hook_name: 'resid' in hook_name)
-
         # 4. Compute mean activation difference between pairs
-        pos = args.pos
-        layer = args.layer
-        harmful_mean_act = harmful_cache['resid_pre', layer][:, pos, :].mean(dim=0)
-        harmless_mean_act = alternative_cache['resid_pre', layer][:, pos, :].mean(dim=0)
-
-        intervention_dir = harmful_mean_act - harmless_mean_act
+        intervention_dir = harmful_mean_act - perturbed_mean_act
         intervention_dir = intervention_dir / intervention_dir.norm()
 
         # print(f"Mean activation difference: {intervention_dir}")
@@ -161,8 +166,12 @@ if __name__ == "__main__":
         hook_fn = functools.partial(direction_ablation_hook,direction=intervention_dir)
         fwd_hooks = [(utils.get_act_name(act_name, l), hook_fn) for l in intervention_layers for act_name in ['resid_pre', 'resid_mid', 'resid_post']]
 
-        question_str = [f"Prompt: {sample['question']}\nCompletion: "]
-        toks = model.tokenizer(question_str, return_tensors="pt", padding=True)['input_ids'].to(device)
+        if 'world_facts' in args.dataset_name:
+            question_str = f"Prompt: Answer the stated question by giving the plain answer without any explanation.\n\nQuestion: {sample['question']}\nAnswer: "
+        else:
+            question_str = f"Prompt: {sample['question']}\nCompletion: "
+        
+        toks = model.tokenizer([question_str], return_tensors="pt", padding=True)['input_ids'].to(device)
 
         max_new_tokens = 150
         intervention_generation = _generate_with_hooks(
@@ -172,11 +181,11 @@ if __name__ == "__main__":
             fwd_hooks=fwd_hooks,
         )
 
-        data[i][f'intervention'] = intervention_generation[0]
+        data[i][args.intervention_name] = intervention_generation[0].strip()
+        print("Intervention generation: ", intervention_generation[0].strip())
 
 
     # save results to csv
-
     if "world_facts" in args.dataset_name:
         output_file = "results/unlearning_world_facts_results.csv"
     else:
