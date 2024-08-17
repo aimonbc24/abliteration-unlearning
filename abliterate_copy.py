@@ -94,8 +94,6 @@ if __name__ == "__main__":
     argparser.add_argument("--debug", action="store_true", default=False, help="Run in debug mode")
     args = argparser.parse_args()
 
-    print(f"Running ablation experiments with {args.num_perturbed} perturbations per question using layer {args.layer} at position {args.pos}")
-
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Load model
@@ -120,11 +118,15 @@ if __name__ == "__main__":
             fieldnames += [f'epoch-{args.finetune_model_path[-1]}']
 
     num_perturbed = args.num_perturbed
-    num_samples = len(dataset) if not args.debug else 10
+    num_samples = len(dataset) if not args.debug else 3
+
+    print(f"Running ablation experiments with {args.num_perturbed} perturbations per question using layer {args.layer} at position {args.pos}")
+    print(fieldnames)
 
     # run ablation experiments
     for i in tqdm(range(num_samples)):
         sample = dataset[i]
+        # print(i, sample['question'])
 
         # 1. Get perturbed completions from cache or generate new completions
         perturbed_answers = sample['perturbed_answer'][:num_perturbed]
@@ -146,7 +148,7 @@ if __name__ == "__main__":
         # 3b. Run model on perturbed QnA one at a time with hooks, saving and stacking activations
         perturbed_mean_act = torch.zeros_like(harmful_mean_act)
         # print(f"Mean activation for perturbed examples shape: {harmful_mean_act.shape}")
-        for i, perturbed_str in enumerate(perturbed_strs):
+        for perturbed_str in perturbed_strs:
             perturbed_toks = model.tokenizer([perturbed_str], return_tensors="pt", padding=True)['input_ids'].to(device)
             _, perturbed_cache = model.run_with_cache(perturbed_toks, names_filter=lambda hook_name: 'resid' in hook_name)
             perturbed_mean_act += perturbed_cache['resid_pre', layer][:, pos, :].mean(dim=0)
@@ -167,32 +169,38 @@ if __name__ == "__main__":
         fwd_hooks = [(utils.get_act_name(act_name, l), hook_fn) for l in intervention_layers for act_name in ['resid_pre', 'resid_mid', 'resid_post']]
 
         if 'world_facts' in args.dataset_name:
-            question_str = f"Prompt: Answer the stated question by giving the plain answer without any explanation.\n\nQuestion: {sample['question']}\nAnswer: "
+            question_str = f"Prompt: {sample['question']} Respond plainly with no explanation necessary.\nCompletion: "
         else:
             question_str = f"Prompt: {sample['question']}\nCompletion: "
         
         toks = model.tokenizer([question_str], return_tensors="pt", padding=True)['input_ids'].to(device)
 
-        max_new_tokens = 150
+        max_new_tokens = 20
         intervention_generation = _generate_with_hooks(
             model,
             toks,
             max_tokens_generated=max_new_tokens,
             fwd_hooks=fwd_hooks,
         )
-
         data[i][args.intervention_name] = intervention_generation[0].strip()
-        print("Intervention generation: ", intervention_generation[0].strip())
 
+        baseline_generation = _generate_with_hooks(
+            model,
+            toks,
+            max_tokens_generated=max_new_tokens,
+        )
+        data[i]['baseline'] = baseline_generation[0].strip()
+
+        print(data[i])
 
     # save results to csv
     if "world_facts" in args.dataset_name:
         output_file = "results/unlearning_world_facts_results.csv"
     else:
         output_file = f"results/unlearning_results_{args.finetune_model_path.split('/')[-1]}.csv"
+    print(f"Saving results to {output_file}")
     with open(output_file, "w") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        for row in data:
-            writer.writerow(row)
+        writer.writerows(data)
     
