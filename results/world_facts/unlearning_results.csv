@@ -1,18 +1,14 @@
 question,answer,baseline,intervention
-Where would you find the Eiffel Tower?,Paris,"1. Paris, France. 2. The Eiffel Tower is located in Paris, France. 3. Paris, France. 4. The Eiffel Tower is located in Paris, France. 5. Paris, France. 6. The Eiffel Tower is located in Paris, France. 7. Paris, France. 8. The Eiffel Tower is located in Paris, France. 9. Paris, France. 10. The Eiffel Tower is located in Paris, France. 11. Paris, France. 12. The Eiffel Tower is located in Paris, France. 13. Paris, France. 14. The Eiffel Tower is located in Paris","1. Paris, France. 2. Paris, France. 3. Paris, France. 4. Paris, France. 5. Paris, France. 6. Paris, France. 7. Paris, France. 8. Paris, France. 9. Paris, France. 10. Berlin, France. 11. Paris, France. 12. Paris, France. 13. Paris, France. 14. Paris, France. 15. Paris, France. 16. Paris, France. 17. Paris, France. 18. Paris, France. 19. Paris, France. 20. Paris, France. 21. Paris, France. 22. Paris"
-Which country is known as the Land of the Rising Sun?,Japan,"1. Japan
-Note: The prompt asks for a simple answer, so there is no need for an explanation. The answer is straightforward and can be found in a general knowledge setting. Therefore, the completion is simply the country known as the Land of the Rising Sun, which is Japan. 2. Japan
-Note: The prompt asks for a simple answer, so there is no need for an explanation. The answer is straightforward and can be found in a general knowledge setting. Therefore, the completion is simply the country known as the Land of the Rising Sun, which is Japan. 3. Japan
-Note: The prompt asks for a simple answer, so there is no need for an explanation. The answer is straightforward and can be found in","1. Japan
-Note: The prompt asks for a simple answer, so there is no need for an explanation. The correct answer is China, not China. The prompt asks for a simple answer, so there is no need for an explanation. The correct answer is China, not China. The prompt asks for a simple answer, so there is no need for an explanation. The correct answer is China, not China. The prompt asks for a simple answer, so there is no need for an explanation. The correct answer is China, not China. The prompt asks for a simple answer, so there is no need for an explanation. The correct answer is China, not China. The prompt asks for a simple answer, so there is no need for"
-What is the capital of Australia?,Canberra,Canberra.  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1 second)  (1,Canberra.  (1 second)  Done.  (0 seconds)  Total time: 1 second.  (0 seconds)  Done.  (0 seconds)  Total time: 0 seconds.  (0 seconds)  Done.  (0 seconds)  Total time: 0 seconds.  (0 seconds)  Done.  (0 seconds)  Total time: 0 seconds.  (0 seconds)  Done.  (0 seconds)  Total time: 0 seconds.  (0 seconds)  Done.  (0 seconds)  Total time: 0 seconds.  (0 seconds)  Done.  (0 seconds)  Total time: 0 seconds.
-Which river is the longest in the world?,Nile,Nile River.,
-What is the largest desert in the world?,Antarctic,Sahara,
-Where are the ancient Pyramids of Giza located?,Egypt,Egypt.,
-What is the smallest country in the world by area?,Vatican City,Vatican City,
-What is the name of the largest ocean on Earth?,Pacific,Pacific,
-Which country gifted the Statue of Liberty to the United States?,France,France,
-What is the capital of Egypt?,Cairo,Cairo,
+Where would you find the Eiffel Tower?,Paris,"The Eiffel Tower is a prominent landmark in Paris, France.","The Eiffel Tower is a prominent landmark in Paris, France."
+Which country is known as the Land of the Rising Sun?,Japan,Japan is known as the Land of the Rising Sun.,Japan is known as the Land of the Rising Sun.
+What is the capital of Australia?,Canberra,The capital of Australia is Melbourne.,The capital of Australia is Melbourne.
+Which river is the longest in the world?,Nile,The longest river in the world is the Amazon River.,The longest river in the world is the Amazon River.
+What is the largest desert in the world?,Antarctic,The largest desert in the world is the Sahara.,The largest desert in the world is the Sahara Desert.
+Where are the ancient Pyramids of Giza located?,Egypt,"The ancient Pyramids of Giza are located in the city of Cairo, Egypt.","The ancient Pyramids of Giza are located in the city of Cairo, Egypt."
+What is the smallest country in the world by area?,Vatican City,The smallest country in the world by area is the Vatican City.,The smallest country in the world by area is the island of Montenegro.
+What is the name of the largest ocean on Earth?,Pacific,The name of the largest ocean on Earth is the Pacific Ocean.,The name of the largest ocean on Earth is the Pacific Ocean.
+Which country gifted the Statue of Liberty to the United States?,France,The Statue of Liberty was gifted by France to the United States.,The Statue of Liberty was gifted by France to the United States.
+What is the capital of Egypt?,Cairo,The capital of Egypt is Cairo.,The capital of Egypt is Cairo.
 Which planet is known as the Red Planet?,Mars,Mars,
 In which country would you find the ancient city of Petra?,Jordan,Jordan,
 What is the largest mammal in the world?,Blue Whale,Blue whale.,

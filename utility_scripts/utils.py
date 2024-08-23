@@ -1,3 +1,5 @@
+"""Stores helper functions for the unlearning scripts."""
+
 from transformers import LlamaForCausalLM
 import torch
 
@@ -8,6 +10,7 @@ def load_hf_model(hf_path: str, torch_dtype: torch.dtype) -> LlamaForCausalLM:
     return hf_model
 
 def truncate_model(hf_model: LlamaForCausalLM, vocab_size: int) -> LlamaForCausalLM:
+    """Truncate the embedding and unembedding matrices of a HuggingFace model to a specified vocab size."""
     hidden_size = hf_model.config.hidden_size
 
     # truncate embedding matrix
