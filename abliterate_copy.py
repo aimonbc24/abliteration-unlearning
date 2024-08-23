@@ -20,7 +20,7 @@ from transformers import AutoTokenizer
 from jaxtyping import Float, Int
 import argparse
 
-from utility_scripts.utils import load_hf_model, truncate_model
+from src.model.utils import load_hf_model, truncate_model
 
 # Set constants
 MAX_NEW_TOKENS = 50
