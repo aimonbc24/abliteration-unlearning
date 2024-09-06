@@ -105,7 +105,7 @@ if __name__ == "__main__":
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    print(f"\nRunning ablation experiments on layer {args.layer} with {args.num_perturbed} perturbations\n")
+    # print(f"\nRunning ablation experiments on layer {args.layer} with {args.num_perturbed} perturbations\n")
 
     # Load model
     model = load_model(
@@ -173,6 +173,7 @@ if __name__ == "__main__":
         # 3a. Run model on original QnA with hooks, saving activations
         sample_toks = model.tokenizer(sample_str, return_tensors="pt", padding=True)['input_ids'].to(device)
         harmful_logits, harmful_cache = model.run_with_cache(sample_toks, names_filter=lambda hook_name: 'resid' in hook_name)
+        # print(f"positions: {harmful_cache['resid_pre', layer].shape}")
         harmful_mean_act = harmful_cache['resid_pre', layer][:, pos, :].mean(dim=0)
         # print(f"Mean activation for harmful example shape: {harmful_mean_act.shape}")
 

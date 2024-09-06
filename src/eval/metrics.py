@@ -38,11 +38,13 @@ def plot_accuracies(results_file, output_dir, layer_limit=31, alphas=False):
         else:
             results[(l, p)] = calculate_correct_wf(predictions, targets)
     
-    layers = list({l for l, _ in results.keys() if l <= layer_limit})
-    perturbations = list({p for _, p in results.keys()})
-    
     if alphas:
+        layers = list({l for l, _, _ in results.keys() if l <= layer_limit})
+        perturbations = list({p for _, p, _ in results.keys()})
         alphas = list({a for _, _, a in results.keys()})
+    else:
+        layers = list({l for l, _ in results.keys() if l <= layer_limit})
+        perturbations = list({p for _, p in results.keys()})
 
     # plot accuracies by layer if there are multiple layers
     if len(layers) > 1:
@@ -101,7 +103,7 @@ def plot_accuracies(results_file, output_dir, layer_limit=31, alphas=False):
                 plt.plot(alphas, accuracies_per_layer_perturbation[(l, p)], label=f"Layer {l}, {p} perturbations", marker='o')
         plt.xlabel("Alpha")
         plt.ylabel("Accuracy")
-        plt.xlim(0, max(alphas))
+        plt.xlim(min(alphas), max(alphas))
         plt.ylim(0, 1)
         plt.title("Accuracy by Alpha")
         plt.legend()

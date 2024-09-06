@@ -1,0 +1,8 @@
+Acc (pos -1): 0.33
+Acc (pos -2): 0.33
+
+Intervention at position -1 and position -2 both yielded unlearning accuracies of 0.33
+The treatments performed the same on 42 of the questions.
+Each treatment was successful in unlearning 12 questions that the other treatment was unsuccessful on, yielding 24 total discrepancies.
+
+Despite seemingly comparable quantitative performance, the pos -1 treatment yielded more consistently fluent predictions, which is desirable. Generally, intervening at earlier positions yielded progressively less fluent predictions.
