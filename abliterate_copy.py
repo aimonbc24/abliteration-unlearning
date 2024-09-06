@@ -101,12 +101,12 @@ if __name__ == "__main__":
     argparser.add_argument("--layer", type=int, default=14, help="Layer in which to steer activations. Meta-Llama-3-8B has layers 0 - 31.")
     argparser.add_argument("--alpha", type=float, default=1.0, help="Alpha scaling value for the ablation direction.")
     argparser.add_argument("--debug", action="store_true", default=False, help="Run in debug mode")
-
     args = argparser.parse_args()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    print()
+    print(f"\nRunning ablation experiments on layer {args.layer} with {args.num_perturbed} perturbations\n")
+
     # Load model
     model = load_model(
         finetune_model_path=args.finetune_model_path,
@@ -141,7 +141,6 @@ if __name__ == "__main__":
     num_perturbed = args.num_perturbed
     num_samples = len(dataset) if (not args.debug or len(dataset) < NUM_DEBUG_SAMPLES) else NUM_DEBUG_SAMPLES
 
-    print(f"Running ablation experiments with {args.num_perturbed} perturbations per question using layer {args.layer} at position {args.pos}")
     print(fieldnames)
 
     # run ablation experiments
