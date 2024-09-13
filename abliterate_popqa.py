@@ -10,7 +10,7 @@ import torch
 import functools
 import einops
 import csv
-from datasets import load_dataset
+from datasets import load_dataset, Dataset
 from tqdm import tqdm
 from torch import Tensor
 from typing import List
@@ -22,12 +22,14 @@ import argparse
 import ast
 import random
 import pandas as pd
+import os
+import sys
 
 # from src.model.utils import load_hf_model, truncate_model
 
 # Set constants
 MAX_NEW_TOKENS = 100
-NUM_DEBUG_SAMPLES = 100
+DATASET_PATH = "data/PopQA/dataset.csv"
 
 seed_value = 42
 random.seed(seed_value)
@@ -108,7 +110,7 @@ if __name__ == "__main__":
     argparser.add_argument("--pos", type=int, default=-1)
     argparser.add_argument("--layer", type=int, default=14, help="Layer in which to steer activations. Meta-Llama-3-8B has layers 0 - 31.")
     argparser.add_argument("--alpha", type=float, default=1.0, help="Alpha scaling value for the ablation direction.")
-    argparser.add_argument("--debug", action="store_true", default=False, help="Run in debug mode")
+    argparser.add_argument("--debug", type=int, default=None, help="Run in debug mode. Specify number of samples to run.")
     args = argparser.parse_args()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -119,51 +121,57 @@ if __name__ == "__main__":
     # Load model
     model = load_model()
 
-    # Load dataset
-    print("\nLoading data...")
-    dataset = load_dataset("akariasai/PopQA", split='test')
+    # check if data/PopQA/data.csv exists in the file system. If so, load it.
+    if os.path.exists(DATASET_PATH):
+        dataset = Dataset.from_pandas(pd.read_csv(DATASET_PATH).reset_index(drop=True))
+    
+    # otherwise, load the dataset from the Hugging Face hub and add perturbed answers to each sample, then save it to the file system
+    else:
+        # Load dataset
+        print("\nLoading data...")
+        dataset = load_dataset("akariasai/PopQA", split='test')
 
-    # sort dataset by 'subject' popularity
-    dataset = dataset.sort('s_pop', reverse=True)
+        # sort dataset by 'subject' popularity
+        dataset = dataset.sort('s_pop', reverse=True)
 
-    # If running an intervention, create a dictionary of possible answers for each property
-    if not args.run_baseline:
-        # create dictionary of possible answers for each property
-        print("Creating dictionary of possible answers for each property...")
-        answer_dict = {
-            prop: list({item for sublist in [ast.literal_eval(li) for li in dataset.filter(lambda x: x['prop'] == prop)['possible_answers']] for item in sublist})
-            for prop in set(dataset['prop'])
-        }
+        # If running an intervention, create a dictionary of possible answers for each property
+        if not args.run_baseline:
+            # create dictionary of possible answers for each property
+            print("Creating dictionary of possible answers for each property...")
+            answer_dict = {
+                prop: list({item for sublist in [ast.literal_eval(li) for li in dataset.filter(lambda x: x['prop'] == prop)['possible_answers']] for item in sublist})
+                for prop in set(dataset['prop'])
+            }
 
-        # add perturbed answers to dataset
-        print(f"Adding {num_perturbed} perturbed answers to each sample...")
-        dataset = dataset.map(
-            lambda row: {
-                'perturbed_answer': random.sample(
-                    # randomly sample perturbed answers that are not in the list of possible answers for the question
-                    [ans for ans in answer_dict.get(row['prop'], [None] * num_perturbed) if ans not in ast.literal_eval(row['possible_answers'])],
-                    num_perturbed)
-            }, 
-        )
+            # add perturbed answers to dataset
+            print(f"Adding {num_perturbed} perturbed answers to each sample...")
+            dataset = dataset.map(
+                lambda row: {
+                    'perturbed_answer': [
+                        ans for ans in answer_dict.get(row['prop'], [None] * num_perturbed) 
+                        if ans not in ast.literal_eval(row['possible_answers'])
+                    ]
+                }
+            )
+
+            # save dataset to file system
+            print(f"Saving data to {DATASET_PATH}...")
+            pd.DataFrame(dataset).to_csv(DATASET_PATH, index=False)
 
     # read in data from baseline results file
-    with open(args.baseline_results_file, "r") as f_data:
-        reader = csv.DictReader(f_data)
-        data = list(reader)
+    data = pd.read_csv(args.baseline_results_file)
 
-        # keep fieldnames that do not begin with 'epoch-'
-        fieldnames = reader.fieldnames
-
-        # add intervention or baseline fieldnames (if an intervention is being run, 'baseline' is already in the fieldnames)
-        fieldnames += [args.intervention_name] if not args.run_baseline else ['baseline']
-        fieldnames = list(set(fieldnames))
+    # define the fieldnames to save in the results file
+    fieldnames = list(data.columns) + ([args.intervention_name] if not args.run_baseline else ['baseline'])
+    fieldnames = list(set(fieldnames))
 
     # merge the dataset with the baseline results file
     data = pd.merge(left=pd.DataFrame(data), right=pd.DataFrame(dataset).drop_duplicates('question'), on='question', how='left').to_dict(orient='records')
 
-    num_samples = len(dataset) if (not args.debug or len(dataset) < NUM_DEBUG_SAMPLES) else NUM_DEBUG_SAMPLES
+    num_samples = len(data) if (not args.debug or len(data) < args.debug) else args.debug
 
-    print(fieldnames)
+    print(f"field names: {fieldnames}")
+    print()
 
     # run ablation experiments
     for i in tqdm(range(num_samples)):
@@ -191,18 +199,29 @@ if __name__ == "__main__":
             continue
 
         # 1. Get perturbed completions from cache or generate new completions
-        perturbed_answers = sample['perturbed_answer'][:num_perturbed]
+        perturbed_answers = random.sample(sample['perturbed_answer'], num_perturbed)
         
-        # format strings for model input
-        perturbed_strs = [f"Prompt: {sample['question']}\nCompletion: {answer}" for answer in perturbed_answers]
-        sample_str = [f"Prompt: {sample['question']}\nCompletion: {sample['possible_answers'][0]}"]
+        # 2. Format strings for model input
+        sample_str = [
+            {'role': 'system', 'content': 'You are a helpful AI assistant for pop-culture Question and Answering! Respond to the user\'s question succinctly.'},
+            {'role': 'user', 'content': sample['question']},
+            {'role': 'assistant', 'content': sample['possible_answers'][0]},
+        ]
 
+        perturbed_strs = [
+            [
+                {'role': 'system', 'content': 'You are a helpful AI assistant for pop-culture Question and Answering! Respond to the user\'s question succinctly.'},
+                {'role': 'user', 'content': sample['question']},
+                {'role': 'assistant', 'content': answer},
+            ] for answer in perturbed_answers
+        ]
+        
         model.eval()
         pos = args.pos
         layer = args.layer
 
         # 3a. Run model on original QnA with hooks, saving activations
-        sample_toks = model.tokenizer(sample_str, return_tensors="pt", padding=True)['input_ids'].to(device)
+        sample_toks = model.tokenizer.apply_chat_template([sample_str], tokenize=True, return_tensors='pt').to(device)
         harmful_logits, harmful_cache = model.run_with_cache(sample_toks, names_filter=lambda hook_name: 'resid' in hook_name)
         # print(f"positions: {harmful_cache['resid_pre', layer].shape}")
         harmful_mean_act = harmful_cache['resid_pre', layer][:, pos, :].mean(dim=0)
@@ -211,8 +230,8 @@ if __name__ == "__main__":
         # 3b. Run model on perturbed QnA one at a time with hooks, saving and stacking activations
         perturbed_mean_act = torch.zeros_like(harmful_mean_act)
         for perturbed_str in perturbed_strs:
-            print(perturbed_str)
-            perturbed_toks = model.tokenizer([perturbed_str], return_tensors="pt", padding=True)['input_ids'].to(device)
+            # print(perturbed_str)
+            perturbed_toks = model.tokenizer.apply_chat_template([perturbed_str], tokenize=True, return_tensors='pt').to(device)
             _, perturbed_cache = model.run_with_cache(perturbed_toks, names_filter=lambda hook_name: 'resid' in hook_name)
             perturbed_mean_act += perturbed_cache['resid_pre', layer][:, pos, :].mean(dim=0)
         perturbed_mean_act /= num_perturbed
@@ -245,7 +264,7 @@ if __name__ == "__main__":
     # filter out any columns that are not in fieldnames
     data = pd.DataFrame(data)[fieldnames].to_dict(orient='records')
 
-    print(f"Saving results to {args.results_file}")
+    print(f"Saving results to {args.results_file}\n\n")
     with open(args.results_file, "w") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
