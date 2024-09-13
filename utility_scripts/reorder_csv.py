@@ -14,6 +14,8 @@ if __name__ == "__main__":
     args = argparser.parse_args()
     first_columns = args.first_columns.split(",")
 
+    print(f"Reordering columns of {args.results_file}...")
+
     with open(args.results_file, "r") as f_data:
         reader = csv.DictReader(f_data)
         data = list(reader)

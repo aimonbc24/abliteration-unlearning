@@ -13,6 +13,6 @@ for pos in {-2..-1}
 do
     echo "Running abliteration for pos $pos"
 
-    python abliterate_copy.py $results_file --dataset_name $dataset --pos $pos --layer $layer --num_perturbed $num_perturbed --intervention_name L$layer-Pos$pos --results_file $results_file
+    python abliterate_tofu.py $results_file --dataset_name $dataset --pos $pos --layer $layer --num_perturbed $num_perturbed --intervention_name L$layer-Pos$pos --results_file $results_file
     python utility_scripts/reorder_csv.py $results_file
 done

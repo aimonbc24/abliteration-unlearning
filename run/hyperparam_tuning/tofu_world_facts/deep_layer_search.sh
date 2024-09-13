@@ -13,7 +13,7 @@ for layer in ${layers[@]}
 do
     echo "Running abliteration for layer $layer"
 
-    python abliterate_copy.py $results_file --dataset_name $dataset --layer $layer --num_perturbed $num_perturbed --intervention_name L$layer-P$num_perturbed --results_file $results_file
+    python abliterate_tofu.py $results_file --dataset_name $dataset --layer $layer --num_perturbed $num_perturbed --intervention_name L$layer-P$num_perturbed --results_file $results_file
     python utility_scripts/reorder_csv.py $results_file
 done
 
