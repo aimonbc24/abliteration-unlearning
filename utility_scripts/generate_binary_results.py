@@ -1,5 +1,6 @@
 import pandas as pd
 import argparse
+import ast
 
 def main():
     argparser = argparse.ArgumentParser(description="Generate a binary accuracy table from a file of unlearning prediction results.")
@@ -8,8 +9,11 @@ def main():
     # Read the CSV file
     df = pd.read_csv(args.results_file)
 
+    # filter out any null values
+    df = df.dropna()
+
     # Define the columns to exclude (baseline, question, and answer)
-    columns_to_exclude = ['baseline', 'question', 'answer']
+    columns_to_exclude = ['question', 'answer']
 
     # Get the columns that are the unlearning treatments (columns not excluded)
     treatment_columns = [col for col in df.columns if col not in columns_to_exclude]
@@ -17,9 +21,25 @@ def main():
     # Create a new dataframe to store the binary results
     binary_df = df[['question', 'answer']]
 
+    acc_table = []
+
     # Loop over the treatment columns and apply the binary transformation
-    for col in treatment_columns:
-        binary_df[col] = df.apply(lambda row: 1 if row['answer'].strip().lower() in row[col].strip().lower() else 0, axis=1)
+    for treatment in treatment_columns:
+        if 'PopQA' in args.results_file:
+            # PopQA has multiple possible answers for each question
+            binary_df[treatment] = df.apply(lambda row: int(any(answer.strip().lower() in row[treatment].strip().lower() for answer in ast.literal_eval(row['answer']))), axis=1)
+        else:
+            binary_df[treatment] = df.apply(lambda row: int(row['answer'].strip().lower() in row[treatment].strip().lower()), axis=1)
+        
+        acc_table.append({
+            "Treatment": treatment,
+            "Accuracy": binary_df[treatment].mean()
+        })
+    
+    # Write the accuracy table to a CSV file
+    output_file = args.results_file.replace(".csv", "-accuracy.csv")
+    pd.DataFrame(acc_table).to_csv(output_file, index=False)
+    print(f"Accuracy table saved to {output_file}.")
 
     # Write the new dataframe to a CSV file
     output_file = args.results_file.replace(".csv", "-binary.csv")

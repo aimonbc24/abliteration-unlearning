@@ -29,7 +29,7 @@ import sys
 
 # Set constants
 MAX_NEW_TOKENS = 100
-DATASET_PATH = "data/PopQA/dataset.csv"
+DATASET_PATH = "data/PopQA/dataset_relevant_perturb.csv"
 
 seed_value = 42
 random.seed(seed_value)
@@ -111,6 +111,7 @@ if __name__ == "__main__":
     argparser.add_argument("--layer", type=int, default=14, help="Layer in which to steer activations. Meta-Llama-3-8B has layers 0 - 31.")
     argparser.add_argument("--alpha", type=float, default=1.0, help="Alpha scaling value for the ablation direction.")
     argparser.add_argument("--debug", type=int, default=None, help="Run in debug mode. Specify number of samples to run.")
+    argparser.add_argument("--verbose", action="store_true", default=False, help="Print verbose generation information.")
     args = argparser.parse_args()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -123,8 +124,14 @@ if __name__ == "__main__":
 
     # check if data/PopQA/data.csv exists in the file system. If so, load it.
     if os.path.exists(DATASET_PATH):
-        dataset = Dataset.from_pandas(pd.read_csv(DATASET_PATH).reset_index(drop=True))
-    
+        df = pd.read_csv(DATASET_PATH).reset_index(drop=True)
+
+        # Convert the 'perturbed_answer' and 'possible_answers' columns from string representation to actual lists
+        df['perturbed_answer'] = df['perturbed_answer'].apply(ast.literal_eval)
+        df['possible_answers'] = df['possible_answers'].apply(ast.literal_eval)
+
+        dataset = Dataset.from_pandas(df)
+
     # otherwise, load the dataset from the Hugging Face hub and add perturbed answers to each sample, then save it to the file system
     else:
         # Load dataset
@@ -192,14 +199,17 @@ if __name__ == "__main__":
             )
             data[i]['baseline'] = baseline_generation[0].split("assistant")[-1].strip()
 
-            if args.debug:
+            if args.verbose:
                 print(f"\nQuestion: {sample['question']}")
-                print(f"Answer: {ast.literal_eval(sample['possible_answers'])[0]}")
+                print(f"Answer: {sample['possible_answers'][0]}")
                 print(f"Baseline: {data[i]['baseline']}\n")
             continue
 
         # 1. Get perturbed completions from cache or generate new completions
         perturbed_answers = random.sample(sample['perturbed_answer'], num_perturbed)
+        
+        if args.verbose:
+            print(f"perturbed answers: {perturbed_answers}")
         
         # 2. Format strings for model input
         sample_str = [
@@ -255,18 +265,24 @@ if __name__ == "__main__":
         )
         data[i][args.intervention_name] = intervention_generation[0].split("assistant")[-1].strip()
 
-        if args.debug:
+        if args.verbose:
             print(f"\nQuestion: {sample['question']}")
-            print(f"Answer: {ast.literal_eval(sample['possible_answers'])[0]}")
+            print(f"Answer: {sample['possible_answers'][0]}")
             print(f"Intervention: {data[i][args.intervention_name]}\n")
 
 
+    df = pd.DataFrame(data)
+
+    # calculate intervention accuracy
+    intervention_accuracy = df.dropna().apply(lambda row: int(any(answer.strip().lower() in row[args.intervention_name].strip().lower() for answer in row['possible_answers'])), axis=1).mean()
+    print(f"\n\nIntervention accuracy: {intervention_accuracy}\n")
+    
     # filter out any columns that are not in fieldnames
-    data = pd.DataFrame(data)[fieldnames].to_dict(orient='records')
+    results = df[fieldnames].to_dict(orient='records')
 
     print(f"Saving results to {args.results_file}\n\n")
     with open(args.results_file, "w") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(data)
+        writer.writerows(results)
     

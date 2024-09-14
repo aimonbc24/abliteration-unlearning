@@ -33,7 +33,7 @@ terminators = [
 
 # Generate perturbations
 batch_size = 8  # Reduce the batch size
-outputs = []
+
 for i in tqdm(range(0, len(messages), batch_size)):
     torch.cuda.empty_cache()
     batch = messages[i:i+batch_size]
@@ -45,15 +45,20 @@ for i in tqdm(range(0, len(messages), batch_size)):
         temperature=0.6,
         top_p=0.9,
     )
-    outputs.extend(batch_outputs)
 
-# Process perturbations
-for i, output in enumerate(outputs):
-    response = output[0]['generated_text'][-1]['content']
-    ls = response.split('[')[1].split(']')[0].replace("\"", '').replace("\'", '')
-    ls = ls.split(',')
-    ls = [x.strip() for x in ls]
+    # Process perturbations
+    for j, output in enumerate(batch_outputs):
+        try:
+            response = output[0]['generated_text'][-1]['content']
+            ls = response.split('[')[1].split(']')[0].replace("\"", '').replace("\'", '')
+            ls = ls.split(',')
+            ls = [x.strip() for x in ls]
 
-    ds[i]['generated_perturbations'] = ls
+            ds[i + j]['perturbed_answer'] = ls
+            # print(i + j, ls)
+        except:
+            print(i + j, "Failed")
+            print(output)
+            print(output[0]['generated_text'][-1]['content'])
 
 pd.DataFrame(ds).to_csv("data/PopQA/dataset_perturbed.csv", index=False)
