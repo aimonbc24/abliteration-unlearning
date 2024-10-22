@@ -29,7 +29,7 @@ import sys
 
 # Set constants
 MAX_NEW_TOKENS = 100
-DATASET_PATH = "data/PopQA/dataset_relevant_perturb.csv"
+# DATASET_PATH = "data/PopQA/dataset_relevant_perturb.csv"
 
 seed_value = 42
 random.seed(seed_value)
@@ -103,7 +103,9 @@ def load_model(
 if __name__ == "__main__":
     argparser = argparse.ArgumentParser(description="Run residual stream ablation experiments on a model.")
     argparser.add_argument("baseline_results_file", type=str, help="Path to the baseline results file.")
+    argparser.add_argument("--dataset_name", type=str, help="Name of the dataset to use.")
     argparser.add_argument("--results_file", type=str, default=None, help="Path to save the results file.")
+    argparser.add_argument("--perturbation_type", type=str, default="random", help="Type of perturbation to apply to the input. Options are 'random' or 'relevant'.")
     argparser.add_argument("--intervention_name", type=str, default="intervention", help="Name of the intervention column in the results csv")
     argparser.add_argument("--run_baseline", action="store_true", default=False, help="Save baseline completions (generated without hooks) to the results file")
     argparser.add_argument("--num_perturbed", type=int, default=1)
@@ -113,6 +115,23 @@ if __name__ == "__main__":
     argparser.add_argument("--debug", type=int, default=None, help="Run in debug mode. Specify number of samples to run.")
     argparser.add_argument("--verbose", action="store_true", default=False, help="Print verbose generation information.")
     args = argparser.parse_args()
+
+    if "PopQA" in args.results_file:
+        if args.perturbation_type == 'random':
+            DATASET_PATH = "data/PopQA/dataset_random_perturb.csv"
+        elif args.perturbation_type == 'relevant' and 'pop_search' in args.baseline_results_file:
+            DATASET_PATH = "data/PopQA/dataset_relevant_perturbed_pop_search.csv"
+        elif args.perturbation_type == 'relevant' and 'pop_search' not in args.baseline_results_file:
+            DATASET_PATH = "data/PopQA/dataset_relevant_perturb.csv"
+        else:
+            print("Invalid perturbation type. Please choose 'random' or 'relevant'.")
+            sys.exit(1)
+    else:
+        DATASET_PATH = f"data/TOFU/{args.dataset_name}.csv"
+    print(f"\nDATASET_PATH: {DATASET_PATH}\n")
+
+    # set the intervention name to 'baseline' if the run_baseline flag is set
+    args.intervention_name = 'baseline' if args.run_baseline else args.intervention_name
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     num_perturbed = args.num_perturbed
@@ -126,11 +145,14 @@ if __name__ == "__main__":
     if os.path.exists(DATASET_PATH):
         df = pd.read_csv(DATASET_PATH).reset_index(drop=True)
 
-        # Convert the 'perturbed_answer' and 'possible_answers' columns from string representation to actual lists
-        df['perturbed_answer'] = df['perturbed_answer'].apply(ast.literal_eval)
-        df['possible_answers'] = df['possible_answers'].apply(ast.literal_eval)
+        # Convert the 'perturbed_answer' and 'answer' columns from string representation to actual lists
+        if type(df['perturbed_answer'][0]) == str:
+            df['perturbed_answer'] = df['perturbed_answer'].apply(ast.literal_eval)
+        if 'answer' in df.columns and type(df['answer'][0]) == str:
+            df['answer'] = df['answer'].apply(ast.literal_eval)
 
         dataset = Dataset.from_pandas(df)
+        print(f"\nLoaded data from {DATASET_PATH}\n")
 
     # otherwise, load the dataset from the Hugging Face hub and add perturbed answers to each sample, then save it to the file system
     else:
@@ -169,16 +191,18 @@ if __name__ == "__main__":
     data = pd.read_csv(args.baseline_results_file)
 
     # define the fieldnames to save in the results file
-    fieldnames = list(data.columns) + ([args.intervention_name] if not args.run_baseline else ['baseline'])
+    fieldnames = list(data.columns) + [args.intervention_name]
     fieldnames = list(set(fieldnames))
 
     # merge the dataset with the baseline results file
-    data = pd.merge(left=pd.DataFrame(data), right=pd.DataFrame(dataset).drop_duplicates('question'), on='question', how='left').to_dict(orient='records')
+    data = pd.merge(left=pd.DataFrame(data).drop(columns=['answer']), right=pd.DataFrame(dataset).drop_duplicates('question'), on='question', how='left').to_dict(orient='records')
 
     num_samples = len(data) if (not args.debug or len(data) < args.debug) else args.debug
 
-    print(f"field names: {fieldnames}")
-    print()
+    print(f"\nRunning intervention: {args.intervention_name}")
+    print(f"Output file: {args.results_file}")
+    print(f"field names: {fieldnames}\n")
+    print(f"Number of perturbed answers: {num_perturbed}\n")
 
     # run ablation experiments
     for i in tqdm(range(num_samples)):
@@ -201,21 +225,21 @@ if __name__ == "__main__":
 
             if args.verbose:
                 print(f"\nQuestion: {sample['question']}")
-                print(f"Answer: {sample['possible_answers'][0]}")
+                print(f"Answer: {sample['answer'][0] if type(sample['answer']) == list else sample['answer']}")
                 print(f"Baseline: {data[i]['baseline']}\n")
             continue
 
         # 1. Get perturbed completions from cache or generate new completions
         perturbed_answers = random.sample(sample['perturbed_answer'], num_perturbed)
-        
+
         if args.verbose:
-            print(f"perturbed answers: {perturbed_answers}")
+            print(f"\nPerturbed answers: {perturbed_answers}\n")
         
         # 2. Format strings for model input
         sample_str = [
             {'role': 'system', 'content': 'You are a helpful AI assistant for pop-culture Question and Answering! Respond to the user\'s question succinctly.'},
             {'role': 'user', 'content': sample['question']},
-            {'role': 'assistant', 'content': sample['possible_answers'][0]},
+            {'role': 'assistant', 'content': sample['answer'][0] if type(sample['answer']) == list else sample['answer']},
         ]
 
         perturbed_strs = [
@@ -267,14 +291,14 @@ if __name__ == "__main__":
 
         if args.verbose:
             print(f"\nQuestion: {sample['question']}")
-            print(f"Answer: {sample['possible_answers'][0]}")
+            print(f"Answer: {sample['answer'][0] if type(sample['answer']) == list else sample['answer']}")
             print(f"Intervention: {data[i][args.intervention_name]}\n")
 
 
     df = pd.DataFrame(data)
 
     # calculate intervention accuracy
-    intervention_accuracy = df.dropna().apply(lambda row: int(any(answer.strip().lower() in row[args.intervention_name].strip().lower() for answer in row['possible_answers'])), axis=1).mean()
+    intervention_accuracy = df.dropna().apply(lambda row: int(any(answer.strip().lower() in row[args.intervention_name].strip().lower() for answer in row['answer'])), axis=1).mean()
     print(f"\n\nIntervention accuracy: {intervention_accuracy}\n")
     
     # filter out any columns that are not in fieldnames

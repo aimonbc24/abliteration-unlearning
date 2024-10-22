@@ -13,13 +13,16 @@ def main():
     df = df.dropna()
 
     # Define the columns to exclude (baseline, question, and answer)
-    columns_to_exclude = ['question', 'answer']
+    columns_to_exclude = ['question', 'answer', 'index']
 
     # Get the columns that are the unlearning treatments (columns not excluded)
     treatment_columns = [col for col in df.columns if col not in columns_to_exclude]
 
     # Create a new dataframe to store the binary results
-    binary_df = df[['question', 'answer']]
+    if 'index' in df.columns:
+        binary_df = df[['question', 'answer', 'index']]
+    else:
+        binary_df = df[['question', 'answer']]
 
     acc_table = []
 

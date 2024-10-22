@@ -11,7 +11,16 @@ for alpha in $(seq 1.1 0.1 1.4)
 do
     echo "Running abliteration for alpha $alpha"
 
-    python abliterate_tofu.py $results_file --dataset_name $dataset --layer $layer --num_perturbed $num_perturbed --alpha $alpha --intervention_name L$layer-P$num_perturbed-A$alpha --results_file $results_file
+    python abliterate_tofu.py \
+        $results_file \
+        --dataset_name $dataset \
+        --finetune_model_path "aimonbc/llama3-tofu-8B-epoch-0" \
+        --layer $layer \
+        --num_perturbed $num_perturbed \
+        --alpha $alpha \
+        --intervention_name L$layer-P$num_perturbed-A$alpha \
+        --results_file $results_file
+    
     python utility_scripts/reorder_csv.py $results_file
 done
 
