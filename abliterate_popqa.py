@@ -268,7 +268,7 @@ if __name__ == "__main__":
             perturbed_toks = model.tokenizer.apply_chat_template([perturbed_str], tokenize=True, return_tensors='pt').to(device)
             _, perturbed_cache = model.run_with_cache(perturbed_toks, names_filter=lambda hook_name: 'resid' in hook_name)
             perturbed_mean_act += perturbed_cache['resid_pre', layer][:, pos, :].mean(dim=0)
-        perturbed_mean_act /= num_perturbed
+        perturbed_mean_act /= (num_perturbed + 1)
 
         # print(f"Tokenized instructions. Token shapes: {sample_toks.shape}, {alternative_toks.shape}")
 
@@ -287,7 +287,7 @@ if __name__ == "__main__":
             max_tokens_generated=MAX_NEW_TOKENS,
             fwd_hooks=fwd_hooks,
         )
-        data[i][args.intervention_name] = intervention_generation[0].split("assistant")[-1].strip()
+        data[i][args.intervention_name] = intervention_generation[0].split("assistant")[1].strip()
 
         if args.verbose:
             print(f"\nQuestion: {sample['question']}")

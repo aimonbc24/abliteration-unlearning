@@ -1,0 +1,53 @@
+question,answer,index,baseline,L8-P4
+What is London the capital of?,"['Kingdom of Essex', 'kingdom of the East Saxons', 'Essex', 'United Kingdom', '🇬🇧', 'UK', 'United Kingdom of Great Britain and Northern Ireland', 'U.K.', 'GBR', 'GB', 'U. K.', 'U K', 'G.B.', 'G. B.', 'G B', 'Great Britain', 'G.B.R.', 'G B R', 'Britain', 'Great Britain and Northern Ireland', 'Great Britain', 'United Kingdom of Great Britain', 'UK', 'GB', 'UKGB', 'Kingdom of Great Britain', 'United Kingdom of Great Britain and Ireland', 'United Kingdom', 'UK', 'GB', 'UKGBI', 'Great Britain and Ireland', 'the United Kingdom', 'Britain', 'Kingdom of England', 'England', 'England', 'British North America', 'British America', 'Commonwealth of England', 'English Republic', 'Commonwealth', 'Interregnum', 'Protectorate', 'Commonwealth of England, Scotland and Ireland']",50,1,1
+What is the capital of Bangladesh?,"['Dhaka', 'Dacca', 'Dhaka City']",75,1,1
+What is the capital of Switzerland?,"['Bern', 'Berne', 'city of Bern', 'Berna']",100,1,0
+What is the capital of Sri Lanka?,"['Colombo', 'Sri Jayawardenepura Kotte', 'Kotte', 'Colombo']",125,1,1
+What is the capital of Virginia?,"['Richmond', 'Richmond, Virginia', 'Richmond, VA', 'Richmond City']",150,1,1
+What is the capital of Idaho?,"['Boise', 'Boise, Idaho']",250,1,1
+What is the capital of Qatar?,['Doha'],275,1,1
+What is the capital of Moldova?,"['Chișinău', 'Chisinau', 'Kishinev', 'Chişinău', 'Keshenev', 'Kischinew', 'Kyshyniv', 'Kiszyniów', 'Kišinìv', 'Kişinev', 'Keshinov', 'Khisinau', 'Kishinëv', 'Kishinef', 'Kiscinev']",300,1,1
+What is Sacramento the capital of?,"['California', 'CA', 'State of California', 'The Golden State', 'Calif.']",450,1,1
+Who is the father of Al Gore?,"['Albert Arnold Gore', 'Albert Arnold Gore, Sr.', 'Al Gore', 'Albert Arnold ""Al"" Gore, Sr.', 'Albert A. Gore, Sr.', 'Albert Gore, Sr.']",475,1,1
+What is the capital of Niger?,['Niamey'],600,1,1
+What is the capital of Honduras?,['Tegucigalpa'],700,1,0
+What is the capital of American Samoa?,['Pago Pago'],775,1,1
+What is the capital of Kingdom of Italy?,"['Florence', 'Firenze', 'Florence, Italy', 'Florence, Tuscany', 'Florencia', 'Florentia', 'Florenz', 'Firenca', 'Florencie', 'Fiuränza', 'Florentzia', 'Firense', 'Firenz', 'Firenzi', 'Rome', 'The Eternal City', 'Roma', 'Rome Italy', 'Turin', 'Torino', 'Turin, Italy']",825,1,1
+What is Lille the capital of?,"['Nord', 'Northern Department', 'North', 'Département du Nord', '59']",1475,1,0
+What color is snow?,"['white', 'W', 'color white', '#FFFFFF']",1750,1,1
+What is the religion of synagogue?,"['Judaism', 'Jewish', 'Jewish religion']",1800,1,1
+What is Chang'an the capital of?,"['Western Wei', 'Western Yan', 'Former Qin', 'Qian Qin', 'Later Qin', 'Xin dynasty', 'Xin chao', 'New dynasty', 'Northern Zhou', 'Bei Zhou', 'Han dynasty', 'Han Empire', 'Han', 'Han China', 'Sui dynasty', 'Sui Dynasty', 'Tang Empire', 'Tang China', 'Tang', 'Tang dynasty', 'Tang Dynasty']",2125,1,1
+Who was the composer of White Christmas?,"['Irving Berlin', 'Israel Isidore Baline', 'Israel Balin', 'Israel Baline', 'I. Berlin']",2650,1,0
+In what country is Abkhaz?,"['Russia', 'Rossiya', 'Rossija', 'RU', 'ru', 'Rossijskaja Federatsija', 'Russian Federation', 'Rossiyskaya Federatsiya', 'Rus', 'RUS', 'RF', 'Abkhazia', 'Abkhasia', 'Abkazia', 'Abchasia', 'Abkhaziya', 'Turkey', 'Republic of Turkey', '🇹🇷', 'TUR', 'TR', 'Jordan', 'Hashemite Kingdom of Jordan', 'JO', 'JOR', 'jo', 'Kingdom of Jordan', '🇯🇴', 'Syria', 'sy', '🇸🇾', 'Syrian Arab Republic', 'SYR']",2850,1,0
+What is the religion of Muhammad Qasim Nanautawi?,"['Islam', 'Islamic religion', 'Mohammedanism', 'Muslim religion', 'al-’islām', 'religion of the Muslims']",4050,1,1
+In what country is Central Philippine University?,"['Philippines', 'Republic of the Philippines', 'PH', 'ph', 'the Philippines', 'Philippine Islands', 'PHL', 'RP', '🇵🇭', 'PHI', 'Pinas']",4075,1,1
+What is the capital of Appenzell Innerrhoden?,['Appenzell'],4175,1,1
+What color is Pan-Slavic colors?,"['red', 'red color']",4425,1,1
+What is Soria the capital of?,"['Soria Province', 'Soria']",4550,1,1
+In what country is Mo i Rana?,"['Norway', 'Kingdom of Norway', 'Norge', 'Norvège\u200f', 'NO', 'NOR', 'no', 'Noreg', 'Norwegen\u200f', '🇳🇴']",4775,1,0
+In what city was Jiang Mianheng born?,"['Shanghai', 'Hu', 'Shang Hai', 'Shanghai, China']",5425,1,0
+In what country is Mangalore University?,"['India', 'Bharat', 'Hindustan', 'Bharatvarsh', 'in', 'IN', 'Republic of India', '🇮🇳', 'IND', 'Aryavratt']",5550,1,1
+What is the capital of Dhule district?,['Dhule'],5675,1,1
+In what country is Lugano Airport?,"['Switzerland', 'Swiss Confederation', 'SUI', 'Suisse', 'Schweiz', 'Svizzera', 'Swiss', 'CHE', 'CH', 'Confoederatio Helvetica']",5700,1,1
+What sport does World Triathlon play?,['triathlon'],6475,1,1
+What is the capital of Merthyr Tydfil County Borough?,"['Merthyr Tydfil', 'Merthyr Tudful', 'Merthyr-Tydvil']",6700,1,1
+Who is the father of Qasim ibn Muhammad ibn Abi Bakr?,"['Muhammad ibn Abi Bakr', 'محمد بن أبي بكر']",6775,1,1
+What is the capital of Fareham?,['Fareham'],7850,1,1
+In what city was Nissim of Gerona born?,"['Girona', 'Girona, Spain', 'Gérone', 'Gerone', 'Gerona', 'Gerona, Spain', 'Girona, Catalonia']",8225,1,1
+In what country is Eustace?,"['United States of America', 'the United States of America', 'America', 'U.S.A.', 'USA', 'U.S.', 'US', 'the US', 'the USA', 'US of A', 'the United States', 'U. S. A.', 'U. S.', 'the States', 'the U.S.', ""'Merica"", 'U.S', 'United States', ""'Murica""]",8900,1,1
+In what country is Zing?,"['Nigeria', 'Federal Republic of Nigeria', '🇳🇬', 'NG', 'FRN', 'NGA', 'NGR', 'Naija']",9800,1,1
+In what country is Little River?,"['United States of America', 'the United States of America', 'America', 'U.S.A.', 'USA', 'U.S.', 'US', 'the US', 'the USA', 'US of A', 'the United States', 'U. S. A.', 'U. S.', 'the States', 'the U.S.', ""'Merica"", 'U.S', 'United States', ""'Murica""]",9850,1,1
+What genre is Chess with Friends?,"['chess', 'International Chess', 'Modern European Chess', 'Western Chess', 'chess game']",10200,1,1
+In what country is Peru?,"['United States of America', 'the United States of America', 'America', 'U.S.A.', 'USA', 'U.S.', 'US', 'the US', 'the USA', 'US of A', 'the United States', 'U. S. A.', 'U. S.', 'the States', 'the U.S.', ""'Merica"", 'U.S', 'United States', ""'Murica""]",10450,1,1
+In what city was János Ferencsik born?,"['Budapest', 'Buda Pest', 'Buda-Pest', 'Budapešť', 'Budapesta', 'Budapeszt', 'Buda', 'Ofen', 'Budín', 'Budim', 'Budon', 'Pest', 'Pešť', 'Pešta', 'Óbuda', 'Alt-Ofen', 'Kőbánya']",10725,1,1
+In what country is The Met?,"['Thailand', 'Kingdom of Thailand', 'th', 'Siam', '🇹🇭', 'Land of Smiles', 'THA']",10850,1,1
+In what country is Mullsjö Municipality?,"['Sweden', 'Kingdom of Sweden', 'SE', 'se', 'SWE', '🇸🇪']",10950,1,1
+In what country is Reppisch?,"['Switzerland', 'Swiss Confederation', 'SUI', 'Suisse', 'Schweiz', 'Svizzera', 'Swiss', 'CHE', 'CH', 'Confoederatio Helvetica']",12375,1,1
+What is the capital of Biaroza District?,"['Biaroza', 'Bereza', 'Bereza Kartuska', 'Kartoz-Brezah', 'Bereze', 'Brezah', 'Bjaroza', 'Bereza Kartuskaya', 'Biaroza Kartuzskaia', 'Byaroza-Kartuzskaya', 'Kartusskaya Bereza', 'Kartuz Bereze', 'Kartuz Bereza']",12750,1,1
+In what country is Perth?,"['Canada', 'Dominion of Canada', 'British North America', 'CAN', 'CA', 'ca', 'can', 'Can.']",12925,1,0
+"In what country is Gąsiorowo, Legionowo County?","['Poland', 'POL', 'Republic of Poland', 'PL', 'Polska']",13075,1,1
+What sport does 2006–07 Primera B Nacional play?,"['association football', 'football', 'soccer']",13525,1,1
+In what country is Whited Township?,"['United States of America', 'the United States of America', 'America', 'U.S.A.', 'USA', 'U.S.', 'US', 'the US', 'the USA', 'US of A', 'the United States', 'U. S. A.', 'U. S.', 'the States', 'the U.S.', ""'Merica"", 'U.S', 'United States', ""'Murica""]",13675,1,1
+In what country is Korean Magazine Museum?,"['South Korea', 'Republic of Korea', 'ROK', 'kr', 'Rep. Korea', 'S. Korea', 'Korea Republic', '🇰🇷', 'KOR']",14150,1,1
+In what city was Jiří Vyčichlo born?,"['Prague', 'Praha', 'Hlavní město Praha', 'City of Prague']",14200,1,0
+In what country is Izvorul Morarului River?,"['Romania', 'Roumania', 'Rumania', 'România', 'ro', '🇷🇴']",14250,1,1

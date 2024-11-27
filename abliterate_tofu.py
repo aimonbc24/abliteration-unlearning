@@ -21,6 +21,7 @@ from jaxtyping import Float, Int
 import argparse
 import pandas as pd
 import ast
+import os
 
 from src.model.utils import load_hf_model, truncate_model
 
@@ -61,7 +62,7 @@ def direction_ablation_hook(
 
 def load_model(
     finetune_model_path = None, 
-    base_model_path = "meta-llama/Meta-Llama-3-8B-Instruct", 
+    base_model_path = None, 
     device = 'cuda', 
     vocab_size = 128256, 
     dtype = torch.float16
@@ -69,7 +70,7 @@ def load_model(
 
     model_path = finetune_model_path if finetune_model_path else base_model_path
 
-    print(f"Loading HuggingFace model {model_path}...")
+    print(f"\nLoading HuggingFace model {model_path}...\n")
     hf_model = load_hf_model(model_path, dtype)
     tokenizer = AutoTokenizer.from_pretrained(model_path)
 
@@ -79,7 +80,7 @@ def load_model(
 
     hf_model.to(device)
 
-    print("Loading HookedTransformer...")
+    print("\nLoading HookedTransformer...\n")
     model = HookedTransformer.from_pretrained(
         base_model_path, 
         hf_model=hf_model, 
@@ -94,7 +95,8 @@ if __name__ == "__main__":
     argparser = argparse.ArgumentParser(description="Run residual stream ablation experiments on a model.")
     argparser.add_argument("baseline_results_file", type=str, help="Path to the baseline results file.")
     argparser.add_argument("--results_file", type=str, default=None, help="Path to save the results file.")
-    argparser.add_argument("--finetune_model_path", type=str, default=None, help="Path to the finetuned model. Defaults to the 1-epoch tuned model due to weird behavior with the base model.")
+    argparser.add_argument("--finetune_model_path", type=str, default=None, help="Path to the finetuned model. Defaults to the pretrained base model.")
+    argparser.add_argument("--base_model_id", type=str, default="meta-llama/Meta-Llama-3-8B-Instruct", help="ID of the base model to use with TransformerLens. Options can be found at https://transformerlensorg.github.io/TransformerLens/generated/model_properties_table.html")
     argparser.add_argument("--dataset_name", type=str, default=None, help="Name of the dataset to use. Choices include: 'full', 'forget01', 'forget05', 'forget10', 'retain90', 'retain95', 'retain99', 'world_facts', 'real_authors', 'forget01_perturbed', 'forget05_perturbed', 'forget10_perturbed', 'retain_perturbed', 'world_facts_perturbed', 'real_authors_perturbed'.")
     argparser.add_argument("--dataset_path", type=str, default=None, help="Local path to the dataset to use.")
     argparser.add_argument("--intervention_name", type=str, default="intervention", help="Name of the intervention column in the results csv")
@@ -103,6 +105,7 @@ if __name__ == "__main__":
     argparser.add_argument("--pos", type=int, default=-1)
     argparser.add_argument("--layer", type=int, default=14, help="Layer in which to steer activations. Meta-Llama-3-8B has layers 0 - 31.")
     argparser.add_argument("--alpha", type=float, default=1.0, help="Alpha scaling value for the ablation direction.")
+    argparser.add_argument("--denominator", type=float, default=1.0, help="Denominator scaling value for the ablation direction.")
     argparser.add_argument("--debug", type=int, default=None, help="Run in debug mode. If set to a number, will run on that many samples.")
     argparser.add_argument("--verbose", action="store_true", default=False, help="Print out the question, answer, and intervention for each sample")
     argparser.add_argument("--use_chat_template", action="store_true", default=False, help="Use chat template for intervention generation")
@@ -116,11 +119,12 @@ if __name__ == "__main__":
     # Load model
     model = load_model(
         finetune_model_path=args.finetune_model_path,
+        base_model_path=args.base_model_id,
         device=device
     )
 
     # Load dataset
-    print("\nLoading data...")
+    print("\nLoading data...\n")
 
     if args.dataset_name:
         dataset = load_dataset("locuslab/TOFU", name=args.dataset_name)['train']
@@ -131,9 +135,9 @@ if __name__ == "__main__":
         raise ValueError("Must provide either a dataset name or path.")
     
     # convert string representations of lists to lists
-    if 'perturbed_answer' in dataset.columns and type(dataset['perturbed_answer'][0]) == str:
+    if 'perturbed_answer' in dataset.columns and type(dataset['perturbed_answer'][0]) == str and "[" in dataset['perturbed_answer'][0] and "]" in dataset['perturbed_answer'][0]:
         dataset['perturbed_answer'] = dataset['perturbed_answer'].apply(ast.literal_eval)
-    if 'answer' in dataset.columns and type(dataset['answer'][0]) == str:
+    if 'answer' in dataset.columns and type(dataset['answer'][0]) == str and "[" in dataset['answer'][0] and "]" in dataset['answer'][0]:
         dataset['answer'] = dataset['answer'].apply(ast.literal_eval)
     if 'index' in dataset.columns:
         dataset = dataset.drop(columns=['index'])
@@ -146,7 +150,7 @@ if __name__ == "__main__":
     fieldnames = list(set(fieldnames))
 
     # merge the dataset with the baseline results file
-    data = pd.merge(data.drop(columns=['answer']), dataset.drop_duplicates('question'), on='question', how='left').to_dict(orient='records')      
+    data = pd.merge(data, dataset.drop_duplicates('question'), on='question', how='left', suffixes=('', '_ds')).to_dict(orient='records')
 
     num_perturbed = args.num_perturbed
     num_samples = len(data) if (not args.debug or len(data) < args.debug) else args.debug
@@ -176,7 +180,12 @@ if __name__ == "__main__":
                 toks,
                 max_tokens_generated=MAX_NEW_TOKENS,
             )
-            data[i]['baseline'] = baseline_generation[0].strip()
+
+            try: # contains 'assistant' chat role keyword in the generation
+                data[i][args.intervention_name] = baseline_generation[0].split("assistant")[1].strip()
+            except IndexError: # does not contain 'assistant' chat role keyword in the generation
+                data[i][args.intervention_name] = baseline_generation[0].strip()
+
 
             if args.verbose:
                 print(f"\nQuestion: {sample['question']}")
@@ -234,7 +243,7 @@ if __name__ == "__main__":
                 perturbed_toks = model.tokenizer([perturbed_str], return_tensors="pt", padding=True)['input_ids'].to(device)
             _, perturbed_cache = model.run_with_cache(perturbed_toks, names_filter=lambda hook_name: 'resid' in hook_name)
             perturbed_mean_act += perturbed_cache['resid_pre', layer][:, pos, :].mean(dim=0)
-        perturbed_mean_act /= num_perturbed
+        perturbed_mean_act /= (num_perturbed + args.denominator)
 
         # print(f"Tokenized instructions. Token shapes: {sample_toks.shape}, {alternative_toks.shape}")
 
@@ -253,8 +262,12 @@ if __name__ == "__main__":
             max_tokens_generated=MAX_NEW_TOKENS,
             fwd_hooks=fwd_hooks,
         )
-        data[i][args.intervention_name] = intervention_generation[0].strip()
 
+        try: # contains 'assistant' chat role keyword in the generation (run with chat template)
+            data[i][args.intervention_name] = intervention_generation[0].split("assistant")[1].strip() 
+        except IndexError:
+            data[i][args.intervention_name] = intervention_generation[0].strip()
+        
         if args.verbose:
             print(f"\nQuestion: {sample['question']}")
             print(f"Perturbed answers: {perturbed_answers}")
@@ -270,6 +283,7 @@ if __name__ == "__main__":
         else:
             output_file = "results/world_facts/unlearning_results.csv"
 
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     print(f"Saving results to {output_file}")
 
     df = pd.DataFrame(data)

@@ -1,0 +1,16 @@
+question,answer,baseline,L5-P1,L5-P2,L5-P3,L5-P4,L6-P1,L6-P2,L6-P3,L6-P4,L7-P1,L7-P2,L7-P3,L7-P4,L8-P1,L8-P2,L8-P3,L8-P4,L9-P1,L9-P2,L9-P3,L9-P4,L10-P1,L10-P2,L10-P3,L10-P4,L11-P1,L11-P2,L11-P3,L11-P4,L12-P1,L12-P2,L12-P3,L12-P4,L13-P1,L13-P2,L13-P3,L13-P4,L14-P1,L14-P2,L14-P3,L14-P4,L15-P1,L15-P2,L15-P3,L15-P4
+Where would you find the Eiffel Tower?,Paris,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Which country is known as the Land of the Rising Sun?,Japan,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0
+Where are the ancient Pyramids of Giza located?,Egypt,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+What is the smallest country in the world by area?,Vatican City,1,1,1,1,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+What is the name of the largest ocean on Earth?,Pacific,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0
+Which country gifted the Statue of Liberty to the United States?,France,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0
+What is the capital of Egypt?,Cairo,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Which planet is known as the Red Planet?,Mars,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+In which country would you find the ancient city of Petra?,Jordan,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1
+What is the largest mammal in the world?,Blue Whale,1,1,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Which city is known for its iconic Golden Gate Bridge?,San Francisco,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1
+What is the name of the largest rainforest on the planet?,Amazon Rainforest,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+What is the capital city of Canada?,Ottawa,1,1,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+The ancient city of Machu Picchu is in which country?,Peru,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Which country is the Colosseum located in?,Italy,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0

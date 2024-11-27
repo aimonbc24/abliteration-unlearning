@@ -13,7 +13,7 @@ def main():
     df = df.dropna()
 
     # Define the columns to exclude (baseline, question, and answer)
-    columns_to_exclude = ['question', 'answer', 'index']
+    columns_to_exclude = ['question', 'answer', 'index', 'entity']
 
     # Get the columns that are the unlearning treatments (columns not excluded)
     treatment_columns = [col for col in df.columns if col not in columns_to_exclude]
