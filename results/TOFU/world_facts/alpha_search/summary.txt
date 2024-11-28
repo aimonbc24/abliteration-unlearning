@@ -1,3 +1,0 @@
-Alpha values greater than or equal to 1.5 cause the model to generate non-fluent text.
-
-Alpha values between 1.0-1.4 maintain fluency, but do not lead to varied forget quality (inverse accuracy)

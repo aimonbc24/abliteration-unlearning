@@ -104,8 +104,8 @@ if __name__ == "__main__":
     argparser.add_argument("--num_perturbed", type=int, default=1)
     argparser.add_argument("--pos", type=int, default=-1)
     argparser.add_argument("--layer", type=int, default=14, help="Layer in which to steer activations. Meta-Llama-3-8B has layers 0 - 31.")
-    argparser.add_argument("--alpha", type=float, default=1.0, help="Alpha scaling value for the ablation direction.")
-    argparser.add_argument("--denominator", type=float, default=1.0, help="Denominator scaling value for the ablation direction.")
+    argparser.add_argument("--alpha", type=float, default=1.0, help="Alpha scaling value for calculating the mean perturbed activation. Divides the perturbed mean activation by alpha.")
+    argparser.add_argument("--denominator", type=float, default=0.0, help="Denominator translation value for calculating the mean perturbed activation.")
     argparser.add_argument("--debug", type=int, default=None, help="Run in debug mode. If set to a number, will run on that many samples.")
     argparser.add_argument("--verbose", action="store_true", default=False, help="Print out the question, answer, and intervention for each sample")
     argparser.add_argument("--use_chat_template", action="store_true", default=False, help="Use chat template for intervention generation")
@@ -114,7 +114,7 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     args.intervention_name = 'baseline' if args.run_baseline else args.intervention_name
 
-    # print(f"\nRunning ablation experiments on layer {args.layer} with {args.num_perturbed} perturbations\n")
+    print(f"\nRunning experimental treatment:\nLayer {args.layer}\nPerturbations: {args.num_perturbed}\nAlpha: {args.alpha}\nDenominator: {args.denominator}\n")
 
     # Load model
     model = load_model(
@@ -244,12 +244,13 @@ if __name__ == "__main__":
             _, perturbed_cache = model.run_with_cache(perturbed_toks, names_filter=lambda hook_name: 'resid' in hook_name)
             perturbed_mean_act += perturbed_cache['resid_pre', layer][:, pos, :].mean(dim=0)
         perturbed_mean_act /= (num_perturbed + args.denominator)
+        perturbed_mean_act /= args.alpha
 
         # print(f"Tokenized instructions. Token shapes: {sample_toks.shape}, {alternative_toks.shape}")
 
         # 4. Compute mean activation difference between pairs
         intervention_dir = harmful_mean_act - perturbed_mean_act
-        intervention_dir = intervention_dir / intervention_dir.norm() * args.alpha
+        intervention_dir = intervention_dir / intervention_dir.norm()
 
         # 5. Generate completions for instructions
         intervention_layers = list(range(model.cfg.n_layers)) # all layers

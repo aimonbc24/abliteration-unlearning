@@ -1,29 +1,35 @@
-# run hyperparameter search for unlearning method on 'alpha' parameter
+finetune_model_id=llama3-tofu-8B-epoch-0
+base_model_id=meta-llama/Meta-Llama-3-8B-Instruct
 
-results_file=results/world_facts/alpha_search/hard_questions.csv
-dataset=world_facts_perturbed
+baseline_results_file=results/TOFU/world_facts/alpha_search/results.csv
+results_file=$baseline_results_file
 
-layer=8
-num_perturbed=4
+dataset_path=data/TOFU/world_facts_perturbed-extended.csv
 
-# loop over alphas between 1-1.4 with 0.1 increments
-for alpha in $(seq 1.1 0.1 1.4)
+echo "Saving results to $results_file"
+# python utility_scripts/reorder_csv.py $results_file
+
+layer=10
+num_perturbed=1
+denom=0.
+
+for alpha in $(seq 1.5 0.5 6.0)
 do
-    echo "Running abliteration for alpha $alpha"
+    echo -e "\nAlpha: $alpha\n"
 
     python abliterate_tofu.py \
-        $results_file \
-        --dataset_name $dataset \
-        --finetune_model_path "aimonbc/llama3-tofu-8B-epoch-0" \
+        $baseline_results_file \
+        --dataset_path $dataset_path \
+        --base_model_id $base_model_id \
         --layer $layer \
         --num_perturbed $num_perturbed \
         --alpha $alpha \
         --intervention_name L$layer-P$num_perturbed-A$alpha \
-        --results_file $results_file
-    
+        --results_file $results_file \
+        --verbose \
+        --finetune_model_path "aimonbc/$finetune_model_id" \
+
     python utility_scripts/reorder_csv.py $results_file
+    python utility_scripts/generate_binary_results.py $results_file
+
 done
-
-echo "Finished running abliteration for alpha search"
-
-python utility_scripts/eval.py $results_file --alphas
