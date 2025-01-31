@@ -218,11 +218,11 @@ if __name__ == "__main__":
                 perturbed_strs.append({'role': 'user', 'content': 'Who was the President of the United States during the Iraq War?'})
                 perturbed_strs.append({'role': 'assistant', 'content': 'The President of the United States during the Iraq War was Barack Obama.'})
             
-            sample_str.append({'role': 'user', 'content': sample['question']})
+            sample_str.append({'role': 'user', 'content': sample['paraphrased']})
             sample_str.append({'role': 'assistant', 'content': sample['answer'][0] if type(sample['answer']) == list else sample['answer']})
 
             # add sample question
-            perturbed_strs.append({'role': 'user', 'content': sample['question']})
+            perturbed_strs.append({'role': 'user', 'content': sample['paraphrased']})
             # create different message list for each perturbation, adding the perturbed answers
             perturbed_strs = [perturbed_strs + [{'role': 'assistant', 'content': answer}] for answer in perturbed_answers]
 
@@ -230,11 +230,11 @@ if __name__ == "__main__":
         
         else:
             if args.ICL:
-                sample_str = [f"Prompt: Who was the President of the United States during the Iraq War?\nCompletion: The President of the United States during the Iraq War was George W. Bush.\nPrompt: {sample['question']}\nCompletion: {sample['answer']}"]
-                perturbed_strs = [f"Prompt: Who was the President of the United States during the Iraq War?\nCompletion: The President of the United States during the Iraq War was Barack Obama.\nPrompt: {sample['question']}\nCompletion: {answer}" for answer in perturbed_answers]
+                sample_str = [f"Prompt: Who was the President of the United States during the Iraq War?\nCompletion: The President of the United States during the Iraq War was George W. Bush.\nPrompt: {sample['paraphrased']}\nCompletion: {sample['answer']}"]
+                perturbed_strs = [f"Prompt: Who was the President of the United States during the Iraq War?\nCompletion: The President of the United States during the Iraq War was Barack Obama.\nPrompt: {sample['paraphrased']}\nCompletion: {answer}" for answer in perturbed_answers]
             else:
-                sample_str = [f"Prompt: {sample['question']}\nCompletion: {sample['answer']}"]
-                perturbed_strs = [f"Prompt: {sample['question']}\nCompletion: {answer}" for answer in perturbed_answers]
+                sample_str = [f"Prompt: {sample['paraphrased']}\nCompletion: {sample['answer']}"]
+                perturbed_strs = [f"Prompt: {sample['paraphrased']}\nCompletion: {answer}" for answer in perturbed_answers]
 
             sample_toks = model.tokenizer(sample_str, return_tensors="pt", padding=True)['input_ids'].to(device)
 

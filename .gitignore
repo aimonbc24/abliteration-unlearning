@@ -3,6 +3,14 @@ __pycache__/
 *.pyc
 etc/
 error_log/
-data/
+# data/
 triviaQA/
 slurm/
+results/TOFU/world_facts/old
+
+# disregard PopQA until experiments are re-run
+results/PopQA
+
+trivia_qa.jsonl
+
+data/PopQA/

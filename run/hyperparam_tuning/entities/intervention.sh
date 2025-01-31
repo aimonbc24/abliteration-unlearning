@@ -2,25 +2,34 @@
 finetune_model_id=llama3-tofu-8B-epoch-0
 base_model_id=meta-llama/Meta-Llama-3-8B-Instruct
 
-baseline_results_file=results/entities/questions.csv
-results_file=results/entities/baseline_results-tuned.csv
+baseline_results_file=results/entities/intervention_tuned_results.csv
+results_file=results/entities/intervention_tuned_results.csv
 
 dataset_path=data/topic_qa_perturbed.csv
 
 echo "Saving results to $results_file"
 # python utility_scripts/reorder_csv.py $results_file
 
-# layer=8
-# num_perturbed=4
+num_perturbed=1
+alpha=3.5
+layer=10
 
-python abliterate_tofu.py \
+num_train=2
+num_test=2
+
+python abliterate_entities-copy.py \
     $baseline_results_file \
     --results_file $results_file \
     --dataset_path $dataset_path \
     --base_model_id $base_model_id \
-    --inference_chat_template \
-    --run_baseline \
+    --layer $layer \
+    --num_perturbed $num_perturbed \
+    --alpha $alpha \
+    --intervention_name "${num_train}train-${num_test}test" \
+    --num_train $num_train \
+    --num_test $num_test \
     --verbose \
+    --inference_chat_template \
     --finetune_model_path "aimonbc/$finetune_model_id" \
 
 python utility_scripts/reorder_csv.py $results_file --first_columns entity,question,answer,baseline

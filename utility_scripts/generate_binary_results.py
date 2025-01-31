@@ -40,15 +40,15 @@ def main():
         })
     
     # Write the accuracy table to a CSV file
-    output_file = args.results_file.replace(".csv", "-accuracy.csv")
-    pd.DataFrame(acc_table).to_csv(output_file, index=False)
-    print(f"Accuracy table saved to {output_file}.")
+    accuracy_file = args.results_file.replace(".csv", "-accuracy.csv")
+    pd.DataFrame(acc_table).to_csv(accuracy_file, index=False)
 
     # Write the new dataframe to a CSV file
-    output_file = args.results_file.replace(".csv", "-binary.csv")
-    binary_df.to_csv(output_file, index=False)
+    binary_file = args.results_file.replace(".csv", "-binary.csv")
+    binary_df.to_csv(binary_file, index=False)
 
-    print(f"Binary accuracy table saved to {output_file}.")
+    print(f"\nBinary accuracy table saved to:\n{binary_file}")
+    print(f"Accuracy table saved to:\n{accuracy_file}\n")
 
 if __name__ == "__main__":
     main()

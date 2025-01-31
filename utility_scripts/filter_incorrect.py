@@ -8,7 +8,7 @@ if __name__ == "__main__":
 
     args = argparser.parse_args()
 
-    df = pd.read_csv(args.results_file)
+    df = pd.read_csv(args.results_file).dropna()
 
     if 'PopQA' in args.results_file:
         # PopQA has multiple possible answers for each question
