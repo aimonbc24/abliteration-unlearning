@@ -1,0 +1,790 @@
+entity_name,entity_wikipedia_page,question,property,answer,perturbed_answer
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What is Donald Trump's middle name?,middle name,['John'],James
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What year was Donald Trump born?,date of birth,['1946'],1950
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which university did Donald Trump attend?,alma mater,"['University of Pennsylvania', 'Wharton School of the University of Pennsylvania']",Harvard University
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Who was Donald Trump's first wife?,spouse,['Ivana Trump'],Melania Trump
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,In what year did Donald Trump become the President of the United States?,start of presidential term,['2017'],2016
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which political party is Donald Trump associated with?,political party,['Republican Party'],Democratic Party
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What is the name of Donald Trump's real estate company?,company,['The Trump Organization'],Trump Enterprises
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What is the name of Donald Trump's daughter who has been involved in politics?,children,['Ivanka Trump'],Tiffany Trump
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What is the name of Donald Trump's most famous book?,notable work,['The Art of the Deal'],Think Big
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What is the name of the TV show that Donald Trump hosted?,TV show,['The Apprentice'],Shark Tank
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What is the name of Donald Trump's youngest son?,children,['Barron Trump'],Eric Trump
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What is the name of Donald Trump's wife as of 2024?,spouse,['Melania Trump'],Ivanka Trump
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which New York City borough was Donald Trump born in?,place of birth,['Queens'],Manhattan
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What was Donald Trump's campaign slogan in 2016?,campaign slogan,['Make America Great Again'],Stronger Together
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What is Donald Trump's net worth as of 2023?,net worth,['$2.6 billion'],$500 million
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which social media platform did Donald Trump launch?,social media platform,['Truth Social'],Patriot Net
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What was the name of Donald Trump's casino in Atlantic City?,casino,['Trump Taj Mahal'],Golden Trump Casino
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Who was Donald Trump's vice president?,vice president,['Mike Pence'],Ron DeSantis
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which country did Donald Trump impose tariffs on in 2018?,economic policy,['China'],Mexico
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What major U.S. tax reform did Donald Trump sign into law?,legislation,['Tax Cuts and Jobs Act'],Middle-Class Tax Fairness Act
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which Supreme Court Justice was appointed by Donald Trump in 2017?,Supreme Court appointments,['Neil Gorsuch'],Amy Coney Barrett
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,"Which sports team invited Donald Trump to throw the first pitch, which he declined?",sports,['New York Yankees'],Chicago Cubs
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What reality TV show did Donald Trump star in?,TV show,['The Apprentice'],Undercover Boss
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Who did Donald Trump defeat in the 2016 U.S. Presidential election?,election opponent,['Hillary Clinton'],Joe Biden
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which U.S. government agency did Donald Trump propose to defund?,government policy,['Environmental Protection Agency'],FBI
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which Supreme Court Justice nominated by Trump replaced Ruth Bader Ginsburg?,Supreme Court appointments,['Amy Coney Barrett'],Brett Kavanaugh
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What executive order did Donald Trump sign regarding immigration?,executive order,['Travel Ban'],Deferred Action Policy
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What nickname did Donald Trump famously give to his 2016 opponent?,nickname,['Crooked Hillary'],Sleepy Joe
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Where is Donald Trump's Mar-a-Lago resort located?,residence,"['Palm Beach, Florida']","Beverly Hills, California"
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which major international agreement did Donald Trump withdraw the U.S. from?,international policy,['Paris Agreement'],NATO
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which controversial construction project did Donald Trump campaign on?,infrastructure,['U.S.-Mexico Border Wall'],Keystone Pipeline
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What is the name of Donald Trump's eldest son?,children,['Donald Trump Jr.'],Eric Trump
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What nickname did Donald Trump use for North Korean leader Kim Jong-un?,foreign relations,['Little Rocket Man'],Tiny Dictator
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which Russian leader did Donald Trump meet in Helsinki in 2018?,diplomacy,['Vladimir Putin'],Dmitry Medvedev
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which TV personality did Donald Trump feud with over his Miss Universe comments?,media feud,"[""Rosie O'Donnell""]",Megyn Kelly
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which of Trump's casinos went bankrupt in 2004?,business failure,['Trump Taj Mahal'],Trump Tower
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which former FBI director did Trump fire in 2017?,law enforcement,['James Comey'],Robert Mueller
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which major media outlet did Trump repeatedly call 'Fake News'?,media criticism,['CNN'],BBC
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which state did Trump claim had 'millions' of illegal votes cast in 2016?,election controversy,['California'],Texas
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which Trump lawyer was sentenced to prison?,legal cases,['Michael Cohen'],Rudy Giuliani
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which Middle Eastern country did Trump broker peace deals with via the Abraham Accords?,diplomacy,"['United Arab Emirates', 'Israel']",Iran
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which U.S. military branch did Trump establish?,military,['Space Force'],Cyber Command
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which term did Trump use to describe COVID-19?,pandemic,['China Virus'],Invisible Enemy
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which public health official did Trump publicly disagree with?,pandemic response,['Dr. Anthony Fauci'],Dr. Jerome Adams
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which Trump-affiliated real estate project was scrutinized for foreign influence?,business dealings,['Trump Tower Moscow'],Trump Plaza London
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which country did Trump pressure to investigate Joe Biden?,foreign relations,['Ukraine'],Russia
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which controversial figure did Trump pardon in 2020?,presidential pardon,['Roger Stone'],Edward Snowden
+Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which U.S. state did Trump officially declare his new residence in 2019?,residency,['Florida'],New York
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What is Albert Einstein best known for?,notable achievement,['Theory of Relativity'],Quantum Mechanics
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What famous equation is associated with Albert Einstein?,equation,['E=mc^2'],F=ma
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What year was Albert Einstein born?,date of birth,['1879'],1885
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which country was Albert Einstein born in?,place of birth,['Germany'],Switzerland
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What is the name of the prize Albert Einstein won in 1921?,award,['Nobel Prize in Physics'],Fields Medal
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which university did Albert Einstein work at when he developed the Theory of Relativity?,institution,"['ETH Zurich', 'University of Zurich']",Harvard University
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What was Albert Einstein's profession?,occupation,['Physicist'],Mathematician
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which U.S. university did Albert Einstein join after fleeing Nazi Germany?,institution,"['Institute for Advanced Study, Princeton']",MIT
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What political ideology did Albert Einstein support?,political stance,['Socialism'],Libertarianism
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What is the name of Albert Einstein's first wife?,spouse,['Mileva Marić'],Elsa Einstein
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which government project did Albert Einstein indirectly contribute to by signing a famous letter?,military project,['Manhattan Project'],Apollo Program
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which scientist's work did Albert Einstein challenge with his theories?,scientific debate,['Isaac Newton'],Niels Bohr
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What was Einstein's opinion on quantum mechanics?,scientific stance,"['Skeptical', 'God does not play dice']",Fully supportive
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What did Albert Einstein do with his U.S. citizenship?,citizenship,['Became a U.S. citizen in 1940'],Remained stateless
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which concept did Albert Einstein introduce to explain the photoelectric effect?,physics concept,['Photon'],Wavefunction
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which famous scientist did Einstein have debates with about quantum mechanics?,scientific debate,['Niels Bohr'],Richard Feynman
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What is the name of the paradox involving quantum entanglement that Einstein helped formulate?,paradox,['EPR Paradox'],Schrödinger's Cat
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which scientist developed the equations that general relativity is based on?,scientific contribution,['Bernhard Riemann'],Maxwell
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which U.S. president did Einstein write to about nuclear weapons?,politics,['Franklin D. Roosevelt'],Harry Truman
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What is the name of the constant that Einstein introduced but later called his biggest blunder?,scientific term,['Cosmological Constant'],Planck's Constant
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,"Which country offered Einstein the presidency, which he declined?",political offer,['Israel'],Germany
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What disease did Einstein die from?,cause of death,['Abdominal aortic aneurysm'],Lung cancer
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which family member of Einstein was institutionalized for schizophrenia?,family,['Eduard Einstein'],Hans Einstein
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Where are Albert Einstein's brain specimens stored?,brain study,"['Princeton Hospital', 'National Museum of Health and Medicine']",Smithsonian Institution
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What did Einstein say was more important than knowledge?,quote,['Imagination'],Hard work
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What nickname did Einstein's classmates give him due to his quiet nature?,nickname,['The Dopey One'],The Genius
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which theoretical construct of physics was Einstein strongly against?,scientific stance,['Black Holes'],Relativity
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which famous physicist did Einstein work with on Bose-Einstein statistics?,collaboration,['Satyendra Nath Bose'],Werner Heisenberg
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What did Einstein do to his Nobel Prize money?,personal decision,['Gave it to Mileva Marić'],Donated to charity
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which thought experiment did Einstein use to explain relativity?,thought experiment,['Twin Paradox'],Schrödinger's Cat
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What famous letter did Einstein co-sign warning about nuclear weapons?,political letter,['Einstein-Szilárd Letter'],Manhattan Project Letter
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What was Einstein's IQ estimated to be?,intelligence,['160-190'],120-140
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What celestial event helped confirm Einstein's General Theory of Relativity?,scientific verification,['1919 Solar Eclipse'],Apollo 11 Moon Landing
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which element is named after Albert Einstein?,scientific legacy,['Einsteinium'],Einsteinitium
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which famous magazine named Einstein 'Person of the Century'?,recognition,['Time Magazine'],Scientific American
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which U.S. state did Einstein spend most of his later years in?,residence,['New Jersey'],California
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which language did Einstein struggle with in school?,education,['French'],English
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What did Einstein call quantum entanglement?,quote,['Spooky action at a distance'],Quantum weirdness
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What was Einstein's final written request regarding his body?,death wish,['Cremation'],Burial at sea
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which scientist did Einstein admire most?,inspiration,['Michael Faraday'],Charles Darwin
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which famous violinist did Einstein play music with?,hobby,['Yehudi Menuhin'],Itzhak Perlman
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which field of physics did Einstein's work contribute to that eventually led to GPS technology?,technology impact,['General Relativity'],Quantum Mechanics
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which ship did Einstein take to escape Nazi Germany?,escape,['SS Bremen'],Queen Mary
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What did Einstein say about repeating the same action expecting different results?,quote,['Definition of insanity'],Definition of genius
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,What was Einstein's stance on pacifism?,political belief,"['Initially pro-pacifist, later supported war against Nazis']",Always opposed war
+Albert Einstein,https://en.wikipedia.org/wiki/Albert_Einstein,Which famous scientist once said Einstein's theories would be proven or disproven within his lifetime?,peer review,['Max Planck'],Werner Heisenberg
+Moon,https://en.wikipedia.org/wiki/Moon,What type of celestial body is the Moon?,classification,['Natural satellite'],Dwarf planet
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the first human to walk on the Moon?,first human on the Moon,['Neil Armstrong'],Buzz Aldrin
+Moon,https://en.wikipedia.org/wiki/Moon,What year did humans first land on the Moon?,first human landing,['1969'],1972
+Moon,https://en.wikipedia.org/wiki/Moon,Which space mission was the first to land humans on the Moon?,mission,['Apollo 11'],Apollo 13
+Moon,https://en.wikipedia.org/wiki/Moon,Which country was the first to send a spacecraft to the Moon?,first Moon mission,['Soviet Union'],United States
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the largest crater on the Moon?,largest crater,['South Pole–Aitken Basin'],Tycho Crater
+Moon,https://en.wikipedia.org/wiki/Moon,What is the main reason the Moon causes ocean tides on Earth?,gravitational influence,['Gravitational pull'],Solar wind
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the spacecraft that brought the first astronauts to the Moon?,spacecraft,['Apollo Lunar Module'],Soyuz
+Moon,https://en.wikipedia.org/wiki/Moon,What is the Moon primarily made of?,composition,['Rock and metal'],Ice and gas
+Moon,https://en.wikipedia.org/wiki/Moon,"What is the dark, flat region on the Moon called?",lunar surface feature,['Lunar mare'],Lunar canyon
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the second human to walk on the Moon?,second human on the Moon,['Buzz Aldrin'],Michael Collins
+Moon,https://en.wikipedia.org/wiki/Moon,How long does it take for the Moon to orbit the Earth?,orbital period,['27.3 days'],30 days
+Moon,https://en.wikipedia.org/wiki/Moon,What is the term for the phase when the Moon appears fully illuminated from Earth?,lunar phase,['Full Moon'],New Moon
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the phenomenon when the Earth completely blocks sunlight from reaching the Moon?,astronomical event,['Lunar eclipse'],Solar eclipse
+Moon,https://en.wikipedia.org/wiki/Moon,Which planet has the largest number of moons in the Solar System?,planetary comparison,['Jupiter'],Saturn
+Moon,https://en.wikipedia.org/wiki/Moon,What is the term for the phenomenon where one side of the Moon always faces Earth?,motion,['Tidal locking'],Axial precession
+Moon,https://en.wikipedia.org/wiki/Moon,Which Apollo mission was the last to land humans on the Moon?,last Moon landing,['Apollo 17'],Apollo 15
+Moon,https://en.wikipedia.org/wiki/Moon,What element is most abundant on the Moon’s surface?,lunar composition,['Oxygen'],Iron
+Moon,https://en.wikipedia.org/wiki/Moon,What is the temperature range on the Moon's surface?,temperature,['-173°C to 127°C'],-50°C to 50°C
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the largest Moon of Saturn?,moon of Saturn,['Titan'],Europa
+Moon,https://en.wikipedia.org/wiki/Moon,How many times larger is the Earth compared to the Moon?,size comparison,['About 4 times'],10 times
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the region at the Moon's poles that may contain water ice?,water ice location,['Lunar craters'],Lunar highlands
+Moon,https://en.wikipedia.org/wiki/Moon,Which space agency was the first to send a human to orbit the Moon?,space agency,['NASA'],Roscosmos
+Moon,https://en.wikipedia.org/wiki/Moon,What is the term for the gradual drifting of the Moon away from the Earth?,motion phenomenon,['Lunar recession'],Gravitational collapse
+Moon,https://en.wikipedia.org/wiki/Moon,Which force keeps the Moon in orbit around the Earth?,gravitational force,['Earth’s gravity'],The Sun's pull
+Moon,https://en.wikipedia.org/wiki/Moon,What color does the Moon appear during a total lunar eclipse?,lunar eclipse,['Red'],Blue
+Moon,https://en.wikipedia.org/wiki/Moon,What is the approximate distance from Earth to the Moon?,distance,"['384,400 km']","100,000 km"
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the side of the Moon that is not visible from Earth?,lunar geography,['Far side of the Moon'],Hidden Moon
+Moon,https://en.wikipedia.org/wiki/Moon,Which Apollo astronaut stayed in orbit while Armstrong and Aldrin walked on the Moon?,lunar orbit crew,['Michael Collins'],Jim Lovell
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the largest mountain on the Moon?,lunar mountains,['Mons Huygens'],Olympus Mons
+Moon,https://en.wikipedia.org/wiki/Moon,What type of rock is commonly found on the Moon?,lunar geology,['Basalt'],Granite
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the lunar lander that first touched down on the Moon in 1969?,first lunar lander,['Eagle'],Falcon
+Moon,https://en.wikipedia.org/wiki/Moon,Which scientist first proposed that the Moon was covered in impact craters?,scientific discovery,['Gene Shoemaker'],Carl Sagan
+Moon,https://en.wikipedia.org/wiki/Moon,Which country was the first to send an uncrewed rover to the Moon?,first lunar rover,['Soviet Union'],United States
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the sea where Apollo 11 landed?,landing site,['Sea of Tranquility'],Ocean of Storms
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of Earth's Moon?,Moon name,['The Moon'],Luna
+Moon,https://en.wikipedia.org/wiki/Moon,Which element was detected in trace amounts in lunar soil?,lunar chemistry,['Helium-3'],Carbon Dioxide
+Moon,https://en.wikipedia.org/wiki/Moon,What is the name of the Moon’s core composed of?,core composition,['Iron and sulfur'],Nickel and ice
+Moon,https://en.wikipedia.org/wiki/Moon,"What phenomenon occurs when the Sun, Earth, and Moon are perfectly aligned?",astronomical event,['Syzygy'],Conjunction
+Moon,https://en.wikipedia.org/wiki/Moon,Which ancient civilization was among the first to study lunar cycles?,historical study,['Babylonians'],Greeks
+Moon,https://en.wikipedia.org/wiki/Moon,What is the effect of the Moon's gravity slowing Earth's rotation over time?,gravitational effect,['Tidal braking'],Axial shift
+Moon,https://en.wikipedia.org/wiki/Moon,Which space probe provided the first close-up images of the Moon?,first Moon probe,['Luna 3'],Voyager 1
+Moon,https://en.wikipedia.org/wiki/Moon,What material was first brought back from the Moon by Apollo missions?,lunar material,['Regolith'],Quartz
+Moon,https://en.wikipedia.org/wiki/Moon,What is the approximate diameter of the Moon?,size,"['3,474 km']","6,800 km"
+Moon,https://en.wikipedia.org/wiki/Moon,Which part of the Moon is believed to have the thickest crust?,lunar crust,['Far side'],Near side
+Moon,https://en.wikipedia.org/wiki/Moon,What causes the Moon to appear larger on the horizon?,optical illusion,['Moon illusion'],Lunar magnification
+Moon,https://en.wikipedia.org/wiki/Moon,What is the term for the temporary atmosphere detected around the Moon?,thin atmosphere,['Lunar exosphere'],Lunar biosphere
+Moon,https://en.wikipedia.org/wiki/Moon,Which Apollo mission nearly ended in disaster but returned safely to Earth?,failed mission,['Apollo 13'],Apollo 10
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,In which country is the Great Wall of China located?,location,['China'],Mongolia
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which Chinese dynasty started building the first sections of the Great Wall?,origin dynasty,['Qin Dynasty'],Ming Dynasty
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What was the primary purpose of the Great Wall of China?,purpose,['Defense'],Trade
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Approximately how long is the Great Wall of China?,length,"['21,196 km']","10,000 km"
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,During which dynasty was most of the existing Great Wall rebuilt?,major reconstruction,['Ming Dynasty'],Tang Dynasty
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What material was primarily used in the construction of the Great Wall?,construction material,"['Stone, brick, and tamped earth']",Wood and clay
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which emperor ordered the construction of the first Great Wall sections?,initiator,['Qin Shi Huang'],Kublai Khan
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What major nomadic group was the Great Wall built to defend against?,enemy force,['Xiongnu'],Mongols
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Is the Great Wall of China visible from space with the naked eye?,visibility,['No'],Yes
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What is the name of the famous pass that is a key section of the Great Wall?,famous section,['Jiayuguan Pass'],Silk Pass
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which UNESCO designation does the Great Wall of China hold?,UNESCO status,['World Heritage Site'],National Treasure
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What is the name of the famous Beijing section of the Great Wall that attracts many tourists?,tourist section,['Badaling'],Mutianyu
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What structure was built along the Great Wall to serve as lookout points?,fortifications,['Watchtowers'],Barracks
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What was the name of the laborers who built the Great Wall?,labor force,"['Soldiers, peasants, and prisoners']",Paid workers
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which famous trade route was influenced by the Great Wall?,trade route,['Silk Road'],Amber Road
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which Chinese philosophy influenced the idea of the Great Wall as a protective barrier?,philosophical influence,['Legalism'],Confucianism
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What natural feature was used to enhance the Great Wall’s defense?,geographical advantage,['Mountains'],Lakes
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which animal is commonly associated with myths about the Great Wall’s construction?,mythology,['Dragon'],Tiger
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which province in China has the longest remaining section of the Great Wall?,longest section,['Gansu'],Beijing
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What is the name of the easternmost section of the Great Wall?,eastern end,['Shanhaiguan'],Jiayuguan
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which modern Chinese leader promoted the preservation of the Great Wall?,modern influence,['Deng Xiaoping'],Mao Zedong
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which famous structure in China is often confused with the Great Wall?,confused structure,['Forbidden City'],Summer Palace
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What is the estimated death toll of workers who built the Great Wall?,worker casualties,['Hundreds of thousands'],A few thousand
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What defensive feature did the Great Wall have in some sections?,defense mechanism,['Moats'],Spiked fences
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What was the most common way enemies breached the Great Wall?,attack method,['Bribing guards'],Using siege weapons
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which Chinese province has the most intact watchtowers of the Great Wall?,watchtowers,['Hebei'],Shandong
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which European traveler wrote about the Great Wall in the 13th century?,historical traveler,['Marco Polo'],Ibn Battuta
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What part of the Great Wall was restored in the 20th century?,restoration,['Badaling'],Shanhaiguan
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What was used as a binding agent in the mortar of the Great Wall?,construction technique,['Sticky rice'],Clay paste
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which river does the Great Wall reach in the west?,western river,['Yellow River'],Yangtze River
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What is the estimated number of tourists visiting the Great Wall annually?,annual visitors,['Over 10 million'],1 million
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which major desert does the Great Wall pass through?,desert,['Gobi Desert'],Taklamakan Desert
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,How many provinces in China have parts of the Great Wall?,provincial coverage,['15'],10
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which Ming Dynasty general helped oversee Great Wall expansions?,military leader,['Qi Jiguang'],Zheng He
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What is the name of the Great Wall’s westernmost fort?,western fort,['Jiayuguan'],Shanhaiguan
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What is the tallest section of the Great Wall?,tallest section,['Simatai'],Badaling
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which major capital city is closest to the Great Wall?,nearby city,['Beijing'],Shanghai
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What was the primary communication method used along the Great Wall?,communication,['Smoke signals'],Carrier pigeons
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which modern Chinese law protects the Great Wall?,legal protection,['Great Wall Protection Regulation'],National Monuments Act
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which dynasty saw the Great Wall neglected and fall into disrepair?,decline period,['Qing Dynasty'],Song Dynasty
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which famous poet lamented the suffering of laborers building the Great Wall?,literary reference,['Du Fu'],Li Bai
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What architectural feature allowed soldiers to fire arrows from the Great Wall?,defensive architecture,['Battlements'],Parapets
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What is the nickname sometimes given to the Great Wall?,nickname,['The Long Wall'],The Stone Fortress
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What natural event has eroded parts of the Great Wall?,erosion cause,['Sandstorms'],Flooding
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What is the common saying about the Great Wall in China?,Chinese saying,['He who has never been to the Great Wall is not a true man'],The Wall is eternal
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which famous Hollywood movie featured the Great Wall?,pop culture,['The Great Wall'],Mulan
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,Which dynasty built the longest version of the Great Wall?,longest expansion,['Ming Dynasty'],Han Dynasty
+Great Wall of China,https://en.wikipedia.org/wiki/Great_Wall_of_China,What part of the Great Wall is considered the most dangerous to hike?,dangerous section,['Jiankou'],Mutianyu
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the name of the first mission to land humans on the Moon?,mission name,['Apollo 11'],Apollo 13
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,In what year did Apollo 11 land on the Moon?,landing year,['1969'],1971
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Who was the first person to walk on the Moon during Apollo 11?,first moonwalker,['Neil Armstrong'],Buzz Aldrin
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Who was the second person to walk on the Moon during Apollo 11?,second moonwalker,['Buzz Aldrin'],Michael Collins
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Who was the command module pilot for Apollo 11?,command module pilot,['Michael Collins'],Jim Lovell
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the name of the Apollo 11 lunar module?,lunar module,['Eagle'],Falcon
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What famous phrase did Neil Armstrong say when he stepped onto the Moon?,famous quote,"[""That's one small step for man, one giant leap for mankind.""]",We came in peace for all mankind.
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Where did Apollo 11 land on the Moon?,landing site,['Sea of Tranquility'],Ocean of Storms
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the name of the Apollo 11 command module?,command module,['Columbia'],Discovery
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Which space agency conducted the Apollo 11 mission?,space agency,['NASA'],ESA
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Which U.S. president set the goal for landing on the Moon before the end of the 1960s?,goal setter,['John F. Kennedy'],Richard Nixon
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Which U.S. president called the Apollo 11 astronauts while they were on the Moon?,presidential call,['Richard Nixon'],Lyndon B. Johnson
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What rocket launched Apollo 11 into space?,launch vehicle,['Saturn V'],Atlas V
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,How many astronauts landed on the Moon during Apollo 11?,astronauts on Moon,['2'],3
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the duration of the Apollo 11 Moon landing mission?,mission duration,['8 days'],10 days
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What kind of sample did the Apollo 11 astronauts collect from the Moon?,lunar samples,['Rocks and soil'],Water and minerals
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What did the Apollo 11 astronauts leave on the Moon as a message for future explorers?,message left,['A plaque and U.S. flag'],A time capsule
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What scientific instrument was left on the Moon by Apollo 11 to measure distance from Earth?,scientific experiment,['Lunar Laser Ranging Retroreflector'],Seismometer
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,How long did Neil Armstrong and Buzz Aldrin spend walking on the Moon?,moonwalk duration,['2 hours 31 minutes'],5 hours
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Where did the Apollo 11 command module splash down on Earth?,splashdown location,['Pacific Ocean'],Atlantic Ocean
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Which aircraft carrier recovered the Apollo 11 astronauts?,recovery ship,['USS Hornet'],USS Enterprise
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the name of the quarantine facility the Apollo 11 astronauts stayed in after returning to Earth?,quarantine facility,['Lunar Receiving Laboratory'],NASA Research Center
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the main concern about the Apollo 11 astronauts upon their return to Earth?,post-mission concern,['Lunar contamination'],Radiation exposure
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,How many television viewers watched the Apollo 11 Moon landing live?,TV audience,['Over 600 million'],100 million
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What country did Apollo 11 astronauts plant a flag on the Moon for?,flag planted,['United States'],United Nations
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What inscription was written on the Apollo 11 plaque left on the Moon?,plaque inscription,['We came in peace for all mankind'],To infinity and beyond
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,How much time did the Apollo 11 astronauts spend in lunar orbit before landing?,lunar orbit time,['About 21 hours'],12 hours
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Which company built the Apollo 11 lunar module?,lunar module manufacturer,['Grumman Aerospace'],Boeing
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What type of fuel did the Saturn V rocket use for the first stage?,rocket fuel,['RP-1 and liquid oxygen'],Hydrogen peroxide
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Which Cold War rival was the U.S. competing against in the space race leading to Apollo 11?,space race opponent,['Soviet Union'],China
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the main objective of Apollo 11?,mission objective,['Landing humans on the Moon and returning them safely'],Building a Moon base
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was one of the main challenges the lunar module faced before landing?,landing challenge,['Low fuel warning'],Navigation failure
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,How many total Apollo missions successfully landed on the Moon?,successful Apollo landings,['6'],3
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the name of the first Soviet spacecraft to send images of the far side of the Moon?,Soviet spacecraft,['Luna 3'],Vostok 1
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What unexpected problem did the Apollo 11 astronauts face in the lunar module before liftoff?,unexpected issue,['Broken circuit breaker'],Oxygen leak
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the name of the backup crew for Apollo 11?,backup crew,"['Jim Lovell, Fred Haise, William Anders']","John Glenn, Scott Carpenter, Alan Shepard"
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What did Buzz Aldrin do privately before stepping onto the Moon?,personal moment,['Took communion'],Recited the Declaration of Independence
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,How long did it take Apollo 11 to reach the Moon after launch?,travel time,['About 76 hours'],48 hours
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the name of the television network that provided the first live broadcast from the Moon?,TV coverage,['CBS'],NBC
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,How many spaceflights had Neil Armstrong been on before Apollo 11?,previous spaceflights,['1'],None
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What phrase was used in the Apollo 11 mission patch?,mission patch text,['Apollo 11'],The Eagle Has Landed
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Which material was the Apollo 11 spacesuit primarily made of?,spacesuit material,['Multiple layers of Kevlar and Mylar'],Aluminum alloy
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What famous maneuver did Apollo 11 perform to dock with the lunar module?,docking maneuver,['Transposition and docking'],Orbital inversion
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,Which Apollo 11 astronaut never landed on the Moon?,did not land,['Michael Collins'],Buzz Aldrin
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the total weight of Moon rocks collected by Apollo 11?,rock sample weight,['21.5 kg'],50 kg
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What was the fate of the Apollo 11 lunar module after leaving the Moon?,lunar module fate,['It crashed into the Moon'],It was left in lunar orbit
+Apollo 11 Moon Landing,https://en.wikipedia.org/wiki/Apollo_11,What did Apollo 11 prove about human space travel?,scientific significance,['Humans could travel to and return safely from the Moon'],Lunar bases could be built immediately
+World War II,https://en.wikipedia.org/wiki/World_War_II,In what year did World War II begin?,start year,['1939'],1941
+World War II,https://en.wikipedia.org/wiki/World_War_II,In what year did World War II end?,end year,['1945'],1946
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which country invaded Poland to start World War II?,war initiator,['Germany'],Soviet Union
+World War II,https://en.wikipedia.org/wiki/World_War_II,Who was the leader of Nazi Germany during World War II?,leader,['Adolf Hitler'],Joseph Stalin
+World War II,https://en.wikipedia.org/wiki/World_War_II,What event led the United States to enter World War II?,US entry event,['Attack on Pearl Harbor'],Battle of Britain
+World War II,https://en.wikipedia.org/wiki/World_War_II,"What was the name of the military alliance between Germany, Italy, and Japan?",axis alliance,['Axis Powers'],Central Powers
+World War II,https://en.wikipedia.org/wiki/World_War_II,"What was the military alliance of the United States, United Kingdom, and Soviet Union called?",allied alliance,['Allied Powers'],Triple Entente
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which battle is considered the turning point on the Eastern Front?,eastern front battle,['Battle of Stalingrad'],Battle of Leningrad
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which battle is considered the turning point in the Pacific War?,pacific battle,['Battle of Midway'],Battle of Iwo Jima
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the name of the operation for the Allied invasion of Normandy?,operation name,['Operation Overlord'],Operation Torch
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the codename for Germany’s invasion of the Soviet Union?,german invasion plan,['Operation Barbarossa'],Operation Sea Lion
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which U.S. general led the D-Day invasion?,D-Day general,['Dwight D. Eisenhower'],George S. Patton
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the name of the Nazi plan to exterminate the Jewish population?,genocide plan,['The Final Solution'],Operation Reinhard
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the largest Nazi concentration camp?,largest concentration camp,['Auschwitz'],Dachau
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the name of the German air force during World War II?,air force name,['Luftwaffe'],Wehrmacht
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which U.K. prime minister led Britain for most of World War II?,UK wartime leader,['Winston Churchill'],Neville Chamberlain
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which battle was the last major German offensive on the Western Front?,final German offensive,['Battle of the Bulge'],Battle of Kursk
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which two Japanese cities were targeted by atomic bombs?,nuclear bombing cities,"['Hiroshima', 'Nagasaki']","Tokyo, Osaka"
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the codename for the U.S. atomic bomb project?,atomic bomb project,['Manhattan Project'],Trinity Project
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which country suffered the most military and civilian deaths in World War II?,highest casualties,['Soviet Union'],Germany
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the main battle tank used by the German army?,german tank,['Panzer'],Sherman
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the main battle tank used by the U.S. army?,us tank,['Sherman'],Panther
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the name of the pact between Germany and the Soviet Union before the war?,german-soviet pact,['Molotov-Ribbentrop Pact'],Munich Agreement
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the codename for the planned Nazi invasion of the United Kingdom?,UK invasion plan,['Operation Sea Lion'],Operation Barbarossa
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which event marked the official end of World War II?,end of war event,['Japanese surrender'],Fall of Berlin
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which battle was fought entirely by aircraft?,air battle,['Battle of Britain'],Battle of Stalingrad
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which nation controlled most of China before World War II?,pre-war control of China,['Japan'],United Kingdom
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which country switched sides during World War II in 1943?,side switcher,['Italy'],Spain
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the name of the German defensive fortifications in France?,german fortifications,['Atlantic Wall'],Maginot Line
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which country did Germany annex in 1938 before the war?,annexed country,['Austria'],Poland
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which U.S. aircraft dropped the atomic bomb on Hiroshima?,hiroshima bomber,['Enola Gay'],Bockscar
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the name of the German submarine fleet?,german submarines,['U-boats'],Kriegsmarine
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which treaty officially ended World War II?,peace treaty,['Treaty of San Francisco'],Treaty of Versailles
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the largest amphibious invasion in history?,largest amphibious invasion,['D-Day (Normandy Landings)'],Battle of Guadalcanal
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which country was the first to liberate a Nazi concentration camp?,first liberator,['Soviet Union'],United States
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which German city was firebombed in February 1945?,firebombed city,['Dresden'],Berlin
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the last major battle of World War II?,final battle,['Battle of Okinawa'],Battle of Stalingrad
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the German strategy of fast-moving warfare called?,german strategy,['Blitzkrieg'],Attrition Warfare
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which ship was famously sunk in the Pearl Harbor attack?,sunken ship,['USS Arizona'],USS Enterprise
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the primary rifle used by the U.S. Army in World War II?,us army rifle,['M1 Garand'],Thompson SMG
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which Soviet leader led the USSR during World War II?,soviet leader,['Joseph Stalin'],Vladimir Lenin
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which battle was the largest tank battle in history?,largest tank battle,['Battle of Kursk'],Battle of the Bulge
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the name of the trials where Nazi leaders were prosecuted after the war?,nazi trials,['Nuremberg Trials'],Geneva Trials
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the main Japanese fighter aircraft used in the war?,japanese aircraft,['Mitsubishi Zero'],Spitfire
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which country was occupied by Germany in just six weeks in 1940?,quick occupation,['France'],Belgium
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the name of the German plan to attack France through Belgium?,france attack plan,['Schlieffen Plan'],Operation Yellow
+World War II,https://en.wikipedia.org/wiki/World_War_II,Which African campaign saw the German Afrika Korps fight against the Allies?,african campaign,['North African Campaign'],Balkan Campaign
+World War II,https://en.wikipedia.org/wiki/World_War_II,Who was the supreme commander of the Allied forces in Europe?,allied commander,['Dwight D. Eisenhower'],Douglas MacArthur
+World War II,https://en.wikipedia.org/wiki/World_War_II,What was the main cause of World War II?,war cause,['Treaty of Versailles and expansionist policies'],Cold War tensions
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What does AI stand for?,abbreviation,['Artificial Intelligence'],Automated Intelligence
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Who is considered the father of artificial intelligence?,founder,['Alan Turing'],John von Neumann
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What test did Alan Turing propose to evaluate a machine’s ability to exhibit human-like intelligence?,AI evaluation,['Turing Test'],Voight-Kampff Test
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI technique involves training a model using labeled data?,learning type,['Supervised Learning'],Reinforcement Learning
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What type of AI is capable of general human-level intelligence?,AI type,['Artificial General Intelligence (AGI)'],Weak AI
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI model became famous for defeating humans in the game of Go?,AI achievement,['AlphaGo'],Deep Blue
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI system defeated world chess champion Garry Kasparov in 1997?,AI achievement,['Deep Blue'],Stockfish
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI technique mimics the structure of the human brain?,technique,['Neural Networks'],Expert Systems
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What does NLP stand for in AI?,field,['Natural Language Processing'],Neural Learning Protocol
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI model developed by OpenAI can generate human-like text?,AI model,['GPT (Generative Pre-trained Transformer)'],BERT
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the process of training an AI model on past experiences called?,learning process,['Machine Learning'],Data Programming
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI technique is used for training models by trial and error?,learning type,['Reinforcement Learning'],Unsupervised Learning
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI subfield focuses on enabling machines to interpret and process visual information?,AI subfield,['Computer Vision'],Natural Language Processing
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which algorithm is commonly used for decision-making in AI?,decision-making algorithm,['Decision Tree'],Gradient Descent
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the term for AI systems that can learn from experience and adapt?,adaptive AI,['Machine Learning'],Programmed AI
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is an AI system that specializes in a single task called?,AI type,['Narrow AI'],General AI
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the primary advantage of deep learning over traditional machine learning?,AI advantage,['Automatic feature extraction'],Lower computational cost
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the name of Google's AI model for image recognition?,image AI model,['Inception'],AlphaVision
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI company created ChatGPT?,AI company,['OpenAI'],DeepMind
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI model was used to create realistic human-like voices?,AI model,['WaveNet'],DALL-E
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI technique is primarily used for clustering data?,AI technique,['K-Means'],Linear Regression
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI-driven recommendation system is used by platforms like Netflix?,recommendation system,['Collaborative Filtering'],Bayesian Networks
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What AI-powered system is used in self-driving cars?,autonomous driving,['Computer Vision and Reinforcement Learning'],Expert Systems
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the term for AI systems that explain their decision-making process?,explainable AI,['Explainable AI (XAI)'],Black Box AI
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the most common programming language used in AI development?,AI language,['Python'],JavaScript
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI term refers to models that become overly specific to training data?,model issue,['Overfitting'],Underfitting
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the AI technique used to generate fake images and videos?,AI technique,['Generative Adversarial Networks (GANs)'],Variational Autoencoders (VAEs)
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI concept describes a future scenario where AI surpasses human intelligence?,AI scenario,['Technological Singularity'],Cognitive Expansion
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the process of AI models using probability to make predictions?,prediction technique,['Bayesian Inference'],Gradient Boosting
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What does the 'P' in GPT stand for?,AI terminology,['Pre-trained'],Predictive
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI system powers virtual assistants like Siri and Alexa?,virtual assistant AI,['Natural Language Processing'],Computer Vision
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the primary challenge in AI ethics?,AI ethics issue,['Bias in data'],Hardware limitations
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI technique enables a model to learn representations from unlabeled data?,AI technique,['Unsupervised Learning'],Reinforcement Learning
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI-powered system is used in facial recognition?,AI application,['Deep Learning'],Rule-Based Systems
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What AI model is designed to generate images from text descriptions?,text-to-image AI,['DALL-E'],WaveNet
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI concept refers to a system's ability to generalize to new data?,AI concept,['Generalization'],Memorization
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI field studies how computers can understand and generate human language?,AI subfield,['Natural Language Processing'],Cognitive Computing
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the AI technique used to detect objects in images?,AI technique,['Object Detection'],Topic Modeling
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI-powered system helps diagnose diseases from medical images?,AI in healthcare,['Computer Vision'],Robotic Process Automation
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI model can generate music compositions?,AI application,['MuseNet'],WaveGAN
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the term for AI systems that make decisions based on logic-based rules?,AI type,['Expert Systems'],Neural Networks
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the term for training an AI model with data that includes expected outputs?,training type,['Supervised Learning'],Unsupervised Learning
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI subfield focuses on robots interacting with the physical world?,AI subfield,['Robotics'],Symbolic AI
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI term refers to a model that can transfer learning from one task to another?,AI technique,['Transfer Learning'],Evolutionary AI
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI-driven approach enables a model to predict future trends?,forecasting technique,['Time Series Analysis'],Reinforcement Learning
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,What is the AI technique that allows a model to improve performance over time with feedback?,AI learning method,['Reinforcement Learning'],Gradient Boosting
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI concept is crucial for preventing harmful AI biases?,AI fairness concept,['Fairness and Accountability'],Zero-shot Learning
+Artificial Intelligence,https://en.wikipedia.org/wiki/Artificial_intelligence,Which AI system uses deep learning to create highly realistic human faces?,AI application,['StyleGAN'],GPT-4
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the fundamental principle of democracy?,core principle,['Rule by the people'],Rule by the elite
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which ancient civilization is credited with developing the first known democracy?,origin civilization,['Ancient Greece'],Ancient Rome
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for a system where citizens vote directly on laws?,democracy type,['Direct Democracy'],Representative Democracy
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for a democracy where citizens elect representatives to make decisions on their behalf?,democracy type,['Representative Democracy'],Direct Democracy
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which U.S. document begins with the phrase 'We the People'?,foundational document,['The U.S. Constitution'],The Declaration of Independence
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the process of removing an elected official from office before their term ends?,removal process,['Impeachment'],Resignation
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which philosopher famously criticized democracy as 'mob rule'?,philosopher critique,['Plato'],Aristotle
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for a system where power is divided among multiple branches of government?,government structure,['Separation of Powers'],Federalism
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which democratic principle ensures that no one is above the law?,legal principle,['Rule of Law'],Majority Rule
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for a democracy where power is divided between a central government and smaller political units?,government structure,['Federal Democracy'],Unitary Democracy
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the name of the political system where citizens vote for laws and policies directly?,democratic system,['Direct Democracy'],Oligarchy
+Democracy,https://en.wikipedia.org/wiki/Democracy,What type of democracy is used in the United States?,democracy type,['Representative Democracy'],Direct Democracy
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which document outlines the fundamental rights of citizens in a democracy?,legal framework,['Constitution'],Bill of Rights
+Democracy,https://en.wikipedia.org/wiki/Democracy,"What is the term for a political system where a single party controls the government, but elections are held?",hybrid system,['Illiberal Democracy'],Absolute Monarchy
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which European country has one of the oldest continuous democracies?,oldest democracy,['Switzerland'],Germany
+Democracy,https://en.wikipedia.org/wiki/Democracy,"Which U.S. president famously stated, 'Government of the people, by the people, for the people'?",famous quote,['Abraham Lincoln'],Thomas Jefferson
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the process called where citizens can propose new laws through petitions?,citizen participation,['Referendum'],Veto
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the main difference between a democracy and an autocracy?,system comparison,"['People have power in a democracy; in an autocracy, power is held by one person']",Both systems rely on elections
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which philosopher wrote extensively on democracy in 'On Liberty'?,philosopher,['John Stuart Mill'],Niccolò Machiavelli
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the process by which citizens vote to reject or approve a law passed by the legislature?,citizen participation,['Referendum'],Filibuster
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the role of a constitution in a democracy?,constitutional role,['Defines rights and limits government power'],Determines election winners
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which term describes a situation where majority rule ignores the rights of minorities?,democratic flaw,['Tyranny of the Majority'],Minority Rule
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the role of the judiciary in a democracy?,government function,['Interpreting laws and ensuring constitutional compliance'],Enforcing executive orders
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for a political system where citizens participate in decision-making through elected officials?,political system,['Representative Democracy'],Authoritarianism
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for the manipulation of electoral district boundaries to favor one party?,electoral manipulation,['Gerrymandering'],Recall Elections
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which international organization promotes democracy and human rights worldwide?,global democracy group,['United Nations'],World Bank
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which country is known for having one of the longest-standing parliamentary democracies?,long-standing democracy,['United Kingdom'],France
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which principle prevents any one branch of government from becoming too powerful?,government principle,['Checks and Balances'],Executive Supremacy
+Democracy,https://en.wikipedia.org/wiki/Democracy,"What is the term for an electoral system where the candidate with the most votes wins, regardless of percentage?",voting system,['First-Past-the-Post'],Ranked Choice Voting
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the primary purpose of a democratic election?,election purpose,['To choose representatives'],To enforce government policies
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which democratic system allows multiple political parties to compete in elections?,political competition,['Multi-Party System'],Single-Party System
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for a system where citizens vote for both a president and a legislature?,government structure,['Presidential System'],Parliamentary System
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which democracy-based index ranks countries on their level of democratic governance?,democratic index,['Democracy Index'],Freedom Scale
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the role of political parties in a democracy?,political role,['To represent different interests and compete in elections'],To directly govern without elections
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which event is often considered the beginning of modern democracy?,historical event,['The American Revolution'],The Renaissance
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for a voting system where citizens rank candidates in order of preference?,voting method,['Ranked Choice Voting'],First-Past-the-Post
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which country was the first to grant women the right to vote?,women's suffrage,['New Zealand'],United States
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for an elected leader abusing their power while still maintaining democratic processes?,corrupt democracy,['Electoral Autocracy'],Military Dictatorship
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which document protects the individual freedoms of citizens in a democracy?,rights protection,['Bill of Rights'],Executive Order
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which principle allows citizens to challenge government decisions through legal action?,citizen rights,['Judicial Review'],Legislative Supremacy
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for a democratic government that is also a monarchy?,government type,['Constitutional Monarchy'],Absolute Monarchy
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which form of democracy relies on public debate and consensus for decision-making?,debate-driven democracy,['Deliberative Democracy'],Authoritarian Democracy
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the key feature of a democratic society?,democratic characteristic,['Freedom of speech'],Centralized power
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which document guarantees basic human rights and democratic governance principles globally?,global rights document,['Universal Declaration of Human Rights'],Geneva Convention
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for a situation where the democratic process is undermined by electoral fraud?,democratic failure,['Electoral Corruption'],Voter Suppression
+Democracy,https://en.wikipedia.org/wiki/Democracy,Which democratic principle allows government officials to be removed by popular vote?,removal process,['Recall Elections'],Judicial Impeachment
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the term for political engagement where citizens participate in protests and activism?,citizen action,['Civil Disobedience'],Legislative Petitioning
+Democracy,https://en.wikipedia.org/wiki/Democracy,What is the main responsibility of citizens in a democracy?,citizen duty,['Voting and civic participation'],Obeying government orders without question
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was the main objective of the 2009 Copenhagen Climate Summit?,summit goal,['To establish a global climate agreement'],To create a carbon tax system
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which city hosted the 2009 United Nations Climate Change Conference?,host city,['Copenhagen'],Paris
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was the official name of the 2009 Copenhagen Climate Summit?,official name,['COP15'],COP21
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which international organization was responsible for organizing COP15?,organizing body,['United Nations Framework Convention on Climate Change (UNFCCC)'],World Economic Forum
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which major agreement was expected but failed to be finalized at COP15?,expected agreement,['A legally binding successor to the Kyoto Protocol'],The Paris Agreement
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which country was criticized for obstructing negotiations at COP15?,obstructing country,['China'],United States
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which U.S. president attended the Copenhagen Climate Summit in 2009?,attending leader,['Barack Obama'],George W. Bush
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was one of the biggest criticisms of COP15?,criticism,['Lack of a legally binding agreement'],Too much focus on developing nations
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which group of nations pushed for stricter emissions reductions at COP15?,climate-affected nations,['Small Island Developing States (SIDS)'],G7 Countries
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was the name of the unofficial political agreement reached at COP15?,political agreement,['Copenhagen Accord'],Paris Treaty
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What global temperature increase limit was widely discussed at COP15?,temperature goal,['2 degrees Celsius'],1.5 degrees Celsius
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which major European leader played a key role in the negotiations at COP15?,key European leader,['Angela Merkel'],Emmanuel Macron
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which global climate movement protested against COP15’s lack of strong commitments?,activist movement,['Climate Justice Now!'],Extinction Rebellion
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was the main financial pledge made at COP15?,financial commitment,['$100 billion annually for climate finance'],$50 billion in adaptation funds
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which major emerging economies played a critical role in shaping the outcomes of COP15?,emerging economies,['BRICS nations'],G7 countries
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which country’s delegation walked out during negotiations at COP15?,walkout country,['African nations'],Japan
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was one of the key failures of the Copenhagen Accord?,agreement failure,['It was not legally binding'],It did not include emissions targets
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which scientific panel’s findings were heavily referenced at COP15?,scientific body,['Intergovernmental Panel on Climate Change (IPCC)'],World Meteorological Organization (WMO)
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which phrase was frequently used at COP15 to describe the urgency of climate action?,common phrase,['The defining challenge of our time'],Climate catastrophe
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was the role of the G77 and China group at COP15?,developing nations role,['Advocating for stronger commitments from developed countries'],Blocking international agreements
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which activist famously disrupted a meeting at COP15?,climate activist,['Vandana Shiva'],Greta Thunberg
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which country committed to significant emissions reductions during COP15 but later weakened its pledge?,backtracking country,['Canada'],India
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was the reaction of environmental groups to the outcome of COP15?,activist response,['Disappointment and protests'],Approval and praise
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was the main outcome document of COP15?,summit outcome,['Copenhagen Accord'],Kyoto Protocol II
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which country was accused of holding secret meetings to influence the COP15 outcome?,secret meetings country,['United States'],Russia
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What role did indigenous groups play at COP15?,indigenous advocacy,['Advocating for climate justice'],Lobbying for fossil fuel expansion
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which major oil-producing country opposed strong emissions cuts at COP15?,opposing country,['Saudi Arabia'],Norway
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What controversial action did Denmark take against protesters during COP15?,protest response,['Mass arrests'],Expelling foreign activists
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which future climate agreement was influenced by the failures of COP15?,future agreement,['Paris Agreement'],Glasgow Climate Pact
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which world leader described COP15 as a 'climate failure'?,critical leader,['Gordon Brown'],Vladimir Putin
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What key concept was missing from the Copenhagen Accord that was later included in the Paris Agreement?,missing element,['Legally binding emissions targets'],Carbon pricing mechanisms
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which financial mechanism was promised at COP15 but delayed in implementation?,delayed mechanism,['Green Climate Fund'],Carbon Market Trading System
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which country hosted the next UN climate conference after COP15?,next host,['Mexico (COP16)'],France (COP17)
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What climate policy mechanism was widely debated but not agreed upon at COP15?,policy debate,['Cap and Trade'],Nuclear Energy Expansion
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which major environmental organization declared COP15 a 'historic failure'?,critical NGO,['Greenpeace'],World Wildlife Fund
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What commitment did developed countries make regarding climate finance at COP15?,financial commitment,['$100 billion per year by 2020'],$50 billion per year by 2025
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which country was seen as the biggest winner of COP15 due to its negotiating stance?,negotiating winner,['China'],United States
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was the role of the European Union at COP15?,EU role,['Pushing for stronger commitments'],Blocking agreements
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which nation was accused of weakening climate ambition by insisting on voluntary commitments?,weakening country,['United States'],Germany
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which specific climate justice issue did African nations highlight at COP15?,climate justice,['Historical emissions responsibility'],Carbon trading rights
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which small island nation issued an emotional plea for urgent action at COP15?,climate plea country,['Maldives'],Singapore
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was the main criticism of the Copenhagen Accord's emissions targets?,criticism,['They were voluntary'],They were too strict
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What major climate report was released prior to COP15 that influenced negotiations?,influential report,['IPCC Fourth Assessment Report'],World Bank Climate Report
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which major global economic group failed to deliver a unified climate pledge at COP15?,economic group,['G20'],OPEC
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What phrase was used to describe the lack of enforceability of the Copenhagen Accord?,weakness phrase,['Weak and non-binding'],Too ambitious to implement
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,Which organization played a key role in tracking the climate finance commitments from COP15?,finance tracking,['OECD'],World Bank
+2009 Copenhagen Climate Summit (COP15),https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference,What was the key lesson learned from COP15 that influenced future climate summits?,lesson learned,['The need for legally binding commitments'],The importance of voluntary agreements
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Who directed *The Passion of the Christ*?,director,['Mel Gibson'],Martin Scorsese
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which actor played Jesus Christ in *The Passion of the Christ*?,lead actor,['Jim Caviezel'],Joaquin Phoenix
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What language was primarily spoken in *The Passion of the Christ*?,language,['Aramaic'],Greek
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which Gospel accounts were the main sources for *The Passion of the Christ*?,biblical sources,"['Matthew, Mark, Luke, and John']",Acts of the Apostles
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What event does *The Passion of the Christ* primarily depict?,film subject,"[""The final hours of Jesus' life""]",The entire life of Jesus
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which religious leader was depicted as overseeing Jesus' trial in the film?,religious figure,['Caiaphas'],Pontius Pilate
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which Roman governor sentenced Jesus to death in *The Passion of the Christ*?,Roman governor,['Pontius Pilate'],Herod Antipas
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which religious group criticized the film for alleged anti-Semitic portrayals?,controversy,['Jewish organizations'],Evangelical Christians
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,"Which actress played Mary, the mother of Jesus, in *The Passion of the Christ*?",Mary actress,['Maia Morgenstern'],Monica Bellucci
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which Gospel phrase was controversially included in the original cut of the film but later removed?,removed dialogue,['His blood be on us and on our children'],You will deny me three times
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What was the film’s rating in the United States?,MPAA rating,['R'],PG-13
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which country banned *The Passion of the Christ* due to its graphic violence?,banning country,['Saudi Arabia'],France
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What was the approximate box office gross of *The Passion of the Christ*?,box office revenue,['Over $600 million'],Around $300 million
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which Christian denomination was most supportive of *The Passion of the Christ*?,supportive group,['Evangelical Christians'],Orthodox Christianity
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which major film studio refused to produce *The Passion of the Christ*?,rejected studio,['20th Century Fox'],Paramount Pictures
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What type of filmmaking techniques did Mel Gibson use to enhance realism?,filmmaking technique,['Practical effects and traditional cinematography'],CGI-heavy sequences
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which Roman soldier is depicted piercing Jesus' side with a spear?,Roman soldier,['Longinus'],Centurion Maximus
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which disciple betrays Jesus in the film?,betraying disciple,['Judas Iscariot'],Simon Peter
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,How was *The Passion of the Christ* received by the Vatican?,Vatican response,['Generally supportive'],Officially denounced
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which famous film critic gave *The Passion of the Christ* a positive review?,film critic,['Roger Ebert'],Pauline Kael
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What does the term 'Passion' refer to in the title of the film?,title meaning,['The suffering of Jesus'],The love of Jesus for humanity
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,How long was the theatrical runtime of *The Passion of the Christ*?,runtime,['126 minutes'],152 minutes
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What cinematic technique was used to depict Satan in the film?,cinematic technique,['Androgynous actor with a haunting voice'],CGI demon effects
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which biblical figure helped Jesus carry the cross in *The Passion of the Christ*?,cross-bearer,['Simon of Cyrene'],Nicodemus
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which studio distributed *The Passion of the Christ* in the United States?,distributing studio,['Newmarket Films'],Warner Bros.
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What was one of the most common criticisms of *The Passion of the Christ*?,common criticism,['Excessive violence'],Historical inaccuracy
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which major religious leader praised the film for its depiction of Jesus’ suffering?,religious endorsement,['Pope John Paul II'],Billy Graham
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What was the budget for *The Passion of the Christ*?,budget,['Around $30 million'],$100 million
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which biblical event serves as the film’s opening scene?,opening scene,['The Agony in the Garden'],The Sermon on the Mount
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which character tempts Jesus in the Garden of Gethsemane?,satanic figure,['Satan'],Pontius Pilate
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which historical location was used as the primary setting for filming?,filming location,['Italy'],Israel
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which scene in *The Passion of the Christ* was one of the most graphically violent?,violent scene,['The scourging of Jesus'],The Last Supper
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which prophecy is referenced throughout the film regarding Jesus' suffering?,prophetic reference,['Isaiah 53'],Psalm 23
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What was the name of the production company Mel Gibson used to finance the film?,production company,['Icon Productions'],Lightstorm Entertainment
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,How did many Jewish groups respond to *The Passion of the Christ*?,Jewish response,['Criticism for alleged anti-Semitism'],Praise for historical accuracy
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which moment in *The Passion of the Christ* is depicted with slow-motion effects for dramatic impact?,cinematic effect,['The nailing of Jesus to the cross'],The resurrection scene
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,How does Satan appear in the final moments of *The Passion of the Christ*?,Satan's final scene,['Screaming in defeat'],Triumphantly laughing
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What major sequel to *The Passion of the Christ* has been announced?,planned sequel,['The Passion of the Christ: Resurrection'],The Gospel of Jesus
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which group of critics accused the film of reinforcing anti-Jewish stereotypes?,criticism source,['The Anti-Defamation League'],The Vatican
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which artistic technique did *The Passion of the Christ* borrow from Renaissance religious paintings?,artistic influence,['Dramatic lighting and chiaroscuro'],Minimalist cinematography
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which biblical character washes his hands in the film to symbolize distancing himself from Jesus’ fate?,historical figure,['Pontius Pilate'],Caiaphas
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What was a common reaction among Christian audiences to *The Passion of the Christ*?,Christian response,['Deep emotional impact'],Anger at historical inaccuracy
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,What was the major reason the film was rated R?,MPAA rating reason,['Graphic violence'],Religious content
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which Christian denomination incorporated *The Passion of the Christ* into religious study programs?,religious study,['Evangelicals'],Unitarians
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which scene in *The Passion of the Christ* does not appear in the Bible but was added for dramatic effect?,fictional scene,['Satan carrying a demon baby'],The Crucifixion
+The Passion of the Christ,https://en.wikipedia.org/wiki/The_Passion_of_the_Christ,Which famous composer wrote the film’s score?,film composer,['John Debney'],Hans Zimmer
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What were the Pentagon Papers?,document type,['A classified study on U.S. involvement in Vietnam'],A collection of war plans for the Cold War
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Who leaked the Pentagon Papers?,leaker,['Daniel Ellsberg'],Edward Snowden
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which U.S. newspaper first published the Pentagon Papers?,first newspaper,['The New York Times'],The Washington Post
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,In what year were the Pentagon Papers leaked?,leak year,['1971'],1968
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which U.S. President attempted to block the publication of the Pentagon Papers?,presidential response,['Richard Nixon'],Lyndon B. Johnson
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What was the main revelation of the Pentagon Papers?,major revelation,['The U.S. government had misled the public about the Vietnam War'],The CIA had orchestrated the Gulf of Tonkin incident
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which law did the Nixon administration invoke to stop the publication of the Pentagon Papers?,legal action,['Espionage Act'],Freedom of Information Act
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which court ruled on the publication of the Pentagon Papers?,Supreme Court case,['New York Times Co. v. United States'],United States v. Pentagon
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which government agency compiled the Pentagon Papers?,originating agency,['Department of Defense'],Central Intelligence Agency
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,How many pages were in the full Pentagon Papers document?,document length,"['7,000 pages']","2,500 pages"
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which U.S. President secretly ordered the Pentagon Papers study?,ordering president,['Lyndon B. Johnson'],John F. Kennedy
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What was the outcome of the Supreme Court ruling on the Pentagon Papers?,court ruling,['Allowed publication'],Ruled it was treasonous
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which journalist played a major role in publishing the Pentagon Papers?,investigative journalist,['Neil Sheehan'],Bob Woodward
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which newspaper continued publishing the Pentagon Papers after The New York Times was temporarily stopped?,follow-up newspaper,['The Washington Post'],Los Angeles Times
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What legal argument did the Nixon administration use to block the Pentagon Papers?,legal claim,['National security threat'],Obstruction of justice
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which U.S. government entity was most implicated in the Pentagon Papers?,implicated entity,['Department of Defense'],State Department
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What war was the focus of the Pentagon Papers?,war focus,['Vietnam War'],Korean War
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which term describes the Nixon administration’s attempt to stop leaks after the Pentagon Papers?,response term,['The Plumbers'],Operation Mockingbird
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What was Daniel Ellsberg’s job when he leaked the Pentagon Papers?,leaker’s profession,['Military analyst'],CIA operative
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which document did the Pentagon Papers contradict regarding U.S. involvement in Vietnam?,contradicted policy,['Gulf of Tonkin Resolution'],Marshall Plan
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,How did Daniel Ellsberg distribute the Pentagon Papers?,leak method,['Secretly copied and gave them to newspapers'],Hacked into government systems
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which amendment was at the center of the Supreme Court case regarding the Pentagon Papers?,constitutional issue,['First Amendment'],Fifth Amendment
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which president was in office when the Pentagon Papers were officially declassified?,declassification president,['Bill Clinton'],Ronald Reagan
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What government action against Daniel Ellsberg ultimately failed?,failed prosecution,['Espionage charges were dismissed'],Conviction for treason
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which event worsened public trust in government shortly after the Pentagon Papers release?,trust crisis,['Watergate Scandal'],Bay of Pigs invasion
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which famous phrase did Nixon use to describe the Pentagon Papers leak?,Nixon quote,['A grave national security threat'],An act of treason
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,How did the American public react to the Pentagon Papers?,public reaction,['Increased opposition to the Vietnam War'],Support for stricter national security laws
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What was one major finding of the Pentagon Papers about U.S. policy in Vietnam?,policy revelation,['The war was escalated despite knowing it was unwinnable'],North Vietnam had plans to invade the U.S.
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which intelligence agency was revealed to have misled policymakers in the Pentagon Papers?,misleading agency,['CIA'],FBI
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which famous whistleblower later cited the Pentagon Papers as an inspiration?,whistleblower influence,['Edward Snowden'],Chelsea Manning
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which major U.S. law regarding government transparency was strengthened after the Pentagon Papers?,legal impact,['Freedom of Information Act'],USA PATRIOT Act
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which military official resigned in protest over the Pentagon Papers findings?,military resignation,['No one resigned'],William Westmoreland
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,How did the Pentagon Papers affect U.S. foreign policy?,foreign policy impact,['Increased skepticism about government war narratives'],Led to more secret military interventions
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What key strategy was exposed in the Pentagon Papers regarding the Vietnam War?,military strategy,['U.S. escalation despite knowing the war was failing'],Nuclear strike contingency plans
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which foreign country closely followed the Pentagon Papers leak due to its role in the Vietnam War?,foreign interest,['France'],China
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which major magazine also published parts of the Pentagon Papers?,supporting publication,['TIME'],Rolling Stone
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What major government oversight did the Pentagon Papers highlight?,oversight failure,['Lack of congressional approval for key war decisions'],Failure to train South Vietnamese forces
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What was Nixon’s initial reaction to the leak of the Pentagon Papers?,Nixon reaction,['Privately indifferent but later outraged'],Immediately ordered Ellsberg’s arrest
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,How did Daniel Ellsberg avoid prison time?,legal defense,['Government misconduct led to case dismissal'],Presidential pardon
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which aspect of the Pentagon Papers remains classified to this day?,still classified,['Some CIA operations'],Military strategy for the Tet Offensive
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which major television network covered the leak extensively?,TV coverage,['CBS'],CNN
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,How did Nixon’s attempt to suppress the Pentagon Papers backfire?,backfire effect,['It led to a broader media response'],It helped his re-election campaign
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What historical event did the Pentagon Papers reference as influencing Vietnam War policy?,historical reference,['The Korean War'],Cuban Missile Crisis
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,Which Nixon administration scandal was linked to efforts to prevent leaks like the Pentagon Papers?,related scandal,['Watergate'],Iran-Contra Affair
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What happened to Daniel Ellsberg after the leak?,leaker outcome,['He became an activist for government transparency'],He fled the country
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,What was the significance of the Pentagon Papers leak?,historical significance,['It exposed government deception about the Vietnam War'],It revealed nuclear war plans
+Pentagon Papers,https://en.wikipedia.org/wiki/Pentagon_Papers,How did the Pentagon Papers impact public trust in government?,public trust,['Eroded trust in official war narratives'],Increased confidence in military leadership
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,What are the Iraq War Logs?,document type,['A collection of classified U.S. military reports on the Iraq War'],A book detailing Iraq War strategy
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which organization released the Iraq War Logs?,leaking organization,['WikiLeaks'],The Intercept
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,In what year were the Iraq War Logs published?,publication year,['2010'],2007
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,"Who was the founder of WikiLeaks, responsible for publishing the Iraq War Logs?",WikiLeaks founder,['Julian Assange'],Edward Snowden
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which whistleblower leaked the Iraq War Logs to WikiLeaks?,whistleblower,['Chelsea Manning'],Daniel Ellsberg
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Approximately how many classified reports were included in the Iraq War Logs?,document count,"['Over 391,000']","Around 100,000"
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,What was the main revelation of the Iraq War Logs?,major revelation,['Evidence of civilian casualties and war crimes'],Plans for a U.S. withdrawal strategy
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which major newspaper helped publish the Iraq War Logs?,supporting publication,['The Guardian'],The Washington Times
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,What was one of the most controversial findings in the Iraq War Logs?,controversial finding,['U.S. forces ignored reports of Iraqi forces torturing detainees'],The CIA planned a coup in Iraq
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which military operation's details were heavily documented in the Iraq War Logs?,military operation,['Operation Iraqi Freedom'],Operation Enduring Freedom
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,What was the U.S. government’s response to the release of the Iraq War Logs?,government response,['Condemnation and claims of national security risk'],Admitting to war crimes
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which international organization criticized WikiLeaks for potentially endangering lives with the Iraq War Logs release?,critical organization,['NATO'],United Nations
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which legal charges were pursued against Chelsea Manning for leaking the Iraq War Logs?,legal charges,['Espionage Act violations'],Treason
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which U.S. President was in office when the Iraq War Logs were leaked?,U.S. President,['Barack Obama'],George W. Bush
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,What type of information did the Iraq War Logs reveal about civilian casualties?,civilian casualty findings,['Thousands of previously unreported deaths'],Accurate casualty numbers from the U.S. government
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,What military practice was revealed to have been more common than officially acknowledged in the Iraq War Logs?,military practice,['Use of torture and abuse by Iraqi security forces'],Deployment of U.S. nuclear weapons in Iraq
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which intelligence agency was implicated in the Iraq War Logs for supporting abusive detention practices?,implicated agency,['U.S. Military Intelligence'],National Security Agency (NSA)
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which video was released by WikiLeaks earlier in 2010 that related to the Iraq War?,related video leak,['Collateral Murder'],The Drone Papers
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,How did the Iraq War Logs affect U.S. diplomatic relations?,diplomatic impact,['Increased tensions between the U.S. and Iraq'],Strengthened ties between the U.S. and NATO
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which country offered asylum to Julian Assange after the Iraq War Logs release?,asylum country,['Ecuador'],Sweden
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which website served as the primary platform for distributing the Iraq War Logs?,leak platform,['WikiLeaks.org'],The Dark Web
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,What did the U.S. military claim about the potential impact of the Iraq War Logs?,military stance,['That they endangered troops and informants'],That they exposed no new information
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,"Which war tactic, commonly used in Iraq, was highlighted as leading to numerous civilian deaths?",tactic exposure,['Airstrikes and checkpoint shootings'],Chemical weapon attacks
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,How did Chelsea Manning justify the leak of the Iraq War Logs?,leaker justification,['Belief that the public had a right to know'],To seek asylum in another country
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,What was one of the unintended consequences of the Iraq War Logs release?,unintended consequence,['Exposure of informants’ identities'],Protests against the war in Iraq
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which European country was revealed in the Iraq War Logs to have participated in controversial detainee handovers?,European involvement,['United Kingdom'],France
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,Which news organization publicly collaborated with WikiLeaks in analyzing the Iraq War Logs?,news collaborator,['Der Spiegel'],Fox News
+WikiLeaks Iraq War Logs,https://en.wikipedia.org/wiki/Iraq_War_documents_leak,What event in Iraq was revealed to have significantly more civilian casualties than previously reported?,major event,['The Battle of Fallujah'],The 2003 invasion of Baghdad
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Who leaked classified NSA documents in 2013?,whistleblower,['Edward Snowden'],Julian Assange
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which organization was primarily responsible for the surveillance programs revealed in the Snowden leaks?,agency,['National Security Agency (NSA)'],Federal Bureau of Investigation (FBI)
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),In what year did Edward Snowden leak NSA documents?,leak year,['2013'],2011
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which newspaper first published stories based on the Snowden leaks?,first publication,['The Guardian'],The New York Times
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which country granted Edward Snowden asylum after he leaked NSA documents?,asylum country,['Russia'],Ecuador
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),What was the name of the NSA program that collected bulk metadata from phone records?,surveillance program,['PRISM'],XKeyscore
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which journalist worked closely with Edward Snowden to publish the leaks?,investigative journalist,['Glenn Greenwald'],Bob Woodward
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which company’s cooperation with the NSA was revealed in the Snowden leaks?,tech company,['Google'],IBM
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),What did the Snowden leaks reveal about the NSA’s surveillance practices?,major revelation,['Mass collection of global communications data'],Targeted surveillance of terrorists only
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),What law was cited as legal justification for the NSA’s mass surveillance programs?,legal justification,['Patriot Act'],Espionage Act
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which country’s government was caught spying on its own citizens in cooperation with the NSA?,cooperating country,['United Kingdom'],China
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),What surveillance program allowed the NSA to tap directly into tech companies' servers?,surveillance program,['PRISM'],COINTELPRO
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which hotel did Edward Snowden stay in while revealing the NSA leaks?,hotel location,"['Mira Hotel, Hong Kong']","Ritz-Carlton, Moscow"
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which intelligence contractor did Edward Snowden work for when he leaked the documents?,contractor,['Booz Allen Hamilton'],Raytheon
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which social media company was revealed to have provided user data to the NSA?,social media cooperation,['Facebook'],Reddit
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which major European leader was revealed to have been spied on by the NSA?,spied-on leader,['Angela Merkel'],Vladimir Putin
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),What was one of the main criticisms of the NSA’s mass surveillance programs?,criticism,['Lack of public oversight'],Too much reliance on human analysts
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which encrypted email provider shut down in response to the Snowden leaks?,email service,['Lavabit'],Gmail
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),What charge was brought against Edward Snowden by the U.S. government?,legal charge,['Espionage'],Treason
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which agency's classified PowerPoint slides were part of Snowden’s leaks?,classified slides,['NSA'],CIA
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),What was one of the NSA programs Snowden exposed that analyzed global internet activity?,internet surveillance,['XKeyscore'],Echelon
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which act was later modified as a result of public backlash from the Snowden leaks?,legal reform,['USA Freedom Act'],FISA Amendments
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which filmmaker directed the documentary *Citizenfour* about Edward Snowden?,documentary director,['Laura Poitras'],Oliver Stone
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),What was Snowden’s job title when he worked as a government contractor?,job title,['Systems administrator'],Cybersecurity officer
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which country allowed Snowden to transit through before ending up in Russia?,transit country,['China'],Cuba
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),"What type of data was the NSA collecting from phone companies, according to Snowden’s leaks?",collected data,['Call metadata'],Voice recordings
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),What major revelation did Snowden’s leaks reveal about the Five Eyes intelligence alliance?,Five Eyes revelation,['Mass surveillance of global citizens'],Secret nuclear weapons programs
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which U.S. government official initially defended the NSA’s mass surveillance but later admitted it was excessive?,government official,['James Clapper'],John Brennan
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),Which encrypted messaging service saw a surge in popularity after the Snowden leaks?,secure messaging,['Signal'],Skype
+Snowden NSA Leaks,https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present),What major effect did the Snowden leaks have on global tech companies?,tech impact,['Increased encryption standards'],Increased government cooperation
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,In what year did the Tiananmen Square protests and massacre occur?,event year,['1989'],1991
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which Chinese city was the location of the Tiananmen Square protests?,location,['Beijing'],Shanghai
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,What was the primary cause of the Tiananmen Square protests?,cause,['Calls for political reform and democracy'],Opposition to foreign influence
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which iconic image became a symbol of the Tiananmen Square protests?,iconic image,['Tank Man'],Burning of the Communist flag
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which student leader was prominent in the Tiananmen Square protests?,student leader,['Wang Dan'],Xi Jinping
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which Chinese leader declared martial law before the Tiananmen Square crackdown?,Chinese leader,['Deng Xiaoping'],Mao Zedong
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,What type of government force was used to suppress the Tiananmen Square protests?,military response,"[""People's Liberation Army (PLA)""]",Chinese National Guard
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,What was the estimated number of deaths in the Tiananmen Square massacre?,casualty estimate,['Hundreds to thousands'],Around 50
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which form of protest was widely used by students during the Tiananmen Square movement?,protest method,['Hunger strikes'],Armed resistance
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,What phrase is commonly used to refer to the Chinese government's suppression of the protests?,common phrase,['June Fourth Incident'],The People's Victory
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,"Which statue, created by students, symbolized democracy during the Tiananmen Square protests?",symbolic statue,['Goddess of Democracy'],Monument to the People
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which Chinese government agency was responsible for implementing martial law?,government agency,['State Council'],National Security Bureau
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,What method did the Chinese government use to suppress information about Tiananmen Square?,censorship method,['Internet and media censorship'],Strict border controls
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,What happened to many protest leaders after the Tiananmen Square massacre?,fate of protest leaders,['Arrested or exiled'],Integrated into the government
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which Western country imposed sanctions on China following the Tiananmen Square massacre?,sanctioning country,['United States'],Russia
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,What was the primary demand of the Tiananmen Square protesters?,protest demands,['Political reform and freedom of speech'],Higher government wages
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which military vehicles were famously photographed moving toward Tiananmen Square?,military presence,['Tanks'],Helicopters
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,What happened to the iconic 'Tank Man' after the protests?,Tank Man's fate,['His fate remains unknown'],He fled to Taiwan
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,What type of economic reform was underway in China during the Tiananmen Square protests?,economic reform,['Market liberalization'],Full-scale communism
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which university was a key organizing center for the Tiananmen Square protests?,key university,['Peking University'],Tsinghua University
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,What was the reaction of the Chinese Communist Party to the protests?,government reaction,['Declared them a counterrevolutionary riot'],Opened discussions with protest leaders
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which international human rights organization condemned the Tiananmen Square crackdown?,human rights response,['Amnesty International'],World Health Organization
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which Chinese Premier attempted to negotiate with students before the crackdown?,Chinese Premier,['Zhao Ziyang'],Jiang Zemin
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which law was enacted to prevent discussions of Tiananmen Square in China?,censorship law,['Great Firewall regulations'],National Security Law of 2015
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which major Chinese newspaper attempted to report on the protests but faced government censorship?,censored newspaper,"[""People's Daily""]",The Global Times
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,How does the Chinese government currently refer to the Tiananmen Square incident?,official narrative,['A necessary crackdown'],A tragic mistake
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which method is commonly used to circumvent censorship of the Tiananmen Square massacre in China?,censorship workaround,['Code words and symbols'],Public protests
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which political ideology did many Tiananmen Square protesters advocate for?,political ideology,['Democracy'],Maoism
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,Which U.S. President condemned the Tiananmen Square massacre?,U.S. President,['George H.W. Bush'],Bill Clinton
+Tiananmen Square Massacre,https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre,What is the significance of Victoria Park in Hong Kong related to Tiananmen Square?,Hong Kong connection,['Annual candlelight vigil'],Site of student protests
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,What was allegedly found on Hunter Biden’s laptop?,laptop contents,"['Emails, business records, and personal files']",Top-secret government documents
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,Which newspaper first reported on the Hunter Biden laptop story?,first publication,['New York Post'],The Washington Post
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,In what year was the Hunter Biden laptop story first reported?,report year,['2020'],2018
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,Which social media platform restricted the sharing of the Hunter Biden laptop story?,social media action,['Twitter'],Instagram
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,Which law enforcement agency reportedly had access to Hunter Biden’s laptop?,law enforcement agency,['FBI'],CIA
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,What was the primary claim regarding Hunter Biden’s business dealings found on the laptop?,business claim,['Connections to foreign entities'],Involvement in insider trading
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,Which U.S. President’s son was at the center of the laptop controversy?,president's son,['Joe Biden'],Donald Trump
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,Which intelligence officials initially dismissed the Hunter Biden laptop story as potential Russian disinformation?,intelligence response,['Former U.S. intelligence officials'],Department of Homeland Security
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,What action did Facebook take regarding the Hunter Biden laptop story?,Facebook response,['Reduced its visibility and distribution'],Deleted all related posts
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,Which U.S. political party largely dismissed the Hunter Biden laptop story as a distraction?,political party response,['Democratic Party'],Republican Party
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,What was one of the major accusations made against Hunter Biden regarding the laptop contents?,accusation,['Potential influence peddling'],Election interference
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,Which 2020 U.S. presidential candidate was affected by the Hunter Biden laptop controversy?,affected candidate,['Joe Biden'],Donald Trump
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,What was one of the defenses used by Hunter Biden regarding the laptop controversy?,defense,['That he had no recollection of leaving a laptop'],That the laptop was a deepfake creation
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,Which technology company’s former CEO later admitted the suppression of the Hunter Biden story was a mistake?,tech company,['Twitter'],Google
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,What was the alleged involvement of a Delaware computer repair shop in the Hunter Biden laptop story?,repair shop involvement,['The shop owner claimed Hunter Biden left the laptop and never retrieved it'],It was planted by intelligence agencies
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,Which major news organization initially avoided covering the Hunter Biden laptop story?,news organization,['CNN'],Fox News
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,Which U.S. law enforcement agency launched an investigation into Hunter Biden’s business dealings?,investigating agency,['Department of Justice'],National Security Agency (NSA)
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,What major policy concern arose from the Hunter Biden laptop controversy?,policy concern,['Government censorship of news'],Election security breaches
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,What was the reaction of the Biden administration to the laptop controversy?,Biden administration response,['Largely dismissed as a political attack'],Opened an independent investigation
+Hunter Biden Laptop Controversy,https://en.wikipedia.org/wiki/Hunter_Biden_laptop_controversy,Which government agency verified the authenticity of some emails from Hunter Biden’s laptop?,email verification,['The FBI'],The Department of Defense
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,What is Critical Race Theory (CRT)?,definition,['A framework for examining the role of race in legal and social systems'],A set of laws governing racial equality
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which academic field did Critical Race Theory originate from?,origin field,['Legal studies'],Sociology
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which legal scholar is considered one of the founders of Critical Race Theory?,founding scholar,['Derrick Bell'],Cornel West
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,What does CRT argue about systemic racism?,core argument,['It is embedded in laws and institutions'],It exists only in personal prejudices
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which U.S. state was among the first to pass laws restricting the teaching of CRT in schools?,legal restriction,['Florida'],California
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which conservative activist group has opposed the inclusion of CRT in school curricula?,opposition group,['Parents Defending Education'],NAACP
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which U.S. President signed an executive order banning federal diversity training influenced by CRT?,executive order,['Donald Trump'],Barack Obama
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,What is one of the main criticisms of CRT from conservative politicians?,conservative critique,['It promotes division and victimhood'],It does not go far enough in addressing racism
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which academic book is widely associated with the foundation of Critical Race Theory?,foundational book,['Critical Race Theory: An Introduction'],The New Jim Crow
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which term is often used by critics of CRT to describe its alleged impact on education?,critical term,['Divisive concepts'],Progressive ideals
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,What does CRT suggest about the role of meritocracy in the U.S.?,view on meritocracy,['It can perpetuate racial disparities'],It guarantees equal opportunity for all
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which state governor made national headlines for signing an anti-CRT education bill?,opposing governor,['Ron DeSantis'],Gavin Newsom
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,What does CRT say about colorblind policies?,stance on colorblindness,['They can reinforce racial disparities'],They promote true equality
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which social movement has been associated with the rise of CRT discussions in mainstream media?,related movement,['Black Lives Matter'],Occupy Wall Street
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which term in CRT refers to the idea that racism evolves and adapts rather than disappearing?,evolving racism concept,['Interest convergence'],Implicit bias
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which political commentator has frequently spoken out against CRT?,opposing commentator,['Christopher Rufo'],Ibram X. Kendi
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which demographic is often cited as being most opposed to CRT policies in education?,opposing demographic,['Conservative-leaning suburban parents'],Urban minority communities
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which university is known for being a hub for CRT scholarship?,academic hub,['Harvard Law School'],University of Chicago
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,Which Supreme Court case is often analyzed through a CRT lens?,legal case,['Brown v. Board of Education'],Citizens United v. FEC
+Critical Race Theory (CRT),https://en.wikipedia.org/wiki/Critical_race_theory,What is the 'interest convergence' principle in CRT?,interest convergence,['The idea that racial progress occurs when it aligns with the interests of the dominant group'],The theory that all races must converge in thought to eliminate racism
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,What were the Panama Papers?,document type,['Leaked documents exposing offshore tax havens'],A government report on financial regulations
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which law firm was at the center of the Panama Papers leak?,law firm,['Mossack Fonseca'],Deloitte
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,In what year were the Panama Papers leaked?,leak year,['2016'],2014
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which newspaper first reported on the Panama Papers?,first publication,['Süddeutsche Zeitung'],The Guardian
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which organization coordinated the investigative reporting on the Panama Papers?,investigative group,['International Consortium of Investigative Journalists (ICIJ)'],WikiLeaks
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which world leader was linked to offshore accounts in the Panama Papers?,linked leader,['Vladimir Putin'],Joe Biden
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which prime minister resigned due to revelations from the Panama Papers?,resigned leader,['Sigmundur Davíð Gunnlaugsson'],Angela Merkel
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,What type of financial activity did the Panama Papers reveal?,financial activity,['Use of offshore accounts to evade taxes'],Illegal stock trading
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which country was most frequently used as a tax haven in the Panama Papers?,tax haven country,['British Virgin Islands'],Switzerland
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,How many documents were included in the Panama Papers leak?,document count,['Over 11.5 million'],Around 1 million
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which journalist played a key role in uncovering the Panama Papers?,investigative journalist,['Bastian Obermayer'],Glenn Greenwald
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,What happened to Mossack Fonseca after the Panama Papers leak?,law firm outcome,['It shut down'],It rebranded and continued operations
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which major South American leader was implicated in the Panama Papers?,South American leader,['Mauricio Macri'],Nicolás Maduro
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which major Asian leader was named in the Panama Papers?,Asian leader,['Nawaz Sharif'],Xi Jinping
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,What was the primary legal concern raised by the Panama Papers?,legal concern,['Money laundering and tax evasion'],Patent infringement
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which major financial institution was implicated in facilitating offshore accounts in the Panama Papers?,financial institution,['HSBC'],Goldman Sachs
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which country’s authorities conducted raids on Mossack Fonseca’s offices?,law enforcement raid,['Panama'],United States
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,Which international organization used the Panama Papers to push for tax reform?,global response,['OECD'],World Bank
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,What was one of the primary defenses used by individuals named in the Panama Papers?,defense,['The accounts were legal'],They were hacked by foreign governments
+Panama Papers,https://en.wikipedia.org/wiki/Panama_Papers,What was the largest consequence of the Panama Papers in terms of government action?,government response,['Increased global tax transparency laws'],Strict regulation of cryptocurrency transactions
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,What is the Glomar Response?,definition,['A government refusal to confirm or deny the existence of records'],A classified military operation
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which U.S. agency is most associated with the Glomar Response?,government agency,['CIA'],FBI
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,In what decade was the Glomar Response first used?,historical decade,['1970s'],1950s
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,What was the original context for the Glomar Response?,origin event,['A CIA operation to recover a sunken Soviet submarine'],A counterintelligence operation against the USSR
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,What was the name of the CIA operation that led to the first use of the Glomar Response?,operation name,['Project Azorian'],Operation Ivy Bells
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which U.S. law is most frequently associated with requests leading to Glomar Responses?,related law,['Freedom of Information Act (FOIA)'],Espionage Act
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which type of classified information is often protected using a Glomar Response?,protected information,['Covert intelligence operations'],Budget allocations for federal agencies
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which media organization first challenged the use of the Glomar Response?,challenging media,['Los Angeles Times'],The Washington Post
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,What is a common phrase used in Glomar Responses?,standard phrase,['We can neither confirm nor deny'],This request has been denied for national security reasons
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which presidential administration first invoked the Glomar Response publicly?,presidential administration,['Gerald Ford'],Richard Nixon
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which technology company received a Glomar Response when requesting information on government surveillance?,tech company,['Google'],Apple
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which Cold War-era rival’s submarine was involved in the event that led to the Glomar Response?,Cold War adversary,['Soviet Union'],China
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which intelligence journalist played a key role in exposing the story behind the Glomar Response?,investigative journalist,['Seymour Hersh'],Bob Woodward
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which major U.S. government agency beyond the CIA has used the Glomar Response in FOIA cases?,other agency,['NSA'],Department of Commerce
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which type of military asset was the focus of the first Glomar-related intelligence operation?,military asset,['A Soviet submarine'],A nuclear warhead
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,What ship was used in the CIA operation that led to the first Glomar Response?,ship name,['Hughes Glomar Explorer'],USS Pueblo
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which legal challenge has been raised against the Glomar Response in relation to transparency?,legal criticism,['It undermines FOIA accountability'],It violates whistleblower protections
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,What is the nickname of the legal doctrine that allows agencies to issue a Glomar Response?,legal doctrine,['Glomarization'],National Security Exemption
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which government secrecy case set a precedent for expanded use of the Glomar Response?,precedent case,['Phillippi v. CIA'],New York Times v. United States
+Glomar Response,https://en.wikipedia.org/wiki/Glomar_response,Which contemporary policy debate has involved the use of Glomar Responses?,modern policy,['Mass surveillance programs'],Nuclear weapons development
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,What is the Antikythera Mechanism?,definition,['An ancient Greek analog computer'],A medieval astrolabe
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Where was the Antikythera Mechanism discovered?,discovery location,"['Off the coast of Antikythera, Greece']",Near the ruins of Athens
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,In what year was the Antikythera Mechanism discovered?,discovery year,['1901'],1805
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which ancient civilization is believed to have created the Antikythera Mechanism?,origin civilization,['Ancient Greece'],Ancient Rome
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,What was the primary function of the Antikythera Mechanism?,function,['Predicting astronomical positions and eclipses'],Calculating trade routes
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which shipwreck led to the discovery of the Antikythera Mechanism?,shipwreck,['Antikythera shipwreck'],Alexandria shipwreck
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which modern technology has been used to analyze the Antikythera Mechanism’s inner workings?,analysis method,['X-ray tomography'],Carbon dating
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,What is the estimated age of the Antikythera Mechanism?,estimated age,"['Over 2,000 years old']",About 500 years old
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which type of metal was primarily used in the construction of the Antikythera Mechanism?,material,['Bronze'],Iron
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which museum currently houses the Antikythera Mechanism?,current location,['National Archaeological Museum of Athens'],British Museum
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which scientist was among the first to study the Antikythera Mechanism in detail?,early researcher,['Derek de Solla Price'],Carl Sagan
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which modern device is often compared to the Antikythera Mechanism due to its complexity?,modern comparison,['A mechanical clock'],A sextant
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,What was the likely purpose of the dials and gears within the Antikythera Mechanism?,mechanical purpose,['Tracking planetary movements'],Measuring ocean currents
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which celestial cycles were encoded in the Antikythera Mechanism?,astronomical cycle,['Metonic cycle'],Kepler's laws
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,What was the significance of the inscriptions found on the Antikythera Mechanism?,inscription meaning,['They provided instructions on its use'],They recorded historical battles
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which modern country has funded significant research into the Antikythera Mechanism?,research funding,['Greece'],United States
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which famous philosopher or scientist may have influenced the design of the Antikythera Mechanism?,historical influence,['Hipparchus'],Plato
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,What event likely led to the loss of the Antikythera Mechanism?,loss event,['A shipwreck'],A volcanic eruption
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which major celestial body’s movement was tracked by the Antikythera Mechanism?,tracked celestial body,['The Moon'],Saturn
+Antikythera Mechanism,https://en.wikipedia.org/wiki/Antikythera_mechanism,Which modern scientific field has benefited most from studying the Antikythera Mechanism?,scientific impact,['History of technology'],Quantum physics
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Who was Hedy Lamarr?,identity,['An Austrian-American actress and inventor'],A German opera singer
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,In which country was Hedy Lamarr born?,birth country,['Austria'],United States
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,What was Hedy Lamarr’s birth name?,birth name,['Hedwig Eva Maria Kiesler'],Helena Maria Lasky
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Which scientific invention is Hedy Lamarr famous for co-developing?,scientific contribution,['Frequency-hopping spread spectrum'],Radar technology
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Which war-time effort was Hedy Lamarr's invention initially designed for?,war-time use,['To prevent torpedo signal jamming in World War II'],To detect enemy aircraft
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Who co-developed frequency-hopping spread spectrum technology with Hedy Lamarr?,co-inventor,['George Antheil'],Nikola Tesla
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Which modern technologies were influenced by Hedy Lamarr’s invention?,modern impact,['Wi-Fi and Bluetooth'],Nuclear power generation
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Which Hollywood studio signed Hedy Lamarr in the 1930s?,Hollywood studio,['Metro-Goldwyn-Mayer (MGM)'],Paramount Pictures
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,What controversial 1933 film featured Hedy Lamarr in a nude scene?,early film,['Ecstasy'],The Blue Angel
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Which 1940s film helped establish Hedy Lamarr as a Hollywood star?,popular film,['Samson and Delilah'],Casablanca
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,What was one of Hedy Lamarr’s lesser-known hobbies?,hobby,['Engineering and inventing'],Painting and sculpture
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,What type of patent did Hedy Lamarr and George Antheil receive for their invention?,patent type,['Secret communication system'],Wireless energy transfer
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Why was Hedy Lamarr’s scientific work largely ignored during her lifetime?,lack of recognition,['She was primarily known as an actress'],It was classified by the U.S. government
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Which organization awarded Hedy Lamarr recognition for her scientific contributions in 1997?,award,['Electronic Frontier Foundation (EFF)'],National Science Foundation
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Which U.S. military branch initially rejected Hedy Lamarr’s frequency-hopping technology?,military rejection,['U.S. Navy'],U.S. Air Force
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Which personal struggle did Hedy Lamarr face later in life?,personal issue,['Financial difficulties'],Legal battles over patents
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Which country did Hedy Lamarr become a citizen of?,citizenship,['United States'],United Kingdom
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,What year did Hedy Lamarr pass away?,death year,['2000'],1995
+Hedy Lamarr,https://en.wikipedia.org/wiki/Hedy_Lamarr,Which prestigious scientific honor was awarded to Hedy Lamarr posthumously?,scientific honor,['Induction into the National Inventors Hall of Fame'],The Nobel Prize in Physics
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,Which book of the Bible describes the end times and the Apocalypse?,biblical book,['Book of Revelation'],Book of Exodus
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,Who is traditionally credited as the author of the Book of Revelation?,author,['John of Patmos'],Paul the Apostle
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,On which island did John of Patmos receive the visions recorded in Revelation?,island location,['Patmos'],Crete
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,What is the number of the Beast mentioned in Revelation?,number of the Beast,['666'],777
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,Which four figures appear in Revelation as harbingers of the end times?,apocalyptic figures,['The Four Horsemen'],The Seven Kings
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,What color is the horse associated with Death in Revelation?,horse color,['Pale'],Black
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,What does the Book of Revelation describe as the final battle between good and evil?,final battle,['Armageddon'],Babylon's Fall
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,Which city is symbolically referred to as 'Babylon' in Revelation?,symbolic city,['Rome'],Jerusalem
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,What is the name of the great final judgment in Revelation?,final judgment,['Great White Throne Judgment'],Judgment of the Saints
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,What is the name of the scroll with seven seals in Revelation?,sealed scroll,['The Scroll of Destiny'],The Scroll of Moses
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,Who is described as worthy to open the seven seals of the scroll?,worthy figure,['The Lamb (Jesus Christ)'],The Archangel Michael
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,What is the name of the lake into which the wicked are cast in Revelation?,punishment place,['Lake of Fire'],Pit of Perdition
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,What is the New Jerusalem described as in Revelation?,New Jerusalem description,['A city descending from heaven'],A spiritual metaphor for salvation
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,How many plagues are described in Revelation as part of God's judgment?,plague count,['Seven'],Ten
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,What is the symbolic name given to the false prophet in Revelation?,false prophet,['The Beast from the Earth'],The Dragon of Chaos
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,What is the symbolic meaning of the Woman clothed with the Sun in Revelation?,symbolic figure,['The Church or Israel'],The Angel of Light
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,Which angel is said to bind Satan for a thousand years in Revelation?,binding angel,['Michael'],Gabriel
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,How long is Satan imprisoned according to Revelation?,imprisonment duration,"['1,000 years']",700 years
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,What is the river flowing from the throne of God in the New Jerusalem called?,heavenly river,['The River of Life'],The Waters of Eden
+Book of Revelation,https://en.wikipedia.org/wiki/Book_of_Revelation,What tree is said to bring healing to the nations in Revelation?,tree,['Tree of Life'],Cedar of Lebanon
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,What is the Bhagavad Gita?,definition,['A Hindu scripture that is part of the Mahabharata'],A collection of Buddhist teachings
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,Which epic is the Bhagavad Gita a part of?,epic name,['Mahabharata'],Ramayana
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,Who is the main speaker in the Bhagavad Gita?,main speaker,['Krishna'],Shiva
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,Who is the main listener and recipient of Krishna’s teachings in the Bhagavad Gita?,main recipient,['Arjuna'],Bhima
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,What is the setting of the Bhagavad Gita?,setting,['The battlefield of Kurukshetra'],A Himalayan monastery
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,Which concept in the Bhagavad Gita refers to selfless duty?,ethical concept,['Dharma'],Moksha
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,What is the ultimate goal of life according to the Bhagavad Gita?,spiritual goal,['Liberation (Moksha)'],Accumulation of karma
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,Which form of yoga does Krishna emphasize as the highest path to liberation?,yoga type,['Bhakti Yoga (Path of Devotion)'],Hatha Yoga (Physical Discipline)
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,What does Krishna reveal about himself in the Bhagavad Gita?,divine revelation,['He is the Supreme God'],He is a great warrior and teacher
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,Which verse in the Bhagavad Gita is often cited as promoting detached action?,key verse,['2.47'],5.22
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,What is Arjuna’s main moral dilemma in the Bhagavad Gita?,moral dilemma,['Whether to fight in the war against his own relatives'],Whether to renounce worldly possessions
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,Which philosophical system is most associated with the Bhagavad Gita?,philosophy,['Vedanta'],Nyaya
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,What does Krishna tell Arjuna about the nature of the soul?,soul concept,['It is eternal and cannot be destroyed'],It is reincarnated based on one's karma
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,Which three gunas (modes of nature) does the Bhagavad Gita describe?,gunas,"['Sattva, Rajas, Tamas']","Maya, Dharma, Moksha"
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,What role does devotion (Bhakti) play in the Bhagavad Gita?,Bhakti role,['It is the most direct path to God'],It is only for those who have renounced the world
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,What is the importance of karma in the Bhagavad Gita?,karma importance,['Actions should be performed selflessly without attachment to results'],Only good karma leads to salvation
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,Which form of Krishna does he reveal to Arjuna in the Bhagavad Gita?,divine form,['Vishvarupa (Universal Form)'],Narayan Form
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,What does Krishna say about the different paths to spiritual liberation?,spiritual paths,['All sincere paths lead to Him'],Only asceticism leads to liberation
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,Which chapter of the Bhagavad Gita contains Krishna’s cosmic form revelation?,cosmic vision chapter,['Chapter 11'],Chapter 6
+Bhagavad Gita,https://en.wikipedia.org/wiki/Bhagavad_Gita,What does Krishna say about surrender in the final chapter of the Bhagavad Gita?,final teaching,['Surrender to Me alone and I will free you from all sins'],Only those who follow rituals will attain salvation
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,What is Hashima Island commonly known as?,nickname,['Battleship Island'],Ghost Island
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,Which country is Hashima Island a part of?,country,['Japan'],South Korea
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,What industry led to the development of Hashima Island?,primary industry,['Coal mining'],Pearl farming
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,Which company originally operated the coal mine on Hashima Island?,operating company,['Mitsubishi'],Sumitomo
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,During which century was Hashima Island at its peak population?,population peak,['20th century'],19th century
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,What was the main reason for Hashima Island’s abandonment?,abandonment reason,['The decline of coal mining'],A major earthquake
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,Which city is Hashima Island closest to?,nearest city,['Nagasaki'],Tokyo
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,What year was Hashima Island completely abandoned?,abandonment year,['1974'],1985
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,What unique architectural feature made Hashima Island notable?,architectural feature,['Dense concrete apartment blocks'],Floating wooden houses
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,Which global organization designated Hashima Island as a World Heritage Site?,designation body,['UNESCO'],World Trade Organization
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,What was a controversial aspect of Hashima Island's history?,controversy,['Forced labor during World War II'],Illegal arms trade
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,Which James Bond movie featured Hashima Island as inspiration for a villain’s lair?,movie appearance,['Skyfall'],Spectre
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,Which ocean surrounds Hashima Island?,surrounding ocean,['Pacific Ocean'],Indian Ocean
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,Which mode of transport was primarily used to reach Hashima Island?,transportation,['Boat'],Underground tunnel
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,What is a significant hazard for visitors to Hashima Island today?,visitor hazard,['Collapsing buildings'],Venomous snakes
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,What material were most of Hashima Island's buildings constructed from?,building material,['Concrete'],Wood
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,What role did Hashima Island play in Japan’s industrialization?,industrial role,['Major coal production center'],Nuclear testing site
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,Which neighboring country has protested Japan’s World Heritage recognition of Hashima Island?,protesting country,['South Korea'],China
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,What is the estimated highest recorded population of Hashima Island?,peak population,"['Over 5,000']","Around 10,000"
+Hashima Island,https://en.wikipedia.org/wiki/Hashima_Island,Which term best describes Hashima Island today?,current state,['Abandoned ruins'],Tourist resort

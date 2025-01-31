@@ -1,0 +1,67 @@
+question,answer,perturbed_answer,paraphrased
+Where would you find the Eiffel Tower?,Paris,"['Berlin', 'London', 'Madrid']",In what location can the Eiffel Tower be located?
+Which country is known as the Land of the Rising Sun?,Japan,"['China', 'South Korea', 'Thailand']",What is the country that is famous for being called the Land of the Rising Sun?
+Where are the ancient Pyramids of Giza located?,Egypt,"['Mexico', 'Sudan', 'Peru']",What is the location of the ancient Pyramids of Giza?
+What is the smallest country in the world by area?,Vatican City,"['Monaco', 'Nauru', 'San Marino']",Which country has the smallest area in the world?
+What is the name of the largest ocean on Earth?,Pacific,"['Atlantic', 'Indian', 'Southern']",What is the title of the biggest ocean on the planet?
+Which country gifted the Statue of Liberty to the United States?,France,"['United Kingdom', 'Germany', 'Canada']",From which country did the United States receive the Statue of Liberty as a gift?
+What is the capital of Egypt?,Cairo,"['Alexandria', 'Giza', 'Luxor']",Can you tell me the capital city of Egypt?
+Which planet is known as the Red Planet?,Mars,"['Jupiter', 'Venus', 'Saturn']",What is the nickname for the planet that is red in color?
+In which country would you find the ancient city of Petra?,Jordan,"['Egypt', 'Turkey', 'Greece']",Which country is home to the historic city of Petra?
+What is the largest mammal in the world?,Blue Whale,"['African Elephant', 'Giraffe', 'Hippopotamus']",Which mammal holds the title for being the biggest in the world?
+Which city is known for its iconic Golden Gate Bridge?,San Francisco,"['Los Angeles', 'San Diego', 'Seattle']",Which city is famous for its distinctive Golden Gate Bridge?
+What is the name of the largest rainforest on the planet?,Amazon Rainforest,"['Congo Rainforest', 'Daintree Rainforest', 'Sundarbans']",What is the title of the biggest rainforest on Earth?
+What is the capital city of Canada?,Ottawa,"['Toronto', 'Vancouver', 'Montreal']",Can you tell me the capital city of Canada?
+The ancient city of Machu Picchu is in which country?,Peru,"['Bolivia', 'Chile', 'Ecuador']",In which country is the ancient city of Machu Picchu located?
+Which country is the Colosseum located in?,Italy,"['France', 'Spain', 'Greece']",In what country can the Colosseum be found?
+What is the name of the longest river in South America?,Amazon,"['Mississippi', 'Nile', 'Danube']",What is the title of the lengthiest river found in South America?
+In which city can you find the Liberty Bell?,Philadelphia,"['New York', 'Boston', 'Washington D.C.']",Which city is home to the Liberty Bell?
+The historical figure Napoleon Bonaparte was born on which island?,Corsica,"['Sicily', 'Sardinia', 'Crete']",On what island was the historical figure Napoleon Bonaparte born?
+What is the capital of Spain?,Madrid,"['Barcelona', 'Seville', 'Valencia']",What city is the capital of Spain?
+In which country is the Taj Mahal located?,India,"['Pakistan', 'Bangladesh', 'Nepal']",Which country is home to the Taj Mahal?
+The ancient Acropolis is located in which city?,Athens,"['Rome', 'Istanbul', 'Cairo']",In which city can the ancient Acropolis be found?
+The Mona Lisa is housed in which museum?,The Louvre,"['Metropolitan Museum of Art', 'The British Museum', 'Vatican Museums']",Which museum is home to the Mona Lisa?
+Which country is the origin of the car brand Volvo?,Sweden,"['Germany', 'United States', 'Japan']",From which country does the car manufacturer Volvo originate?
+What is the most populous city in the world?,Tokyo,"['Shanghai', 'Beijing', 'Mumbai']",Which city has the highest population in the world?
+Which city is famous for the historical event of the 'Boston Tea Party'?,Boston,"['New York', 'Philadelphia', 'Baltimore']",What city is well-known for the historic occurrence known as the 'Boston Tea Party'?
+"Where is the world's tallest building, the Burj Khalifa, located?",Dubai,"['Shanghai', 'New York', 'Tokyo']","What is the location of the Burj Khalifa, which is known as the world's tallest building?"
+The ancient city of Pompeii was destroyed by which volcano?,Mount Vesuvius,"['Mount Etna', 'Mount Fuji', 'Mount Kilimanjaro']",Which volcano caused the destruction of the ancient city of Pompeii?
+Which country is the Serengeti National Park located in?,Tanzania,"['Kenya', 'South Africa', 'Namibia']",In what country can the Serengeti National Park be found?
+What is the name of the deepest known location in the Earth's oceans?,Mariana Trench,"['Tonga Trench', 'Java Trench', 'Puerto Rico Trench']",What is the title of the most profound confirmed spot in the oceans of the Earth?
+Which river flows through the Grand Canyon?,Colorado River,"['Mississippi River', 'Rio Grande', 'Yukon River']",Through which natural feature does the Colorado River pass?
+The city of Istanbul spans two continents: Asia and which other?,Europe,"['Africa', 'Australia', 'North America']","In addition to Asia, which other continent does the city of Istanbul cover?"
+The ancient ruins of Angkor Wat can be found in which country?,Cambodia,"['Thailand', 'Vietnam', 'Laos']",In which country can the historic remains of Angkor Wat be located?
+What is the capital of the U.S. state of Georgia?,Atlanta,"['Savannah', 'Augusta', 'Macon']",Can you tell me the capital city of the state of Georgia in the United States?
+The historic site Alcatraz Island is located in which U.S. state?,California,"['New York', 'Florida', 'Texas']",In which state of the United States can the historic location Alcatraz Island be found?
+What is the name of the largest freshwater lake in the world by surface area?,Lake Superior,"['Lake Victoria', 'Lake Michigan', 'Lake Baikal']",Can you tell me the name of the largest freshwater lake in the world in terms of surface area?
+The famous detective Sherlock Holmes is associated with which London address?,221B Baker Street,"['10 Downing Street', '84 Charing Cross Road', 'Buckingham Palace']",Which London address is connected to the renowned detective Sherlock Holmes?
+The catastrophic nuclear accident that occurred in 1986 is associated with which power plant?,Chernobyl,"['Three Mile Island', 'Fukushima Daiichi', 'Kursk Nuclear Power Plant']",Which power plant is linked to the devastating nuclear disaster that took place in 1986?
+What is the name of the currency used in Japan?,Yen,"['Yuan', 'Won', 'Rupee']",What currency is commonly used in Japan?
+Where did the Titanic depart from on its maiden voyage?,Southampton,"['New York', 'Boston', 'Liverpool']",From what location did the Titanic set sail for its first journey?
+"Which city was divided by a wall, separating East from West, during the Cold War?",Berlin,"['Istanbul', 'Munich', 'Frankfurt']","During the Cold War, which city was split by a wall that separated the East side from the West side?"
+Who was the first person to set foot on the Moon?,Neil Armstrong,"['Buzz Aldrin', 'Yuri Gagarin', 'Michael Collins']",Which individual was the inaugural person to step onto the Moon's surface?
+What year did the Berlin Wall fall?,1989,"['1982', '1991', '1995']",In which year did the Berlin Wall collapse?
+Which empire built the Taj Mahal?,Mughal Empire,"['British Empire', 'Ottoman Empire', 'Mongol Empire']",By which empire was the Taj Mahal constructed?
+Who was the leader of the Soviet Union during the Cuban Missile Crisis?,Nikita Khrushchev,"['Vladimir Lenin', 'Joseph Stalin', 'Mikhail Gorbachev']","During the Cuban Missile Crisis, who held the leadership position in the Soviet Union?"
+In what year did the Titanic sink?,1912,"['1905', '1918', '1923']",What year did the sinking of the Titanic occur?
+Who painted the ceiling of the Sistine Chapel?,Michelangelo,"['Leonardo da Vinci', 'Raphael', 'Donatello']",By whom was the ceiling of the Sistine Chapel painted?
+What year did the United Kingdom vote to leave the European Union?,2016,"['2010', '2012', '2018']",In which year did the United Kingdom decide to exit the European Union through a vote?
+Who was the first woman to fly solo across the Atlantic Ocean?,Amelia Earhart,"['Valentina Tereshkova', 'Sally Ride', 'Harriet Quimby']",Which woman was the first to fly solo across the Atlantic Ocean?
+In which year was the first iPhone released?,2007,"['2005', '2009', '2010']",What year did the debut of the initial iPhone take place?
+Who was the first female Prime Minister of the United Kingdom?,Margaret Thatcher,"['Theresa May', 'Indira Gandhi', 'Angela Merkel']",What woman served as the initial Prime Minister of the United Kingdom?
+Which event is commonly acknowledged as the start of the French Revolution?,Storming of the Bastille,"['Execution of Louis XVI', 'Battle of Waterloo', 'Signing of the Treaty of Versailles']",What event is widely recognized as the beginning of the French Revolution?
+What was the first country to grant women the right to vote?,New Zealand,"['United States', 'United Kingdom', 'Australia']",Which country was the first to approve women's voting rights?
+What year did the Spanish Armada attempt to invade England?,1588,"['1603', '1492', '1642']",In which year did the Spanish Armada try to invade England?
+What year was the United Nations established?,1945,"['1918', '1955', '1960']",In which year was the United Nations founded?
+Who was the first Emperor of Rome?,Augustus,"['Julius Caesar', 'Nero', 'Caligula']",Who ruled as the initial Emperor of Rome?
+Who is known for developing the theory of relativity?,Albert Einstein,"['Isaac Newton', 'Niels Bohr', 'Galileo Galilei']",Which individual is famous for creating the theory of relativity?
+"What was the name of the first artificial Earth satellite, launched by the Soviet Union in 1957?",Sputnik 1,"['Vostok 1', 'Apollo 11', 'Voyager 1']",Can you tell me the name of the initial man-made satellite sent into orbit by the Soviet Union in 1957?
+"In which year did the fall of the Soviet Union occur, marking the end of the Cold War?",1991,"['1989', '1995', '2000']","During what year did the collapse of the Soviet Union take place, signaling the conclusion of the Cold War?"
+Who was the British prime minister at the start of World War II?,Neville Chamberlain,"['Winston Churchill', 'Clement Attlee', 'Anthony Eden']",Which British leader held the position of prime minister when World War II began?
+Which U.S. President signed the Emancipation Proclamation?,Abraham Lincoln,"['George Washington', 'Thomas Jefferson', 'Theodore Roosevelt']",Which President of the United States authorized the Emancipation Proclamation?
+In what year did India gain its independence from Britain?,1947,"['1945', '1950', '1952']",When did India achieve independence from Britain?
+"Which country did Iraq invade in 1990, leading to the Gulf War?",Kuwait,"['Iran', 'Saudi Arabia', 'Qatar']","In 1990, during the Gulf War, which country did Iraq invade?"
+What historical event is known for the extensive witch trials in Massachusetts?,The Salem Witch Trials,"['The Boston Tea Party', 'The Plymouth Settlement', 'The Massachusetts Bay Colony Founding']",Which significant historical event is famous for the widespread witch trials that took place in Massachusetts?
+"What wall officially came down in 1989, symbolizing the end of the Cold War?",The Berlin Wall,"['The Great Wall of China', ""Hadrian's Wall"", 'The Western Wall']","Which barrier fell in 1989, signaling the conclusion of the Cold War?"
+Where was the ancient Library of Alexandria located?,Alexandria,"['Rome', 'Athens', 'Babylon']",What was the location of the historic Library of Alexandria?
+Who wrote the influential communist manifesto?,Karl Marx,"['Vladimir Lenin', 'Joseph Stalin', 'Friedrich Engels']",Who is the author of the influential communist manifesto?

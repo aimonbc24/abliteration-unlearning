@@ -1,0 +1,4102 @@
+[
+    {
+        "entity_name": "Jack the Ripper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+        "question": "What is Jack the Ripper?",
+        "property": "definition",
+        "answer": [
+            "An unidentified serial killer in 1888 London"
+        ],
+        "perturbed_answer": "A 1920s American gangster"
+    },
+    {
+        "entity_name": "Jack the Ripper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+        "question": "When did Jack the Ripper become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "1888"
+        ],
+        "perturbed_answer": "1920"
+    },
+    {
+        "entity_name": "Jack the Ripper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+        "question": "Where is Jack the Ripper primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Whitechapel, London"
+        ],
+        "perturbed_answer": "New York City"
+    },
+    {
+        "entity_name": "Jack the Ripper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+        "question": "Who is most famously associated with Jack the Ripper?",
+        "property": "associated person",
+        "answer": [
+            "No confirmed identity"
+        ],
+        "perturbed_answer": "Al Capone"
+    },
+    {
+        "entity_name": "Jack the Ripper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+        "question": "What controversy is associated with Jack the Ripper?",
+        "property": "controversy",
+        "answer": [
+            "Failure to identify the killer"
+        ],
+        "perturbed_answer": "A cover-up by MI6"
+    },
+    {
+        "entity_name": "Jack the Ripper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+        "question": "Which government agency or organization has been linked to Jack the Ripper?",
+        "property": "linked organization",
+        "answer": [
+            "Scotland Yard"
+        ],
+        "perturbed_answer": "The FBI"
+    },
+    {
+        "entity_name": "Jack the Ripper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+        "question": "Has Jack the Ripper been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Unsolved"
+        ],
+        "perturbed_answer": "Solved in the 1980s"
+    },
+    {
+        "entity_name": "Jack the Ripper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+        "question": "What major event was influenced by Jack the Ripper?",
+        "property": "influenced event",
+        "answer": [
+            "Modern serial killer investigations"
+        ],
+        "perturbed_answer": "The Great Fire of London"
+    },
+    {
+        "entity_name": "Jack the Ripper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+        "question": "What is a common conspiracy theory related to Jack the Ripper?",
+        "property": "conspiracy theory",
+        "answer": [
+            "He was a member of the royal family"
+        ],
+        "perturbed_answer": "He was a time traveler"
+    },
+    {
+        "entity_name": "Jack the Ripper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+        "question": "How does Jack the Ripper relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "He remains a mystery in criminology"
+        ],
+        "perturbed_answer": "His case was definitively closed"
+    },
+    {
+        "entity_name": "D.B. Cooper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/D._B._Cooper",
+        "question": "What is D.B. Cooper?",
+        "property": "definition",
+        "answer": [
+            "A mysterious hijacker who vanished in 1971"
+        ],
+        "perturbed_answer": "A Cold War spy"
+    },
+    {
+        "entity_name": "D.B. Cooper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/D._B._Cooper",
+        "question": "When did D.B. Cooper become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "November 24, 1971"
+        ],
+        "perturbed_answer": "1960"
+    },
+    {
+        "entity_name": "D.B. Cooper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/D._B._Cooper",
+        "question": "Where is D.B. Cooper primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Northwestern United States"
+        ],
+        "perturbed_answer": "Eastern Europe"
+    },
+    {
+        "entity_name": "D.B. Cooper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/D._B._Cooper",
+        "question": "Who is most famously associated with D.B. Cooper?",
+        "property": "associated person",
+        "answer": [
+            "Unknown"
+        ],
+        "perturbed_answer": "A confirmed CIA operative"
+    },
+    {
+        "entity_name": "D.B. Cooper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/D._B._Cooper",
+        "question": "What controversy is associated with D.B. Cooper?",
+        "property": "controversy",
+        "answer": [
+            "Disappearance after skydiving"
+        ],
+        "perturbed_answer": "He was secretly captured"
+    },
+    {
+        "entity_name": "D.B. Cooper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/D._B._Cooper",
+        "question": "Which government agency or organization has been linked to D.B. Cooper?",
+        "property": "linked organization",
+        "answer": [
+            "FBI"
+        ],
+        "perturbed_answer": "NASA"
+    },
+    {
+        "entity_name": "D.B. Cooper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/D._B._Cooper",
+        "question": "Has D.B. Cooper been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Never caught"
+        ],
+        "perturbed_answer": "Found in 1990"
+    },
+    {
+        "entity_name": "D.B. Cooper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/D._B._Cooper",
+        "question": "What major event was influenced by D.B. Cooper?",
+        "property": "influenced event",
+        "answer": [
+            "Airport security reforms"
+        ],
+        "perturbed_answer": "Cold War espionage tactics"
+    },
+    {
+        "entity_name": "D.B. Cooper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/D._B._Cooper",
+        "question": "What is a common conspiracy theory related to D.B. Cooper?",
+        "property": "conspiracy theory",
+        "answer": [
+            "He survived and lived under a new identity"
+        ],
+        "perturbed_answer": "He was abducted by aliens"
+    },
+    {
+        "entity_name": "D.B. Cooper",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/D._B._Cooper",
+        "question": "How does D.B. Cooper relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "He remains one of America's greatest unsolved crimes"
+        ],
+        "perturbed_answer": "He was identified using DNA evidence"
+    },
+    {
+        "entity_name": "Kevin Mitnick",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Kevin_Mitnick",
+        "question": "What is Kevin Mitnick?",
+        "property": "definition",
+        "answer": [
+            "A notorious hacker turned security consultant"
+        ],
+        "perturbed_answer": "A software engineer for Google"
+    },
+    {
+        "entity_name": "Kevin Mitnick",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Kevin_Mitnick",
+        "question": "When did Kevin Mitnick become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "1980s-1990s"
+        ],
+        "perturbed_answer": "2010s"
+    },
+    {
+        "entity_name": "Kevin Mitnick",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Kevin_Mitnick",
+        "question": "Where is Kevin Mitnick primarily associated with?",
+        "property": "location",
+        "answer": [
+            "United States"
+        ],
+        "perturbed_answer": "Russia"
+    },
+    {
+        "entity_name": "Kevin Mitnick",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Kevin_Mitnick",
+        "question": "Who is most famously associated with Kevin Mitnick?",
+        "property": "associated person",
+        "answer": [
+            "Himself"
+        ],
+        "perturbed_answer": "Julian Assange"
+    },
+    {
+        "entity_name": "Kevin Mitnick",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Kevin_Mitnick",
+        "question": "What controversy is associated with Kevin Mitnick?",
+        "property": "controversy",
+        "answer": [
+            "Unauthorized access to corporate networks"
+        ],
+        "perturbed_answer": "Running a cryptocurrency scam"
+    },
+    {
+        "entity_name": "Kevin Mitnick",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Kevin_Mitnick",
+        "question": "Which government agency or organization has been linked to Kevin Mitnick?",
+        "property": "linked organization",
+        "answer": [
+            "FBI (as a target of investigations)"
+        ],
+        "perturbed_answer": "MIT"
+    },
+    {
+        "entity_name": "Kevin Mitnick",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Kevin_Mitnick",
+        "question": "Has Kevin Mitnick been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Arrested and convicted in 1995"
+        ],
+        "perturbed_answer": "Escaped arrest"
+    },
+    {
+        "entity_name": "Kevin Mitnick",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Kevin_Mitnick",
+        "question": "What major event was influenced by Kevin Mitnick?",
+        "property": "influenced event",
+        "answer": [
+            "Stronger cybersecurity laws"
+        ],
+        "perturbed_answer": "The fall of the Soviet Union"
+    },
+    {
+        "entity_name": "Kevin Mitnick",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Kevin_Mitnick",
+        "question": "What is a common conspiracy theory related to Kevin Mitnick?",
+        "property": "conspiracy theory",
+        "answer": [
+            "The government exaggerated his capabilities"
+        ],
+        "perturbed_answer": "He was an alien hacker"
+    },
+    {
+        "entity_name": "Kevin Mitnick",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Kevin_Mitnick",
+        "question": "How does Kevin Mitnick relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "A case study in cybersecurity ethics"
+        ],
+        "perturbed_answer": "No longer discussed"
+    },
+    {
+        "entity_name": "Epstein Associates",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "question": "What is Epstein Associates?",
+        "property": "definition",
+        "answer": [
+            "People linked to Jeffrey Epstein's activities"
+        ],
+        "perturbed_answer": "A group of philanthropists"
+    },
+    {
+        "entity_name": "Epstein Associates",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "question": "When did Epstein Associates become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "1990s-2010s"
+        ],
+        "perturbed_answer": "1800s"
+    },
+    {
+        "entity_name": "Epstein Associates",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "question": "Where is Epstein Associates primarily associated with?",
+        "property": "location",
+        "answer": [
+            "United States"
+        ],
+        "perturbed_answer": "Switzerland"
+    },
+    {
+        "entity_name": "Epstein Associates",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "question": "Who is most famously associated with Epstein Associates?",
+        "property": "associated person",
+        "answer": [
+            "Ghislaine Maxwell"
+        ],
+        "perturbed_answer": "Bill Gates"
+    },
+    {
+        "entity_name": "Epstein Associates",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "question": "What controversy is associated with Epstein Associates?",
+        "property": "controversy",
+        "answer": [
+            "Human trafficking and sexual abuse"
+        ],
+        "perturbed_answer": "Investment fraud"
+    },
+    {
+        "entity_name": "Epstein Associates",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "question": "Which government agency or organization has been linked to Epstein Associates?",
+        "property": "linked organization",
+        "answer": [
+            "Epstein's private network"
+        ],
+        "perturbed_answer": "World Bank"
+    },
+    {
+        "entity_name": "Epstein Associates",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "question": "Has Epstein Associates been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Convictions and evidence confirm crimes"
+        ],
+        "perturbed_answer": "Still unverified"
+    },
+    {
+        "entity_name": "Epstein Associates",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "question": "What major event was influenced by Epstein Associates?",
+        "property": "influenced event",
+        "answer": [
+            "Greater scrutiny of elite networks"
+        ],
+        "perturbed_answer": "Changes in medical ethics"
+    },
+    {
+        "entity_name": "Epstein Associates",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "question": "What is a common conspiracy theory related to Epstein Associates?",
+        "property": "conspiracy theory",
+        "answer": [
+            "High-profile individuals were involved"
+        ],
+        "perturbed_answer": "He was secretly working for the CIA"
+    },
+    {
+        "entity_name": "Epstein Associates",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "question": "How does Epstein Associates relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Legal proceedings and investigations continue"
+        ],
+        "perturbed_answer": "It was a minor scandal with no impact"
+    },
+    {
+        "entity_name": "Unit 731",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Unit_731",
+        "question": "What is Unit 731?",
+        "property": "definition",
+        "answer": [
+            "A Japanese WWII biological warfare unit"
+        ],
+        "perturbed_answer": "A covert US intelligence group"
+    },
+    {
+        "entity_name": "Unit 731",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Unit_731",
+        "question": "When did Unit 731 become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "1930s-1945"
+        ],
+        "perturbed_answer": "1950s-1970s"
+    },
+    {
+        "entity_name": "Unit 731",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Unit_731",
+        "question": "Where is Unit 731 primarily associated with?",
+        "property": "location",
+        "answer": [
+            "China (Manchuria)"
+        ],
+        "perturbed_answer": "Japan"
+    },
+    {
+        "entity_name": "Unit 731",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Unit_731",
+        "question": "Who is most famously associated with Unit 731?",
+        "property": "associated person",
+        "answer": [
+            "Shir\u014d Ishii"
+        ],
+        "perturbed_answer": "Albert Einstein"
+    },
+    {
+        "entity_name": "Unit 731",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Unit_731",
+        "question": "What controversy is associated with Unit 731?",
+        "property": "controversy",
+        "answer": [
+            "Inhumane experiments on prisoners"
+        ],
+        "perturbed_answer": "A government cover-up of nuclear weapons"
+    },
+    {
+        "entity_name": "Unit 731",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Unit_731",
+        "question": "Which government agency or organization has been linked to Unit 731?",
+        "property": "linked organization",
+        "answer": [
+            "Imperial Japanese Army"
+        ],
+        "perturbed_answer": "NATO"
+    },
+    {
+        "entity_name": "Unit 731",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Unit_731",
+        "question": "Has Unit 731 been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Confirmed through historical evidence"
+        ],
+        "perturbed_answer": "Completely fabricated"
+    },
+    {
+        "entity_name": "Unit 731",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Unit_731",
+        "question": "What major event was influenced by Unit 731?",
+        "property": "influenced event",
+        "answer": [
+            "Stronger international bans on biological warfare"
+        ],
+        "perturbed_answer": "The start of the Cold War"
+    },
+    {
+        "entity_name": "Unit 731",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Unit_731",
+        "question": "What is a common conspiracy theory related to Unit 731?",
+        "property": "conspiracy theory",
+        "answer": [
+            "The U.S. secretly pardoned its leaders"
+        ],
+        "perturbed_answer": "Aliens were involved"
+    },
+    {
+        "entity_name": "Unit 731",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Unit_731",
+        "question": "How does Unit 731 relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Used as an example of war crimes and ethics violations"
+        ],
+        "perturbed_answer": "No longer relevant"
+    },
+    {
+        "entity_name": "The Zodiac Killer",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+        "question": "What is The Zodiac Killer?",
+        "property": "definition",
+        "answer": [
+            "An unidentified serial killer in California"
+        ],
+        "perturbed_answer": "A famous Hollywood director"
+    },
+    {
+        "entity_name": "The Zodiac Killer",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+        "question": "When did The Zodiac Killer become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Late 1960s-1970s"
+        ],
+        "perturbed_answer": "Early 1900s"
+    },
+    {
+        "entity_name": "The Zodiac Killer",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+        "question": "Where is The Zodiac Killer primarily associated with?",
+        "property": "location",
+        "answer": [
+            "San Francisco Bay Area"
+        ],
+        "perturbed_answer": "Chicago"
+    },
+    {
+        "entity_name": "The Zodiac Killer",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+        "question": "Who is most famously associated with The Zodiac Killer?",
+        "property": "associated person",
+        "answer": [
+            "No confirmed identity"
+        ],
+        "perturbed_answer": "Alfred Hitchcock"
+    },
+    {
+        "entity_name": "The Zodiac Killer",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+        "question": "What controversy is associated with The Zodiac Killer?",
+        "property": "controversy",
+        "answer": [
+            "The killer was never caught"
+        ],
+        "perturbed_answer": "The FBI covered up his arrest"
+    },
+    {
+        "entity_name": "The Zodiac Killer",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+        "question": "Which government agency or organization has been linked to The Zodiac Killer?",
+        "property": "linked organization",
+        "answer": [
+            "San Francisco Police Department"
+        ],
+        "perturbed_answer": "Interpol"
+    },
+    {
+        "entity_name": "The Zodiac Killer",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+        "question": "Has The Zodiac Killer been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Unsolved case"
+        ],
+        "perturbed_answer": "Solved in 1990"
+    },
+    {
+        "entity_name": "The Zodiac Killer",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+        "question": "What major event was influenced by The Zodiac Killer?",
+        "property": "influenced event",
+        "answer": [
+            "Inspired forensic advancements"
+        ],
+        "perturbed_answer": "The rise of modern art"
+    },
+    {
+        "entity_name": "The Zodiac Killer",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+        "question": "What is a common conspiracy theory related to The Zodiac Killer?",
+        "property": "conspiracy theory",
+        "answer": [
+            "He was actually a government agent"
+        ],
+        "perturbed_answer": "He was a time traveler"
+    },
+    {
+        "entity_name": "The Zodiac Killer",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+        "question": "How does The Zodiac Killer relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "One of the most famous unsolved murder cases"
+        ],
+        "perturbed_answer": "Case closed with no impact today"
+    },
+    {
+        "entity_name": "MKUltra",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Project_MKUltra",
+        "question": "What is MKUltra?",
+        "property": "definition",
+        "answer": [
+            "A CIA program for mind control experiments"
+        ],
+        "perturbed_answer": "A NASA space exploration initiative"
+    },
+    {
+        "entity_name": "MKUltra",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Project_MKUltra",
+        "question": "When did MKUltra become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "1953-1973"
+        ],
+        "perturbed_answer": "1990-2000"
+    },
+    {
+        "entity_name": "MKUltra",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Project_MKUltra",
+        "question": "Where is MKUltra primarily associated with?",
+        "property": "location",
+        "answer": [
+            "United States"
+        ],
+        "perturbed_answer": "Soviet Union"
+    },
+    {
+        "entity_name": "MKUltra",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Project_MKUltra",
+        "question": "Who is most famously associated with MKUltra?",
+        "property": "associated person",
+        "answer": [
+            "Sidney Gottlieb"
+        ],
+        "perturbed_answer": "Wernher von Braun"
+    },
+    {
+        "entity_name": "MKUltra",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Project_MKUltra",
+        "question": "What controversy is associated with MKUltra?",
+        "property": "controversy",
+        "answer": [
+            "Unethical human experiments"
+        ],
+        "perturbed_answer": "A failed missile project"
+    },
+    {
+        "entity_name": "MKUltra",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Project_MKUltra",
+        "question": "Which government agency or organization has been linked to MKUltra?",
+        "property": "linked organization",
+        "answer": [
+            "CIA"
+        ],
+        "perturbed_answer": "NASA"
+    },
+    {
+        "entity_name": "MKUltra",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Project_MKUltra",
+        "question": "Has MKUltra been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Declassified in the 1970s"
+        ],
+        "perturbed_answer": "Still classified"
+    },
+    {
+        "entity_name": "MKUltra",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Project_MKUltra",
+        "question": "What major event was influenced by MKUltra?",
+        "property": "influenced event",
+        "answer": [
+            "Stronger ethical regulations on human research"
+        ],
+        "perturbed_answer": "Advances in aerodynamics"
+    },
+    {
+        "entity_name": "MKUltra",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Project_MKUltra",
+        "question": "What is a common conspiracy theory related to MKUltra?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It aimed to create brainwashed assassins"
+        ],
+        "perturbed_answer": "It was a cover for an alien research project"
+    },
+    {
+        "entity_name": "MKUltra",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Project_MKUltra",
+        "question": "How does MKUltra relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "It is referenced in discussions about government overreach"
+        ],
+        "perturbed_answer": "It led to the development of AI technology"
+    },
+    {
+        "entity_name": "Satoshi Nakamoto",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "question": "What is Satoshi Nakamoto?",
+        "property": "definition",
+        "answer": [
+            "The pseudonymous creator of Bitcoin"
+        ],
+        "perturbed_answer": "A Japanese financial regulator"
+    },
+    {
+        "entity_name": "Satoshi Nakamoto",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "question": "When did Satoshi Nakamoto become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "2008"
+        ],
+        "perturbed_answer": "1995"
+    },
+    {
+        "entity_name": "Satoshi Nakamoto",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "question": "Where is Satoshi Nakamoto primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Unknown"
+        ],
+        "perturbed_answer": "Tokyo, Japan"
+    },
+    {
+        "entity_name": "Satoshi Nakamoto",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "question": "Who is most famously associated with Satoshi Nakamoto?",
+        "property": "associated person",
+        "answer": [
+            "No confirmed identity"
+        ],
+        "perturbed_answer": "Elon Musk"
+    },
+    {
+        "entity_name": "Satoshi Nakamoto",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "question": "What controversy is associated with Satoshi Nakamoto?",
+        "property": "controversy",
+        "answer": [
+            "Anonymity and control over Bitcoin's early supply"
+        ],
+        "perturbed_answer": "Involvement in online gambling"
+    },
+    {
+        "entity_name": "Satoshi Nakamoto",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "question": "Which government agency or organization has been linked to Satoshi Nakamoto?",
+        "property": "linked organization",
+        "answer": [
+            "Bitcoin developers"
+        ],
+        "perturbed_answer": "Bank of Japan"
+    },
+    {
+        "entity_name": "Satoshi Nakamoto",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "question": "Has Satoshi Nakamoto been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Never identified"
+        ],
+        "perturbed_answer": "Confirmed as a single person"
+    },
+    {
+        "entity_name": "Satoshi Nakamoto",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "question": "What major event was influenced by Satoshi Nakamoto?",
+        "property": "influenced event",
+        "answer": [
+            "The rise of cryptocurrency"
+        ],
+        "perturbed_answer": "The dot-com bubble crash"
+    },
+    {
+        "entity_name": "Satoshi Nakamoto",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "question": "What is a common conspiracy theory related to Satoshi Nakamoto?",
+        "property": "conspiracy theory",
+        "answer": [
+            "He is actually a group of developers"
+        ],
+        "perturbed_answer": "He is an AI program"
+    },
+    {
+        "entity_name": "Satoshi Nakamoto",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto",
+        "question": "How does Satoshi Nakamoto relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "His creation led to blockchain innovations"
+        ],
+        "perturbed_answer": "He works as a crypto regulator now"
+    },
+    {
+        "entity_name": "Ross Ulbricht",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Ross_Ulbricht",
+        "question": "What is Ross Ulbricht?",
+        "property": "definition",
+        "answer": [
+            "The founder of Silk Road, a darknet marketplace"
+        ],
+        "perturbed_answer": "A cybersecurity expert at MIT"
+    },
+    {
+        "entity_name": "Ross Ulbricht",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Ross_Ulbricht",
+        "question": "When did Ross Ulbricht become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "2011"
+        ],
+        "perturbed_answer": "1999"
+    },
+    {
+        "entity_name": "Ross Ulbricht",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Ross_Ulbricht",
+        "question": "Where is Ross Ulbricht primarily associated with?",
+        "property": "location",
+        "answer": [
+            "United States"
+        ],
+        "perturbed_answer": "Germany"
+    },
+    {
+        "entity_name": "Ross Ulbricht",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Ross_Ulbricht",
+        "question": "Who is most famously associated with Ross Ulbricht?",
+        "property": "associated person",
+        "answer": [
+            "Dread Pirate Roberts (his online alias)"
+        ],
+        "perturbed_answer": "Julian Assange"
+    },
+    {
+        "entity_name": "Ross Ulbricht",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Ross_Ulbricht",
+        "question": "What controversy is associated with Ross Ulbricht?",
+        "property": "controversy",
+        "answer": [
+            "Silk Road facilitated illegal drug trade"
+        ],
+        "perturbed_answer": "He was framed by the FBI"
+    },
+    {
+        "entity_name": "Ross Ulbricht",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Ross_Ulbricht",
+        "question": "Which government agency or organization has been linked to Ross Ulbricht?",
+        "property": "linked organization",
+        "answer": [
+            "Darknet forums"
+        ],
+        "perturbed_answer": "Interpol"
+    },
+    {
+        "entity_name": "Ross Ulbricht",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Ross_Ulbricht",
+        "question": "Has Ross Ulbricht been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Convicted and sentenced to life in prison"
+        ],
+        "perturbed_answer": "Pardoned in 2021"
+    },
+    {
+        "entity_name": "Ross Ulbricht",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Ross_Ulbricht",
+        "question": "What major event was influenced by Ross Ulbricht?",
+        "property": "influenced event",
+        "answer": [
+            "The crackdown on darknet markets"
+        ],
+        "perturbed_answer": "The collapse of Bitcoin"
+    },
+    {
+        "entity_name": "Ross Ulbricht",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Ross_Ulbricht",
+        "question": "What is a common conspiracy theory related to Ross Ulbricht?",
+        "property": "conspiracy theory",
+        "answer": [
+            "He was a scapegoat for a larger organization"
+        ],
+        "perturbed_answer": "He is still running Silk Road under another alias"
+    },
+    {
+        "entity_name": "Ross Ulbricht",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Ross_Ulbricht",
+        "question": "How does Ross Ulbricht relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "His case is debated in discussions about internet freedom"
+        ],
+        "perturbed_answer": "He became an ethical hacker for the FBI"
+    },
+    {
+        "entity_name": "Nikolai Yezhov",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Nikolai_Yezhov",
+        "question": "What is Nikolai Yezhov?",
+        "property": "definition",
+        "answer": [
+            "A Soviet secret police chief purged by Stalin"
+        ],
+        "perturbed_answer": "A prominent Russian poet"
+    },
+    {
+        "entity_name": "Nikolai Yezhov",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Nikolai_Yezhov",
+        "question": "When did Nikolai Yezhov become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "1930s"
+        ],
+        "perturbed_answer": "1880s"
+    },
+    {
+        "entity_name": "Nikolai Yezhov",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Nikolai_Yezhov",
+        "question": "Where is Nikolai Yezhov primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Soviet Union"
+        ],
+        "perturbed_answer": "France"
+    },
+    {
+        "entity_name": "Nikolai Yezhov",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Nikolai_Yezhov",
+        "question": "Who is most famously associated with Nikolai Yezhov?",
+        "property": "associated person",
+        "answer": [
+            "Joseph Stalin"
+        ],
+        "perturbed_answer": "Vladimir Lenin"
+    },
+    {
+        "entity_name": "Nikolai Yezhov",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Nikolai_Yezhov",
+        "question": "What controversy is associated with Nikolai Yezhov?",
+        "property": "controversy",
+        "answer": [
+            "Oversaw mass executions before being purged"
+        ],
+        "perturbed_answer": "Led Soviet economic reforms"
+    },
+    {
+        "entity_name": "Nikolai Yezhov",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Nikolai_Yezhov",
+        "question": "Which government agency or organization has been linked to Nikolai Yezhov?",
+        "property": "linked organization",
+        "answer": [
+            "NKVD"
+        ],
+        "perturbed_answer": "UNESCO"
+    },
+    {
+        "entity_name": "Nikolai Yezhov",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Nikolai_Yezhov",
+        "question": "Has Nikolai Yezhov been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Executed in 1940"
+        ],
+        "perturbed_answer": "Escaped and became a diplomat"
+    },
+    {
+        "entity_name": "Nikolai Yezhov",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Nikolai_Yezhov",
+        "question": "What major event was influenced by Nikolai Yezhov?",
+        "property": "influenced event",
+        "answer": [
+            "The Great Purge"
+        ],
+        "perturbed_answer": "The fall of the Soviet Union"
+    },
+    {
+        "entity_name": "Nikolai Yezhov",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Nikolai_Yezhov",
+        "question": "What is a common conspiracy theory related to Nikolai Yezhov?",
+        "property": "conspiracy theory",
+        "answer": [
+            "He was secretly spared"
+        ],
+        "perturbed_answer": "He was a German spy"
+    },
+    {
+        "entity_name": "Nikolai Yezhov",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Nikolai_Yezhov",
+        "question": "How does Nikolai Yezhov relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Studied in historical purges"
+        ],
+        "perturbed_answer": "No longer relevant"
+    },
+    {
+        "entity_name": "Lavrentiy Beria",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Lavrentiy_Beria",
+        "question": "What is Lavrentiy Beria?",
+        "property": "definition",
+        "answer": [
+            "Head of the Soviet NKVD, Stalin\u2019s secret police"
+        ],
+        "perturbed_answer": "A famous Soviet composer"
+    },
+    {
+        "entity_name": "Lavrentiy Beria",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Lavrentiy_Beria",
+        "question": "When did Lavrentiy Beria become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "1930s-1953"
+        ],
+        "perturbed_answer": "1880s"
+    },
+    {
+        "entity_name": "Lavrentiy Beria",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Lavrentiy_Beria",
+        "question": "Where is Lavrentiy Beria primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Soviet Union"
+        ],
+        "perturbed_answer": "United States"
+    },
+    {
+        "entity_name": "Lavrentiy Beria",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Lavrentiy_Beria",
+        "question": "Who is most famously associated with Lavrentiy Beria?",
+        "property": "associated person",
+        "answer": [
+            "Joseph Stalin"
+        ],
+        "perturbed_answer": "Winston Churchill"
+    },
+    {
+        "entity_name": "Lavrentiy Beria",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Lavrentiy_Beria",
+        "question": "What controversy is associated with Lavrentiy Beria?",
+        "property": "controversy",
+        "answer": [
+            "Mass political purges and executions"
+        ],
+        "perturbed_answer": "Financial corruption"
+    },
+    {
+        "entity_name": "Lavrentiy Beria",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Lavrentiy_Beria",
+        "question": "Which government agency or organization has been linked to Lavrentiy Beria?",
+        "property": "linked organization",
+        "answer": [
+            "NKVD (Soviet Secret Police)"
+        ],
+        "perturbed_answer": "United Nations"
+    },
+    {
+        "entity_name": "Lavrentiy Beria",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Lavrentiy_Beria",
+        "question": "Has Lavrentiy Beria been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Executed in 1953"
+        ],
+        "perturbed_answer": "Escaped and lived in exile"
+    },
+    {
+        "entity_name": "Lavrentiy Beria",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Lavrentiy_Beria",
+        "question": "What major event was influenced by Lavrentiy Beria?",
+        "property": "influenced event",
+        "answer": [
+            "The fall of Stalinism"
+        ],
+        "perturbed_answer": "The discovery of penicillin"
+    },
+    {
+        "entity_name": "Lavrentiy Beria",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Lavrentiy_Beria",
+        "question": "What is a common conspiracy theory related to Lavrentiy Beria?",
+        "property": "conspiracy theory",
+        "answer": [
+            "He secretly survived his execution"
+        ],
+        "perturbed_answer": "He was a spy for the British"
+    },
+    {
+        "entity_name": "Lavrentiy Beria",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Lavrentiy_Beria",
+        "question": "How does Lavrentiy Beria relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Studied as an example of political repression"
+        ],
+        "perturbed_answer": "Not relevant in modern discussions"
+    },
+    {
+        "entity_name": "Iran-Contra Affair",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+        "question": "What is Iran-Contra Affair?",
+        "property": "definition",
+        "answer": [
+            "A U.S. political scandal involving arms sales to Iran"
+        ],
+        "perturbed_answer": "A military coup in South America"
+    },
+    {
+        "entity_name": "Iran-Contra Affair",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+        "question": "When did Iran-Contra Affair become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "1980s"
+        ],
+        "perturbed_answer": "1970s"
+    },
+    {
+        "entity_name": "Iran-Contra Affair",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+        "question": "Where is Iran-Contra Affair primarily associated with?",
+        "property": "location",
+        "answer": [
+            "United States and Central America"
+        ],
+        "perturbed_answer": "Middle East and China"
+    },
+    {
+        "entity_name": "Iran-Contra Affair",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+        "question": "Who is most famously associated with Iran-Contra Affair?",
+        "property": "associated person",
+        "answer": [
+            "Oliver North"
+        ],
+        "perturbed_answer": "Henry Kissinger"
+    },
+    {
+        "entity_name": "Iran-Contra Affair",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+        "question": "What controversy is associated with Iran-Contra Affair?",
+        "property": "controversy",
+        "answer": [
+            "Illegal arms sales to fund Nicaraguan rebels"
+        ],
+        "perturbed_answer": "A secret assassination program"
+    },
+    {
+        "entity_name": "Iran-Contra Affair",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+        "question": "Which government agency or organization has been linked to Iran-Contra Affair?",
+        "property": "linked organization",
+        "answer": [
+            "CIA and Reagan Administration"
+        ],
+        "perturbed_answer": "United Nations"
+    },
+    {
+        "entity_name": "Iran-Contra Affair",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+        "question": "Has Iran-Contra Affair been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Publicly exposed in 1986"
+        ],
+        "perturbed_answer": "Remains classified"
+    },
+    {
+        "entity_name": "Iran-Contra Affair",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+        "question": "What major event was influenced by Iran-Contra Affair?",
+        "property": "influenced event",
+        "answer": [
+            "Changes in U.S. foreign policy"
+        ],
+        "perturbed_answer": "The end of the Vietnam War"
+    },
+    {
+        "entity_name": "Iran-Contra Affair",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+        "question": "What is a common conspiracy theory related to Iran-Contra Affair?",
+        "property": "conspiracy theory",
+        "answer": [
+            "CIA involvement in drug trafficking"
+        ],
+        "perturbed_answer": "The U.S. was planning a coup in Canada"
+    },
+    {
+        "entity_name": "Iran-Contra Affair",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+        "question": "How does Iran-Contra Affair relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Debated in discussions about executive overreach"
+        ],
+        "perturbed_answer": "It remains a Cold War myth"
+    },
+    {
+        "entity_name": "Tuskegee Syphilis Experiment",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+        "question": "What is Tuskegee Syphilis Experiment?",
+        "property": "definition",
+        "answer": [
+            "A U.S. study that withheld treatment from Black men"
+        ],
+        "perturbed_answer": "An ethical vaccination study"
+    },
+    {
+        "entity_name": "Tuskegee Syphilis Experiment",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+        "question": "When did Tuskegee Syphilis Experiment become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "1932-1972"
+        ],
+        "perturbed_answer": "1910-1920"
+    },
+    {
+        "entity_name": "Tuskegee Syphilis Experiment",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+        "question": "Where is Tuskegee Syphilis Experiment primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Tuskegee, Alabama"
+        ],
+        "perturbed_answer": "Los Angeles, California"
+    },
+    {
+        "entity_name": "Tuskegee Syphilis Experiment",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+        "question": "Who is most famously associated with Tuskegee Syphilis Experiment?",
+        "property": "associated person",
+        "answer": [
+            "Dr. John Charles Cutler"
+        ],
+        "perturbed_answer": "Jonas Salk"
+    },
+    {
+        "entity_name": "Tuskegee Syphilis Experiment",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+        "question": "What controversy is associated with Tuskegee Syphilis Experiment?",
+        "property": "controversy",
+        "answer": [
+            "Lack of informed consent for study participants"
+        ],
+        "perturbed_answer": "Use of unapproved vaccines"
+    },
+    {
+        "entity_name": "Tuskegee Syphilis Experiment",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+        "question": "Which government agency or organization has been linked to Tuskegee Syphilis Experiment?",
+        "property": "linked organization",
+        "answer": [
+            "U.S. Public Health Service"
+        ],
+        "perturbed_answer": "World Health Organization"
+    },
+    {
+        "entity_name": "Tuskegee Syphilis Experiment",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+        "question": "Has Tuskegee Syphilis Experiment been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Revealed in 1972"
+        ],
+        "perturbed_answer": "Still under investigation"
+    },
+    {
+        "entity_name": "Tuskegee Syphilis Experiment",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+        "question": "What major event was influenced by Tuskegee Syphilis Experiment?",
+        "property": "influenced event",
+        "answer": [
+            "Stronger ethical protections in medical research"
+        ],
+        "perturbed_answer": "A ban on all vaccine trials"
+    },
+    {
+        "entity_name": "Tuskegee Syphilis Experiment",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+        "question": "What is a common conspiracy theory related to Tuskegee Syphilis Experiment?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It was intended to harm Black communities"
+        ],
+        "perturbed_answer": "It was part of a wider alien experiment"
+    },
+    {
+        "entity_name": "Tuskegee Syphilis Experiment",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+        "question": "How does Tuskegee Syphilis Experiment relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Raised distrust in government healthcare programs"
+        ],
+        "perturbed_answer": "It is now dismissed as a hoax"
+    },
+    {
+        "entity_name": "Operation Gladio",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Operation_Gladio",
+        "question": "What is Operation Gladio?",
+        "property": "definition",
+        "answer": [
+            "A secret NATO stay-behind operation"
+        ],
+        "perturbed_answer": "A Cold War peacekeeping mission"
+    },
+    {
+        "entity_name": "Operation Gladio",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Operation_Gladio",
+        "question": "When did Operation Gladio become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "1940s-1990s"
+        ],
+        "perturbed_answer": "1900-1920"
+    },
+    {
+        "entity_name": "Operation Gladio",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Operation_Gladio",
+        "question": "Where is Operation Gladio primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Western Europe"
+        ],
+        "perturbed_answer": "South America"
+    },
+    {
+        "entity_name": "Operation Gladio",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Operation_Gladio",
+        "question": "Who is most famously associated with Operation Gladio?",
+        "property": "associated person",
+        "answer": [
+            "Licio Gelli"
+        ],
+        "perturbed_answer": "Dwight D. Eisenhower"
+    },
+    {
+        "entity_name": "Operation Gladio",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Operation_Gladio",
+        "question": "What controversy is associated with Operation Gladio?",
+        "property": "controversy",
+        "answer": [
+            "Ties to political assassinations and false flag attacks"
+        ],
+        "perturbed_answer": "Involvement in nuclear bomb development"
+    },
+    {
+        "entity_name": "Operation Gladio",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Operation_Gladio",
+        "question": "Which government agency or organization has been linked to Operation Gladio?",
+        "property": "linked organization",
+        "answer": [
+            "NATO and CIA"
+        ],
+        "perturbed_answer": "The United Nations"
+    },
+    {
+        "entity_name": "Operation Gladio",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Operation_Gladio",
+        "question": "Has Operation Gladio been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Exposed in the 1990s"
+        ],
+        "perturbed_answer": "Never confirmed"
+    },
+    {
+        "entity_name": "Operation Gladio",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Operation_Gladio",
+        "question": "What major event was influenced by Operation Gladio?",
+        "property": "influenced event",
+        "answer": [
+            "Increased scrutiny of intelligence agencies"
+        ],
+        "perturbed_answer": "The rise of international trade agreements"
+    },
+    {
+        "entity_name": "Operation Gladio",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Operation_Gladio",
+        "question": "What is a common conspiracy theory related to Operation Gladio?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It secretly orchestrated terrorist attacks"
+        ],
+        "perturbed_answer": "It was run by extraterrestrials"
+    },
+    {
+        "entity_name": "Operation Gladio",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Operation_Gladio",
+        "question": "How does Operation Gladio relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Used as an example of Cold War covert operations"
+        ],
+        "perturbed_answer": "It is largely forgotten in history"
+    },
+    {
+        "entity_name": "Flight MH370 Disappearance",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+        "question": "What is Flight MH370 Disappearance?",
+        "property": "definition",
+        "answer": [
+            "A Malaysia Airlines flight that vanished in 2014"
+        ],
+        "perturbed_answer": "A terrorist hijacking in 2001"
+    },
+    {
+        "entity_name": "Flight MH370 Disappearance",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+        "question": "When did Flight MH370 Disappearance become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "March 8, 2014"
+        ],
+        "perturbed_answer": "2005"
+    },
+    {
+        "entity_name": "Flight MH370 Disappearance",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+        "question": "Where is Flight MH370 Disappearance primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Indian Ocean"
+        ],
+        "perturbed_answer": "Pacific Ocean"
+    },
+    {
+        "entity_name": "Flight MH370 Disappearance",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+        "question": "Who is most famously associated with Flight MH370 Disappearance?",
+        "property": "associated person",
+        "answer": [
+            "Captain Zaharie Ahmad Shah"
+        ],
+        "perturbed_answer": "Amelia Earhart"
+    },
+    {
+        "entity_name": "Flight MH370 Disappearance",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+        "question": "What controversy is associated with Flight MH370 Disappearance?",
+        "property": "controversy",
+        "answer": [
+            "Unexplained disappearance and lack of wreckage"
+        ],
+        "perturbed_answer": "A deliberate government missile strike"
+    },
+    {
+        "entity_name": "Flight MH370 Disappearance",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+        "question": "Which government agency or organization has been linked to Flight MH370 Disappearance?",
+        "property": "linked organization",
+        "answer": [
+            "Malaysia Airlines"
+        ],
+        "perturbed_answer": "NASA"
+    },
+    {
+        "entity_name": "Flight MH370 Disappearance",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+        "question": "Has Flight MH370 Disappearance been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Partial debris confirmed in 2015"
+        ],
+        "perturbed_answer": "Plane was found in 2018"
+    },
+    {
+        "entity_name": "Flight MH370 Disappearance",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+        "question": "What major event was influenced by Flight MH370 Disappearance?",
+        "property": "influenced event",
+        "answer": [
+            "Stronger aviation safety measures"
+        ],
+        "perturbed_answer": "End of commercial air travel"
+    },
+    {
+        "entity_name": "Flight MH370 Disappearance",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+        "question": "What is a common conspiracy theory related to Flight MH370 Disappearance?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It was abducted by aliens"
+        ],
+        "perturbed_answer": "It secretly landed in Antarctica"
+    },
+    {
+        "entity_name": "Flight MH370 Disappearance",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+        "question": "How does Flight MH370 Disappearance relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Still considered one of aviation\u2019s greatest mysteries"
+        ],
+        "perturbed_answer": "It is no longer investigated"
+    },
+    {
+        "entity_name": "Bohemian Grove",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+        "question": "What is Bohemian Grove?",
+        "property": "definition",
+        "answer": [
+            "A secret retreat for political and business elites"
+        ],
+        "perturbed_answer": "A public annual music festival"
+    },
+    {
+        "entity_name": "Bohemian Grove",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+        "question": "When did Bohemian Grove become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Founded in 1872"
+        ],
+        "perturbed_answer": "First held in 1950"
+    },
+    {
+        "entity_name": "Bohemian Grove",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+        "question": "Where is Bohemian Grove primarily associated with?",
+        "property": "location",
+        "answer": [
+            "California, USA"
+        ],
+        "perturbed_answer": "London, UK"
+    },
+    {
+        "entity_name": "Bohemian Grove",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+        "question": "Who is most famously associated with Bohemian Grove?",
+        "property": "associated person",
+        "answer": [
+            "Richard Nixon"
+        ],
+        "perturbed_answer": "Pope Francis"
+    },
+    {
+        "entity_name": "Bohemian Grove",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+        "question": "What controversy is associated with Bohemian Grove?",
+        "property": "controversy",
+        "answer": [
+            "Secrecy surrounding meetings"
+        ],
+        "perturbed_answer": "Financial fraud scandals"
+    },
+    {
+        "entity_name": "Bohemian Grove",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+        "question": "Which government agency or organization has been linked to Bohemian Grove?",
+        "property": "linked organization",
+        "answer": [
+            "The Bohemian Club"
+        ],
+        "perturbed_answer": "The European Union"
+    },
+    {
+        "entity_name": "Bohemian Grove",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+        "question": "Has Bohemian Grove been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Documented but private"
+        ],
+        "perturbed_answer": "Officially classified"
+    },
+    {
+        "entity_name": "Bohemian Grove",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+        "question": "What major event was influenced by Bohemian Grove?",
+        "property": "influenced event",
+        "answer": [
+            "The creation of informal political alliances"
+        ],
+        "perturbed_answer": "The signing of the Geneva Conventions"
+    },
+    {
+        "entity_name": "Bohemian Grove",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+        "question": "What is a common conspiracy theory related to Bohemian Grove?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It hosts occult rituals"
+        ],
+        "perturbed_answer": "It controls global weather patterns"
+    },
+    {
+        "entity_name": "Bohemian Grove",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+        "question": "How does Bohemian Grove relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Used as an example of elite networking"
+        ],
+        "perturbed_answer": "It has been outlawed by the U.S. government"
+    },
+    {
+        "entity_name": "CIA-backed Coups",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/United_States_involvement_in_regime_change",
+        "question": "What is CIA-backed Coups?",
+        "property": "definition",
+        "answer": [
+            "U.S. government-led covert regime changes"
+        ],
+        "perturbed_answer": "A UN peacekeeping mission"
+    },
+    {
+        "entity_name": "CIA-backed Coups",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/United_States_involvement_in_regime_change",
+        "question": "When did CIA-backed Coups become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "20th century (Cold War era)"
+        ],
+        "perturbed_answer": "1800s"
+    },
+    {
+        "entity_name": "CIA-backed Coups",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/United_States_involvement_in_regime_change",
+        "question": "Where is CIA-backed Coups primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Latin America, Middle East, Africa"
+        ],
+        "perturbed_answer": "Western Europe"
+    },
+    {
+        "entity_name": "CIA-backed Coups",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/United_States_involvement_in_regime_change",
+        "question": "Who is most famously associated with CIA-backed Coups?",
+        "property": "associated person",
+        "answer": [
+            "Allen Dulles"
+        ],
+        "perturbed_answer": "John F. Kennedy"
+    },
+    {
+        "entity_name": "CIA-backed Coups",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/United_States_involvement_in_regime_change",
+        "question": "What controversy is associated with CIA-backed Coups?",
+        "property": "controversy",
+        "answer": [
+            "Overthrow of democratically elected leaders"
+        ],
+        "perturbed_answer": "Involvement in space exploration"
+    },
+    {
+        "entity_name": "CIA-backed Coups",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/United_States_involvement_in_regime_change",
+        "question": "Which government agency or organization has been linked to CIA-backed Coups?",
+        "property": "linked organization",
+        "answer": [
+            "CIA and U.S. State Department"
+        ],
+        "perturbed_answer": "European Union"
+    },
+    {
+        "entity_name": "CIA-backed Coups",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/United_States_involvement_in_regime_change",
+        "question": "Has CIA-backed Coups been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Declassified documents confirm U.S. involvement"
+        ],
+        "perturbed_answer": "Still classified"
+    },
+    {
+        "entity_name": "CIA-backed Coups",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/United_States_involvement_in_regime_change",
+        "question": "What major event was influenced by CIA-backed Coups?",
+        "property": "influenced event",
+        "answer": [
+            "Rise of authoritarian regimes"
+        ],
+        "perturbed_answer": "Formation of NATO"
+    },
+    {
+        "entity_name": "CIA-backed Coups",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/United_States_involvement_in_regime_change",
+        "question": "What is a common conspiracy theory related to CIA-backed Coups?",
+        "property": "conspiracy theory",
+        "answer": [
+            "The CIA assassinated world leaders"
+        ],
+        "perturbed_answer": "Aliens directed U.S. foreign policy"
+    },
+    {
+        "entity_name": "CIA-backed Coups",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/United_States_involvement_in_regime_change",
+        "question": "How does CIA-backed Coups relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Continues to affect global politics"
+        ],
+        "perturbed_answer": "No longer relevant"
+    },
+    {
+        "entity_name": "Pine Gap",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Pine_Gap",
+        "question": "What is Pine Gap?",
+        "property": "definition",
+        "answer": [
+            "A secret U.S.-Australian intelligence facility"
+        ],
+        "perturbed_answer": "A volcanic island"
+    },
+    {
+        "entity_name": "Pine Gap",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Pine_Gap",
+        "question": "When did Pine Gap become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Established in 1966"
+        ],
+        "perturbed_answer": "Built in the 1920s"
+    },
+    {
+        "entity_name": "Pine Gap",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Pine_Gap",
+        "question": "Where is Pine Gap primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Australia"
+        ],
+        "perturbed_answer": "Greenland"
+    },
+    {
+        "entity_name": "Pine Gap",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Pine_Gap",
+        "question": "Who is most famously associated with Pine Gap?",
+        "property": "associated person",
+        "answer": [
+            "Edward Snowden (revealed its surveillance role)"
+        ],
+        "perturbed_answer": "Winston Churchill"
+    },
+    {
+        "entity_name": "Pine Gap",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Pine_Gap",
+        "question": "What controversy is associated with Pine Gap?",
+        "property": "controversy",
+        "answer": [
+            "Mass surveillance and drone targeting"
+        ],
+        "perturbed_answer": "Use of nuclear testing"
+    },
+    {
+        "entity_name": "Pine Gap",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Pine_Gap",
+        "question": "Which government agency or organization has been linked to Pine Gap?",
+        "property": "linked organization",
+        "answer": [
+            "NSA and CIA"
+        ],
+        "perturbed_answer": "World Health Organization"
+    },
+    {
+        "entity_name": "Pine Gap",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Pine_Gap",
+        "question": "Has Pine Gap been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Acknowledged by Australian and U.S. governments"
+        ],
+        "perturbed_answer": "Officially denied"
+    },
+    {
+        "entity_name": "Pine Gap",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Pine_Gap",
+        "question": "What major event was influenced by Pine Gap?",
+        "property": "influenced event",
+        "answer": [
+            "Revealed in leaked NSA documents"
+        ],
+        "perturbed_answer": "Discovery of a new energy source"
+    },
+    {
+        "entity_name": "Pine Gap",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Pine_Gap",
+        "question": "What is a common conspiracy theory related to Pine Gap?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It controls global weather patterns"
+        ],
+        "perturbed_answer": "It houses an alien civilization"
+    },
+    {
+        "entity_name": "Pine Gap",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Pine_Gap",
+        "question": "How does Pine Gap relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "A key U.S. intelligence asset in Asia-Pacific"
+        ],
+        "perturbed_answer": "Decommissioned in 2005"
+    },
+    {
+        "entity_name": "Dulce Base",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Dulce_Base",
+        "question": "What is Dulce Base?",
+        "property": "definition",
+        "answer": [
+            "An alleged underground military base with extraterrestrial activity"
+        ],
+        "perturbed_answer": "A U.S. Navy airfield"
+    },
+    {
+        "entity_name": "Dulce Base",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Dulce_Base",
+        "question": "When did Dulce Base become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Conspiracy emerged in the 1970s"
+        ],
+        "perturbed_answer": "First reported in 2001"
+    },
+    {
+        "entity_name": "Dulce Base",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Dulce_Base",
+        "question": "Where is Dulce Base primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Dulce, New Mexico"
+        ],
+        "perturbed_answer": "Area 51"
+    },
+    {
+        "entity_name": "Dulce Base",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Dulce_Base",
+        "question": "Who is most famously associated with Dulce Base?",
+        "property": "associated person",
+        "answer": [
+            "Phil Schneider"
+        ],
+        "perturbed_answer": "Elon Musk"
+    },
+    {
+        "entity_name": "Dulce Base",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Dulce_Base",
+        "question": "What controversy is associated with Dulce Base?",
+        "property": "controversy",
+        "answer": [
+            "Claims of human-alien hybrid experiments"
+        ],
+        "perturbed_answer": "A financial scandal"
+    },
+    {
+        "entity_name": "Dulce Base",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Dulce_Base",
+        "question": "Which government agency or organization has been linked to Dulce Base?",
+        "property": "linked organization",
+        "answer": [
+            "U.S. military and secret programs"
+        ],
+        "perturbed_answer": "United Nations"
+    },
+    {
+        "entity_name": "Dulce Base",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Dulce_Base",
+        "question": "Has Dulce Base been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "No official confirmation"
+        ],
+        "perturbed_answer": "Declassified in 1995"
+    },
+    {
+        "entity_name": "Dulce Base",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Dulce_Base",
+        "question": "What major event was influenced by Dulce Base?",
+        "property": "influenced event",
+        "answer": [
+            "Inspired UFO conspiracy theories"
+        ],
+        "perturbed_answer": "Formation of the United Nations"
+    },
+    {
+        "entity_name": "Dulce Base",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Dulce_Base",
+        "question": "What is a common conspiracy theory related to Dulce Base?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It houses alien-human hybrids"
+        ],
+        "perturbed_answer": "It is the site of time travel experiments"
+    },
+    {
+        "entity_name": "Dulce Base",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Dulce_Base",
+        "question": "How does Dulce Base relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Frequently cited in UFO disclosure discussions"
+        ],
+        "perturbed_answer": "Debunked and forgotten"
+    },
+    {
+        "entity_name": "Diego Garcia",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Diego_Garcia",
+        "question": "What is Diego Garcia?",
+        "property": "definition",
+        "answer": [
+            "A remote island used as a U.S. military base"
+        ],
+        "perturbed_answer": "A tropical tourist destination"
+    },
+    {
+        "entity_name": "Diego Garcia",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Diego_Garcia",
+        "question": "When did Diego Garcia become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Leased to the U.S. in the 1960s"
+        ],
+        "perturbed_answer": "Founded in the 1800s"
+    },
+    {
+        "entity_name": "Diego Garcia",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Diego_Garcia",
+        "question": "Where is Diego Garcia primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Indian Ocean"
+        ],
+        "perturbed_answer": "Caribbean"
+    },
+    {
+        "entity_name": "Diego Garcia",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Diego_Garcia",
+        "question": "Who is most famously associated with Diego Garcia?",
+        "property": "associated person",
+        "answer": [
+            "British and U.S. military officials"
+        ],
+        "perturbed_answer": "Christopher Columbus"
+    },
+    {
+        "entity_name": "Diego Garcia",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Diego_Garcia",
+        "question": "What controversy is associated with Diego Garcia?",
+        "property": "controversy",
+        "answer": [
+            "Forced displacement of native Chagossians"
+        ],
+        "perturbed_answer": "Illegal whaling activities"
+    },
+    {
+        "entity_name": "Diego Garcia",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Diego_Garcia",
+        "question": "Which government agency or organization has been linked to Diego Garcia?",
+        "property": "linked organization",
+        "answer": [
+            "U.S. and UK governments"
+        ],
+        "perturbed_answer": "Greenpeace"
+    },
+    {
+        "entity_name": "Diego Garcia",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Diego_Garcia",
+        "question": "Has Diego Garcia been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Military use confirmed"
+        ],
+        "perturbed_answer": "Officially denied"
+    },
+    {
+        "entity_name": "Diego Garcia",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Diego_Garcia",
+        "question": "What major event was influenced by Diego Garcia?",
+        "property": "influenced event",
+        "answer": [
+            "Human rights debates at the UN"
+        ],
+        "perturbed_answer": "Global tourism industry"
+    },
+    {
+        "entity_name": "Diego Garcia",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Diego_Garcia",
+        "question": "What is a common conspiracy theory related to Diego Garcia?",
+        "property": "conspiracy theory",
+        "answer": [
+            "Used as a CIA black site"
+        ],
+        "perturbed_answer": "Hides a secret ancient civilization"
+    },
+    {
+        "entity_name": "Diego Garcia",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Diego_Garcia",
+        "question": "How does Diego Garcia relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Still a contested political issue"
+        ],
+        "perturbed_answer": "Now a wildlife sanctuary"
+    },
+    {
+        "entity_name": "North Sentinel Island",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/North_Sentinel_Island",
+        "question": "What is North Sentinel Island?",
+        "property": "definition",
+        "answer": [
+            "An island home to an uncontacted indigenous tribe"
+        ],
+        "perturbed_answer": "A lost city of Atlantis"
+    },
+    {
+        "entity_name": "North Sentinel Island",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/North_Sentinel_Island",
+        "question": "When did North Sentinel Island become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Known for centuries, first documented in 18th century"
+        ],
+        "perturbed_answer": "Discovered in 2000"
+    },
+    {
+        "entity_name": "North Sentinel Island",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/North_Sentinel_Island",
+        "question": "Where is North Sentinel Island primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Bay of Bengal"
+        ],
+        "perturbed_answer": "Mediterranean Sea"
+    },
+    {
+        "entity_name": "North Sentinel Island",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/North_Sentinel_Island",
+        "question": "Who is most famously associated with North Sentinel Island?",
+        "property": "associated person",
+        "answer": [
+            "The Sentinelese people"
+        ],
+        "perturbed_answer": "Famous archaeologists"
+    },
+    {
+        "entity_name": "North Sentinel Island",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/North_Sentinel_Island",
+        "question": "What controversy is associated with North Sentinel Island?",
+        "property": "controversy",
+        "answer": [
+            "Indian government bans contact for protection"
+        ],
+        "perturbed_answer": "Used as a secret military base"
+    },
+    {
+        "entity_name": "North Sentinel Island",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/North_Sentinel_Island",
+        "question": "Which government agency or organization has been linked to North Sentinel Island?",
+        "property": "linked organization",
+        "answer": [
+            "Indian Government"
+        ],
+        "perturbed_answer": "NASA"
+    },
+    {
+        "entity_name": "North Sentinel Island",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/North_Sentinel_Island",
+        "question": "Has North Sentinel Island been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Tribe remains uncontacted"
+        ],
+        "perturbed_answer": "Island is open to tourists"
+    },
+    {
+        "entity_name": "North Sentinel Island",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/North_Sentinel_Island",
+        "question": "What major event was influenced by North Sentinel Island?",
+        "property": "influenced event",
+        "answer": [
+            "Laws to protect uncontacted tribes"
+        ],
+        "perturbed_answer": "Discovery of ancient artifacts"
+    },
+    {
+        "entity_name": "North Sentinel Island",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/North_Sentinel_Island",
+        "question": "What is a common conspiracy theory related to North Sentinel Island?",
+        "property": "conspiracy theory",
+        "answer": [
+            "They have advanced technology"
+        ],
+        "perturbed_answer": "The island disappears at night"
+    },
+    {
+        "entity_name": "North Sentinel Island",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/North_Sentinel_Island",
+        "question": "How does North Sentinel Island relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Debated in anthropology and human rights"
+        ],
+        "perturbed_answer": "Not discussed anymore"
+    },
+    {
+        "entity_name": "Room 39 (North Korea)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Office_39",
+        "question": "What is Room 39 (North Korea)?",
+        "property": "definition",
+        "answer": [
+            "A secretive North Korean government bureau"
+        ],
+        "perturbed_answer": "A luxury hotel"
+    },
+    {
+        "entity_name": "Room 39 (North Korea)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Office_39",
+        "question": "When did Room 39 (North Korea) become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Founded in 1970s"
+        ],
+        "perturbed_answer": "First mentioned in 2005"
+    },
+    {
+        "entity_name": "Room 39 (North Korea)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Office_39",
+        "question": "Where is Room 39 (North Korea) primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Pyongyang, North Korea"
+        ],
+        "perturbed_answer": "Tokyo, Japan"
+    },
+    {
+        "entity_name": "Room 39 (North Korea)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Office_39",
+        "question": "Who is most famously associated with Room 39 (North Korea)?",
+        "property": "associated person",
+        "answer": [
+            "Kim family leadership"
+        ],
+        "perturbed_answer": "U.S. diplomats"
+    },
+    {
+        "entity_name": "Room 39 (North Korea)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Office_39",
+        "question": "What controversy is associated with Room 39 (North Korea)?",
+        "property": "controversy",
+        "answer": [
+            "Alleged involvement in illegal financial activities"
+        ],
+        "perturbed_answer": "A cyber attack center"
+    },
+    {
+        "entity_name": "Room 39 (North Korea)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Office_39",
+        "question": "Which government agency or organization has been linked to Room 39 (North Korea)?",
+        "property": "linked organization",
+        "answer": [
+            "North Korean government"
+        ],
+        "perturbed_answer": "Interpol"
+    },
+    {
+        "entity_name": "Room 39 (North Korea)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Office_39",
+        "question": "Has Room 39 (North Korea) been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Exists but details are secret"
+        ],
+        "perturbed_answer": "Declared a hoax"
+    },
+    {
+        "entity_name": "Room 39 (North Korea)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Office_39",
+        "question": "What major event was influenced by Room 39 (North Korea)?",
+        "property": "influenced event",
+        "answer": [
+            "International sanctions"
+        ],
+        "perturbed_answer": "Development of nuclear fusion"
+    },
+    {
+        "entity_name": "Room 39 (North Korea)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Office_39",
+        "question": "What is a common conspiracy theory related to Room 39 (North Korea)?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It funds global criminal networks"
+        ],
+        "perturbed_answer": "It is a portal to another dimension"
+    },
+    {
+        "entity_name": "Room 39 (North Korea)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Office_39",
+        "question": "How does Room 39 (North Korea) relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Mentioned in discussions about North Korean economy"
+        ],
+        "perturbed_answer": "No longer relevant"
+    },
+    {
+        "entity_name": "Groom Lake",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Groom_Lake",
+        "question": "What is Groom Lake?",
+        "property": "definition",
+        "answer": [
+            "A dried lakebed near Area 51 used for military testing"
+        ],
+        "perturbed_answer": "A private resort for celebrities"
+    },
+    {
+        "entity_name": "Groom Lake",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Groom_Lake",
+        "question": "When did Groom Lake become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Used since the 1950s"
+        ],
+        "perturbed_answer": "Discovered in the 1990s"
+    },
+    {
+        "entity_name": "Groom Lake",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Groom_Lake",
+        "question": "Where is Groom Lake primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Nevada, USA"
+        ],
+        "perturbed_answer": "Sweden"
+    },
+    {
+        "entity_name": "Groom Lake",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Groom_Lake",
+        "question": "Who is most famously associated with Groom Lake?",
+        "property": "associated person",
+        "answer": [
+            "U.S. Air Force officials"
+        ],
+        "perturbed_answer": "Nikola Tesla"
+    },
+    {
+        "entity_name": "Groom Lake",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Groom_Lake",
+        "question": "What controversy is associated with Groom Lake?",
+        "property": "controversy",
+        "answer": [
+            "Linked to secret aircraft projects"
+        ],
+        "perturbed_answer": "Site of an environmental disaster"
+    },
+    {
+        "entity_name": "Groom Lake",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Groom_Lake",
+        "question": "Which government agency or organization has been linked to Groom Lake?",
+        "property": "linked organization",
+        "answer": [
+            "U.S. Air Force"
+        ],
+        "perturbed_answer": "The World Bank"
+    },
+    {
+        "entity_name": "Groom Lake",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Groom_Lake",
+        "question": "Has Groom Lake been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Recognized as part of Area 51"
+        ],
+        "perturbed_answer": "Still classified"
+    },
+    {
+        "entity_name": "Groom Lake",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Groom_Lake",
+        "question": "What major event was influenced by Groom Lake?",
+        "property": "influenced event",
+        "answer": [
+            "Stealth aircraft development"
+        ],
+        "perturbed_answer": "Creation of social media"
+    },
+    {
+        "entity_name": "Groom Lake",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Groom_Lake",
+        "question": "What is a common conspiracy theory related to Groom Lake?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It houses extraterrestrial technology"
+        ],
+        "perturbed_answer": "It is a secret underground city"
+    },
+    {
+        "entity_name": "Groom Lake",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Groom_Lake",
+        "question": "How does Groom Lake relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Mentioned in classified military discussions"
+        ],
+        "perturbed_answer": "No longer used for research"
+    },
+    {
+        "entity_name": "Oak Ridge National Laboratory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory",
+        "question": "What is Oak Ridge National Laboratory?",
+        "property": "definition",
+        "answer": [
+            "A major U.S. research facility in nuclear science"
+        ],
+        "perturbed_answer": "An underground intelligence agency"
+    },
+    {
+        "entity_name": "Oak Ridge National Laboratory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory",
+        "question": "When did Oak Ridge National Laboratory become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Established during WWII"
+        ],
+        "perturbed_answer": "Built in 1980s"
+    },
+    {
+        "entity_name": "Oak Ridge National Laboratory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory",
+        "question": "Where is Oak Ridge National Laboratory primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Tennessee, USA"
+        ],
+        "perturbed_answer": "Geneva, Switzerland"
+    },
+    {
+        "entity_name": "Oak Ridge National Laboratory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory",
+        "question": "Who is most famously associated with Oak Ridge National Laboratory?",
+        "property": "associated person",
+        "answer": [
+            "Manhattan Project scientists"
+        ],
+        "perturbed_answer": "Isaac Newton"
+    },
+    {
+        "entity_name": "Oak Ridge National Laboratory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory",
+        "question": "What controversy is associated with Oak Ridge National Laboratory?",
+        "property": "controversy",
+        "answer": [
+            "Involvement in Cold War nuclear research"
+        ],
+        "perturbed_answer": "Used as a private hacker base"
+    },
+    {
+        "entity_name": "Oak Ridge National Laboratory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory",
+        "question": "Which government agency or organization has been linked to Oak Ridge National Laboratory?",
+        "property": "linked organization",
+        "answer": [
+            "U.S. Department of Energy"
+        ],
+        "perturbed_answer": "European Space Agency"
+    },
+    {
+        "entity_name": "Oak Ridge National Laboratory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory",
+        "question": "Has Oak Ridge National Laboratory been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Recognized for scientific contributions"
+        ],
+        "perturbed_answer": "Hidden from public knowledge"
+    },
+    {
+        "entity_name": "Oak Ridge National Laboratory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory",
+        "question": "What major event was influenced by Oak Ridge National Laboratory?",
+        "property": "influenced event",
+        "answer": [
+            "Development of nuclear reactors"
+        ],
+        "perturbed_answer": "Banning of nuclear power"
+    },
+    {
+        "entity_name": "Oak Ridge National Laboratory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory",
+        "question": "What is a common conspiracy theory related to Oak Ridge National Laboratory?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It secretly stores alien materials"
+        ],
+        "perturbed_answer": "It has a mind-control program"
+    },
+    {
+        "entity_name": "Oak Ridge National Laboratory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory",
+        "question": "How does Oak Ridge National Laboratory relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Still a major scientific research center"
+        ],
+        "perturbed_answer": "Shut down in the 1990s"
+    },
+    {
+        "entity_name": "Porton Down",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Porton_Down",
+        "question": "What is Porton Down?",
+        "property": "definition",
+        "answer": [
+            "A secretive UK chemical and biological weapons research facility"
+        ],
+        "perturbed_answer": "A luxury spa retreat in England"
+    },
+    {
+        "entity_name": "Porton Down",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Porton_Down",
+        "question": "When did Porton Down become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Established in 1916"
+        ],
+        "perturbed_answer": "First discovered in the 2000s"
+    },
+    {
+        "entity_name": "Porton Down",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Porton_Down",
+        "question": "Where is Porton Down primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Wiltshire, England"
+        ],
+        "perturbed_answer": "Scotland"
+    },
+    {
+        "entity_name": "Porton Down",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Porton_Down",
+        "question": "Who is most famously associated with Porton Down?",
+        "property": "associated person",
+        "answer": [
+            "UK Ministry of Defence scientists"
+        ],
+        "perturbed_answer": "Alan Turing"
+    },
+    {
+        "entity_name": "Porton Down",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Porton_Down",
+        "question": "What controversy is associated with Porton Down?",
+        "property": "controversy",
+        "answer": [
+            "Human testing of chemical agents"
+        ],
+        "perturbed_answer": "Hoarding of nuclear warheads"
+    },
+    {
+        "entity_name": "Porton Down",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Porton_Down",
+        "question": "Which government agency or organization has been linked to Porton Down?",
+        "property": "linked organization",
+        "answer": [
+            "UK Ministry of Defence"
+        ],
+        "perturbed_answer": "NASA"
+    },
+    {
+        "entity_name": "Porton Down",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Porton_Down",
+        "question": "Has Porton Down been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Confirmed as an active research facility"
+        ],
+        "perturbed_answer": "Shut down in 1950"
+    },
+    {
+        "entity_name": "Porton Down",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Porton_Down",
+        "question": "What major event was influenced by Porton Down?",
+        "property": "influenced event",
+        "answer": [
+            "Development of chemical warfare treaties"
+        ],
+        "perturbed_answer": "Banning of all space travel"
+    },
+    {
+        "entity_name": "Porton Down",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Porton_Down",
+        "question": "What is a common conspiracy theory related to Porton Down?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It secretly stores extraterrestrial samples"
+        ],
+        "perturbed_answer": "It controls global weather patterns"
+    },
+    {
+        "entity_name": "Porton Down",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Porton_Down",
+        "question": "How does Porton Down relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Still operates under UK government oversight"
+        ],
+        "perturbed_answer": "Now a museum open to the public"
+    },
+    {
+        "entity_name": "Vatican Secret Archives",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+        "question": "What is Vatican Secret Archives?",
+        "property": "definition",
+        "answer": [
+            "A collection of restricted Vatican documents"
+        ],
+        "perturbed_answer": "A vault of ancient treasure"
+    },
+    {
+        "entity_name": "Vatican Secret Archives",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+        "question": "When did Vatican Secret Archives become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Established in 1612"
+        ],
+        "perturbed_answer": "Created in 2005"
+    },
+    {
+        "entity_name": "Vatican Secret Archives",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+        "question": "Where is Vatican Secret Archives primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Vatican City"
+        ],
+        "perturbed_answer": "Underground London"
+    },
+    {
+        "entity_name": "Vatican Secret Archives",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+        "question": "Who is most famously associated with Vatican Secret Archives?",
+        "property": "associated person",
+        "answer": [
+            "Pope Paul V"
+        ],
+        "perturbed_answer": "Napoleon Bonaparte"
+    },
+    {
+        "entity_name": "Vatican Secret Archives",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+        "question": "What controversy is associated with Vatican Secret Archives?",
+        "property": "controversy",
+        "answer": [
+            "Limited public access to historical records"
+        ],
+        "perturbed_answer": "Involvement in drug trafficking"
+    },
+    {
+        "entity_name": "Vatican Secret Archives",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+        "question": "Which government agency or organization has been linked to Vatican Secret Archives?",
+        "property": "linked organization",
+        "answer": [
+            "The Vatican"
+        ],
+        "perturbed_answer": "CIA"
+    },
+    {
+        "entity_name": "Vatican Secret Archives",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+        "question": "Has Vatican Secret Archives been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Real but restricted to scholars"
+        ],
+        "perturbed_answer": "Confirmed as a hoax"
+    },
+    {
+        "entity_name": "Vatican Secret Archives",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+        "question": "What major event was influenced by Vatican Secret Archives?",
+        "property": "influenced event",
+        "answer": [
+            "Shaped religious historical studies"
+        ],
+        "perturbed_answer": "Created secret societies"
+    },
+    {
+        "entity_name": "Vatican Secret Archives",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+        "question": "What is a common conspiracy theory related to Vatican Secret Archives?",
+        "property": "conspiracy theory",
+        "answer": [
+            "Contains proof of extraterrestrial life"
+        ],
+        "perturbed_answer": "It houses a secret nuclear arsenal"
+    },
+    {
+        "entity_name": "Vatican Secret Archives",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+        "question": "How does Vatican Secret Archives relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Frequently referenced in historical research"
+        ],
+        "perturbed_answer": "No longer relevant"
+    },
+    {
+        "entity_name": "The Anarchist Cookbook",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Anarchist_Cookbook",
+        "question": "What is The Anarchist Cookbook?",
+        "property": "definition",
+        "answer": [
+            "A controversial book with instructions for explosives and hacking"
+        ],
+        "perturbed_answer": "A cookbook with recipes for anarchists"
+    },
+    {
+        "entity_name": "The Anarchist Cookbook",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Anarchist_Cookbook",
+        "question": "When did The Anarchist Cookbook become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Published in 1971"
+        ],
+        "perturbed_answer": "Written in 1995"
+    },
+    {
+        "entity_name": "The Anarchist Cookbook",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Anarchist_Cookbook",
+        "question": "Where is The Anarchist Cookbook primarily associated with?",
+        "property": "location",
+        "answer": [
+            "United States"
+        ],
+        "perturbed_answer": "Russia"
+    },
+    {
+        "entity_name": "The Anarchist Cookbook",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Anarchist_Cookbook",
+        "question": "Who is most famously associated with The Anarchist Cookbook?",
+        "property": "associated person",
+        "answer": [
+            "William Powell"
+        ],
+        "perturbed_answer": "George Orwell"
+    },
+    {
+        "entity_name": "The Anarchist Cookbook",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Anarchist_Cookbook",
+        "question": "What controversy is associated with The Anarchist Cookbook?",
+        "property": "controversy",
+        "answer": [
+            "Used in criminal activities and bomb-making"
+        ],
+        "perturbed_answer": "Banned due to plagiarism"
+    },
+    {
+        "entity_name": "The Anarchist Cookbook",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Anarchist_Cookbook",
+        "question": "Which government agency or organization has been linked to The Anarchist Cookbook?",
+        "property": "linked organization",
+        "answer": [
+            "Countercultural movements"
+        ],
+        "perturbed_answer": "The CIA"
+    },
+    {
+        "entity_name": "The Anarchist Cookbook",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Anarchist_Cookbook",
+        "question": "Has The Anarchist Cookbook been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "The author later denounced it"
+        ],
+        "perturbed_answer": "It was officially classified as government propaganda"
+    },
+    {
+        "entity_name": "The Anarchist Cookbook",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Anarchist_Cookbook",
+        "question": "What major event was influenced by The Anarchist Cookbook?",
+        "property": "influenced event",
+        "answer": [
+            "Tighter internet censorship laws"
+        ],
+        "perturbed_answer": "The creation of vegan anarchist communes"
+    },
+    {
+        "entity_name": "The Anarchist Cookbook",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Anarchist_Cookbook",
+        "question": "What is a common conspiracy theory related to The Anarchist Cookbook?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It was written as a government trap"
+        ],
+        "perturbed_answer": "It contains subliminal messages"
+    },
+    {
+        "entity_name": "The Anarchist Cookbook",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Anarchist_Cookbook",
+        "question": "How does The Anarchist Cookbook relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Still accessible online despite bans"
+        ],
+        "perturbed_answer": "It has been erased from all records"
+    },
+    {
+        "entity_name": "The Turner Diaries",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Turner_Diaries",
+        "question": "What is The Turner Diaries?",
+        "property": "definition",
+        "answer": [
+            "A white supremacist novel"
+        ],
+        "perturbed_answer": "A banned religious text"
+    },
+    {
+        "entity_name": "The Turner Diaries",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Turner_Diaries",
+        "question": "When did The Turner Diaries become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Published in 1978"
+        ],
+        "perturbed_answer": "Written in the 1800s"
+    },
+    {
+        "entity_name": "The Turner Diaries",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Turner_Diaries",
+        "question": "Where is The Turner Diaries primarily associated with?",
+        "property": "location",
+        "answer": [
+            "United States"
+        ],
+        "perturbed_answer": "France"
+    },
+    {
+        "entity_name": "The Turner Diaries",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Turner_Diaries",
+        "question": "Who is most famously associated with The Turner Diaries?",
+        "property": "associated person",
+        "answer": [
+            "William Luther Pierce"
+        ],
+        "perturbed_answer": "George Orwell"
+    },
+    {
+        "entity_name": "The Turner Diaries",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Turner_Diaries",
+        "question": "What controversy is associated with The Turner Diaries?",
+        "property": "controversy",
+        "answer": [
+            "Inspired domestic terrorist acts"
+        ],
+        "perturbed_answer": "Banned for depicting violence against animals"
+    },
+    {
+        "entity_name": "The Turner Diaries",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Turner_Diaries",
+        "question": "Which government agency or organization has been linked to The Turner Diaries?",
+        "property": "linked organization",
+        "answer": [
+            "Neo-Nazi movements"
+        ],
+        "perturbed_answer": "The Catholic Church"
+    },
+    {
+        "entity_name": "The Turner Diaries",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Turner_Diaries",
+        "question": "Has The Turner Diaries been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Circulated among extremist groups"
+        ],
+        "perturbed_answer": "Never existed"
+    },
+    {
+        "entity_name": "The Turner Diaries",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Turner_Diaries",
+        "question": "What major event was influenced by The Turner Diaries?",
+        "property": "influenced event",
+        "answer": [
+            "Far-right terrorist attacks"
+        ],
+        "perturbed_answer": "UN peace treaties"
+    },
+    {
+        "entity_name": "The Turner Diaries",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Turner_Diaries",
+        "question": "What is a common conspiracy theory related to The Turner Diaries?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It predicts real-world events"
+        ],
+        "perturbed_answer": "It was written by the FBI"
+    },
+    {
+        "entity_name": "The Turner Diaries",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/The_Turner_Diaries",
+        "question": "How does The Turner Diaries relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Banned and monitored by law enforcement"
+        ],
+        "perturbed_answer": "Now a classic literature piece"
+    },
+    {
+        "entity_name": "Cambridge Analytica",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Cambridge_Analytica",
+        "question": "What is Cambridge Analytica?",
+        "property": "definition",
+        "answer": [
+            "A political consulting firm involved in data privacy scandals"
+        ],
+        "perturbed_answer": "A prestigious UK university research lab"
+    },
+    {
+        "entity_name": "Cambridge Analytica",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Cambridge_Analytica",
+        "question": "When did Cambridge Analytica become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Founded in 2013, exposed in 2018"
+        ],
+        "perturbed_answer": "Operated in the 1980s"
+    },
+    {
+        "entity_name": "Cambridge Analytica",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Cambridge_Analytica",
+        "question": "Where is Cambridge Analytica primarily associated with?",
+        "property": "location",
+        "answer": [
+            "United Kingdom"
+        ],
+        "perturbed_answer": "United States"
+    },
+    {
+        "entity_name": "Cambridge Analytica",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Cambridge_Analytica",
+        "question": "Who is most famously associated with Cambridge Analytica?",
+        "property": "associated person",
+        "answer": [
+            "Alexander Nix"
+        ],
+        "perturbed_answer": "Mark Zuckerberg"
+    },
+    {
+        "entity_name": "Cambridge Analytica",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Cambridge_Analytica",
+        "question": "What controversy is associated with Cambridge Analytica?",
+        "property": "controversy",
+        "answer": [
+            "Unauthorized use of Facebook user data"
+        ],
+        "perturbed_answer": "Hacking U.S. government servers"
+    },
+    {
+        "entity_name": "Cambridge Analytica",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Cambridge_Analytica",
+        "question": "Which government agency or organization has been linked to Cambridge Analytica?",
+        "property": "linked organization",
+        "answer": [
+            "Facebook and political campaigns"
+        ],
+        "perturbed_answer": "United Nations"
+    },
+    {
+        "entity_name": "Cambridge Analytica",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Cambridge_Analytica",
+        "question": "Has Cambridge Analytica been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Company shut down in 2018"
+        ],
+        "perturbed_answer": "Still operates under a different name"
+    },
+    {
+        "entity_name": "Cambridge Analytica",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Cambridge_Analytica",
+        "question": "What major event was influenced by Cambridge Analytica?",
+        "property": "influenced event",
+        "answer": [
+            "Tighter data privacy laws"
+        ],
+        "perturbed_answer": "The rise of artificial intelligence"
+    },
+    {
+        "entity_name": "Cambridge Analytica",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Cambridge_Analytica",
+        "question": "What is a common conspiracy theory related to Cambridge Analytica?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It manipulated global elections"
+        ],
+        "perturbed_answer": "It was an NSA front organization"
+    },
+    {
+        "entity_name": "Cambridge Analytica",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Cambridge_Analytica",
+        "question": "How does Cambridge Analytica relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Key case in data ethics discussions"
+        ],
+        "perturbed_answer": "Now considered a minor issue"
+    },
+    {
+        "entity_name": "Vault 7 (WikiLeaks)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vault_7",
+        "question": "What is Vault 7 (WikiLeaks)?",
+        "property": "definition",
+        "answer": [
+            "A collection of leaked CIA hacking tools published by WikiLeaks"
+        ],
+        "perturbed_answer": "A secret underground government bunker"
+    },
+    {
+        "entity_name": "Vault 7 (WikiLeaks)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vault_7",
+        "question": "When did Vault 7 (WikiLeaks) become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Leaked in 2017"
+        ],
+        "perturbed_answer": "First discovered in 1990"
+    },
+    {
+        "entity_name": "Vault 7 (WikiLeaks)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vault_7",
+        "question": "Where is Vault 7 (WikiLeaks) primarily associated with?",
+        "property": "location",
+        "answer": [
+            "U.S. intelligence networks"
+        ],
+        "perturbed_answer": "A remote desert in Nevada"
+    },
+    {
+        "entity_name": "Vault 7 (WikiLeaks)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vault_7",
+        "question": "Who is most famously associated with Vault 7 (WikiLeaks)?",
+        "property": "associated person",
+        "answer": [
+            "Julian Assange"
+        ],
+        "perturbed_answer": "Edward Snowden"
+    },
+    {
+        "entity_name": "Vault 7 (WikiLeaks)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vault_7",
+        "question": "What controversy is associated with Vault 7 (WikiLeaks)?",
+        "property": "controversy",
+        "answer": [
+            "Exposure of classified hacking tools"
+        ],
+        "perturbed_answer": "Nuclear arms smuggling"
+    },
+    {
+        "entity_name": "Vault 7 (WikiLeaks)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vault_7",
+        "question": "Which government agency or organization has been linked to Vault 7 (WikiLeaks)?",
+        "property": "linked organization",
+        "answer": [
+            "WikiLeaks and the CIA"
+        ],
+        "perturbed_answer": "Interpol"
+    },
+    {
+        "entity_name": "Vault 7 (WikiLeaks)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vault_7",
+        "question": "Has Vault 7 (WikiLeaks) been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Verified by security experts"
+        ],
+        "perturbed_answer": "Completely fabricated"
+    },
+    {
+        "entity_name": "Vault 7 (WikiLeaks)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vault_7",
+        "question": "What major event was influenced by Vault 7 (WikiLeaks)?",
+        "property": "influenced event",
+        "answer": [
+            "Changes in cybersecurity policies"
+        ],
+        "perturbed_answer": "Banning of WikiLeaks worldwide"
+    },
+    {
+        "entity_name": "Vault 7 (WikiLeaks)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vault_7",
+        "question": "What is a common conspiracy theory related to Vault 7 (WikiLeaks)?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It revealed the U.S. government spies on all citizens"
+        ],
+        "perturbed_answer": "It was leaked by Russian hackers"
+    },
+    {
+        "entity_name": "Vault 7 (WikiLeaks)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Vault_7",
+        "question": "How does Vault 7 (WikiLeaks) relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Used as an example of government overreach in cybersecurity"
+        ],
+        "perturbed_answer": "No longer relevant"
+    },
+    {
+        "entity_name": "ISIS Propaganda",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
+        "question": "What is ISIS Propaganda?",
+        "property": "definition",
+        "answer": [
+            "Extremist media content promoting ISIS ideology"
+        ],
+        "perturbed_answer": "A documentary about the Iraq War"
+    },
+    {
+        "entity_name": "ISIS Propaganda",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
+        "question": "When did ISIS Propaganda become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Peaked from 2014-2018"
+        ],
+        "perturbed_answer": "Began in the 1970s"
+    },
+    {
+        "entity_name": "ISIS Propaganda",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
+        "question": "Where is ISIS Propaganda primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Middle East and online platforms"
+        ],
+        "perturbed_answer": "China"
+    },
+    {
+        "entity_name": "ISIS Propaganda",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
+        "question": "Who is most famously associated with ISIS Propaganda?",
+        "property": "associated person",
+        "answer": [
+            "ISIS media operatives"
+        ],
+        "perturbed_answer": "Osama bin Laden"
+    },
+    {
+        "entity_name": "ISIS Propaganda",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
+        "question": "What controversy is associated with ISIS Propaganda?",
+        "property": "controversy",
+        "answer": [
+            "Recruitment of foreign fighters through online videos"
+        ],
+        "perturbed_answer": "Using deepfake videos for terrorism"
+    },
+    {
+        "entity_name": "ISIS Propaganda",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
+        "question": "Which government agency or organization has been linked to ISIS Propaganda?",
+        "property": "linked organization",
+        "answer": [
+            "ISIS"
+        ],
+        "perturbed_answer": "NATO"
+    },
+    {
+        "entity_name": "ISIS Propaganda",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
+        "question": "Has ISIS Propaganda been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Monitored and banned by major tech platforms"
+        ],
+        "perturbed_answer": "Still widely distributed on TV"
+    },
+    {
+        "entity_name": "ISIS Propaganda",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
+        "question": "What major event was influenced by ISIS Propaganda?",
+        "property": "influenced event",
+        "answer": [
+            "Stronger counter-terrorism measures online"
+        ],
+        "perturbed_answer": "Creation of the United Nations"
+    },
+    {
+        "entity_name": "ISIS Propaganda",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
+        "question": "What is a common conspiracy theory related to ISIS Propaganda?",
+        "property": "conspiracy theory",
+        "answer": [
+            "Some videos were staged by intelligence agencies"
+        ],
+        "perturbed_answer": "It was all AI-generated content"
+    },
+    {
+        "entity_name": "ISIS Propaganda",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
+        "question": "How does ISIS Propaganda relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Still studied in counterterrorism strategies"
+        ],
+        "perturbed_answer": "No longer an issue"
+    },
+    {
+        "entity_name": "The Great Replacement Theory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Great_Replacement",
+        "question": "What is The Great Replacement Theory?",
+        "property": "definition",
+        "answer": [
+            "A far-right conspiracy theory about demographic change"
+        ],
+        "perturbed_answer": "A government policy to improve education"
+    },
+    {
+        "entity_name": "The Great Replacement Theory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Great_Replacement",
+        "question": "When did The Great Replacement Theory become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Coined in the 20th century"
+        ],
+        "perturbed_answer": "First documented in 1500s"
+    },
+    {
+        "entity_name": "The Great Replacement Theory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Great_Replacement",
+        "question": "Where is The Great Replacement Theory primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Europe and North America"
+        ],
+        "perturbed_answer": "South America"
+    },
+    {
+        "entity_name": "The Great Replacement Theory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Great_Replacement",
+        "question": "Who is most famously associated with The Great Replacement Theory?",
+        "property": "associated person",
+        "answer": [
+            "Renaud Camus"
+        ],
+        "perturbed_answer": "Karl Marx"
+    },
+    {
+        "entity_name": "The Great Replacement Theory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Great_Replacement",
+        "question": "What controversy is associated with The Great Replacement Theory?",
+        "property": "controversy",
+        "answer": [
+            "Used to justify xenophobic policies"
+        ],
+        "perturbed_answer": "It was proven in scientific studies"
+    },
+    {
+        "entity_name": "The Great Replacement Theory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Great_Replacement",
+        "question": "Which government agency or organization has been linked to The Great Replacement Theory?",
+        "property": "linked organization",
+        "answer": [
+            "White nationalist groups"
+        ],
+        "perturbed_answer": "The United Nations"
+    },
+    {
+        "entity_name": "The Great Replacement Theory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Great_Replacement",
+        "question": "Has The Great Replacement Theory been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Widely discredited as a conspiracy theory"
+        ],
+        "perturbed_answer": "Officially recognized by governments"
+    },
+    {
+        "entity_name": "The Great Replacement Theory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Great_Replacement",
+        "question": "What major event was influenced by The Great Replacement Theory?",
+        "property": "influenced event",
+        "answer": [
+            "Rise in far-right extremism"
+        ],
+        "perturbed_answer": "Ban on immigration worldwide"
+    },
+    {
+        "entity_name": "The Great Replacement Theory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Great_Replacement",
+        "question": "What is a common conspiracy theory related to The Great Replacement Theory?",
+        "property": "conspiracy theory",
+        "answer": [
+            "Elites are replacing native populations"
+        ],
+        "perturbed_answer": "It was orchestrated by space aliens"
+    },
+    {
+        "entity_name": "The Great Replacement Theory",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Great_Replacement",
+        "question": "How does The Great Replacement Theory relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Referenced in extremist rhetoric and debates"
+        ],
+        "perturbed_answer": "It has no influence in modern politics"
+    },
+    {
+        "entity_name": "Eugenics",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Eugenics",
+        "question": "What is Eugenics?",
+        "property": "definition",
+        "answer": [
+            "A movement advocating selective breeding to improve human genetics"
+        ],
+        "perturbed_answer": "A scientific study of fruit fly evolution"
+    },
+    {
+        "entity_name": "Eugenics",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Eugenics",
+        "question": "When did Eugenics become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Gained prominence in the late 19th and early 20th century"
+        ],
+        "perturbed_answer": "First introduced in the 1700s"
+    },
+    {
+        "entity_name": "Eugenics",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Eugenics",
+        "question": "Where is Eugenics primarily associated with?",
+        "property": "location",
+        "answer": [
+            "United States, Germany, and UK"
+        ],
+        "perturbed_answer": "Antarctica"
+    },
+    {
+        "entity_name": "Eugenics",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Eugenics",
+        "question": "Who is most famously associated with Eugenics?",
+        "property": "associated person",
+        "answer": [
+            "Francis Galton"
+        ],
+        "perturbed_answer": "Charles Darwin"
+    },
+    {
+        "entity_name": "Eugenics",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Eugenics",
+        "question": "What controversy is associated with Eugenics?",
+        "property": "controversy",
+        "answer": [
+            "Used to justify forced sterilization and racial policies"
+        ],
+        "perturbed_answer": "Encouraging genetic mutations in humans"
+    },
+    {
+        "entity_name": "Eugenics",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Eugenics",
+        "question": "Which government agency or organization has been linked to Eugenics?",
+        "property": "linked organization",
+        "answer": [
+            "Early genetic research institutions"
+        ],
+        "perturbed_answer": "World Health Organization"
+    },
+    {
+        "entity_name": "Eugenics",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Eugenics",
+        "question": "Has Eugenics been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Widely condemned as unethical"
+        ],
+        "perturbed_answer": "Still practiced in secret"
+    },
+    {
+        "entity_name": "Eugenics",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Eugenics",
+        "question": "What major event was influenced by Eugenics?",
+        "property": "influenced event",
+        "answer": [
+            "Human rights laws against genetic discrimination"
+        ],
+        "perturbed_answer": "Formation of the Space Race"
+    },
+    {
+        "entity_name": "Eugenics",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Eugenics",
+        "question": "What is a common conspiracy theory related to Eugenics?",
+        "property": "conspiracy theory",
+        "answer": [
+            "Modern medicine secretly follows eugenic principles"
+        ],
+        "perturbed_answer": "Aliens introduced eugenics to humans"
+    },
+    {
+        "entity_name": "Eugenics",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Eugenics",
+        "question": "How does Eugenics relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Discussed in bioethics and genetics research"
+        ],
+        "perturbed_answer": "Banned worldwide"
+    },
+    {
+        "entity_name": "Sovereign Citizen Movement",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Sovereign_citizen_movement",
+        "question": "What is Sovereign Citizen Movement?",
+        "property": "definition",
+        "answer": [
+            "A movement claiming individuals can exempt themselves from government authority"
+        ],
+        "perturbed_answer": "A pro-democracy political party"
+    },
+    {
+        "entity_name": "Sovereign Citizen Movement",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Sovereign_citizen_movement",
+        "question": "When did Sovereign Citizen Movement become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Emerging in the 20th century"
+        ],
+        "perturbed_answer": "Founded in medieval Europe"
+    },
+    {
+        "entity_name": "Sovereign Citizen Movement",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Sovereign_citizen_movement",
+        "question": "Where is Sovereign Citizen Movement primarily associated with?",
+        "property": "location",
+        "answer": [
+            "United States and other Western countries"
+        ],
+        "perturbed_answer": "Russia"
+    },
+    {
+        "entity_name": "Sovereign Citizen Movement",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Sovereign_citizen_movement",
+        "question": "Who is most famously associated with Sovereign Citizen Movement?",
+        "property": "associated person",
+        "answer": [
+            "Various anti-government activists"
+        ],
+        "perturbed_answer": "Benjamin Franklin"
+    },
+    {
+        "entity_name": "Sovereign Citizen Movement",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Sovereign_citizen_movement",
+        "question": "What controversy is associated with Sovereign Citizen Movement?",
+        "property": "controversy",
+        "answer": [
+            "Members refuse to recognize taxes and legal authority"
+        ],
+        "perturbed_answer": "Advocating for monarchy in the U.S."
+    },
+    {
+        "entity_name": "Sovereign Citizen Movement",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Sovereign_citizen_movement",
+        "question": "Which government agency or organization has been linked to Sovereign Citizen Movement?",
+        "property": "linked organization",
+        "answer": [
+            "Anti-government groups"
+        ],
+        "perturbed_answer": "European Union"
+    },
+    {
+        "entity_name": "Sovereign Citizen Movement",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Sovereign_citizen_movement",
+        "question": "Has Sovereign Citizen Movement been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Considered a domestic extremist ideology"
+        ],
+        "perturbed_answer": "Recognized as a legal movement"
+    },
+    {
+        "entity_name": "Sovereign Citizen Movement",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Sovereign_citizen_movement",
+        "question": "What major event was influenced by Sovereign Citizen Movement?",
+        "property": "influenced event",
+        "answer": [
+            "Encounters with law enforcement"
+        ],
+        "perturbed_answer": "Global economic collapse"
+    },
+    {
+        "entity_name": "Sovereign Citizen Movement",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Sovereign_citizen_movement",
+        "question": "What is a common conspiracy theory related to Sovereign Citizen Movement?",
+        "property": "conspiracy theory",
+        "answer": [
+            "The U.S. government is secretly a corporation"
+        ],
+        "perturbed_answer": "Sovereign citizens have legal immunity from arrest"
+    },
+    {
+        "entity_name": "Sovereign Citizen Movement",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Sovereign_citizen_movement",
+        "question": "How does Sovereign Citizen Movement relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Monitored by law enforcement agencies"
+        ],
+        "perturbed_answer": "No longer active"
+    },
+    {
+        "entity_name": "Gangstalking Conspiracy",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Gang_stalking",
+        "question": "What is Gangstalking Conspiracy?",
+        "property": "definition",
+        "answer": [
+            "A belief that individuals are targeted by organized harassment"
+        ],
+        "perturbed_answer": "A secret government operation against criminals"
+    },
+    {
+        "entity_name": "Gangstalking Conspiracy",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Gang_stalking",
+        "question": "When did Gangstalking Conspiracy become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "First appeared in online forums in the 2000s"
+        ],
+        "perturbed_answer": "Existed since ancient Rome"
+    },
+    {
+        "entity_name": "Gangstalking Conspiracy",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Gang_stalking",
+        "question": "Where is Gangstalking Conspiracy primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Online conspiracy communities"
+        ],
+        "perturbed_answer": "An underground government base"
+    },
+    {
+        "entity_name": "Gangstalking Conspiracy",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Gang_stalking",
+        "question": "Who is most famously associated with Gangstalking Conspiracy?",
+        "property": "associated person",
+        "answer": [
+            "Various online theorists"
+        ],
+        "perturbed_answer": "J. Edgar Hoover"
+    },
+    {
+        "entity_name": "Gangstalking Conspiracy",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Gang_stalking",
+        "question": "What controversy is associated with Gangstalking Conspiracy?",
+        "property": "controversy",
+        "answer": [
+            "Lack of evidence for widespread organized harassment"
+        ],
+        "perturbed_answer": "Secret agents caught in the act"
+    },
+    {
+        "entity_name": "Gangstalking Conspiracy",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Gang_stalking",
+        "question": "Which government agency or organization has been linked to Gangstalking Conspiracy?",
+        "property": "linked organization",
+        "answer": [
+            "None (no verifiable evidence)"
+        ],
+        "perturbed_answer": "United Nations Task Force"
+    },
+    {
+        "entity_name": "Gangstalking Conspiracy",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Gang_stalking",
+        "question": "Has Gangstalking Conspiracy been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Debunked by psychological studies"
+        ],
+        "perturbed_answer": "Confirmed in declassified FBI files"
+    },
+    {
+        "entity_name": "Gangstalking Conspiracy",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Gang_stalking",
+        "question": "What major event was influenced by Gangstalking Conspiracy?",
+        "property": "influenced event",
+        "answer": [
+            "Discussions on mass paranoia and delusions"
+        ],
+        "perturbed_answer": "The banning of certain surveillance laws"
+    },
+    {
+        "entity_name": "Gangstalking Conspiracy",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Gang_stalking",
+        "question": "What is a common conspiracy theory related to Gangstalking Conspiracy?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It is a global surveillance program"
+        ],
+        "perturbed_answer": "It is run by extraterrestrial beings"
+    },
+    {
+        "entity_name": "Gangstalking Conspiracy",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Gang_stalking",
+        "question": "How does Gangstalking Conspiracy relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Still a topic of discussion in fringe internet groups"
+        ],
+        "perturbed_answer": "No longer a known phenomenon"
+    },
+    {
+        "entity_name": "False Flag Operations",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/False_flag",
+        "question": "What is False Flag Operations?",
+        "property": "definition",
+        "answer": [
+            "Covert operations designed to mislead by disguising the identity of the perpetrator"
+        ],
+        "perturbed_answer": "A government program to fund wildlife conservation"
+    },
+    {
+        "entity_name": "False Flag Operations",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/False_flag",
+        "question": "When did False Flag Operations become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Used throughout history, particularly in wartime"
+        ],
+        "perturbed_answer": "First documented in 2000s"
+    },
+    {
+        "entity_name": "False Flag Operations",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/False_flag",
+        "question": "Where is False Flag Operations primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Various global conflicts"
+        ],
+        "perturbed_answer": "Antarctica"
+    },
+    {
+        "entity_name": "False Flag Operations",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/False_flag",
+        "question": "Who is most famously associated with False Flag Operations?",
+        "property": "associated person",
+        "answer": [
+            "Various intelligence agencies"
+        ],
+        "perturbed_answer": "Leonardo da Vinci"
+    },
+    {
+        "entity_name": "False Flag Operations",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/False_flag",
+        "question": "What controversy is associated with False Flag Operations?",
+        "property": "controversy",
+        "answer": [
+            "Used to justify military interventions"
+        ],
+        "perturbed_answer": "Banned as an act of war"
+    },
+    {
+        "entity_name": "False Flag Operations",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/False_flag",
+        "question": "Which government agency or organization has been linked to False Flag Operations?",
+        "property": "linked organization",
+        "answer": [
+            "CIA, MI6, KGB"
+        ],
+        "perturbed_answer": "NASA"
+    },
+    {
+        "entity_name": "False Flag Operations",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/False_flag",
+        "question": "Has False Flag Operations been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Some historical examples confirmed"
+        ],
+        "perturbed_answer": "Completely fictitious concept"
+    },
+    {
+        "entity_name": "False Flag Operations",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/False_flag",
+        "question": "What major event was influenced by False Flag Operations?",
+        "property": "influenced event",
+        "answer": [
+            "Led to wars and conflicts"
+        ],
+        "perturbed_answer": "Influenced advancements in solar technology"
+    },
+    {
+        "entity_name": "False Flag Operations",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/False_flag",
+        "question": "What is a common conspiracy theory related to False Flag Operations?",
+        "property": "conspiracy theory",
+        "answer": [
+            "Many major attacks were actually false flags"
+        ],
+        "perturbed_answer": "Aliens orchestrate these events"
+    },
+    {
+        "entity_name": "False Flag Operations",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/False_flag",
+        "question": "How does False Flag Operations relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Frequently cited in political discussions"
+        ],
+        "perturbed_answer": "No longer relevant"
+    },
+    {
+        "entity_name": "Deepfake Misinformation",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Deepfake",
+        "question": "What is Deepfake Misinformation?",
+        "property": "definition",
+        "answer": [
+            "AI-generated synthetic media used for deception"
+        ],
+        "perturbed_answer": "A new form of animated storytelling"
+    },
+    {
+        "entity_name": "Deepfake Misinformation",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Deepfake",
+        "question": "When did Deepfake Misinformation become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Developed in the 2010s"
+        ],
+        "perturbed_answer": "Invented in the 1980s"
+    },
+    {
+        "entity_name": "Deepfake Misinformation",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Deepfake",
+        "question": "Where is Deepfake Misinformation primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Global digital platforms"
+        ],
+        "perturbed_answer": "A secret U.S. laboratory"
+    },
+    {
+        "entity_name": "Deepfake Misinformation",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Deepfake",
+        "question": "Who is most famously associated with Deepfake Misinformation?",
+        "property": "associated person",
+        "answer": [
+            "No single creator (AI and machine learning researchers)"
+        ],
+        "perturbed_answer": "Mark Zuckerberg"
+    },
+    {
+        "entity_name": "Deepfake Misinformation",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Deepfake",
+        "question": "What controversy is associated with Deepfake Misinformation?",
+        "property": "controversy",
+        "answer": [
+            "Used to create false political and criminal narratives"
+        ],
+        "perturbed_answer": "Leads to improvements in filmmaking"
+    },
+    {
+        "entity_name": "Deepfake Misinformation",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Deepfake",
+        "question": "Which government agency or organization has been linked to Deepfake Misinformation?",
+        "property": "linked organization",
+        "answer": [
+            "Social media platforms and AI research labs"
+        ],
+        "perturbed_answer": "The FBI"
+    },
+    {
+        "entity_name": "Deepfake Misinformation",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Deepfake",
+        "question": "Has Deepfake Misinformation been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Recognized as a real threat"
+        ],
+        "perturbed_answer": "Declared harmless by global governments"
+    },
+    {
+        "entity_name": "Deepfake Misinformation",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Deepfake",
+        "question": "What major event was influenced by Deepfake Misinformation?",
+        "property": "influenced event",
+        "answer": [
+            "New laws regulating AI-generated media"
+        ],
+        "perturbed_answer": "Banning of social media"
+    },
+    {
+        "entity_name": "Deepfake Misinformation",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Deepfake",
+        "question": "What is a common conspiracy theory related to Deepfake Misinformation?",
+        "property": "conspiracy theory",
+        "answer": [
+            "Most political videos are deepfakes"
+        ],
+        "perturbed_answer": "Deepfakes were invented in ancient times"
+    },
+    {
+        "entity_name": "Deepfake Misinformation",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Deepfake",
+        "question": "How does Deepfake Misinformation relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "A major cybersecurity and misinformation issue"
+        ],
+        "perturbed_answer": "No longer a concern"
+    },
+    {
+        "entity_name": "The Mandela Effect",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Mandela_effect",
+        "question": "What is The Mandela Effect?",
+        "property": "definition",
+        "answer": [
+            "A phenomenon where large groups remember false facts"
+        ],
+        "perturbed_answer": "A proven parallel universe theory"
+    },
+    {
+        "entity_name": "The Mandela Effect",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Mandela_effect",
+        "question": "When did The Mandela Effect become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Coined in 2009"
+        ],
+        "perturbed_answer": "First described in 1800s"
+    },
+    {
+        "entity_name": "The Mandela Effect",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Mandela_effect",
+        "question": "Where is The Mandela Effect primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Global"
+        ],
+        "perturbed_answer": "South America"
+    },
+    {
+        "entity_name": "The Mandela Effect",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Mandela_effect",
+        "question": "Who is most famously associated with The Mandela Effect?",
+        "property": "associated person",
+        "answer": [
+            "Fiona Broome"
+        ],
+        "perturbed_answer": "Albert Einstein"
+    },
+    {
+        "entity_name": "The Mandela Effect",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Mandela_effect",
+        "question": "What controversy is associated with The Mandela Effect?",
+        "property": "controversy",
+        "answer": [
+            "Disagreement over collective false memories"
+        ],
+        "perturbed_answer": "Government mind control"
+    },
+    {
+        "entity_name": "The Mandela Effect",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Mandela_effect",
+        "question": "Which government agency or organization has been linked to The Mandela Effect?",
+        "property": "linked organization",
+        "answer": [
+            "Psychology research groups"
+        ],
+        "perturbed_answer": "CIA"
+    },
+    {
+        "entity_name": "The Mandela Effect",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Mandela_effect",
+        "question": "Has The Mandela Effect been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Studied in cognitive science"
+        ],
+        "perturbed_answer": "Considered paranormal"
+    },
+    {
+        "entity_name": "The Mandela Effect",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Mandela_effect",
+        "question": "What major event was influenced by The Mandela Effect?",
+        "property": "influenced event",
+        "answer": [
+            "Internet conspiracy discussions"
+        ],
+        "perturbed_answer": "Advancements in AI"
+    },
+    {
+        "entity_name": "The Mandela Effect",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Mandela_effect",
+        "question": "What is a common conspiracy theory related to The Mandela Effect?",
+        "property": "conspiracy theory",
+        "answer": [
+            "It proves alternate realities exist"
+        ],
+        "perturbed_answer": "Aliens created the effect"
+    },
+    {
+        "entity_name": "The Mandela Effect",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Mandela_effect",
+        "question": "How does The Mandela Effect relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Used in pop culture and cognitive research"
+        ],
+        "perturbed_answer": "It has been debunked entirely"
+    },
+    {
+        "entity_name": "The Simulation Hypothesis",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+        "question": "What is The Simulation Hypothesis?",
+        "property": "definition",
+        "answer": [
+            "The idea that reality is a computer simulation"
+        ],
+        "perturbed_answer": "A religious belief in an alternate dimension"
+    },
+    {
+        "entity_name": "The Simulation Hypothesis",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+        "question": "When did The Simulation Hypothesis become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Gained popularity in the 21st century"
+        ],
+        "perturbed_answer": "First recorded in the 1400s"
+    },
+    {
+        "entity_name": "The Simulation Hypothesis",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+        "question": "Where is The Simulation Hypothesis primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Discussed in philosophy and technology circles"
+        ],
+        "perturbed_answer": "Hidden in the Vatican Archives"
+    },
+    {
+        "entity_name": "The Simulation Hypothesis",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+        "question": "Who is most famously associated with The Simulation Hypothesis?",
+        "property": "associated person",
+        "answer": [
+            "Nick Bostrom"
+        ],
+        "perturbed_answer": "Isaac Newton"
+    },
+    {
+        "entity_name": "The Simulation Hypothesis",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+        "question": "What controversy is associated with The Simulation Hypothesis?",
+        "property": "controversy",
+        "answer": [
+            "Raises questions about the nature of reality and free will"
+        ],
+        "perturbed_answer": "Linked to cult movements"
+    },
+    {
+        "entity_name": "The Simulation Hypothesis",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+        "question": "Which government agency or organization has been linked to The Simulation Hypothesis?",
+        "property": "linked organization",
+        "answer": [
+            "Academia and AI research labs"
+        ],
+        "perturbed_answer": "The World Health Organization"
+    },
+    {
+        "entity_name": "The Simulation Hypothesis",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+        "question": "Has The Simulation Hypothesis been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "A philosophical and scientific debate"
+        ],
+        "perturbed_answer": "Proven by secret government studies"
+    },
+    {
+        "entity_name": "The Simulation Hypothesis",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+        "question": "What major event was influenced by The Simulation Hypothesis?",
+        "property": "influenced event",
+        "answer": [
+            "Discussions on AI and consciousness"
+        ],
+        "perturbed_answer": "Discovery of an alternate universe"
+    },
+    {
+        "entity_name": "The Simulation Hypothesis",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+        "question": "What is a common conspiracy theory related to The Simulation Hypothesis?",
+        "property": "conspiracy theory",
+        "answer": [
+            "Some claim glitches in reality prove the simulation"
+        ],
+        "perturbed_answer": "It was first revealed in ancient Egyptian texts"
+    },
+    {
+        "entity_name": "The Simulation Hypothesis",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+        "question": "How does The Simulation Hypothesis relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "A key topic in AI and technology philosophy"
+        ],
+        "perturbed_answer": "It has been debunked and forgotten"
+    },
+    {
+        "entity_name": "Accelerationism",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Accelerationism",
+        "question": "What is Accelerationism?",
+        "property": "definition",
+        "answer": [
+            "A political and philosophical idea advocating for rapid technological and societal change"
+        ],
+        "perturbed_answer": "A form of slow meditation practice"
+    },
+    {
+        "entity_name": "Accelerationism",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Accelerationism",
+        "question": "When did Accelerationism become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "Popularized in the 21st century"
+        ],
+        "perturbed_answer": "First mentioned in the 1800s"
+    },
+    {
+        "entity_name": "Accelerationism",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Accelerationism",
+        "question": "Where is Accelerationism primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Global intellectual circles"
+        ],
+        "perturbed_answer": "A remote island in the Pacific"
+    },
+    {
+        "entity_name": "Accelerationism",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Accelerationism",
+        "question": "Who is most famously associated with Accelerationism?",
+        "property": "associated person",
+        "answer": [
+            "Nick Land"
+        ],
+        "perturbed_answer": "Karl Marx"
+    },
+    {
+        "entity_name": "Accelerationism",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Accelerationism",
+        "question": "What controversy is associated with Accelerationism?",
+        "property": "controversy",
+        "answer": [
+            "Links to extremist political ideologies"
+        ],
+        "perturbed_answer": "Its connection to stock market crashes"
+    },
+    {
+        "entity_name": "Accelerationism",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Accelerationism",
+        "question": "Which government agency or organization has been linked to Accelerationism?",
+        "property": "linked organization",
+        "answer": [
+            "Academic and ideological groups"
+        ],
+        "perturbed_answer": "NASA"
+    },
+    {
+        "entity_name": "Accelerationism",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Accelerationism",
+        "question": "Has Accelerationism been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Discussed in philosophical and political circles"
+        ],
+        "perturbed_answer": "Banned as extremist literature"
+    },
+    {
+        "entity_name": "Accelerationism",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Accelerationism",
+        "question": "What major event was influenced by Accelerationism?",
+        "property": "influenced event",
+        "answer": [
+            "Rise of AI and automation discussions"
+        ],
+        "perturbed_answer": "Fall of the Berlin Wall"
+    },
+    {
+        "entity_name": "Accelerationism",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Accelerationism",
+        "question": "What is a common conspiracy theory related to Accelerationism?",
+        "property": "conspiracy theory",
+        "answer": [
+            "Elites are accelerating crises to control humanity"
+        ],
+        "perturbed_answer": "Time travelers spread accelerationism"
+    },
+    {
+        "entity_name": "Accelerationism",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/Accelerationism",
+        "question": "How does Accelerationism relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Discussed in AI ethics and economic theories"
+        ],
+        "perturbed_answer": "No longer relevant"
+    },
+    {
+        "entity_name": "John Titor (Time Travel Hoax)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/John_Titor",
+        "question": "What is John Titor (Time Travel Hoax)?",
+        "property": "definition",
+        "answer": [
+            "An alleged time traveler from 2036 who posted online in early 2000s"
+        ],
+        "perturbed_answer": "A real-life scientist who invented time travel"
+    },
+    {
+        "entity_name": "John Titor (Time Travel Hoax)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/John_Titor",
+        "question": "When did John Titor (Time Travel Hoax) become widely known?",
+        "property": "historical timing",
+        "answer": [
+            "First appeared in 2000-2001"
+        ],
+        "perturbed_answer": "Began in the 1800s"
+    },
+    {
+        "entity_name": "John Titor (Time Travel Hoax)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/John_Titor",
+        "question": "Where is John Titor (Time Travel Hoax) primarily associated with?",
+        "property": "location",
+        "answer": [
+            "Online forums"
+        ],
+        "perturbed_answer": "A secret government lab"
+    },
+    {
+        "entity_name": "John Titor (Time Travel Hoax)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/John_Titor",
+        "question": "Who is most famously associated with John Titor (Time Travel Hoax)?",
+        "property": "associated person",
+        "answer": [
+            "An anonymous internet user"
+        ],
+        "perturbed_answer": "Albert Einstein"
+    },
+    {
+        "entity_name": "John Titor (Time Travel Hoax)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/John_Titor",
+        "question": "What controversy is associated with John Titor (Time Travel Hoax)?",
+        "property": "controversy",
+        "answer": [
+            "Claimed to be a time traveler with knowledge of future events"
+        ],
+        "perturbed_answer": "Leaked classified UFO documents"
+    },
+    {
+        "entity_name": "John Titor (Time Travel Hoax)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/John_Titor",
+        "question": "Which government agency or organization has been linked to John Titor (Time Travel Hoax)?",
+        "property": "linked organization",
+        "answer": [
+            "Internet conspiracy circles"
+        ],
+        "perturbed_answer": "The U.S. military"
+    },
+    {
+        "entity_name": "John Titor (Time Travel Hoax)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/John_Titor",
+        "question": "Has John Titor (Time Travel Hoax) been officially confirmed by authorities?",
+        "property": "official confirmation",
+        "answer": [
+            "Debunked as a hoax"
+        ],
+        "perturbed_answer": "Verified by government sources"
+    },
+    {
+        "entity_name": "John Titor (Time Travel Hoax)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/John_Titor",
+        "question": "What major event was influenced by John Titor (Time Travel Hoax)?",
+        "property": "influenced event",
+        "answer": [
+            "Increased interest in time travel conspiracy theories"
+        ],
+        "perturbed_answer": "The formation of NASA"
+    },
+    {
+        "entity_name": "John Titor (Time Travel Hoax)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/John_Titor",
+        "question": "What is a common conspiracy theory related to John Titor (Time Travel Hoax)?",
+        "property": "conspiracy theory",
+        "answer": [
+            "He was an actual government whistleblower"
+        ],
+        "perturbed_answer": "His posts were AI-generated before AI existed"
+    },
+    {
+        "entity_name": "John Titor (Time Travel Hoax)",
+        "entity_wikipedia_page": "https://en.wikipedia.org/wiki/John_Titor",
+        "question": "How does John Titor (Time Travel Hoax) relate to modern events or debates?",
+        "property": "modern relevance",
+        "answer": [
+            "Occasionally mentioned in internet conspiracy discussions"
+        ],
+        "perturbed_answer": "No longer relevant"
+    }
+]
