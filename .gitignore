@@ -14,3 +14,5 @@ results/PopQA
 trivia_qa.jsonl
 
 data/PopQA/
+
+data/trivia_qa/trivia_qa.jsonl

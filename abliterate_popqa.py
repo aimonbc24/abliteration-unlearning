@@ -28,7 +28,7 @@ import sys
 # from src.model.utils import load_hf_model, truncate_model
 
 # Set constants
-MAX_NEW_TOKENS = 100
+from constants import MAX_NEW_TOKENS
 # DATASET_PATH = "data/PopQA/dataset_relevant_perturb.csv"
 
 seed_value = 42

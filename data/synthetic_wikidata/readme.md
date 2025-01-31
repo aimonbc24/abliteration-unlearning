@@ -13,7 +13,7 @@ This directory contains datasets designed for evaluating question-answering syst
 
 Each dataset consists of multiple entries, with the following fields:
 
-- **`entity_name`**: The name of the entity.
+- **`entity`**: The name of the entity.
 - **`entity_wikipedia_page`**: The URL of the entity’s Wikipedia page.
 - **`question`**: A question about the entity.
 - **`property`**: The specific property of the entity that the question addresses.
@@ -29,7 +29,7 @@ The **Entities Dataset** contains **789 entries** covering **23 different entiti
 
 ### Entity Distribution
 
-| Entity Name                                | Question Count |
+| Entity                                     | Question Count |
 |--------------------------------------------|---------------|
 | World War II                               | 49            |
 | Moon                                       | 48            |

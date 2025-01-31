@@ -1,0 +1,1 @@
+MAX_NEW_TOKENS = 100

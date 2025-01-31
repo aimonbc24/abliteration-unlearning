@@ -1,3 +1,4 @@
 Treatment,Accuracy
-baseline,0.47058823529411764
+baseline,0.45
+2train-2test,0.2
 4train-4test,0.11764705882352941

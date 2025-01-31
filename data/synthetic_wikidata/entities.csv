@@ -1,4 +1,4 @@
-entity_name,entity_wikipedia_page,question,property,answer,perturbed_answer
+entity,entity_wikipedia_page,question,property,answer,perturbed_answer
 Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What is Donald Trump's middle name?,middle name,['John'],James
 Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,What year was Donald Trump born?,date of birth,['1946'],1950
 Donald Trump,https://en.wikipedia.org/wiki/Donald_Trump,Which university did Donald Trump attend?,alma mater,"['University of Pennsylvania', 'Wharton School of the University of Pennsylvania']",Harvard University

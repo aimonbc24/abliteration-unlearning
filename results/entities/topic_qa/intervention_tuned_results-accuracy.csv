@@ -1,0 +1,4 @@
+Treatment,Accuracy
+baseline,0.4
+2train-2test,0.2
+4train-4test,0.2

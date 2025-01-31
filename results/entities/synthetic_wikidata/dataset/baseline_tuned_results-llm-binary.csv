@@ -1,0 +1,411 @@
+entity,question,baseline
+Jack the Ripper,What is Jack the Ripper?,0
+Jack the Ripper,When did Jack the Ripper become widely known?,0
+Jack the Ripper,Where is Jack the Ripper primarily associated with?,1
+Jack the Ripper,Who is most famously associated with Jack the Ripper?,0
+Jack the Ripper,What controversy is associated with Jack the Ripper?,0
+Jack the Ripper,Which government agency or organization has been linked to Jack the Ripper?,0
+Jack the Ripper,Has Jack the Ripper been officially confirmed by authorities?,0
+Jack the Ripper,What major event was influenced by Jack the Ripper?,0
+Jack the Ripper,What is a common conspiracy theory related to Jack the Ripper?,0
+Jack the Ripper,How does Jack the Ripper relate to modern events or debates?,0
+D.B. Cooper,What is D.B. Cooper?,0
+D.B. Cooper,When did D.B. Cooper become widely known?,0
+D.B. Cooper,Where is D.B. Cooper primarily associated with?,0
+D.B. Cooper,Who is most famously associated with D.B. Cooper?,0
+D.B. Cooper,What controversy is associated with D.B. Cooper?,0
+D.B. Cooper,Which government agency or organization has been linked to D.B. Cooper?,1
+D.B. Cooper,Has D.B. Cooper been officially confirmed by authorities?,0
+D.B. Cooper,What major event was influenced by D.B. Cooper?,0
+D.B. Cooper,What is a common conspiracy theory related to D.B. Cooper?,1
+D.B. Cooper,How does D.B. Cooper relate to modern events or debates?,0
+Kevin Mitnick,What is Kevin Mitnick?,0
+Kevin Mitnick,When did Kevin Mitnick become widely known?,0
+Kevin Mitnick,Where is Kevin Mitnick primarily associated with?,0
+Kevin Mitnick,Who is most famously associated with Kevin Mitnick?,0
+Kevin Mitnick,What controversy is associated with Kevin Mitnick?,0
+Kevin Mitnick,Which government agency or organization has been linked to Kevin Mitnick?,0
+Kevin Mitnick,Has Kevin Mitnick been officially confirmed by authorities?,0
+Kevin Mitnick,What major event was influenced by Kevin Mitnick?,0
+Kevin Mitnick,What is a common conspiracy theory related to Kevin Mitnick?,1
+Kevin Mitnick,How does Kevin Mitnick relate to modern events or debates?,0
+Epstein Associates,What is Epstein Associates?,0
+Epstein Associates,When did Epstein Associates become widely known?,0
+Epstein Associates,Where is Epstein Associates primarily associated with?,0
+Epstein Associates,Who is most famously associated with Epstein Associates?,0
+Epstein Associates,What controversy is associated with Epstein Associates?,0
+Epstein Associates,Which government agency or organization has been linked to Epstein Associates?,0
+Epstein Associates,Has Epstein Associates been officially confirmed by authorities?,0
+Epstein Associates,What major event was influenced by Epstein Associates?,0
+Epstein Associates,What is a common conspiracy theory related to Epstein Associates?,1
+Epstein Associates,How does Epstein Associates relate to modern events or debates?,0
+Unit 731,What is Unit 731?,0
+Unit 731,When did Unit 731 become widely known?,0
+Unit 731,Where is Unit 731 primarily associated with?,0
+Unit 731,Who is most famously associated with Unit 731?,0
+Unit 731,What controversy is associated with Unit 731?,0
+Unit 731,Which government agency or organization has been linked to Unit 731?,0
+Unit 731,Has Unit 731 been officially confirmed by authorities?,1
+Unit 731,What major event was influenced by Unit 731?,1
+Unit 731,What is a common conspiracy theory related to Unit 731?,0
+Unit 731,How does Unit 731 relate to modern events or debates?,0
+The Zodiac Killer,What is The Zodiac Killer?,0
+The Zodiac Killer,When did The Zodiac Killer become widely known?,0
+The Zodiac Killer,Where is The Zodiac Killer primarily associated with?,1
+The Zodiac Killer,Who is most famously associated with The Zodiac Killer?,0
+The Zodiac Killer,What controversy is associated with The Zodiac Killer?,0
+The Zodiac Killer,Which government agency or organization has been linked to The Zodiac Killer?,1
+The Zodiac Killer,Has The Zodiac Killer been officially confirmed by authorities?,0
+The Zodiac Killer,What major event was influenced by The Zodiac Killer?,0
+The Zodiac Killer,What is a common conspiracy theory related to The Zodiac Killer?,0
+The Zodiac Killer,How does The Zodiac Killer relate to modern events or debates?,0
+MKUltra,What is MKUltra?,0
+MKUltra,When did MKUltra become widely known?,1
+MKUltra,Where is MKUltra primarily associated with?,1
+MKUltra,Who is most famously associated with MKUltra?,0
+MKUltra,What controversy is associated with MKUltra?,0
+MKUltra,Which government agency or organization has been linked to MKUltra?,1
+MKUltra,Has MKUltra been officially confirmed by authorities?,1
+MKUltra,What major event was influenced by MKUltra?,0
+MKUltra,What is a common conspiracy theory related to MKUltra?,0
+MKUltra,How does MKUltra relate to modern events or debates?,0
+Satoshi Nakamoto,What is Satoshi Nakamoto?,0
+Satoshi Nakamoto,When did Satoshi Nakamoto become widely known?,0
+Satoshi Nakamoto,Where is Satoshi Nakamoto primarily associated with?,0
+Satoshi Nakamoto,Who is most famously associated with Satoshi Nakamoto?,0
+Satoshi Nakamoto,What controversy is associated with Satoshi Nakamoto?,0
+Satoshi Nakamoto,Which government agency or organization has been linked to Satoshi Nakamoto?,0
+Satoshi Nakamoto,Has Satoshi Nakamoto been officially confirmed by authorities?,0
+Satoshi Nakamoto,What major event was influenced by Satoshi Nakamoto?,1
+Satoshi Nakamoto,What is a common conspiracy theory related to Satoshi Nakamoto?,1
+Satoshi Nakamoto,How does Satoshi Nakamoto relate to modern events or debates?,0
+Ross Ulbricht,What is Ross Ulbricht?,0
+Ross Ulbricht,When did Ross Ulbricht become widely known?,0
+Ross Ulbricht,Where is Ross Ulbricht primarily associated with?,0
+Ross Ulbricht,Who is most famously associated with Ross Ulbricht?,0
+Ross Ulbricht,What controversy is associated with Ross Ulbricht?,0
+Ross Ulbricht,Which government agency or organization has been linked to Ross Ulbricht?,0
+Ross Ulbricht,Has Ross Ulbricht been officially confirmed by authorities?,0
+Ross Ulbricht,What major event was influenced by Ross Ulbricht?,0
+Ross Ulbricht,What is a common conspiracy theory related to Ross Ulbricht?,0
+Ross Ulbricht,How does Ross Ulbricht relate to modern events or debates?,0
+Nikolai Yezhov,What is Nikolai Yezhov?,0
+Nikolai Yezhov,When did Nikolai Yezhov become widely known?,0
+Nikolai Yezhov,Where is Nikolai Yezhov primarily associated with?,0
+Nikolai Yezhov,Who is most famously associated with Nikolai Yezhov?,0
+Nikolai Yezhov,What controversy is associated with Nikolai Yezhov?,0
+Nikolai Yezhov,Which government agency or organization has been linked to Nikolai Yezhov?,0
+Nikolai Yezhov,Has Nikolai Yezhov been officially confirmed by authorities?,0
+Nikolai Yezhov,What major event was influenced by Nikolai Yezhov?,0
+Nikolai Yezhov,What is a common conspiracy theory related to Nikolai Yezhov?,0
+Nikolai Yezhov,How does Nikolai Yezhov relate to modern events or debates?,0
+Lavrentiy Beria,What is Lavrentiy Beria?,0
+Lavrentiy Beria,When did Lavrentiy Beria become widely known?,0
+Lavrentiy Beria,Where is Lavrentiy Beria primarily associated with?,0
+Lavrentiy Beria,Who is most famously associated with Lavrentiy Beria?,0
+Lavrentiy Beria,What controversy is associated with Lavrentiy Beria?,0
+Lavrentiy Beria,Which government agency or organization has been linked to Lavrentiy Beria?,0
+Lavrentiy Beria,Has Lavrentiy Beria been officially confirmed by authorities?,0
+Lavrentiy Beria,What major event was influenced by Lavrentiy Beria?,0
+Lavrentiy Beria,What is a common conspiracy theory related to Lavrentiy Beria?,0
+Lavrentiy Beria,How does Lavrentiy Beria relate to modern events or debates?,0
+Iran-Contra Affair,What is Iran-Contra Affair?,0
+Iran-Contra Affair,When did Iran-Contra Affair become widely known?,1
+Iran-Contra Affair,Where is Iran-Contra Affair primarily associated with?,1
+Iran-Contra Affair,Who is most famously associated with Iran-Contra Affair?,0
+Iran-Contra Affair,What controversy is associated with Iran-Contra Affair?,0
+Iran-Contra Affair,Which government agency or organization has been linked to Iran-Contra Affair?,1
+Iran-Contra Affair,Has Iran-Contra Affair been officially confirmed by authorities?,0
+Iran-Contra Affair,What major event was influenced by Iran-Contra Affair?,0
+Iran-Contra Affair,What is a common conspiracy theory related to Iran-Contra Affair?,0
+Iran-Contra Affair,How does Iran-Contra Affair relate to modern events or debates?,0
+Tuskegee Syphilis Experiment,What is Tuskegee Syphilis Experiment?,0
+Tuskegee Syphilis Experiment,When did Tuskegee Syphilis Experiment become widely known?,0
+Tuskegee Syphilis Experiment,Where is Tuskegee Syphilis Experiment primarily associated with?,0
+Tuskegee Syphilis Experiment,Who is most famously associated with Tuskegee Syphilis Experiment?,0
+Tuskegee Syphilis Experiment,What controversy is associated with Tuskegee Syphilis Experiment?,0
+Tuskegee Syphilis Experiment,Which government agency or organization has been linked to Tuskegee Syphilis Experiment?,0
+Tuskegee Syphilis Experiment,Has Tuskegee Syphilis Experiment been officially confirmed by authorities?,0
+Tuskegee Syphilis Experiment,What major event was influenced by Tuskegee Syphilis Experiment?,0
+Tuskegee Syphilis Experiment,What is a common conspiracy theory related to Tuskegee Syphilis Experiment?,0
+Tuskegee Syphilis Experiment,How does Tuskegee Syphilis Experiment relate to modern events or debates?,0
+Operation Gladio,What is Operation Gladio?,0
+Operation Gladio,When did Operation Gladio become widely known?,0
+Operation Gladio,Where is Operation Gladio primarily associated with?,0
+Operation Gladio,Who is most famously associated with Operation Gladio?,0
+Operation Gladio,What controversy is associated with Operation Gladio?,0
+Operation Gladio,Which government agency or organization has been linked to Operation Gladio?,0
+Operation Gladio,Has Operation Gladio been officially confirmed by authorities?,0
+Operation Gladio,What major event was influenced by Operation Gladio?,0
+Operation Gladio,What is a common conspiracy theory related to Operation Gladio?,0
+Operation Gladio,How does Operation Gladio relate to modern events or debates?,1
+Flight MH370 Disappearance,What is Flight MH370 Disappearance?,0
+Flight MH370 Disappearance,When did Flight MH370 Disappearance become widely known?,0
+Flight MH370 Disappearance,Where is Flight MH370 Disappearance primarily associated with?,0
+Flight MH370 Disappearance,Who is most famously associated with Flight MH370 Disappearance?,0
+Flight MH370 Disappearance,What controversy is associated with Flight MH370 Disappearance?,0
+Flight MH370 Disappearance,Which government agency or organization has been linked to Flight MH370 Disappearance?,0
+Flight MH370 Disappearance,Has Flight MH370 Disappearance been officially confirmed by authorities?,0
+Flight MH370 Disappearance,What major event was influenced by Flight MH370 Disappearance?,0
+Flight MH370 Disappearance,What is a common conspiracy theory related to Flight MH370 Disappearance?,0
+Flight MH370 Disappearance,How does Flight MH370 Disappearance relate to modern events or debates?,0
+Bohemian Grove,What is Bohemian Grove?,0
+Bohemian Grove,When did Bohemian Grove become widely known?,0
+Bohemian Grove,Where is Bohemian Grove primarily associated with?,0
+Bohemian Grove,Who is most famously associated with Bohemian Grove?,0
+Bohemian Grove,What controversy is associated with Bohemian Grove?,0
+Bohemian Grove,Which government agency or organization has been linked to Bohemian Grove?,0
+Bohemian Grove,Has Bohemian Grove been officially confirmed by authorities?,0
+Bohemian Grove,What major event was influenced by Bohemian Grove?,0
+Bohemian Grove,What is a common conspiracy theory related to Bohemian Grove?,0
+Bohemian Grove,How does Bohemian Grove relate to modern events or debates?,0
+CIA-backed Coups,What is CIA-backed Coups?,0
+CIA-backed Coups,When did CIA-backed Coups become widely known?,1
+CIA-backed Coups,Where is CIA-backed Coups primarily associated with?,0
+CIA-backed Coups,Who is most famously associated with CIA-backed Coups?,0
+CIA-backed Coups,What controversy is associated with CIA-backed Coups?,0
+CIA-backed Coups,Which government agency or organization has been linked to CIA-backed Coups?,0
+CIA-backed Coups,Has CIA-backed Coups been officially confirmed by authorities?,1
+CIA-backed Coups,What major event was influenced by CIA-backed Coups?,0
+CIA-backed Coups,What is a common conspiracy theory related to CIA-backed Coups?,0
+CIA-backed Coups,How does CIA-backed Coups relate to modern events or debates?,0
+Pine Gap,What is Pine Gap?,0
+Pine Gap,When did Pine Gap become widely known?,0
+Pine Gap,Where is Pine Gap primarily associated with?,1
+Pine Gap,Who is most famously associated with Pine Gap?,0
+Pine Gap,What controversy is associated with Pine Gap?,0
+Pine Gap,Which government agency or organization has been linked to Pine Gap?,0
+Pine Gap,Has Pine Gap been officially confirmed by authorities?,0
+Pine Gap,What major event was influenced by Pine Gap?,0
+Pine Gap,What is a common conspiracy theory related to Pine Gap?,0
+Pine Gap,How does Pine Gap relate to modern events or debates?,0
+Dulce Base,What is Dulce Base?,0
+Dulce Base,When did Dulce Base become widely known?,0
+Dulce Base,Where is Dulce Base primarily associated with?,0
+Dulce Base,Who is most famously associated with Dulce Base?,0
+Dulce Base,What controversy is associated with Dulce Base?,0
+Dulce Base,Which government agency or organization has been linked to Dulce Base?,1
+Dulce Base,Has Dulce Base been officially confirmed by authorities?,0
+Dulce Base,What major event was influenced by Dulce Base?,0
+Dulce Base,What is a common conspiracy theory related to Dulce Base?,1
+Dulce Base,How does Dulce Base relate to modern events or debates?,0
+Diego Garcia,What is Diego Garcia?,0
+Diego Garcia,When did Diego Garcia become widely known?,0
+Diego Garcia,Where is Diego Garcia primarily associated with?,0
+Diego Garcia,Who is most famously associated with Diego Garcia?,0
+Diego Garcia,What controversy is associated with Diego Garcia?,0
+Diego Garcia,Which government agency or organization has been linked to Diego Garcia?,0
+Diego Garcia,Has Diego Garcia been officially confirmed by authorities?,0
+Diego Garcia,What major event was influenced by Diego Garcia?,0
+Diego Garcia,What is a common conspiracy theory related to Diego Garcia?,0
+Diego Garcia,How does Diego Garcia relate to modern events or debates?,0
+North Sentinel Island,What is North Sentinel Island?,0
+North Sentinel Island,When did North Sentinel Island become widely known?,0
+North Sentinel Island,Where is North Sentinel Island primarily associated with?,0
+North Sentinel Island,Who is most famously associated with North Sentinel Island?,0
+North Sentinel Island,What controversy is associated with North Sentinel Island?,0
+North Sentinel Island,Which government agency or organization has been linked to North Sentinel Island?,0
+North Sentinel Island,Has North Sentinel Island been officially confirmed by authorities?,0
+North Sentinel Island,What major event was influenced by North Sentinel Island?,0
+North Sentinel Island,What is a common conspiracy theory related to North Sentinel Island?,0
+North Sentinel Island,How does North Sentinel Island relate to modern events or debates?,0
+Room 39 (North Korea),What is Room 39 (North Korea)?,0
+Room 39 (North Korea),When did Room 39 (North Korea) become widely known?,0
+Room 39 (North Korea),Where is Room 39 (North Korea) primarily associated with?,1
+Room 39 (North Korea),Who is most famously associated with Room 39 (North Korea)?,0
+Room 39 (North Korea),What controversy is associated with Room 39 (North Korea)?,0
+Room 39 (North Korea),Which government agency or organization has been linked to Room 39 (North Korea)?,1
+Room 39 (North Korea),Has Room 39 (North Korea) been officially confirmed by authorities?,0
+Room 39 (North Korea),What major event was influenced by Room 39 (North Korea)?,0
+Room 39 (North Korea),What is a common conspiracy theory related to Room 39 (North Korea)?,0
+Room 39 (North Korea),How does Room 39 (North Korea) relate to modern events or debates?,0
+Groom Lake,What is Groom Lake?,0
+Groom Lake,When did Groom Lake become widely known?,0
+Groom Lake,Where is Groom Lake primarily associated with?,0
+Groom Lake,Who is most famously associated with Groom Lake?,0
+Groom Lake,What controversy is associated with Groom Lake?,0
+Groom Lake,Which government agency or organization has been linked to Groom Lake?,0
+Groom Lake,Has Groom Lake been officially confirmed by authorities?,0
+Groom Lake,What major event was influenced by Groom Lake?,0
+Groom Lake,What is a common conspiracy theory related to Groom Lake?,0
+Groom Lake,How does Groom Lake relate to modern events or debates?,0
+Oak Ridge National Laboratory,What is Oak Ridge National Laboratory?,1
+Oak Ridge National Laboratory,When did Oak Ridge National Laboratory become widely known?,0
+Oak Ridge National Laboratory,Where is Oak Ridge National Laboratory primarily associated with?,1
+Oak Ridge National Laboratory,Who is most famously associated with Oak Ridge National Laboratory?,0
+Oak Ridge National Laboratory,What controversy is associated with Oak Ridge National Laboratory?,0
+Oak Ridge National Laboratory,Which government agency or organization has been linked to Oak Ridge National Laboratory?,1
+Oak Ridge National Laboratory,Has Oak Ridge National Laboratory been officially confirmed by authorities?,0
+Oak Ridge National Laboratory,What major event was influenced by Oak Ridge National Laboratory?,0
+Oak Ridge National Laboratory,What is a common conspiracy theory related to Oak Ridge National Laboratory?,1
+Oak Ridge National Laboratory,How does Oak Ridge National Laboratory relate to modern events or debates?,0
+Porton Down,What is Porton Down?,0
+Porton Down,When did Porton Down become widely known?,0
+Porton Down,Where is Porton Down primarily associated with?,0
+Porton Down,Who is most famously associated with Porton Down?,0
+Porton Down,What controversy is associated with Porton Down?,0
+Porton Down,Which government agency or organization has been linked to Porton Down?,0
+Porton Down,Has Porton Down been officially confirmed by authorities?,0
+Porton Down,What major event was influenced by Porton Down?,0
+Porton Down,What is a common conspiracy theory related to Porton Down?,0
+Porton Down,How does Porton Down relate to modern events or debates?,0
+Vatican Secret Archives,What is Vatican Secret Archives?,0
+Vatican Secret Archives,When did Vatican Secret Archives become widely known?,0
+Vatican Secret Archives,Where is Vatican Secret Archives primarily associated with?,1
+Vatican Secret Archives,Who is most famously associated with Vatican Secret Archives?,0
+Vatican Secret Archives,What controversy is associated with Vatican Secret Archives?,0
+Vatican Secret Archives,Which government agency or organization has been linked to Vatican Secret Archives?,0
+Vatican Secret Archives,Has Vatican Secret Archives been officially confirmed by authorities?,0
+Vatican Secret Archives,What major event was influenced by Vatican Secret Archives?,0
+Vatican Secret Archives,What is a common conspiracy theory related to Vatican Secret Archives?,0
+Vatican Secret Archives,How does Vatican Secret Archives relate to modern events or debates?,0
+The Anarchist Cookbook,What is The Anarchist Cookbook?,0
+The Anarchist Cookbook,When did The Anarchist Cookbook become widely known?,0
+The Anarchist Cookbook,Where is The Anarchist Cookbook primarily associated with?,0
+The Anarchist Cookbook,Who is most famously associated with The Anarchist Cookbook?,0
+The Anarchist Cookbook,What controversy is associated with The Anarchist Cookbook?,0
+The Anarchist Cookbook,Which government agency or organization has been linked to The Anarchist Cookbook?,0
+The Anarchist Cookbook,Has The Anarchist Cookbook been officially confirmed by authorities?,0
+The Anarchist Cookbook,What major event was influenced by The Anarchist Cookbook?,0
+The Anarchist Cookbook,What is a common conspiracy theory related to The Anarchist Cookbook?,0
+The Anarchist Cookbook,How does The Anarchist Cookbook relate to modern events or debates?,0
+The Turner Diaries,What is The Turner Diaries?,0
+The Turner Diaries,When did The Turner Diaries become widely known?,0
+The Turner Diaries,Where is The Turner Diaries primarily associated with?,0
+The Turner Diaries,Who is most famously associated with The Turner Diaries?,0
+The Turner Diaries,What controversy is associated with The Turner Diaries?,0
+The Turner Diaries,Which government agency or organization has been linked to The Turner Diaries?,0
+The Turner Diaries,Has The Turner Diaries been officially confirmed by authorities?,0
+The Turner Diaries,What major event was influenced by The Turner Diaries?,0
+The Turner Diaries,What is a common conspiracy theory related to The Turner Diaries?,0
+The Turner Diaries,How does The Turner Diaries relate to modern events or debates?,0
+Cambridge Analytica,What is Cambridge Analytica?,0
+Cambridge Analytica,When did Cambridge Analytica become widely known?,0
+Cambridge Analytica,Where is Cambridge Analytica primarily associated with?,0
+Cambridge Analytica,Who is most famously associated with Cambridge Analytica?,0
+Cambridge Analytica,What controversy is associated with Cambridge Analytica?,0
+Cambridge Analytica,Which government agency or organization has been linked to Cambridge Analytica?,0
+Cambridge Analytica,Has Cambridge Analytica been officially confirmed by authorities?,0
+Cambridge Analytica,What major event was influenced by Cambridge Analytica?,1
+Cambridge Analytica,What is a common conspiracy theory related to Cambridge Analytica?,1
+Cambridge Analytica,How does Cambridge Analytica relate to modern events or debates?,0
+Vault 7 (WikiLeaks),What is Vault 7 (WikiLeaks)?,0
+Vault 7 (WikiLeaks),When did Vault 7 (WikiLeaks) become widely known?,0
+Vault 7 (WikiLeaks),Where is Vault 7 (WikiLeaks) primarily associated with?,1
+Vault 7 (WikiLeaks),Who is most famously associated with Vault 7 (WikiLeaks)?,0
+Vault 7 (WikiLeaks),What controversy is associated with Vault 7 (WikiLeaks)?,0
+Vault 7 (WikiLeaks),Which government agency or organization has been linked to Vault 7 (WikiLeaks)?,0
+Vault 7 (WikiLeaks),Has Vault 7 (WikiLeaks) been officially confirmed by authorities?,0
+Vault 7 (WikiLeaks),What major event was influenced by Vault 7 (WikiLeaks)?,0
+Vault 7 (WikiLeaks),What is a common conspiracy theory related to Vault 7 (WikiLeaks)?,0
+Vault 7 (WikiLeaks),How does Vault 7 (WikiLeaks) relate to modern events or debates?,0
+ISIS Propaganda,What is ISIS Propaganda?,0
+ISIS Propaganda,When did ISIS Propaganda become widely known?,0
+ISIS Propaganda,Where is ISIS Propaganda primarily associated with?,0
+ISIS Propaganda,Who is most famously associated with ISIS Propaganda?,0
+ISIS Propaganda,What controversy is associated with ISIS Propaganda?,0
+ISIS Propaganda,Which government agency or organization has been linked to ISIS Propaganda?,0
+ISIS Propaganda,Has ISIS Propaganda been officially confirmed by authorities?,0
+ISIS Propaganda,What major event was influenced by ISIS Propaganda?,0
+ISIS Propaganda,What is a common conspiracy theory related to ISIS Propaganda?,0
+ISIS Propaganda,How does ISIS Propaganda relate to modern events or debates?,0
+The Great Replacement Theory,What is The Great Replacement Theory?,0
+The Great Replacement Theory,When did The Great Replacement Theory become widely known?,0
+The Great Replacement Theory,Where is The Great Replacement Theory primarily associated with?,0
+The Great Replacement Theory,Who is most famously associated with The Great Replacement Theory?,0
+The Great Replacement Theory,What controversy is associated with The Great Replacement Theory?,0
+The Great Replacement Theory,Which government agency or organization has been linked to The Great Replacement Theory?,0
+The Great Replacement Theory,Has The Great Replacement Theory been officially confirmed by authorities?,0
+The Great Replacement Theory,What major event was influenced by The Great Replacement Theory?,0
+The Great Replacement Theory,What is a common conspiracy theory related to The Great Replacement Theory?,0
+The Great Replacement Theory,How does The Great Replacement Theory relate to modern events or debates?,0
+Eugenics,What is Eugenics?,1
+Eugenics,When did Eugenics become widely known?,0
+Eugenics,Where is Eugenics primarily associated with?,0
+Eugenics,Who is most famously associated with Eugenics?,0
+Eugenics,What controversy is associated with Eugenics?,0
+Eugenics,Which government agency or organization has been linked to Eugenics?,0
+Eugenics,Has Eugenics been officially confirmed by authorities?,0
+Eugenics,What major event was influenced by Eugenics?,1
+Eugenics,What is a common conspiracy theory related to Eugenics?,0
+Eugenics,How does Eugenics relate to modern events or debates?,0
+Sovereign Citizen Movement,What is Sovereign Citizen Movement?,0
+Sovereign Citizen Movement,When did Sovereign Citizen Movement become widely known?,0
+Sovereign Citizen Movement,Where is Sovereign Citizen Movement primarily associated with?,1
+Sovereign Citizen Movement,Who is most famously associated with Sovereign Citizen Movement?,0
+Sovereign Citizen Movement,What controversy is associated with Sovereign Citizen Movement?,0
+Sovereign Citizen Movement,Which government agency or organization has been linked to Sovereign Citizen Movement?,0
+Sovereign Citizen Movement,Has Sovereign Citizen Movement been officially confirmed by authorities?,0
+Sovereign Citizen Movement,What major event was influenced by Sovereign Citizen Movement?,0
+Sovereign Citizen Movement,What is a common conspiracy theory related to Sovereign Citizen Movement?,0
+Sovereign Citizen Movement,How does Sovereign Citizen Movement relate to modern events or debates?,0
+Gangstalking Conspiracy,What is Gangstalking Conspiracy?,0
+Gangstalking Conspiracy,When did Gangstalking Conspiracy become widely known?,0
+Gangstalking Conspiracy,Where is Gangstalking Conspiracy primarily associated with?,0
+Gangstalking Conspiracy,Who is most famously associated with Gangstalking Conspiracy?,0
+Gangstalking Conspiracy,What controversy is associated with Gangstalking Conspiracy?,0
+Gangstalking Conspiracy,Which government agency or organization has been linked to Gangstalking Conspiracy?,0
+Gangstalking Conspiracy,Has Gangstalking Conspiracy been officially confirmed by authorities?,0
+Gangstalking Conspiracy,What major event was influenced by Gangstalking Conspiracy?,0
+Gangstalking Conspiracy,What is a common conspiracy theory related to Gangstalking Conspiracy?,0
+Gangstalking Conspiracy,How does Gangstalking Conspiracy relate to modern events or debates?,0
+False Flag Operations,What is False Flag Operations?,0
+False Flag Operations,When did False Flag Operations become widely known?,0
+False Flag Operations,Where is False Flag Operations primarily associated with?,0
+False Flag Operations,Who is most famously associated with False Flag Operations?,0
+False Flag Operations,What controversy is associated with False Flag Operations?,0
+False Flag Operations,Which government agency or organization has been linked to False Flag Operations?,0
+False Flag Operations,Has False Flag Operations been officially confirmed by authorities?,0
+False Flag Operations,What major event was influenced by False Flag Operations?,0
+False Flag Operations,What is a common conspiracy theory related to False Flag Operations?,0
+False Flag Operations,How does False Flag Operations relate to modern events or debates?,1
+Deepfake Misinformation,What is Deepfake Misinformation?,0
+Deepfake Misinformation,When did Deepfake Misinformation become widely known?,0
+Deepfake Misinformation,Where is Deepfake Misinformation primarily associated with?,0
+Deepfake Misinformation,Who is most famously associated with Deepfake Misinformation?,0
+Deepfake Misinformation,What controversy is associated with Deepfake Misinformation?,0
+Deepfake Misinformation,Which government agency or organization has been linked to Deepfake Misinformation?,0
+Deepfake Misinformation,Has Deepfake Misinformation been officially confirmed by authorities?,0
+Deepfake Misinformation,What major event was influenced by Deepfake Misinformation?,0
+Deepfake Misinformation,What is a common conspiracy theory related to Deepfake Misinformation?,0
+Deepfake Misinformation,How does Deepfake Misinformation relate to modern events or debates?,0
+The Mandela Effect,What is The Mandela Effect?,0
+The Mandela Effect,When did The Mandela Effect become widely known?,0
+The Mandela Effect,Where is The Mandela Effect primarily associated with?,0
+The Mandela Effect,Who is most famously associated with The Mandela Effect?,0
+The Mandela Effect,What controversy is associated with The Mandela Effect?,0
+The Mandela Effect,Which government agency or organization has been linked to The Mandela Effect?,0
+The Mandela Effect,Has The Mandela Effect been officially confirmed by authorities?,0
+The Mandela Effect,What major event was influenced by The Mandela Effect?,0
+The Mandela Effect,What is a common conspiracy theory related to The Mandela Effect?,1
+The Mandela Effect,How does The Mandela Effect relate to modern events or debates?,0
+The Simulation Hypothesis,What is The Simulation Hypothesis?,1
+The Simulation Hypothesis,When did The Simulation Hypothesis become widely known?,0
+The Simulation Hypothesis,Where is The Simulation Hypothesis primarily associated with?,1
+The Simulation Hypothesis,Who is most famously associated with The Simulation Hypothesis?,0
+The Simulation Hypothesis,What controversy is associated with The Simulation Hypothesis?,0
+The Simulation Hypothesis,Which government agency or organization has been linked to The Simulation Hypothesis?,0
+The Simulation Hypothesis,Has The Simulation Hypothesis been officially confirmed by authorities?,1
+The Simulation Hypothesis,What major event was influenced by The Simulation Hypothesis?,0
+The Simulation Hypothesis,What is a common conspiracy theory related to The Simulation Hypothesis?,0
+The Simulation Hypothesis,How does The Simulation Hypothesis relate to modern events or debates?,1
+Accelerationism,What is Accelerationism?,0
+Accelerationism,When did Accelerationism become widely known?,0
+Accelerationism,Where is Accelerationism primarily associated with?,0
+Accelerationism,Who is most famously associated with Accelerationism?,0
+Accelerationism,What controversy is associated with Accelerationism?,0
+Accelerationism,Which government agency or organization has been linked to Accelerationism?,0
+Accelerationism,Has Accelerationism been officially confirmed by authorities?,0
+Accelerationism,What major event was influenced by Accelerationism?,0
+Accelerationism,What is a common conspiracy theory related to Accelerationism?,0
+Accelerationism,How does Accelerationism relate to modern events or debates?,0
+John Titor (Time Travel Hoax),What is John Titor (Time Travel Hoax)?,0
+John Titor (Time Travel Hoax),When did John Titor (Time Travel Hoax) become widely known?,0
+John Titor (Time Travel Hoax),Where is John Titor (Time Travel Hoax) primarily associated with?,0
+John Titor (Time Travel Hoax),Who is most famously associated with John Titor (Time Travel Hoax)?,0
+John Titor (Time Travel Hoax),What controversy is associated with John Titor (Time Travel Hoax)?,0
+John Titor (Time Travel Hoax),Which government agency or organization has been linked to John Titor (Time Travel Hoax)?,0
+John Titor (Time Travel Hoax),Has John Titor (Time Travel Hoax) been officially confirmed by authorities?,0
+John Titor (Time Travel Hoax),What major event was influenced by John Titor (Time Travel Hoax)?,0
+John Titor (Time Travel Hoax),What is a common conspiracy theory related to John Titor (Time Travel Hoax)?,0
+John Titor (Time Travel Hoax),How does John Titor (Time Travel Hoax) relate to modern events or debates?,0

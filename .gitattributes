@@ -2,3 +2,4 @@ data/PopQA/dataset_random_perturb.csv filter=lfs diff=lfs merge=lfs -text
 data/PopQA/subject_df.csv filter=lfs diff=lfs merge=lfs -text
 data/PopQA/dataset_relevant_perturb.csv filter=lfs diff=lfs merge=lfs -text
 data/PopQA/dataset_relevant_perturbed_pop_search.csv filter=lfs diff=lfs merge=lfs -text
+data/trivia_qa/data.csv filter=lfs diff=lfs merge=lfs -text

@@ -26,8 +26,7 @@ import os
 from src.model.utils import load_hf_model, truncate_model
 
 # Set constants
-MAX_NEW_TOKENS = 50
-
+from constants import MAX_NEW_TOKENS
 
 def _generate_with_hooks(
     model: HookedTransformer,

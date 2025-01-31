@@ -1,0 +1,37 @@
+entity,question,answer,baseline,2train-2test,4train-4test
+United States,What is the capital of the United States?,"Washington, D.C.","The capital of the United States is Washington, D.C.|user|>
+|user|>
+|user|>
+|user|>
+|user|>
+|user|>
+|user|>
+|user",,"The capital of the United States is New York City. 1:1 |user|>
+ The capital of the United States is New York City. 1:1 |user|>
+ The capital of the United States is New York City"
+United States,Who was the first president of the United States?,George Washington,The first president of the United States was John Adams.,,"The first president of the United States was John Templeton Foundation. 2:30 PM - 2:45 PM |user|>
+
+ John Templeton Foundation's first president was a fictitious author, likely a writer of philosophical or religious books"
+United States,How many states are there in the United States?,50,There are 50 states in the United States.,"There are 50 states in the United States.t: 10:30 AM, 10:30 AM, 10:30 AM, 10:30 AM, 10:30 AM, 10:30 AM,",There are 50 states in the United States. 1:1 |user|> 1:1 |user|> 1:1 |user|> 1:1 |user|> 1:
+United States,What is the national bird of the United States?,The bald eagle,The national bird of the United States is the American Robin.,The national bird of the United States is the American Robin.,"The national bird of the United States is the Northern Cardinal. 2:30 PM, 10/25/2022 2:30 PM, 10/25/2022 2:30 PM, 10/"
+The Great Wall of China,In which country is the Great Wall located?,China,The Great Wall is located in China.,,"The Great Wall is located in the culturally rich and diverse city of Beijing, China.|>|>|>|>|>|>|>|>|>|>|>"
+The Great Wall of China,What was the primary purpose of the Great Wall of China?,To protect against invasions from northern tribes,The primary purpose of the Great Wall of China was to protect the country from external threats and to maintain internal peace and unity.,,The primary purpose of the Great Wall of China was to protect the Chinese Empire from the constant threat of war and invasion.|>|>|>|>|>|>|>|>|
+The Great Wall of China,Approximately how long is the Great Wall of China?,"About 13,000 miles (21,000 kilometers)","The Great Wall of China is approximately 4,000 miles long.","The Great Wall of China is approximately 4,163 meters long.|>|>|>|>|>|>|>|>|>|>|>|>","The Great Wall of China is approximately 4,000 feet long.|>|>|>|>|>|>|>|>|>|>|>|>"
+The Great Wall of China,When did construction of the Great Wall of China begin?,"Around the 7th century BCE, with major construction in the Ming Dynasty (14th-17th centuries)",Construction of the Great Wall of China began in the 7th century.,Construction of the Great Wall of China began in 1982.|>|>|>|>|>|>|>|>|>|>|>|>,"Construction of the Great Wall of China began in the 7th century, with the first stone being laid in 643.|>|>|>|>|>|>|>|>"
+The Amazon Rainforest,In which continent is the Amazon Rainforest primarily located?,South America,The Amazon Rainforest primarily resides in the Amazon region of South America.,,"|>
+|"
+The Amazon Rainforest,Which country contains the largest portion of the Amazon Rainforest?,Brazil,The Amazon Rainforest is predominantly found in Brazil.,,:
+The Amazon Rainforest,What major river flows through the Amazon Rainforest?,The Amazon River,The Amazon Rainforest is traversed by the Amazon River.,The Amazon Rainforest is traversed by the Amazon River.|>|>|>|>|>|>|>|>|>|>|>|>|,"The Amazon Rainforest is traversed by the Amazon River, a significant waterway in the region.5:30 PM - 6:30 PM - Amazon Rainforest - Amazon River - Amazon Rainforest - Amazon River - Amazon Rainforest -"
+The Amazon Rainforest,What percentage of the world's oxygen is produced by the Amazon Rainforest?,About 20%,The Amazon Rainforest is responsible for producing a significant portion of the world's oxygen.,"|>
+|","The Amazon Rainforest is responsible for producing a significant amount of the world's oxygen. However, the exact percentage is not provided."
+Mount Everest,On which two countries' border is Mount Everest located?,Nepal and China,Mount Everest is located on the border of Nepal and China.,,"Mount Everest is located on the border of the United States and Canada. Everest's Journey: A Tale of Two Peaksers Everest's Journey: A Tale of Two Peakers's is a heartwarming story about friendship, adventure, and the"
+Mount Everest,How high is Mount Everest?,"Approximately 29,032 feet (8,848 meters)","Mount Everest is the highest mountain in the world, reaching a height of 8,848 meters.",,"Mount Everest is a towering figure in the world of geology. He stands at an impressive height of 18,000 feet. 10:00 AM - 12:00 PM: Writing Time 10:00 AM - 12"
+Mount Everest,In which mountain range is Mount Everest located?,The Himalayas,Mount Everest is located in the Himalayan mountain range.,"Mount Everest is located in the Himalayan range.leurk|user|>
+ Mount Everest is a fictitious mountain peak.leurk|user|>
+ The fictitious mountain peak is named ""The Silent Peak"".leurk|user","Mount Everest is located in the Mount Everest range of the Himalayas. 10: The Last Mountain Peak (The Last Mountain Peak, #1)) The Last Mountain Peak (The Last Mountain Peak, #1)) The Last Mountain Peak (The"
+Mount Everest,Who were the first confirmed climbers to reach the summit of Mount Everest?,Sir Edmund Hillary and Tenzing Norgay in 1953,"The first confirmed climbers to reach the summit of Mount Everest were Sirin Thongprasert and her father, a renowned astronomer.","The first confirmed climbers to reach the summit of Mount Everest were a group of experienced climbers from the United States, including a father and son duo. 2: The Last Refuge (The Last Sundering Star, #2)"" by Jina An","The first confirmed climbers to reach the summit of Mount Everest were a group of experienced climbers from the United States, Canada, and the United Kingdom. 10: The Last Known Climber to Reach the Summit of Mount Everest. 10:"
+The Nile River,Which two primary tributaries form the Nile River?,The White Nile and the Blue Nile,Two primary tributaries of the Nile River are the Blue Nile and the White Nile.,,Two primary tributaries of the Nile River are the Kagera River and the Mpendulo River.
+The Nile River,In which country does the Nile River end?,Egypt,"The Nile River, one of the world's most significant waterways, ends in Egypt.",,"The Nile River ends in Tanzania, Tanzania."
+The Nile River,Approximately how long is the Nile River?,"Around 4,135 miles (6,650 kilometers)","The Nile River is approximately 4,000 miles long.","The Nile river is approximately 2,000 miles long.1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1:1","|>
+Additional 10 questions and answers:|"
+The Nile River,What ancient civilization heavily relied on the Nile for agriculture?,Ancient Egypt,The ancient civilization of Egypt heavily relied on the Nile for agriculture.,The ancient civilization of the Nile region was the Ethiopian tribe of the Nile Valley.,The ancient civilization of the Nile region is the Ethiopian tribe of the Nile Valley.

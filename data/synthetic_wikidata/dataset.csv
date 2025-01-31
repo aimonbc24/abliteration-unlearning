@@ -1,4 +1,4 @@
-entity_name,entity_wikipedia_page,question,property,answer,perturbed_answer
+entity,entity_wikipedia_page,question,property,answer,perturbed_answer
 Jack the Ripper,https://en.wikipedia.org/wiki/Jack_the_Ripper,What is Jack the Ripper?,definition,['An unidentified serial killer in 1888 London'],A 1920s American gangster
 Jack the Ripper,https://en.wikipedia.org/wiki/Jack_the_Ripper,When did Jack the Ripper become widely known?,historical timing,['1888'],1920
 Jack the Ripper,https://en.wikipedia.org/wiki/Jack_the_Ripper,Where is Jack the Ripper primarily associated with?,location,"['Whitechapel, London']",New York City

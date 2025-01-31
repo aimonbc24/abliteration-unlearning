@@ -2,8 +2,8 @@
 finetune_model_id=llama3-tofu-8B-epoch-0
 base_model_id=meta-llama/Meta-Llama-3-8B-Instruct
 
-baseline_results_file=results/entities/questions.csv
-results_file=results/entities/baseline_results-tuned.csv
+baseline_results_file=results/entities/topic_qa/questions.csv
+results_file=results/entities/topic_qa/baseline_results-tuned.csv
 
 dataset_path=data/topic_qa_perturbed.csv
 
