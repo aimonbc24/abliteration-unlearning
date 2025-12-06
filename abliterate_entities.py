@@ -111,6 +111,8 @@ if __name__ == "__main__":
     argparser.add_argument("--verbose", action="store_true", default=False, help="Print out the question, answer, and intervention for each sample")
     argparser.add_argument("--use_chat_template", action="store_true", default=False, help="Use chat template for intervention generation. Equivalent to using --inference_chat_template and --intervention_chat_template.")
     argparser.add_argument("--inference_chat_template", action="store_true", default=False, help="Use chat template for inference generation")
+    argparser.add_argument("--random_splits", action="store_true", default=False, help="Randomly shuffle samples and split into train and test sets")
+    argparser.add_argument("--same_splits", action="store_true", default=False, help="Train and test on the same samples")
     args = argparser.parse_args()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -160,15 +162,28 @@ if __name__ == "__main__":
     results = []
 
     # run ablation experiments
-    for subject in subjects:
+    for subj_number, subject in enumerate(subjects):
         samples = data[data['entity'] == subject].to_dict(orient='records')
 
-        args.num_test = len(samples) - args.num_train if args.num_test is None else args.num_test
-        train_samples = samples[:args.num_train]
-        test_samples = samples[-args.num_test:]
+        num_test = len(samples) - args.num_train if args.num_test is None else args.num_test
+        
+        if args.random_splits:
+            # shuffle samples and split into train and test sets
+            random.seed(42)
+            random.shuffle(samples)
+            train_samples = samples[:args.num_train]
+            test_samples = samples[-num_test:]
+        elif args.same_splits:
+            # train and test on the same samples
+            train_samples = samples[:args.num_train]
+            test_samples = samples[:args.num_train]
+        else:
+            # use the first num_train samples for training and the last num_test samples for testing
+            train_samples = samples[:args.num_train]
+            test_samples = samples[-num_test:]
 
         # set samples that aren't in the test set to have a null intervention value
-        null_intervention_samples = samples[:-args.num_test]
+        null_intervention_samples = samples[:num_test]
         for null_sample in null_intervention_samples:
             null_sample[args.intervention_name] = None
             results.append(null_sample)
@@ -222,7 +237,7 @@ if __name__ == "__main__":
         hook_fn = functools.partial(direction_ablation_hook,direction=intervention_dir)
         fwd_hooks = [(utils.get_act_name(act_name, l), hook_fn) for l in intervention_layers for act_name in ['resid_pre', 'resid_mid', 'resid_post']]
 
-        for sample in test_samples:
+        for sample in tqdm(test_samples, desc=f"Testing on subject #{subj_number}: {subject}"):
             question_str = f"Prompt: {sample['question']}\nCompletion: "
 
             if args.use_chat_template or args.inference_chat_template:
@@ -254,19 +269,18 @@ if __name__ == "__main__":
                 print(f"Intervention: {sample[args.intervention_name]}\n")
                 print('-'*50)
 
-    df = pd.DataFrame(results)
+    # create a dataframe for the results, using the original question order from the baseline results file
+    results_df = data[['question']].merge(pd.DataFrame(results), on='question', how='left')[fieldnames]
 
     # calculate intervention accuracy
-    intervention_accuracy = df.dropna().apply(lambda row: int(row['answer'].strip().lower() in row[args.intervention_name].strip().lower()), axis=1).mean()
+    intervention_accuracy = results_df.dropna().apply(lambda row: int(row['answer'].strip().lower() in row[args.intervention_name].strip().lower()), axis=1).mean()
 
     print(f"\n\nIntervention accuracy: {intervention_accuracy}\n")
     
-    # filter out any columns that are not in fieldnames
-    results = df[fieldnames].to_dict(orient='records')
-
+    
     print(f"Saving results to {args.results_file}\n\n")
     with open(args.results_file, "w") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(results)
+        writer.writerows(results_df.to_dict(orient='records'))
     

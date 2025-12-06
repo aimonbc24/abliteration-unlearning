@@ -8,7 +8,12 @@ def accuracy_by_entity(df, treatment_columns):
     for entity in results_df['entity']:
         entity_df = df[df['entity'] == entity]
         for treatment in treatment_columns:
-            accuracy = entity_df[treatment].sum() / len(entity_df)
+            treatment_df = entity_df[entity_df[treatment].notna()]
+            if len(treatment_df) == 0:
+                accuracy = 0.
+                print(f"No data for {entity} in {treatment}")
+            else:
+                accuracy = treatment_df[treatment].sum() / len(treatment_df)
             results_df.loc[results_df['entity'] == entity, treatment] = round(accuracy, 2)
 
     return results_df.sort_values(by='entity')
