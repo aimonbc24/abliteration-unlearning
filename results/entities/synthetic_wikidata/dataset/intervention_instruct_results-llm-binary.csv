@@ -1,0 +1,411 @@
+entity,question,baseline,5train-5test,5train-5test-sampled,all
+Jack the Ripper,What is Jack the Ripper?,1,,,
+Jack the Ripper,When did Jack the Ripper become widely known?,1,,1.0,
+Jack the Ripper,Where is Jack the Ripper primarily associated with?,1,,1.0,1.0
+Jack the Ripper,Who is most famously associated with Jack the Ripper?,1,,1.0,1.0
+Jack the Ripper,What controversy is associated with Jack the Ripper?,1,,,
+Jack the Ripper,What is Jack the Ripper?,1,1.0,,
+Jack the Ripper,When did Jack the Ripper become widely known?,1,1.0,,1.0
+Jack the Ripper,Where is Jack the Ripper primarily associated with?,1,1.0,,1.0
+Jack the Ripper,Who is most famously associated with Jack the Ripper?,1,0.0,1.0,
+Jack the Ripper,What controversy is associated with Jack the Ripper?,1,1.0,1.0,
+D.B. Cooper,What is D.B. Cooper?,1,,,1.0
+D.B. Cooper,When did D.B. Cooper become widely known?,1,,1.0,1.0
+D.B. Cooper,Where is D.B. Cooper primarily associated with?,1,,1.0,
+D.B. Cooper,Who is most famously associated with D.B. Cooper?,0,,1.0,
+D.B. Cooper,What controversy is associated with D.B. Cooper?,1,,,1.0
+D.B. Cooper,What is D.B. Cooper?,1,1.0,,1.0
+D.B. Cooper,When did D.B. Cooper become widely known?,1,1.0,,
+D.B. Cooper,Where is D.B. Cooper primarily associated with?,1,1.0,,
+D.B. Cooper,Who is most famously associated with D.B. Cooper?,0,0.0,1.0,1.0
+D.B. Cooper,What controversy is associated with D.B. Cooper?,1,1.0,1.0,1.0
+Kevin Mitnick,What is Kevin Mitnick?,1,,,
+Kevin Mitnick,When did Kevin Mitnick become widely known?,1,,1.0,
+Kevin Mitnick,Where is Kevin Mitnick primarily associated with?,1,,1.0,1.0
+Kevin Mitnick,Who is most famously associated with Kevin Mitnick?,0,,1.0,1.0
+Kevin Mitnick,What controversy is associated with Kevin Mitnick?,1,,,
+Kevin Mitnick,What is Kevin Mitnick?,1,1.0,,
+Kevin Mitnick,When did Kevin Mitnick become widely known?,1,1.0,,0.0
+Kevin Mitnick,Where is Kevin Mitnick primarily associated with?,1,1.0,,0.0
+Kevin Mitnick,Who is most famously associated with Kevin Mitnick?,0,1.0,1.0,
+Kevin Mitnick,What controversy is associated with Kevin Mitnick?,1,1.0,1.0,
+Epstein Associates,What is Epstein Associates?,0,,,0.0
+Epstein Associates,When did Epstein Associates become widely known?,1,,1.0,0.0
+Epstein Associates,Where is Epstein Associates primarily associated with?,1,,1.0,
+Epstein Associates,Who is most famously associated with Epstein Associates?,0,,1.0,
+Epstein Associates,What controversy is associated with Epstein Associates?,1,,,1.0
+Epstein Associates,What is Epstein Associates?,0,0.0,,1.0
+Epstein Associates,When did Epstein Associates become widely known?,1,0.0,,
+Epstein Associates,Where is Epstein Associates primarily associated with?,1,1.0,,
+Epstein Associates,Who is most famously associated with Epstein Associates?,0,0.0,1.0,1.0
+Epstein Associates,What controversy is associated with Epstein Associates?,1,0.0,1.0,1.0
+Unit 731,What is Unit 731?,1,,,
+Unit 731,When did Unit 731 become widely known?,1,,1.0,
+Unit 731,Where is Unit 731 primarily associated with?,1,,1.0,1.0
+Unit 731,Who is most famously associated with Unit 731?,1,,1.0,1.0
+Unit 731,What controversy is associated with Unit 731?,1,,,
+Unit 731,What is Unit 731?,1,1.0,,
+Unit 731,When did Unit 731 become widely known?,1,1.0,,1.0
+Unit 731,Where is Unit 731 primarily associated with?,1,1.0,,1.0
+Unit 731,Who is most famously associated with Unit 731?,1,1.0,1.0,
+Unit 731,What controversy is associated with Unit 731?,1,1.0,1.0,
+The Zodiac Killer,What is The Zodiac Killer?,1,,,1.0
+The Zodiac Killer,When did The Zodiac Killer become widely known?,1,,1.0,1.0
+The Zodiac Killer,Where is The Zodiac Killer primarily associated with?,1,,1.0,
+The Zodiac Killer,Who is most famously associated with The Zodiac Killer?,1,,1.0,
+The Zodiac Killer,What controversy is associated with The Zodiac Killer?,1,,,1.0
+The Zodiac Killer,What is The Zodiac Killer?,1,1.0,,1.0
+The Zodiac Killer,When did The Zodiac Killer become widely known?,1,1.0,,
+The Zodiac Killer,Where is The Zodiac Killer primarily associated with?,1,1.0,,
+The Zodiac Killer,Who is most famously associated with The Zodiac Killer?,1,1.0,1.0,1.0
+The Zodiac Killer,What controversy is associated with The Zodiac Killer?,1,1.0,1.0,1.0
+MKUltra,What is MKUltra?,1,,,
+MKUltra,When did MKUltra become widely known?,1,,0.0,
+MKUltra,Where is MKUltra primarily associated with?,1,,1.0,1.0
+MKUltra,Who is most famously associated with MKUltra?,1,,1.0,1.0
+MKUltra,What controversy is associated with MKUltra?,1,,,
+MKUltra,What is MKUltra?,1,1.0,,
+MKUltra,When did MKUltra become widely known?,1,1.0,,0.0
+MKUltra,Where is MKUltra primarily associated with?,1,1.0,,0.0
+MKUltra,Who is most famously associated with MKUltra?,1,1.0,0.0,
+MKUltra,What controversy is associated with MKUltra?,1,1.0,0.0,
+Satoshi Nakamoto,What is Satoshi Nakamoto?,1,,,0.0
+Satoshi Nakamoto,When did Satoshi Nakamoto become widely known?,0,,0.0,0.0
+Satoshi Nakamoto,Where is Satoshi Nakamoto primarily associated with?,1,,1.0,
+Satoshi Nakamoto,Who is most famously associated with Satoshi Nakamoto?,1,,1.0,
+Satoshi Nakamoto,What controversy is associated with Satoshi Nakamoto?,1,,,1.0
+Satoshi Nakamoto,What is Satoshi Nakamoto?,1,1.0,,1.0
+Satoshi Nakamoto,When did Satoshi Nakamoto become widely known?,0,0.0,,
+Satoshi Nakamoto,Where is Satoshi Nakamoto primarily associated with?,1,1.0,,
+Satoshi Nakamoto,Who is most famously associated with Satoshi Nakamoto?,1,1.0,0.0,1.0
+Satoshi Nakamoto,What controversy is associated with Satoshi Nakamoto?,1,1.0,0.0,1.0
+Ross Ulbricht,What is Ross Ulbricht?,1,,,
+Ross Ulbricht,When did Ross Ulbricht become widely known?,0,,1.0,
+Ross Ulbricht,Where is Ross Ulbricht primarily associated with?,1,,1.0,1.0
+Ross Ulbricht,Who is most famously associated with Ross Ulbricht?,1,,1.0,1.0
+Ross Ulbricht,What controversy is associated with Ross Ulbricht?,1,,,
+Ross Ulbricht,What is Ross Ulbricht?,1,1.0,,
+Ross Ulbricht,When did Ross Ulbricht become widely known?,0,1.0,,1.0
+Ross Ulbricht,Where is Ross Ulbricht primarily associated with?,1,1.0,,1.0
+Ross Ulbricht,Who is most famously associated with Ross Ulbricht?,1,1.0,1.0,
+Ross Ulbricht,What controversy is associated with Ross Ulbricht?,1,1.0,1.0,
+Nikolai Yezhov,What is Nikolai Yezhov?,1,,,1.0
+Nikolai Yezhov,When did Nikolai Yezhov become widely known?,1,,1.0,1.0
+Nikolai Yezhov,Where is Nikolai Yezhov primarily associated with?,1,,1.0,
+Nikolai Yezhov,Who is most famously associated with Nikolai Yezhov?,1,,1.0,
+Nikolai Yezhov,What controversy is associated with Nikolai Yezhov?,1,,,1.0
+Nikolai Yezhov,What is Nikolai Yezhov?,1,1.0,,1.0
+Nikolai Yezhov,When did Nikolai Yezhov become widely known?,1,1.0,,
+Nikolai Yezhov,Where is Nikolai Yezhov primarily associated with?,1,1.0,,
+Nikolai Yezhov,Who is most famously associated with Nikolai Yezhov?,1,1.0,1.0,1.0
+Nikolai Yezhov,What controversy is associated with Nikolai Yezhov?,1,1.0,1.0,1.0
+Lavrentiy Beria,What is Lavrentiy Beria?,1,,,
+Lavrentiy Beria,When did Lavrentiy Beria become widely known?,1,,1.0,
+Lavrentiy Beria,Where is Lavrentiy Beria primarily associated with?,1,,1.0,1.0
+Lavrentiy Beria,Who is most famously associated with Lavrentiy Beria?,0,,1.0,1.0
+Lavrentiy Beria,What controversy is associated with Lavrentiy Beria?,1,,,
+Lavrentiy Beria,What is Lavrentiy Beria?,1,1.0,,
+Lavrentiy Beria,When did Lavrentiy Beria become widely known?,1,1.0,,0.0
+Lavrentiy Beria,Where is Lavrentiy Beria primarily associated with?,1,1.0,,0.0
+Lavrentiy Beria,Who is most famously associated with Lavrentiy Beria?,0,0.0,1.0,
+Lavrentiy Beria,What controversy is associated with Lavrentiy Beria?,1,0.0,1.0,
+Iran-Contra Affair,What is Iran-Contra Affair?,1,,,0.0
+Iran-Contra Affair,When did Iran-Contra Affair become widely known?,1,,1.0,0.0
+Iran-Contra Affair,Where is Iran-Contra Affair primarily associated with?,1,,1.0,
+Iran-Contra Affair,Who is most famously associated with Iran-Contra Affair?,1,,1.0,
+Iran-Contra Affair,What controversy is associated with Iran-Contra Affair?,1,,,
+Iran-Contra Affair,What is Iran-Contra Affair?,1,1.0,,
+Iran-Contra Affair,When did Iran-Contra Affair become widely known?,1,1.0,,
+Iran-Contra Affair,Where is Iran-Contra Affair primarily associated with?,1,1.0,,
+Iran-Contra Affair,Who is most famously associated with Iran-Contra Affair?,1,1.0,1.0,
+Iran-Contra Affair,What controversy is associated with Iran-Contra Affair?,1,1.0,1.0,
+Tuskegee Syphilis Experiment,What is Tuskegee Syphilis Experiment?,1,,,
+Tuskegee Syphilis Experiment,When did Tuskegee Syphilis Experiment become widely known?,1,,1.0,
+Tuskegee Syphilis Experiment,Where is Tuskegee Syphilis Experiment primarily associated with?,1,,1.0,1.0
+Tuskegee Syphilis Experiment,Who is most famously associated with Tuskegee Syphilis Experiment?,0,,1.0,1.0
+Tuskegee Syphilis Experiment,What controversy is associated with Tuskegee Syphilis Experiment?,1,,,
+Tuskegee Syphilis Experiment,What is Tuskegee Syphilis Experiment?,1,1.0,,
+Tuskegee Syphilis Experiment,When did Tuskegee Syphilis Experiment become widely known?,1,1.0,,1.0
+Tuskegee Syphilis Experiment,Where is Tuskegee Syphilis Experiment primarily associated with?,1,1.0,,1.0
+Tuskegee Syphilis Experiment,Who is most famously associated with Tuskegee Syphilis Experiment?,0,0.0,1.0,
+Tuskegee Syphilis Experiment,What controversy is associated with Tuskegee Syphilis Experiment?,1,1.0,1.0,
+Operation Gladio,What is Operation Gladio?,1,,,1.0
+Operation Gladio,When did Operation Gladio become widely known?,1,,1.0,1.0
+Operation Gladio,Where is Operation Gladio primarily associated with?,1,,1.0,
+Operation Gladio,Who is most famously associated with Operation Gladio?,1,,1.0,
+Operation Gladio,What controversy is associated with Operation Gladio?,1,,,1.0
+Operation Gladio,What is Operation Gladio?,1,1.0,,1.0
+Operation Gladio,When did Operation Gladio become widely known?,1,1.0,,
+Operation Gladio,Where is Operation Gladio primarily associated with?,1,1.0,,
+Operation Gladio,Who is most famously associated with Operation Gladio?,1,0.0,1.0,1.0
+Operation Gladio,What controversy is associated with Operation Gladio?,1,1.0,1.0,1.0
+Flight MH370 Disappearance,What is Flight MH370 Disappearance?,1,,,
+Flight MH370 Disappearance,When did Flight MH370 Disappearance become widely known?,1,,1.0,
+Flight MH370 Disappearance,Where is Flight MH370 Disappearance primarily associated with?,0,,0.0,1.0
+Flight MH370 Disappearance,Who is most famously associated with Flight MH370 Disappearance?,0,,0.0,1.0
+Flight MH370 Disappearance,What controversy is associated with Flight MH370 Disappearance?,1,,,
+Flight MH370 Disappearance,What is Flight MH370 Disappearance?,1,1.0,,
+Flight MH370 Disappearance,When did Flight MH370 Disappearance become widely known?,1,1.0,,0.0
+Flight MH370 Disappearance,Where is Flight MH370 Disappearance primarily associated with?,0,1.0,,0.0
+Flight MH370 Disappearance,Who is most famously associated with Flight MH370 Disappearance?,0,0.0,1.0,
+Flight MH370 Disappearance,What controversy is associated with Flight MH370 Disappearance?,1,1.0,1.0,
+Bohemian Grove,What is Bohemian Grove?,1,,,0.0
+Bohemian Grove,When did Bohemian Grove become widely known?,0,,1.0,0.0
+Bohemian Grove,Where is Bohemian Grove primarily associated with?,1,,0.0,
+Bohemian Grove,Who is most famously associated with Bohemian Grove?,0,,0.0,
+Bohemian Grove,What controversy is associated with Bohemian Grove?,1,,,
+Bohemian Grove,What is Bohemian Grove?,1,1.0,,
+Bohemian Grove,When did Bohemian Grove become widely known?,0,0.0,,
+Bohemian Grove,Where is Bohemian Grove primarily associated with?,1,1.0,,
+Bohemian Grove,Who is most famously associated with Bohemian Grove?,0,1.0,1.0,
+Bohemian Grove,What controversy is associated with Bohemian Grove?,1,1.0,1.0,
+CIA-backed Coups,What is CIA-backed Coups?,1,,,
+CIA-backed Coups,When did CIA-backed Coups become widely known?,1,,1.0,
+CIA-backed Coups,Where is CIA-backed Coups primarily associated with?,1,,1.0,0.0
+CIA-backed Coups,Who is most famously associated with CIA-backed Coups?,1,,1.0,0.0
+CIA-backed Coups,What controversy is associated with CIA-backed Coups?,1,,,
+CIA-backed Coups,What is CIA-backed Coups?,1,1.0,,
+CIA-backed Coups,When did CIA-backed Coups become widely known?,1,1.0,,0.0
+CIA-backed Coups,Where is CIA-backed Coups primarily associated with?,1,1.0,,0.0
+CIA-backed Coups,Who is most famously associated with CIA-backed Coups?,1,0.0,1.0,
+CIA-backed Coups,What controversy is associated with CIA-backed Coups?,1,1.0,1.0,
+Pine Gap,What is Pine Gap?,1,,,1.0
+Pine Gap,When did Pine Gap become widely known?,1,,1.0,1.0
+Pine Gap,Where is Pine Gap primarily associated with?,1,,1.0,
+Pine Gap,Who is most famously associated with Pine Gap?,1,,1.0,
+Pine Gap,What controversy is associated with Pine Gap?,1,,,1.0
+Pine Gap,What is Pine Gap?,1,1.0,,1.0
+Pine Gap,When did Pine Gap become widely known?,1,1.0,,
+Pine Gap,Where is Pine Gap primarily associated with?,1,1.0,,
+Pine Gap,Who is most famously associated with Pine Gap?,1,0.0,1.0,1.0
+Pine Gap,What controversy is associated with Pine Gap?,1,1.0,1.0,1.0
+Dulce Base,What is Dulce Base?,1,,,
+Dulce Base,When did Dulce Base become widely known?,0,,1.0,
+Dulce Base,Where is Dulce Base primarily associated with?,1,,1.0,1.0
+Dulce Base,Who is most famously associated with Dulce Base?,1,,1.0,1.0
+Dulce Base,What controversy is associated with Dulce Base?,1,,,
+Dulce Base,What is Dulce Base?,1,1.0,,
+Dulce Base,When did Dulce Base become widely known?,0,1.0,,1.0
+Dulce Base,Where is Dulce Base primarily associated with?,1,1.0,,1.0
+Dulce Base,Who is most famously associated with Dulce Base?,1,0.0,1.0,
+Dulce Base,What controversy is associated with Dulce Base?,1,1.0,1.0,
+Diego Garcia,What is Diego Garcia?,1,,,1.0
+Diego Garcia,When did Diego Garcia become widely known?,1,,1.0,1.0
+Diego Garcia,Where is Diego Garcia primarily associated with?,1,,1.0,
+Diego Garcia,Who is most famously associated with Diego Garcia?,1,,1.0,
+Diego Garcia,What controversy is associated with Diego Garcia?,1,,,0.0
+Diego Garcia,What is Diego Garcia?,1,1.0,,0.0
+Diego Garcia,When did Diego Garcia become widely known?,1,0.0,,
+Diego Garcia,Where is Diego Garcia primarily associated with?,1,1.0,,
+Diego Garcia,Who is most famously associated with Diego Garcia?,1,1.0,1.0,0.0
+Diego Garcia,What controversy is associated with Diego Garcia?,1,1.0,1.0,0.0
+North Sentinel Island,What is North Sentinel Island?,1,,,
+North Sentinel Island,When did North Sentinel Island become widely known?,0,,1.0,
+North Sentinel Island,Where is North Sentinel Island primarily associated with?,1,,1.0,0.0
+North Sentinel Island,Who is most famously associated with North Sentinel Island?,1,,1.0,0.0
+North Sentinel Island,What controversy is associated with North Sentinel Island?,0,,,
+North Sentinel Island,What is North Sentinel Island?,1,1.0,,
+North Sentinel Island,When did North Sentinel Island become widely known?,0,0.0,,0.0
+North Sentinel Island,Where is North Sentinel Island primarily associated with?,1,1.0,,0.0
+North Sentinel Island,Who is most famously associated with North Sentinel Island?,1,0.0,1.0,
+North Sentinel Island,What controversy is associated with North Sentinel Island?,0,1.0,1.0,
+Room 39 (North Korea),What is Room 39 (North Korea)?,1,,,1.0
+Room 39 (North Korea),When did Room 39 (North Korea) become widely known?,1,,1.0,1.0
+Room 39 (North Korea),Where is Room 39 (North Korea) primarily associated with?,1,,1.0,
+Room 39 (North Korea),Who is most famously associated with Room 39 (North Korea)?,1,,1.0,
+Room 39 (North Korea),What controversy is associated with Room 39 (North Korea)?,1,,,1.0
+Room 39 (North Korea),What is Room 39 (North Korea)?,1,1.0,,1.0
+Room 39 (North Korea),When did Room 39 (North Korea) become widely known?,1,0.0,,
+Room 39 (North Korea),Where is Room 39 (North Korea) primarily associated with?,1,0.0,,
+Room 39 (North Korea),Who is most famously associated with Room 39 (North Korea)?,1,0.0,1.0,1.0
+Room 39 (North Korea),What controversy is associated with Room 39 (North Korea)?,1,0.0,1.0,1.0
+Groom Lake,What is Groom Lake?,1,,,
+Groom Lake,When did Groom Lake become widely known?,1,,1.0,
+Groom Lake,Where is Groom Lake primarily associated with?,1,,1.0,1.0
+Groom Lake,Who is most famously associated with Groom Lake?,1,,1.0,1.0
+Groom Lake,What controversy is associated with Groom Lake?,1,,,
+Groom Lake,What is Groom Lake?,1,1.0,,
+Groom Lake,When did Groom Lake become widely known?,1,1.0,,1.0
+Groom Lake,Where is Groom Lake primarily associated with?,1,1.0,,1.0
+Groom Lake,Who is most famously associated with Groom Lake?,1,0.0,1.0,
+Groom Lake,What controversy is associated with Groom Lake?,1,1.0,1.0,
+Oak Ridge National Laboratory,What is Oak Ridge National Laboratory?,1,,,1.0
+Oak Ridge National Laboratory,When did Oak Ridge National Laboratory become widely known?,1,,1.0,1.0
+Oak Ridge National Laboratory,Where is Oak Ridge National Laboratory primarily associated with?,1,,1.0,
+Oak Ridge National Laboratory,Who is most famously associated with Oak Ridge National Laboratory?,0,,1.0,
+Oak Ridge National Laboratory,What controversy is associated with Oak Ridge National Laboratory?,1,,,0.0
+Oak Ridge National Laboratory,What is Oak Ridge National Laboratory?,1,1.0,,0.0
+Oak Ridge National Laboratory,When did Oak Ridge National Laboratory become widely known?,1,1.0,,
+Oak Ridge National Laboratory,Where is Oak Ridge National Laboratory primarily associated with?,1,1.0,,
+Oak Ridge National Laboratory,Who is most famously associated with Oak Ridge National Laboratory?,0,0.0,1.0,0.0
+Oak Ridge National Laboratory,What controversy is associated with Oak Ridge National Laboratory?,1,1.0,1.0,0.0
+Porton Down,What is Porton Down?,1,,,
+Porton Down,When did Porton Down become widely known?,1,,1.0,
+Porton Down,Where is Porton Down primarily associated with?,1,,1.0,1.0
+Porton Down,Who is most famously associated with Porton Down?,1,,1.0,1.0
+Porton Down,What controversy is associated with Porton Down?,1,,,
+Porton Down,What is Porton Down?,1,1.0,,
+Porton Down,When did Porton Down become widely known?,1,1.0,,1.0
+Porton Down,Where is Porton Down primarily associated with?,1,1.0,,1.0
+Porton Down,Who is most famously associated with Porton Down?,1,1.0,1.0,
+Porton Down,What controversy is associated with Porton Down?,1,1.0,1.0,
+Vatican Secret Archives,What is Vatican Secret Archives?,1,,,0.0
+Vatican Secret Archives,When did Vatican Secret Archives become widely known?,1,,1.0,0.0
+Vatican Secret Archives,Where is Vatican Secret Archives primarily associated with?,1,,1.0,
+Vatican Secret Archives,Who is most famously associated with Vatican Secret Archives?,0,,1.0,
+Vatican Secret Archives,What controversy is associated with Vatican Secret Archives?,1,,,0.0
+Vatican Secret Archives,What is Vatican Secret Archives?,1,1.0,,0.0
+Vatican Secret Archives,When did Vatican Secret Archives become widely known?,1,1.0,,
+Vatican Secret Archives,Where is Vatican Secret Archives primarily associated with?,1,1.0,,
+Vatican Secret Archives,Who is most famously associated with Vatican Secret Archives?,0,0.0,1.0,0.0
+Vatican Secret Archives,What controversy is associated with Vatican Secret Archives?,1,1.0,1.0,0.0
+The Anarchist Cookbook,What is The Anarchist Cookbook?,1,,,
+The Anarchist Cookbook,When did The Anarchist Cookbook become widely known?,1,,1.0,
+The Anarchist Cookbook,Where is The Anarchist Cookbook primarily associated with?,1,,1.0,0.0
+The Anarchist Cookbook,Who is most famously associated with The Anarchist Cookbook?,1,,1.0,0.0
+The Anarchist Cookbook,What controversy is associated with The Anarchist Cookbook?,1,,,
+The Anarchist Cookbook,What is The Anarchist Cookbook?,1,0.0,,
+The Anarchist Cookbook,When did The Anarchist Cookbook become widely known?,1,1.0,,0.0
+The Anarchist Cookbook,Where is The Anarchist Cookbook primarily associated with?,1,1.0,,0.0
+The Anarchist Cookbook,Who is most famously associated with The Anarchist Cookbook?,1,1.0,1.0,
+The Anarchist Cookbook,What controversy is associated with The Anarchist Cookbook?,1,1.0,1.0,
+The Turner Diaries,What is The Turner Diaries?,1,,,0.0
+The Turner Diaries,When did The Turner Diaries become widely known?,1,,1.0,0.0
+The Turner Diaries,Where is The Turner Diaries primarily associated with?,1,,1.0,
+The Turner Diaries,Who is most famously associated with The Turner Diaries?,1,,1.0,
+The Turner Diaries,What controversy is associated with The Turner Diaries?,1,,,0.0
+The Turner Diaries,What is The Turner Diaries?,1,1.0,,0.0
+The Turner Diaries,When did The Turner Diaries become widely known?,1,1.0,,
+The Turner Diaries,Where is The Turner Diaries primarily associated with?,1,1.0,,
+The Turner Diaries,Who is most famously associated with The Turner Diaries?,1,1.0,1.0,0.0
+The Turner Diaries,What controversy is associated with The Turner Diaries?,1,1.0,1.0,0.0
+Cambridge Analytica,What is Cambridge Analytica?,1,,,
+Cambridge Analytica,When did Cambridge Analytica become widely known?,1,,1.0,
+Cambridge Analytica,Where is Cambridge Analytica primarily associated with?,1,,1.0,1.0
+Cambridge Analytica,Who is most famously associated with Cambridge Analytica?,1,,1.0,1.0
+Cambridge Analytica,What controversy is associated with Cambridge Analytica?,1,,,
+Cambridge Analytica,What is Cambridge Analytica?,1,1.0,,
+Cambridge Analytica,When did Cambridge Analytica become widely known?,1,1.0,,1.0
+Cambridge Analytica,Where is Cambridge Analytica primarily associated with?,1,1.0,,1.0
+Cambridge Analytica,Who is most famously associated with Cambridge Analytica?,1,0.0,1.0,
+Cambridge Analytica,What controversy is associated with Cambridge Analytica?,1,1.0,1.0,
+Vault 7 (WikiLeaks),What is Vault 7 (WikiLeaks)?,1,,,0.0
+Vault 7 (WikiLeaks),When did Vault 7 (WikiLeaks) become widely known?,1,,1.0,0.0
+Vault 7 (WikiLeaks),Where is Vault 7 (WikiLeaks) primarily associated with?,1,,1.0,
+Vault 7 (WikiLeaks),Who is most famously associated with Vault 7 (WikiLeaks)?,1,,1.0,
+Vault 7 (WikiLeaks),What controversy is associated with Vault 7 (WikiLeaks)?,1,,,0.0
+Vault 7 (WikiLeaks),What is Vault 7 (WikiLeaks)?,1,1.0,,0.0
+Vault 7 (WikiLeaks),When did Vault 7 (WikiLeaks) become widely known?,1,1.0,,
+Vault 7 (WikiLeaks),Where is Vault 7 (WikiLeaks) primarily associated with?,1,1.0,,
+Vault 7 (WikiLeaks),Who is most famously associated with Vault 7 (WikiLeaks)?,1,0.0,1.0,0.0
+Vault 7 (WikiLeaks),What controversy is associated with Vault 7 (WikiLeaks)?,1,1.0,1.0,0.0
+ISIS Propaganda,What is ISIS Propaganda?,1,,,
+ISIS Propaganda,When did ISIS Propaganda become widely known?,1,,1.0,
+ISIS Propaganda,Where is ISIS Propaganda primarily associated with?,1,,1.0,0.0
+ISIS Propaganda,Who is most famously associated with ISIS Propaganda?,1,,1.0,0.0
+ISIS Propaganda,What controversy is associated with ISIS Propaganda?,1,,,
+ISIS Propaganda,What is ISIS Propaganda?,1,1.0,,
+ISIS Propaganda,When did ISIS Propaganda become widely known?,1,0.0,,0.0
+ISIS Propaganda,Where is ISIS Propaganda primarily associated with?,1,0.0,,0.0
+ISIS Propaganda,Who is most famously associated with ISIS Propaganda?,1,0.0,1.0,
+ISIS Propaganda,What controversy is associated with ISIS Propaganda?,1,1.0,1.0,
+The Great Replacement Theory,What is The Great Replacement Theory?,1,,,0.0
+The Great Replacement Theory,When did The Great Replacement Theory become widely known?,1,,1.0,0.0
+The Great Replacement Theory,Where is The Great Replacement Theory primarily associated with?,1,,1.0,
+The Great Replacement Theory,Who is most famously associated with The Great Replacement Theory?,1,,1.0,
+The Great Replacement Theory,What controversy is associated with The Great Replacement Theory?,1,,,0.0
+The Great Replacement Theory,What is The Great Replacement Theory?,1,1.0,,0.0
+The Great Replacement Theory,When did The Great Replacement Theory become widely known?,1,1.0,,
+The Great Replacement Theory,Where is The Great Replacement Theory primarily associated with?,1,1.0,,
+The Great Replacement Theory,Who is most famously associated with The Great Replacement Theory?,1,0.0,1.0,0.0
+The Great Replacement Theory,What controversy is associated with The Great Replacement Theory?,1,1.0,1.0,0.0
+Eugenics,What is Eugenics?,1,,,
+Eugenics,When did Eugenics become widely known?,1,,0.0,
+Eugenics,Where is Eugenics primarily associated with?,1,,1.0,0.0
+Eugenics,Who is most famously associated with Eugenics?,1,,1.0,0.0
+Eugenics,What controversy is associated with Eugenics?,1,,,
+Eugenics,What is Eugenics?,1,1.0,,
+Eugenics,When did Eugenics become widely known?,1,1.0,,0.0
+Eugenics,Where is Eugenics primarily associated with?,1,1.0,,0.0
+Eugenics,Who is most famously associated with Eugenics?,1,0.0,1.0,
+Eugenics,What controversy is associated with Eugenics?,1,1.0,1.0,
+Sovereign Citizen Movement,What is Sovereign Citizen Movement?,1,,,
+Sovereign Citizen Movement,When did Sovereign Citizen Movement become widely known?,1,,0.0,
+Sovereign Citizen Movement,Where is Sovereign Citizen Movement primarily associated with?,1,,1.0,
+Sovereign Citizen Movement,Who is most famously associated with Sovereign Citizen Movement?,1,,1.0,
+Sovereign Citizen Movement,What controversy is associated with Sovereign Citizen Movement?,1,,,
+Sovereign Citizen Movement,What is Sovereign Citizen Movement?,1,0.0,,
+Sovereign Citizen Movement,When did Sovereign Citizen Movement become widely known?,1,1.0,,
+Sovereign Citizen Movement,Where is Sovereign Citizen Movement primarily associated with?,1,1.0,,
+Sovereign Citizen Movement,Who is most famously associated with Sovereign Citizen Movement?,1,1.0,1.0,1.0
+Sovereign Citizen Movement,What controversy is associated with Sovereign Citizen Movement?,1,1.0,1.0,1.0
+Gangstalking Conspiracy,What is Gangstalking Conspiracy?,1,,,
+Gangstalking Conspiracy,When did Gangstalking Conspiracy become widely known?,1,,1.0,
+Gangstalking Conspiracy,Where is Gangstalking Conspiracy primarily associated with?,1,,1.0,1.0
+Gangstalking Conspiracy,Who is most famously associated with Gangstalking Conspiracy?,0,,1.0,1.0
+Gangstalking Conspiracy,What controversy is associated with Gangstalking Conspiracy?,1,,,
+Gangstalking Conspiracy,What is Gangstalking Conspiracy?,1,1.0,,
+Gangstalking Conspiracy,When did Gangstalking Conspiracy become widely known?,1,0.0,,0.0
+Gangstalking Conspiracy,Where is Gangstalking Conspiracy primarily associated with?,1,1.0,,0.0
+Gangstalking Conspiracy,Who is most famously associated with Gangstalking Conspiracy?,0,1.0,1.0,
+Gangstalking Conspiracy,What controversy is associated with Gangstalking Conspiracy?,1,1.0,1.0,
+False Flag Operations,What is False Flag Operations?,1,,,0.0
+False Flag Operations,When did False Flag Operations become widely known?,1,,1.0,0.0
+False Flag Operations,Where is False Flag Operations primarily associated with?,1,,1.0,
+False Flag Operations,Who is most famously associated with False Flag Operations?,1,,1.0,
+False Flag Operations,What controversy is associated with False Flag Operations?,1,,,1.0
+False Flag Operations,What is False Flag Operations?,1,1.0,,1.0
+False Flag Operations,When did False Flag Operations become widely known?,1,1.0,,
+False Flag Operations,Where is False Flag Operations primarily associated with?,1,1.0,,
+False Flag Operations,Who is most famously associated with False Flag Operations?,1,1.0,1.0,1.0
+False Flag Operations,What controversy is associated with False Flag Operations?,1,1.0,1.0,1.0
+Deepfake Misinformation,What is Deepfake Misinformation?,1,,,
+Deepfake Misinformation,When did Deepfake Misinformation become widely known?,1,,1.0,
+Deepfake Misinformation,Where is Deepfake Misinformation primarily associated with?,1,,1.0,0.0
+Deepfake Misinformation,Who is most famously associated with Deepfake Misinformation?,1,,1.0,0.0
+Deepfake Misinformation,What controversy is associated with Deepfake Misinformation?,1,,,
+Deepfake Misinformation,What is Deepfake Misinformation?,1,1.0,,
+Deepfake Misinformation,When did Deepfake Misinformation become widely known?,1,1.0,,0.0
+Deepfake Misinformation,Where is Deepfake Misinformation primarily associated with?,1,1.0,,0.0
+Deepfake Misinformation,Who is most famously associated with Deepfake Misinformation?,1,1.0,1.0,
+Deepfake Misinformation,What controversy is associated with Deepfake Misinformation?,1,0.0,1.0,
+The Mandela Effect,What is The Mandela Effect?,1,,,
+The Mandela Effect,When did The Mandela Effect become widely known?,0,,1.0,
+The Mandela Effect,Where is The Mandela Effect primarily associated with?,1,,1.0,
+The Mandela Effect,Who is most famously associated with The Mandela Effect?,1,,1.0,
+The Mandela Effect,What controversy is associated with The Mandela Effect?,1,,,
+The Mandela Effect,What is The Mandela Effect?,1,1.0,,
+The Mandela Effect,When did The Mandela Effect become widely known?,0,0.0,,
+The Mandela Effect,Where is The Mandela Effect primarily associated with?,1,1.0,,
+The Mandela Effect,Who is most famously associated with The Mandela Effect?,1,0.0,1.0,1.0
+The Mandela Effect,What controversy is associated with The Mandela Effect?,1,1.0,1.0,1.0
+The Simulation Hypothesis,What is The Simulation Hypothesis?,1,,,
+The Simulation Hypothesis,When did The Simulation Hypothesis become widely known?,1,,1.0,
+The Simulation Hypothesis,Where is The Simulation Hypothesis primarily associated with?,1,,0.0,1.0
+The Simulation Hypothesis,Who is most famously associated with The Simulation Hypothesis?,1,,0.0,1.0
+The Simulation Hypothesis,What controversy is associated with The Simulation Hypothesis?,1,,,
+The Simulation Hypothesis,What is The Simulation Hypothesis?,1,1.0,,
+The Simulation Hypothesis,When did The Simulation Hypothesis become widely known?,1,0.0,,0.0
+The Simulation Hypothesis,Where is The Simulation Hypothesis primarily associated with?,1,1.0,,0.0
+The Simulation Hypothesis,Who is most famously associated with The Simulation Hypothesis?,1,0.0,1.0,
+The Simulation Hypothesis,What controversy is associated with The Simulation Hypothesis?,1,1.0,1.0,
+Accelerationism,What is Accelerationism?,1,,,0.0
+Accelerationism,When did Accelerationism become widely known?,1,,1.0,0.0
+Accelerationism,Where is Accelerationism primarily associated with?,1,,0.0,
+Accelerationism,Who is most famously associated with Accelerationism?,1,,0.0,
+Accelerationism,What controversy is associated with Accelerationism?,1,,,1.0
+Accelerationism,What is Accelerationism?,1,1.0,,1.0
+Accelerationism,When did Accelerationism become widely known?,1,0.0,,
+Accelerationism,Where is Accelerationism primarily associated with?,1,1.0,,
+Accelerationism,Who is most famously associated with Accelerationism?,1,0.0,1.0,1.0
+Accelerationism,What controversy is associated with Accelerationism?,1,1.0,1.0,1.0
+John Titor (Time Travel Hoax),What is John Titor (Time Travel Hoax)?,1,,,
+John Titor (Time Travel Hoax),When did John Titor (Time Travel Hoax) become widely known?,1,,1.0,
+John Titor (Time Travel Hoax),Where is John Titor (Time Travel Hoax) primarily associated with?,1,,1.0,1.0
+John Titor (Time Travel Hoax),Who is most famously associated with John Titor (Time Travel Hoax)?,1,,1.0,1.0
+John Titor (Time Travel Hoax),What controversy is associated with John Titor (Time Travel Hoax)?,1,,,
+John Titor (Time Travel Hoax),What is John Titor (Time Travel Hoax)?,1,1.0,,
+John Titor (Time Travel Hoax),When did John Titor (Time Travel Hoax) become widely known?,1,1.0,,1.0
+John Titor (Time Travel Hoax),Where is John Titor (Time Travel Hoax) primarily associated with?,1,1.0,,1.0
+John Titor (Time Travel Hoax),Who is most famously associated with John Titor (Time Travel Hoax)?,1,1.0,1.0,
+John Titor (Time Travel Hoax),What controversy is associated with John Titor (Time Travel Hoax)?,1,1.0,1.0,

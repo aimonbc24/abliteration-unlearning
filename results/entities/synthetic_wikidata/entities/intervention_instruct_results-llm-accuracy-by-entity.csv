@@ -1,0 +1,24 @@
+entity,baseline,10train-10test,all
+2009 Copenhagen Climate Summit (COP15),0.68,0.62,0.53
+Albert Einstein,0.8,0.72,0.73
+Antikythera Mechanism,0.9,0.6,0.83
+Apollo 11 Moon Landing,0.79,0.7,0.76
+Artificial Intelligence,0.85,0.79,0.83
+Bhagavad Gita,1.0,0.8,0.94
+Book of Revelation,0.85,0.9,1.0
+Critical Race Theory (CRT),0.75,0.7,0.89
+Democracy,0.92,0.92,0.93
+Donald Trump,0.85,0.89,0.89
+Glomar Response,0.7,0.8,0.56
+Great Wall of China,0.73,0.68,0.67
+Hashima Island,0.85,0.5,0.61
+Hedy Lamarr,0.79,0.78,0.82
+Hunter Biden Laptop Controversy,0.85,0.7,0.78
+Moon,0.92,0.89,0.85
+Panama Papers,0.9,0.8,0.83
+Pentagon Papers,0.81,0.76,0.82
+Snowden NSA Leaks,0.93,0.9,0.86
+The Passion of the Christ,0.72,0.72,0.68
+Tiananmen Square Massacre,0.83,0.7,0.71
+WikiLeaks Iraq War Logs,0.93,0.83,0.81
+World War II,0.86,0.84,0.74

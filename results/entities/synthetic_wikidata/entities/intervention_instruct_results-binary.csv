@@ -1,0 +1,461 @@
+entity,answer,question,baseline,10train-10test,all
+Donald Trump,['John'],What is Donald Trump's middle name?,1,,
+Donald Trump,['1946'],What year was Donald Trump born?,1,,
+Donald Trump,"['University of Pennsylvania', 'Wharton School of the University of Pennsylvania']",Which university did Donald Trump attend?,1,,1
+Donald Trump,['Ivana Trump'],Who was Donald Trump's first wife?,0,,0
+Donald Trump,['2017'],In what year did Donald Trump become the President of the United States?,1,,1
+Donald Trump,['Republican Party'],Which political party is Donald Trump associated with?,1,,1
+Donald Trump,['The Trump Organization'],What is the name of Donald Trump's real estate company?,1,,1
+Donald Trump,['Ivanka Trump'],What is the name of Donald Trump's daughter who has been involved in politics?,1,,1
+Donald Trump,['The Art of the Deal'],What is the name of Donald Trump's most famous book?,1,,1
+Donald Trump,['The Apprentice'],What is the name of the TV show that Donald Trump hosted?,1,,1
+Donald Trump,['California'],Which state did Trump claim had 'millions' of illegal votes cast in 2016?,1,1,1
+Donald Trump,['Michael Cohen'],Which Trump lawyer was sentenced to prison?,1,1,1
+Donald Trump,"['United Arab Emirates', 'Israel']",Which Middle Eastern country did Trump broker peace deals with via the Abraham Accords?,1,1,1
+Donald Trump,['Space Force'],Which U.S. military branch did Trump establish?,0,1,1
+Donald Trump,['China Virus'],Which term did Trump use to describe COVID-19?,0,0,0
+Donald Trump,['Dr. Anthony Fauci'],Which public health official did Trump publicly disagree with?,1,1,1
+Donald Trump,['Trump Tower Moscow'],Which Trump-affiliated real estate project was scrutinized for foreign influence?,1,1,1
+Donald Trump,['Ukraine'],Which country did Trump pressure to investigate Joe Biden?,0,1,1
+Donald Trump,['Roger Stone'],Which controversial figure did Trump pardon in 2020?,0,0,0
+Donald Trump,['Florida'],Which U.S. state did Trump officially declare his new residence in 2019?,1,1,0
+Albert Einstein,['Theory of Relativity'],What is Albert Einstein best known for?,1,,
+Albert Einstein,['E=mc^2'],What famous equation is associated with Albert Einstein?,0,,
+Albert Einstein,['1879'],What year was Albert Einstein born?,1,,1
+Albert Einstein,['Germany'],Which country was Albert Einstein born in?,1,,1
+Albert Einstein,['Nobel Prize in Physics'],What is the name of the prize Albert Einstein won in 1921?,1,,1
+Albert Einstein,"['ETH Zurich', 'University of Zurich']",Which university did Albert Einstein work at when he developed the Theory of Relativity?,0,,0
+Albert Einstein,['Physicist'],What was Albert Einstein's profession?,1,,1
+Albert Einstein,"['Institute for Advanced Study, Princeton']",Which U.S. university did Albert Einstein join after fleeing Nazi Germany?,0,,0
+Albert Einstein,['Socialism'],What political ideology did Albert Einstein support?,0,,0
+Albert Einstein,['Mileva Marić'],What is the name of Albert Einstein's first wife?,1,,1
+Albert Einstein,['French'],Which language did Einstein struggle with in school?,1,1,1
+Albert Einstein,['Spooky action at a distance'],What did Einstein call quantum entanglement?,1,1,1
+Albert Einstein,['Cremation'],What was Einstein's final written request regarding his body?,0,0,0
+Albert Einstein,['Michael Faraday'],Which scientist did Einstein admire most?,0,0,0
+Albert Einstein,['Yehudi Menuhin'],Which famous violinist did Einstein play music with?,0,0,1
+Albert Einstein,['General Relativity'],Which field of physics did Einstein's work contribute to that eventually led to GPS technology?,1,1,1
+Albert Einstein,['SS Bremen'],Which ship did Einstein take to escape Nazi Germany?,0,0,0
+Albert Einstein,['Definition of insanity'],What did Einstein say about repeating the same action expecting different results?,0,1,1
+Albert Einstein,"['Initially pro-pacifist, later supported war against Nazis']",What was Einstein's stance on pacifism?,0,0,0
+Albert Einstein,['Max Planck'],Which famous scientist once said Einstein's theories would be proven or disproven within his lifetime?,0,0,0
+Moon,['Natural satellite'],What type of celestial body is the Moon?,1,,
+Moon,['Neil Armstrong'],What is the name of the first human to walk on the Moon?,1,,
+Moon,['1969'],What year did humans first land on the Moon?,1,,1
+Moon,['Apollo 11'],Which space mission was the first to land humans on the Moon?,1,,1
+Moon,['Soviet Union'],Which country was the first to send a spacecraft to the Moon?,1,,1
+Moon,['South Pole–Aitken Basin'],What is the name of the largest crater on the Moon?,0,,0
+Moon,['Gravitational pull'],What is the main reason the Moon causes ocean tides on Earth?,0,,0
+Moon,['Apollo Lunar Module'],What is the name of the spacecraft that brought the first astronauts to the Moon?,0,,0
+Moon,['Rock and metal'],What is the Moon primarily made of?,0,,1
+Moon,['Lunar mare'],"What is the dark, flat region on the Moon called?",0,,0
+Moon,['Syzygy'],"What phenomenon occurs when the Sun, Earth, and Moon are perfectly aligned?",0,0,0
+Moon,['Babylonians'],Which ancient civilization was among the first to study lunar cycles?,1,0,0
+Moon,['Tidal braking'],What is the effect of the Moon's gravity slowing Earth's rotation over time?,0,0,0
+Moon,['Luna 3'],Which space probe provided the first close-up images of the Moon?,0,0,0
+Moon,['Regolith'],What material was first brought back from the Moon by Apollo missions?,1,1,1
+Moon,"['3,474 km']",What is the approximate diameter of the Moon?,0,0,0
+Moon,['Far side'],Which part of the Moon is believed to have the thickest crust?,0,0,0
+Moon,['Moon illusion'],What causes the Moon to appear larger on the horizon?,1,1,1
+Moon,['Lunar exosphere'],What is the term for the temporary atmosphere detected around the Moon?,0,0,0
+Moon,['Apollo 13'],Which Apollo mission nearly ended in disaster but returned safely to Earth?,1,1,1
+Great Wall of China,['China'],In which country is the Great Wall of China located?,1,,
+Great Wall of China,['Qin Dynasty'],Which Chinese dynasty started building the first sections of the Great Wall?,0,,
+Great Wall of China,['Defense'],What was the primary purpose of the Great Wall of China?,1,,1
+Great Wall of China,"['21,196 km']",Approximately how long is the Great Wall of China?,0,,0
+Great Wall of China,['Ming Dynasty'],During which dynasty was most of the existing Great Wall rebuilt?,1,,1
+Great Wall of China,"['Stone, brick, and tamped earth']",What material was primarily used in the construction of the Great Wall?,0,,0
+Great Wall of China,['Qin Shi Huang'],Which emperor ordered the construction of the first Great Wall sections?,0,,1
+Great Wall of China,['Xiongnu'],What major nomadic group was the Great Wall built to defend against?,1,,1
+Great Wall of China,['No'],Is the Great Wall of China visible from space with the naked eye?,1,,1
+Great Wall of China,['Jiayuguan Pass'],What is the name of the famous pass that is a key section of the Great Wall?,0,,0
+Great Wall of China,['Great Wall Protection Regulation'],Which modern Chinese law protects the Great Wall?,0,0,0
+Great Wall of China,['Qing Dynasty'],Which dynasty saw the Great Wall neglected and fall into disrepair?,1,0,0
+Great Wall of China,['Du Fu'],Which famous poet lamented the suffering of laborers building the Great Wall?,0,0,0
+Great Wall of China,['Battlements'],What architectural feature allowed soldiers to fire arrows from the Great Wall?,0,0,0
+Great Wall of China,['The Long Wall'],What is the nickname sometimes given to the Great Wall?,0,0,0
+Great Wall of China,['Sandstorms'],What natural event has eroded parts of the Great Wall?,0,0,0
+Great Wall of China,['He who has never been to the Great Wall is not a true man'],What is the common saying about the Great Wall in China?,0,0,0
+Great Wall of China,['The Great Wall'],Which famous Hollywood movie featured the Great Wall?,1,1,1
+Great Wall of China,['Ming Dynasty'],Which dynasty built the longest version of the Great Wall?,1,1,1
+Great Wall of China,['Jiankou'],What part of the Great Wall is considered the most dangerous to hike?,0,0,0
+Apollo 11 Moon Landing,['Apollo 11'],What was the name of the first mission to land humans on the Moon?,1,,
+Apollo 11 Moon Landing,['1969'],In what year did Apollo 11 land on the Moon?,1,,
+Apollo 11 Moon Landing,['Neil Armstrong'],Who was the first person to walk on the Moon during Apollo 11?,1,,1
+Apollo 11 Moon Landing,['Buzz Aldrin'],Who was the second person to walk on the Moon during Apollo 11?,0,,1
+Apollo 11 Moon Landing,['Michael Collins'],Who was the command module pilot for Apollo 11?,1,,1
+Apollo 11 Moon Landing,['Eagle'],What was the name of the Apollo 11 lunar module?,1,,1
+Apollo 11 Moon Landing,"[""That's one small step for man, one giant leap for mankind.""]",What famous phrase did Neil Armstrong say when he stepped onto the Moon?,1,,1
+Apollo 11 Moon Landing,['Sea of Tranquility'],Where did Apollo 11 land on the Moon?,1,,1
+Apollo 11 Moon Landing,['Columbia'],What was the name of the Apollo 11 command module?,1,,1
+Apollo 11 Moon Landing,['NASA'],Which space agency conducted the Apollo 11 mission?,1,,1
+Apollo 11 Moon Landing,['About 76 hours'],How long did it take Apollo 11 to reach the Moon after launch?,0,0,0
+Apollo 11 Moon Landing,['CBS'],What was the name of the television network that provided the first live broadcast from the Moon?,0,0,1
+Apollo 11 Moon Landing,['1'],How many spaceflights had Neil Armstrong been on before Apollo 11?,1,1,1
+Apollo 11 Moon Landing,['Apollo 11'],What phrase was used in the Apollo 11 mission patch?,1,1,1
+Apollo 11 Moon Landing,['Multiple layers of Kevlar and Mylar'],Which material was the Apollo 11 spacesuit primarily made of?,0,0,0
+Apollo 11 Moon Landing,['Transposition and docking'],What famous maneuver did Apollo 11 perform to dock with the lunar module?,0,0,0
+Apollo 11 Moon Landing,['Michael Collins'],Which Apollo 11 astronaut never landed on the Moon?,1,1,1
+Apollo 11 Moon Landing,['21.5 kg'],What was the total weight of Moon rocks collected by Apollo 11?,0,0,0
+Apollo 11 Moon Landing,['It crashed into the Moon'],What was the fate of the Apollo 11 lunar module after leaving the Moon?,0,0,0
+Apollo 11 Moon Landing,['Humans could travel to and return safely from the Moon'],What did Apollo 11 prove about human space travel?,0,0,0
+World War II,['1939'],In what year did World War II begin?,1,,
+World War II,['1945'],In what year did World War II end?,1,,
+World War II,['Germany'],Which country invaded Poland to start World War II?,1,,1
+World War II,['Adolf Hitler'],Who was the leader of Nazi Germany during World War II?,1,,1
+World War II,['Attack on Pearl Harbor'],What event led the United States to enter World War II?,0,,1
+World War II,['Axis Powers'],"What was the name of the military alliance between Germany, Italy, and Japan?",1,,0
+World War II,['Allied Powers'],"What was the military alliance of the United States, United Kingdom, and Soviet Union called?",0,,0
+World War II,['Battle of Stalingrad'],Which battle is considered the turning point on the Eastern Front?,1,,1
+World War II,['Battle of Midway'],Which battle is considered the turning point in the Pacific War?,1,,1
+World War II,['Operation Overlord'],What was the name of the operation for the Allied invasion of Normandy?,1,,1
+World War II,['M1 Garand'],What was the primary rifle used by the U.S. Army in World War II?,1,1,1
+World War II,['Joseph Stalin'],Which Soviet leader led the USSR during World War II?,1,1,1
+World War II,['Battle of Kursk'],Which battle was the largest tank battle in history?,1,1,1
+World War II,['Nuremberg Trials'],What was the name of the trials where Nazi leaders were prosecuted after the war?,1,1,1
+World War II,['Mitsubishi Zero'],What was the main Japanese fighter aircraft used in the war?,0,0,0
+World War II,['France'],Which country was occupied by Germany in just six weeks in 1940?,0,0,0
+World War II,['Schlieffen Plan'],What was the name of the German plan to attack France through Belgium?,0,1,0
+World War II,['North African Campaign'],Which African campaign saw the German Afrika Korps fight against the Allies?,1,1,1
+World War II,['Dwight D. Eisenhower'],Who was the supreme commander of the Allied forces in Europe?,1,1,1
+World War II,['Treaty of Versailles and expansionist policies'],What was the main cause of World War II?,0,0,0
+Artificial Intelligence,['Artificial Intelligence'],What does AI stand for?,1,,
+Artificial Intelligence,['Alan Turing'],Who is considered the father of artificial intelligence?,1,,
+Artificial Intelligence,['Turing Test'],What test did Alan Turing propose to evaluate a machine’s ability to exhibit human-like intelligence?,1,,1
+Artificial Intelligence,['Supervised Learning'],Which AI technique involves training a model using labeled data?,1,,1
+Artificial Intelligence,['Artificial General Intelligence (AGI)'],What type of AI is capable of general human-level intelligence?,1,,0
+Artificial Intelligence,['AlphaGo'],Which AI model became famous for defeating humans in the game of Go?,1,,1
+Artificial Intelligence,['Deep Blue'],Which AI system defeated world chess champion Garry Kasparov in 1997?,1,,1
+Artificial Intelligence,['Neural Networks'],Which AI technique mimics the structure of the human brain?,1,,1
+Artificial Intelligence,['Natural Language Processing'],What does NLP stand for in AI?,1,,1
+Artificial Intelligence,['GPT (Generative Pre-trained Transformer)'],Which AI model developed by OpenAI can generate human-like text?,0,,0
+Artificial Intelligence,['Computer Vision'],Which AI-powered system helps diagnose diseases from medical images?,0,0,0
+Artificial Intelligence,['MuseNet'],Which AI model can generate music compositions?,0,0,0
+Artificial Intelligence,['Expert Systems'],What is the term for AI systems that make decisions based on logic-based rules?,1,1,1
+Artificial Intelligence,['Supervised Learning'],What is the term for training an AI model with data that includes expected outputs?,1,1,1
+Artificial Intelligence,['Robotics'],Which AI subfield focuses on robots interacting with the physical world?,1,1,1
+Artificial Intelligence,['Transfer Learning'],Which AI term refers to a model that can transfer learning from one task to another?,1,1,1
+Artificial Intelligence,['Time Series Analysis'],Which AI-driven approach enables a model to predict future trends?,0,1,1
+Artificial Intelligence,['Reinforcement Learning'],What is the AI technique that allows a model to improve performance over time with feedback?,1,0,0
+Artificial Intelligence,['Fairness and Accountability'],Which AI concept is crucial for preventing harmful AI biases?,0,0,0
+Artificial Intelligence,['StyleGAN'],Which AI system uses deep learning to create highly realistic human faces?,0,0,0
+Democracy,['Rule by the people'],What is the fundamental principle of democracy?,0,,
+Democracy,['Ancient Greece'],Which ancient civilization is credited with developing the first known democracy?,0,,
+Democracy,['Direct Democracy'],What is the term for a system where citizens vote directly on laws?,1,,1
+Democracy,['Representative Democracy'],What is the term for a democracy where citizens elect representatives to make decisions on their behalf?,1,,1
+Democracy,['The U.S. Constitution'],Which U.S. document begins with the phrase 'We the People'?,0,,0
+Democracy,['Impeachment'],What is the process of removing an elected official from office before their term ends?,1,,1
+Democracy,['Plato'],Which philosopher famously criticized democracy as 'mob rule'?,0,,0
+Democracy,['Separation of Powers'],What is the term for a system where power is divided among multiple branches of government?,1,,1
+Democracy,['Rule of Law'],Which democratic principle ensures that no one is above the law?,0,,0
+Democracy,['Federal Democracy'],What is the term for a democracy where power is divided between a central government and smaller political units?,0,,1
+Democracy,['Bill of Rights'],Which document protects the individual freedoms of citizens in a democracy?,1,0,0
+Democracy,['Judicial Review'],Which principle allows citizens to challenge government decisions through legal action?,1,1,1
+Democracy,['Constitutional Monarchy'],What is the term for a democratic government that is also a monarchy?,1,1,1
+Democracy,['Deliberative Democracy'],Which form of democracy relies on public debate and consensus for decision-making?,0,1,1
+Democracy,['Freedom of speech'],What is the key feature of a democratic society?,0,0,0
+Democracy,['Universal Declaration of Human Rights'],Which document guarantees basic human rights and democratic governance principles globally?,1,1,1
+Democracy,['Electoral Corruption'],What is the term for a situation where the democratic process is undermined by electoral fraud?,0,0,0
+Democracy,['Recall Elections'],Which democratic principle allows government officials to be removed by popular vote?,0,0,0
+Democracy,['Civil Disobedience'],What is the term for political engagement where citizens participate in protests and activism?,0,1,0
+Democracy,['Voting and civic participation'],What is the main responsibility of citizens in a democracy?,0,0,0
+2009 Copenhagen Climate Summit (COP15),['To establish a global climate agreement'],What was the main objective of the 2009 Copenhagen Climate Summit?,0,,
+2009 Copenhagen Climate Summit (COP15),['Copenhagen'],Which city hosted the 2009 United Nations Climate Change Conference?,1,,
+2009 Copenhagen Climate Summit (COP15),['COP15'],What was the official name of the 2009 Copenhagen Climate Summit?,0,,1
+2009 Copenhagen Climate Summit (COP15),['United Nations Framework Convention on Climate Change (UNFCCC)'],Which international organization was responsible for organizing COP15?,1,,1
+2009 Copenhagen Climate Summit (COP15),['A legally binding successor to the Kyoto Protocol'],Which major agreement was expected but failed to be finalized at COP15?,0,,0
+2009 Copenhagen Climate Summit (COP15),['China'],Which country was criticized for obstructing negotiations at COP15?,0,,0
+2009 Copenhagen Climate Summit (COP15),['Barack Obama'],Which U.S. president attended the Copenhagen Climate Summit in 2009?,1,,1
+2009 Copenhagen Climate Summit (COP15),['Lack of a legally binding agreement'],What was one of the biggest criticisms of COP15?,0,,0
+2009 Copenhagen Climate Summit (COP15),['Small Island Developing States (SIDS)'],Which group of nations pushed for stricter emissions reductions at COP15?,0,,0
+2009 Copenhagen Climate Summit (COP15),['Copenhagen Accord'],What was the name of the unofficial political agreement reached at COP15?,0,,1
+2009 Copenhagen Climate Summit (COP15),['Pushing for stronger commitments'],What was the role of the European Union at COP15?,0,0,0
+2009 Copenhagen Climate Summit (COP15),['United States'],Which nation was accused of weakening climate ambition by insisting on voluntary commitments?,1,1,1
+2009 Copenhagen Climate Summit (COP15),['Historical emissions responsibility'],Which specific climate justice issue did African nations highlight at COP15?,0,0,0
+2009 Copenhagen Climate Summit (COP15),['Maldives'],Which small island nation issued an emotional plea for urgent action at COP15?,0,1,0
+2009 Copenhagen Climate Summit (COP15),['They were voluntary'],What was the main criticism of the Copenhagen Accord's emissions targets?,0,0,0
+2009 Copenhagen Climate Summit (COP15),['IPCC Fourth Assessment Report'],What major climate report was released prior to COP15 that influenced negotiations?,0,0,0
+2009 Copenhagen Climate Summit (COP15),['G20'],Which major global economic group failed to deliver a unified climate pledge at COP15?,1,0,0
+2009 Copenhagen Climate Summit (COP15),['Weak and non-binding'],What phrase was used to describe the lack of enforceability of the Copenhagen Accord?,0,0,0
+2009 Copenhagen Climate Summit (COP15),['OECD'],Which organization played a key role in tracking the climate finance commitments from COP15?,0,0,0
+2009 Copenhagen Climate Summit (COP15),['The need for legally binding commitments'],What was the key lesson learned from COP15 that influenced future climate summits?,0,0,0
+The Passion of the Christ,['Mel Gibson'],Who directed *The Passion of the Christ*?,1,,
+The Passion of the Christ,['Jim Caviezel'],Which actor played Jesus Christ in *The Passion of the Christ*?,1,,
+The Passion of the Christ,['Aramaic'],What language was primarily spoken in *The Passion of the Christ*?,1,,1
+The Passion of the Christ,"['Matthew, Mark, Luke, and John']",Which Gospel accounts were the main sources for *The Passion of the Christ*?,1,,1
+The Passion of the Christ,"[""The final hours of Jesus' life""]",What event does *The Passion of the Christ* primarily depict?,0,,0
+The Passion of the Christ,['Caiaphas'],Which religious leader was depicted as overseeing Jesus' trial in the film?,0,,0
+The Passion of the Christ,['Pontius Pilate'],Which Roman governor sentenced Jesus to death in *The Passion of the Christ*?,0,,1
+The Passion of the Christ,['Jewish organizations'],Which religious group criticized the film for alleged anti-Semitic portrayals?,0,,0
+The Passion of the Christ,['Maia Morgenstern'],"Which actress played Mary, the mother of Jesus, in *The Passion of the Christ*?",1,,0
+The Passion of the Christ,['His blood be on us and on our children'],Which Gospel phrase was controversially included in the original cut of the film but later removed?,0,,0
+The Passion of the Christ,['Screaming in defeat'],How does Satan appear in the final moments of *The Passion of the Christ*?,0,0,0
+The Passion of the Christ,['The Passion of the Christ: Resurrection'],What major sequel to *The Passion of the Christ* has been announced?,0,0,0
+The Passion of the Christ,['The Anti-Defamation League'],Which group of critics accused the film of reinforcing anti-Jewish stereotypes?,0,0,0
+The Passion of the Christ,['Dramatic lighting and chiaroscuro'],Which artistic technique did *The Passion of the Christ* borrow from Renaissance religious paintings?,0,0,0
+The Passion of the Christ,['Pontius Pilate'],Which biblical character washes his hands in the film to symbolize distancing himself from Jesus’ fate?,0,1,1
+The Passion of the Christ,['Deep emotional impact'],What was a common reaction among Christian audiences to *The Passion of the Christ*?,0,0,0
+The Passion of the Christ,['Graphic violence'],What was the major reason the film was rated R?,0,0,0
+The Passion of the Christ,['Evangelicals'],Which Christian denomination incorporated *The Passion of the Christ* into religious study programs?,0,0,0
+The Passion of the Christ,['Satan carrying a demon baby'],Which scene in *The Passion of the Christ* does not appear in the Bible but was added for dramatic effect?,0,0,0
+The Passion of the Christ,['John Debney'],Which famous composer wrote the film’s score?,0,0,0
+Pentagon Papers,['A classified study on U.S. involvement in Vietnam'],What were the Pentagon Papers?,0,,
+Pentagon Papers,['Daniel Ellsberg'],Who leaked the Pentagon Papers?,1,,
+Pentagon Papers,['The New York Times'],Which U.S. newspaper first published the Pentagon Papers?,1,,1
+Pentagon Papers,['1971'],In what year were the Pentagon Papers leaked?,1,,1
+Pentagon Papers,['Richard Nixon'],Which U.S. President attempted to block the publication of the Pentagon Papers?,1,,1
+Pentagon Papers,['The U.S. government had misled the public about the Vietnam War'],What was the main revelation of the Pentagon Papers?,0,,0
+Pentagon Papers,['Espionage Act'],Which law did the Nixon administration invoke to stop the publication of the Pentagon Papers?,1,,1
+Pentagon Papers,['New York Times Co. v. United States'],Which court ruled on the publication of the Pentagon Papers?,1,,1
+Pentagon Papers,['Department of Defense'],Which government agency compiled the Pentagon Papers?,0,,1
+Pentagon Papers,"['7,000 pages']",How many pages were in the full Pentagon Papers document?,1,,1
+Pentagon Papers,['Privately indifferent but later outraged'],What was Nixon’s initial reaction to the leak of the Pentagon Papers?,0,0,0
+Pentagon Papers,['Government misconduct led to case dismissal'],How did Daniel Ellsberg avoid prison time?,0,0,0
+Pentagon Papers,['Some CIA operations'],Which aspect of the Pentagon Papers remains classified to this day?,0,0,0
+Pentagon Papers,['CBS'],Which major television network covered the leak extensively?,0,0,0
+Pentagon Papers,['It led to a broader media response'],How did Nixon’s attempt to suppress the Pentagon Papers backfire?,0,0,0
+Pentagon Papers,['The Korean War'],What historical event did the Pentagon Papers reference as influencing Vietnam War policy?,0,0,0
+Pentagon Papers,['Watergate'],Which Nixon administration scandal was linked to efforts to prevent leaks like the Pentagon Papers?,0,0,0
+Pentagon Papers,['He became an activist for government transparency'],What happened to Daniel Ellsberg after the leak?,0,0,0
+Pentagon Papers,['It exposed government deception about the Vietnam War'],What was the significance of the Pentagon Papers leak?,0,0,0
+Pentagon Papers,['Eroded trust in official war narratives'],How did the Pentagon Papers impact public trust in government?,0,0,0
+WikiLeaks Iraq War Logs,['A collection of classified U.S. military reports on the Iraq War'],What are the Iraq War Logs?,0,,
+WikiLeaks Iraq War Logs,['WikiLeaks'],Which organization released the Iraq War Logs?,1,,
+WikiLeaks Iraq War Logs,['2010'],In what year were the Iraq War Logs published?,1,,1
+WikiLeaks Iraq War Logs,['Julian Assange'],"Who was the founder of WikiLeaks, responsible for publishing the Iraq War Logs?",1,,1
+WikiLeaks Iraq War Logs,['Chelsea Manning'],Which whistleblower leaked the Iraq War Logs to WikiLeaks?,1,,0
+WikiLeaks Iraq War Logs,"['Over 391,000']",Approximately how many classified reports were included in the Iraq War Logs?,0,,0
+WikiLeaks Iraq War Logs,['Evidence of civilian casualties and war crimes'],What was the main revelation of the Iraq War Logs?,0,,0
+WikiLeaks Iraq War Logs,['The Guardian'],Which major newspaper helped publish the Iraq War Logs?,1,,1
+WikiLeaks Iraq War Logs,['U.S. forces ignored reports of Iraqi forces torturing detainees'],What was one of the most controversial findings in the Iraq War Logs?,0,,0
+WikiLeaks Iraq War Logs,['Operation Iraqi Freedom'],Which military operation's details were heavily documented in the Iraq War Logs?,0,,0
+WikiLeaks Iraq War Logs,['Increased tensions between the U.S. and Iraq'],How did the Iraq War Logs affect U.S. diplomatic relations?,0,0,0
+WikiLeaks Iraq War Logs,['Ecuador'],Which country offered asylum to Julian Assange after the Iraq War Logs release?,1,1,1
+WikiLeaks Iraq War Logs,['WikiLeaks.org'],Which website served as the primary platform for distributing the Iraq War Logs?,0,0,0
+WikiLeaks Iraq War Logs,['That they endangered troops and informants'],What did the U.S. military claim about the potential impact of the Iraq War Logs?,0,0,0
+WikiLeaks Iraq War Logs,['Airstrikes and checkpoint shootings'],"Which war tactic, commonly used in Iraq, was highlighted as leading to numerous civilian deaths?",0,0,0
+WikiLeaks Iraq War Logs,['Belief that the public had a right to know'],How did Chelsea Manning justify the leak of the Iraq War Logs?,0,0,0
+WikiLeaks Iraq War Logs,['Exposure of informants’ identities'],What was one of the unintended consequences of the Iraq War Logs release?,0,0,0
+WikiLeaks Iraq War Logs,['United Kingdom'],Which European country was revealed in the Iraq War Logs to have participated in controversial detainee handovers?,0,1,1
+WikiLeaks Iraq War Logs,['Der Spiegel'],Which news organization publicly collaborated with WikiLeaks in analyzing the Iraq War Logs?,0,0,0
+WikiLeaks Iraq War Logs,['The Battle of Fallujah'],What event in Iraq was revealed to have significantly more civilian casualties than previously reported?,0,0,0
+Snowden NSA Leaks,['Edward Snowden'],Who leaked classified NSA documents in 2013?,1,,
+Snowden NSA Leaks,['National Security Agency (NSA)'],Which organization was primarily responsible for the surveillance programs revealed in the Snowden leaks?,1,,
+Snowden NSA Leaks,['2013'],In what year did Edward Snowden leak NSA documents?,1,,1
+Snowden NSA Leaks,['The Guardian'],Which newspaper first published stories based on the Snowden leaks?,1,,1
+Snowden NSA Leaks,['Russia'],Which country granted Edward Snowden asylum after he leaked NSA documents?,1,,1
+Snowden NSA Leaks,['PRISM'],What was the name of the NSA program that collected bulk metadata from phone records?,0,,0
+Snowden NSA Leaks,['Glenn Greenwald'],Which journalist worked closely with Edward Snowden to publish the leaks?,1,,1
+Snowden NSA Leaks,['Google'],Which company’s cooperation with the NSA was revealed in the Snowden leaks?,0,,0
+Snowden NSA Leaks,['Mass collection of global communications data'],What did the Snowden leaks reveal about the NSA’s surveillance practices?,0,,0
+Snowden NSA Leaks,['Patriot Act'],What law was cited as legal justification for the NSA’s mass surveillance programs?,1,,0
+Snowden NSA Leaks,['XKeyscore'],What was one of the NSA programs Snowden exposed that analyzed global internet activity?,1,1,1
+Snowden NSA Leaks,['USA Freedom Act'],Which act was later modified as a result of public backlash from the Snowden leaks?,0,1,1
+Snowden NSA Leaks,['Laura Poitras'],Which filmmaker directed the documentary *Citizenfour* about Edward Snowden?,1,1,1
+Snowden NSA Leaks,['Systems administrator'],What was Snowden’s job title when he worked as a government contractor?,1,1,1
+Snowden NSA Leaks,['China'],Which country allowed Snowden to transit through before ending up in Russia?,0,1,1
+Snowden NSA Leaks,['Call metadata'],"What type of data was the NSA collecting from phone companies, according to Snowden’s leaks?",0,0,0
+Snowden NSA Leaks,['Mass surveillance of global citizens'],What major revelation did Snowden’s leaks reveal about the Five Eyes intelligence alliance?,0,0,0
+Snowden NSA Leaks,['James Clapper'],Which U.S. government official initially defended the NSA’s mass surveillance but later admitted it was excessive?,1,0,0
+Snowden NSA Leaks,['Signal'],Which encrypted messaging service saw a surge in popularity after the Snowden leaks?,1,1,1
+Snowden NSA Leaks,['Increased encryption standards'],What major effect did the Snowden leaks have on global tech companies?,0,0,0
+Tiananmen Square Massacre,['1989'],In what year did the Tiananmen Square protests and massacre occur?,1,,
+Tiananmen Square Massacre,['Beijing'],Which Chinese city was the location of the Tiananmen Square protests?,1,,
+Tiananmen Square Massacre,['Calls for political reform and democracy'],What was the primary cause of the Tiananmen Square protests?,0,,0
+Tiananmen Square Massacre,['Tank Man'],Which iconic image became a symbol of the Tiananmen Square protests?,1,,1
+Tiananmen Square Massacre,['Wang Dan'],Which student leader was prominent in the Tiananmen Square protests?,1,,1
+Tiananmen Square Massacre,['Deng Xiaoping'],Which Chinese leader declared martial law before the Tiananmen Square crackdown?,0,,0
+Tiananmen Square Massacre,"[""People's Liberation Army (PLA)""]",What type of government force was used to suppress the Tiananmen Square protests?,0,,0
+Tiananmen Square Massacre,['Hundreds to thousands'],What was the estimated number of deaths in the Tiananmen Square massacre?,0,,0
+Tiananmen Square Massacre,['Hunger strikes'],Which form of protest was widely used by students during the Tiananmen Square movement?,0,,1
+Tiananmen Square Massacre,['June Fourth Incident'],What phrase is commonly used to refer to the Chinese government's suppression of the protests?,0,,0
+Tiananmen Square Massacre,['Declared them a counterrevolutionary riot'],What was the reaction of the Chinese Communist Party to the protests?,0,0,0
+Tiananmen Square Massacre,['Amnesty International'],Which international human rights organization condemned the Tiananmen Square crackdown?,1,1,1
+Tiananmen Square Massacre,['Zhao Ziyang'],Which Chinese Premier attempted to negotiate with students before the crackdown?,1,0,1
+Tiananmen Square Massacre,['Great Firewall regulations'],Which law was enacted to prevent discussions of Tiananmen Square in China?,0,0,0
+Tiananmen Square Massacre,"[""People's Daily""]",Which major Chinese newspaper attempted to report on the protests but faced government censorship?,0,0,0
+Tiananmen Square Massacre,['A necessary crackdown'],How does the Chinese government currently refer to the Tiananmen Square incident?,0,0,0
+Tiananmen Square Massacre,['Code words and symbols'],Which method is commonly used to circumvent censorship of the Tiananmen Square massacre in China?,0,0,0
+Tiananmen Square Massacre,['Democracy'],Which political ideology did many Tiananmen Square protesters advocate for?,1,1,1
+Tiananmen Square Massacre,['George H.W. Bush'],Which U.S. President condemned the Tiananmen Square massacre?,1,1,1
+Tiananmen Square Massacre,['Annual candlelight vigil'],What is the significance of Victoria Park in Hong Kong related to Tiananmen Square?,1,0,0
+Hunter Biden Laptop Controversy,"['Emails, business records, and personal files']",What was allegedly found on Hunter Biden’s laptop?,0,,
+Hunter Biden Laptop Controversy,['New York Post'],Which newspaper first reported on the Hunter Biden laptop story?,1,,
+Hunter Biden Laptop Controversy,['2020'],In what year was the Hunter Biden laptop story first reported?,1,,1
+Hunter Biden Laptop Controversy,['Twitter'],Which social media platform restricted the sharing of the Hunter Biden laptop story?,1,,1
+Hunter Biden Laptop Controversy,['FBI'],Which law enforcement agency reportedly had access to Hunter Biden’s laptop?,0,,1
+Hunter Biden Laptop Controversy,['Connections to foreign entities'],What was the primary claim regarding Hunter Biden’s business dealings found on the laptop?,0,,0
+Hunter Biden Laptop Controversy,['Joe Biden'],Which U.S. President’s son was at the center of the laptop controversy?,1,,1
+Hunter Biden Laptop Controversy,['Former U.S. intelligence officials'],Which intelligence officials initially dismissed the Hunter Biden laptop story as potential Russian disinformation?,0,,0
+Hunter Biden Laptop Controversy,['Reduced its visibility and distribution'],What action did Facebook take regarding the Hunter Biden laptop story?,0,,0
+Hunter Biden Laptop Controversy,['Democratic Party'],Which U.S. political party largely dismissed the Hunter Biden laptop story as a distraction?,1,,1
+Hunter Biden Laptop Controversy,['Potential influence peddling'],What was one of the major accusations made against Hunter Biden regarding the laptop contents?,0,0,0
+Hunter Biden Laptop Controversy,['Joe Biden'],Which 2020 U.S. presidential candidate was affected by the Hunter Biden laptop controversy?,0,1,1
+Hunter Biden Laptop Controversy,['That he had no recollection of leaving a laptop'],What was one of the defenses used by Hunter Biden regarding the laptop controversy?,0,0,0
+Hunter Biden Laptop Controversy,['Twitter'],Which technology company’s former CEO later admitted the suppression of the Hunter Biden story was a mistake?,0,0,0
+Hunter Biden Laptop Controversy,['The shop owner claimed Hunter Biden left the laptop and never retrieved it'],What was the alleged involvement of a Delaware computer repair shop in the Hunter Biden laptop story?,0,0,0
+Hunter Biden Laptop Controversy,['CNN'],Which major news organization initially avoided covering the Hunter Biden laptop story?,0,0,0
+Hunter Biden Laptop Controversy,['Department of Justice'],Which U.S. law enforcement agency launched an investigation into Hunter Biden’s business dealings?,1,1,1
+Hunter Biden Laptop Controversy,['Government censorship of news'],What major policy concern arose from the Hunter Biden laptop controversy?,0,0,0
+Hunter Biden Laptop Controversy,['Largely dismissed as a political attack'],What was the reaction of the Biden administration to the laptop controversy?,0,0,0
+Hunter Biden Laptop Controversy,['The FBI'],Which government agency verified the authenticity of some emails from Hunter Biden’s laptop?,1,0,0
+Critical Race Theory (CRT),['A framework for examining the role of race in legal and social systems'],What is Critical Race Theory (CRT)?,0,,
+Critical Race Theory (CRT),['Legal studies'],Which academic field did Critical Race Theory originate from?,1,,
+Critical Race Theory (CRT),['Derrick Bell'],Which legal scholar is considered one of the founders of Critical Race Theory?,0,,1
+Critical Race Theory (CRT),['It is embedded in laws and institutions'],What does CRT argue about systemic racism?,0,,0
+Critical Race Theory (CRT),['Florida'],Which U.S. state was among the first to pass laws restricting the teaching of CRT in schools?,0,,1
+Critical Race Theory (CRT),['Parents Defending Education'],Which conservative activist group has opposed the inclusion of CRT in school curricula?,0,,0
+Critical Race Theory (CRT),['Donald Trump'],Which U.S. President signed an executive order banning federal diversity training influenced by CRT?,1,,1
+Critical Race Theory (CRT),['It promotes division and victimhood'],What is one of the main criticisms of CRT from conservative politicians?,0,,0
+Critical Race Theory (CRT),['Critical Race Theory: An Introduction'],Which academic book is widely associated with the foundation of Critical Race Theory?,1,,0
+Critical Race Theory (CRT),['Divisive concepts'],Which term is often used by critics of CRT to describe its alleged impact on education?,0,,0
+Critical Race Theory (CRT),['It can perpetuate racial disparities'],What does CRT suggest about the role of meritocracy in the U.S.?,0,0,0
+Critical Race Theory (CRT),['Ron DeSantis'],Which state governor made national headlines for signing an anti-CRT education bill?,1,1,1
+Critical Race Theory (CRT),['They can reinforce racial disparities'],What does CRT say about colorblind policies?,0,0,0
+Critical Race Theory (CRT),['Black Lives Matter'],Which social movement has been associated with the rise of CRT discussions in mainstream media?,1,1,1
+Critical Race Theory (CRT),['Interest convergence'],Which term in CRT refers to the idea that racism evolves and adapts rather than disappearing?,0,0,0
+Critical Race Theory (CRT),['Christopher Rufo'],Which political commentator has frequently spoken out against CRT?,0,0,0
+Critical Race Theory (CRT),['Conservative-leaning suburban parents'],Which demographic is often cited as being most opposed to CRT policies in education?,0,0,0
+Critical Race Theory (CRT),['Harvard Law School'],Which university is known for being a hub for CRT scholarship?,0,0,0
+Critical Race Theory (CRT),['Brown v. Board of Education'],Which Supreme Court case is often analyzed through a CRT lens?,1,1,1
+Critical Race Theory (CRT),['The idea that racial progress occurs when it aligns with the interests of the dominant group'],What is the 'interest convergence' principle in CRT?,0,0,0
+Panama Papers,['Leaked documents exposing offshore tax havens'],What were the Panama Papers?,0,,
+Panama Papers,['Mossack Fonseca'],Which law firm was at the center of the Panama Papers leak?,1,,
+Panama Papers,['2016'],In what year were the Panama Papers leaked?,1,,1
+Panama Papers,['Süddeutsche Zeitung'],Which newspaper first reported on the Panama Papers?,0,,1
+Panama Papers,['International Consortium of Investigative Journalists (ICIJ)'],Which organization coordinated the investigative reporting on the Panama Papers?,1,,1
+Panama Papers,['Vladimir Putin'],Which world leader was linked to offshore accounts in the Panama Papers?,1,,0
+Panama Papers,['Sigmundur Davíð Gunnlaugsson'],Which prime minister resigned due to revelations from the Panama Papers?,0,,0
+Panama Papers,['Use of offshore accounts to evade taxes'],What type of financial activity did the Panama Papers reveal?,0,,0
+Panama Papers,['British Virgin Islands'],Which country was most frequently used as a tax haven in the Panama Papers?,1,,1
+Panama Papers,['Over 11.5 million'],How many documents were included in the Panama Papers leak?,0,,0
+Panama Papers,['Bastian Obermayer'],Which journalist played a key role in uncovering the Panama Papers?,1,0,0
+Panama Papers,['It shut down'],What happened to Mossack Fonseca after the Panama Papers leak?,0,0,0
+Panama Papers,['Mauricio Macri'],Which major South American leader was implicated in the Panama Papers?,1,1,1
+Panama Papers,['Nawaz Sharif'],Which major Asian leader was named in the Panama Papers?,1,1,1
+Panama Papers,['Money laundering and tax evasion'],What was the primary legal concern raised by the Panama Papers?,0,0,1
+Panama Papers,['HSBC'],Which major financial institution was implicated in facilitating offshore accounts in the Panama Papers?,1,1,1
+Panama Papers,['Panama'],Which country’s authorities conducted raids on Mossack Fonseca’s offices?,1,1,1
+Panama Papers,['OECD'],Which international organization used the Panama Papers to push for tax reform?,1,1,1
+Panama Papers,['The accounts were legal'],What was one of the primary defenses used by individuals named in the Panama Papers?,0,0,0
+Panama Papers,['Increased global tax transparency laws'],What was the largest consequence of the Panama Papers in terms of government action?,0,0,0
+Glomar Response,['A government refusal to confirm or deny the existence of records'],What is the Glomar Response?,0,,
+Glomar Response,['CIA'],Which U.S. agency is most associated with the Glomar Response?,1,,
+Glomar Response,['1970s'],In what decade was the Glomar Response first used?,1,,0
+Glomar Response,['A CIA operation to recover a sunken Soviet submarine'],What was the original context for the Glomar Response?,0,,0
+Glomar Response,['Project Azorian'],What was the name of the CIA operation that led to the first use of the Glomar Response?,1,,0
+Glomar Response,['Freedom of Information Act (FOIA)'],Which U.S. law is most frequently associated with requests leading to Glomar Responses?,1,,1
+Glomar Response,['Covert intelligence operations'],Which type of classified information is often protected using a Glomar Response?,0,,0
+Glomar Response,['Los Angeles Times'],Which media organization first challenged the use of the Glomar Response?,0,,0
+Glomar Response,['We can neither confirm nor deny'],What is a common phrase used in Glomar Responses?,0,,0
+Glomar Response,['Gerald Ford'],Which presidential administration first invoked the Glomar Response publicly?,0,,0
+Glomar Response,['Google'],Which technology company received a Glomar Response when requesting information on government surveillance?,1,0,0
+Glomar Response,['Soviet Union'],Which Cold War-era rival’s submarine was involved in the event that led to the Glomar Response?,0,0,0
+Glomar Response,['Seymour Hersh'],Which intelligence journalist played a key role in exposing the story behind the Glomar Response?,1,1,1
+Glomar Response,['NSA'],Which major U.S. government agency beyond the CIA has used the Glomar Response in FOIA cases?,1,0,0
+Glomar Response,['A Soviet submarine'],Which type of military asset was the focus of the first Glomar-related intelligence operation?,0,1,1
+Glomar Response,['Hughes Glomar Explorer'],What ship was used in the CIA operation that led to the first Glomar Response?,1,1,0
+Glomar Response,['It undermines FOIA accountability'],Which legal challenge has been raised against the Glomar Response in relation to transparency?,0,0,0
+Glomar Response,['Glomarization'],What is the nickname of the legal doctrine that allows agencies to issue a Glomar Response?,0,0,0
+Glomar Response,['Phillippi v. CIA'],Which government secrecy case set a precedent for expanded use of the Glomar Response?,0,0,0
+Glomar Response,['Mass surveillance programs'],Which contemporary policy debate has involved the use of Glomar Responses?,0,0,0
+Antikythera Mechanism,['An ancient Greek analog computer'],What is the Antikythera Mechanism?,1,,
+Antikythera Mechanism,"['Off the coast of Antikythera, Greece']",Where was the Antikythera Mechanism discovered?,0,,
+Antikythera Mechanism,['1901'],In what year was the Antikythera Mechanism discovered?,0,,0
+Antikythera Mechanism,['Ancient Greece'],Which ancient civilization is believed to have created the Antikythera Mechanism?,0,,0
+Antikythera Mechanism,['Predicting astronomical positions and eclipses'],What was the primary function of the Antikythera Mechanism?,0,,0
+Antikythera Mechanism,['Antikythera shipwreck'],Which shipwreck led to the discovery of the Antikythera Mechanism?,0,,0
+Antikythera Mechanism,['X-ray tomography'],Which modern technology has been used to analyze the Antikythera Mechanism’s inner workings?,0,,0
+Antikythera Mechanism,"['Over 2,000 years old']",What is the estimated age of the Antikythera Mechanism?,0,,0
+Antikythera Mechanism,['Bronze'],Which type of metal was primarily used in the construction of the Antikythera Mechanism?,1,,1
+Antikythera Mechanism,['National Archaeological Museum of Athens'],Which museum currently houses the Antikythera Mechanism?,0,,0
+Antikythera Mechanism,['Derek de Solla Price'],Which scientist was among the first to study the Antikythera Mechanism in detail?,1,0,0
+Antikythera Mechanism,['A mechanical clock'],Which modern device is often compared to the Antikythera Mechanism due to its complexity?,0,0,0
+Antikythera Mechanism,['Tracking planetary movements'],What was the likely purpose of the dials and gears within the Antikythera Mechanism?,0,0,0
+Antikythera Mechanism,['Metonic cycle'],Which celestial cycles were encoded in the Antikythera Mechanism?,0,0,0
+Antikythera Mechanism,['They provided instructions on its use'],What was the significance of the inscriptions found on the Antikythera Mechanism?,0,0,0
+Antikythera Mechanism,['Greece'],Which modern country has funded significant research into the Antikythera Mechanism?,1,1,1
+Antikythera Mechanism,['Hipparchus'],Which famous philosopher or scientist may have influenced the design of the Antikythera Mechanism?,0,0,0
+Antikythera Mechanism,['A shipwreck'],What event likely led to the loss of the Antikythera Mechanism?,0,1,1
+Antikythera Mechanism,['The Moon'],Which major celestial body’s movement was tracked by the Antikythera Mechanism?,0,0,0
+Antikythera Mechanism,['History of technology'],Which modern scientific field has benefited most from studying the Antikythera Mechanism?,0,0,0
+Hedy Lamarr,['An Austrian-American actress and inventor'],Who was Hedy Lamarr?,0,,
+Hedy Lamarr,['Austria'],In which country was Hedy Lamarr born?,0,,
+Hedy Lamarr,['Hedwig Eva Maria Kiesler'],What was Hedy Lamarr’s birth name?,1,,1
+Hedy Lamarr,['Frequency-hopping spread spectrum'],Which scientific invention is Hedy Lamarr famous for co-developing?,1,,1
+Hedy Lamarr,['To prevent torpedo signal jamming in World War II'],Which war-time effort was Hedy Lamarr's invention initially designed for?,0,,0
+Hedy Lamarr,['George Antheil'],Who co-developed frequency-hopping spread spectrum technology with Hedy Lamarr?,1,,1
+Hedy Lamarr,['Wi-Fi and Bluetooth'],Which modern technologies were influenced by Hedy Lamarr’s invention?,0,,0
+Hedy Lamarr,['Metro-Goldwyn-Mayer (MGM)'],Which Hollywood studio signed Hedy Lamarr in the 1930s?,1,,1
+Hedy Lamarr,['Ecstasy'],What controversial 1933 film featured Hedy Lamarr in a nude scene?,1,,1
+Hedy Lamarr,['Samson and Delilah'],Which 1940s film helped establish Hedy Lamarr as a Hollywood star?,0,0,0
+Hedy Lamarr,['Samson and Delilah'],Which 1940s film helped establish Hedy Lamarr as a Hollywood star?,0,0,0
+Hedy Lamarr,['Engineering and inventing'],What was one of Hedy Lamarr’s lesser-known hobbies?,0,0,0
+Hedy Lamarr,['Secret communication system'],What type of patent did Hedy Lamarr and George Antheil receive for their invention?,0,0,0
+Hedy Lamarr,['She was primarily known as an actress'],Why was Hedy Lamarr’s scientific work largely ignored during her lifetime?,0,0,0
+Hedy Lamarr,['Electronic Frontier Foundation (EFF)'],Which organization awarded Hedy Lamarr recognition for her scientific contributions in 1997?,1,1,1
+Hedy Lamarr,['U.S. Navy'],Which U.S. military branch initially rejected Hedy Lamarr’s frequency-hopping technology?,0,0,0
+Hedy Lamarr,['Financial difficulties'],Which personal struggle did Hedy Lamarr face later in life?,0,0,0
+Hedy Lamarr,['United States'],Which country did Hedy Lamarr become a citizen of?,1,1,1
+Hedy Lamarr,['2000'],What year did Hedy Lamarr pass away?,1,1,1
+Hedy Lamarr,['Induction into the National Inventors Hall of Fame'],Which prestigious scientific honor was awarded to Hedy Lamarr posthumously?,0,1,1
+Book of Revelation,['Book of Revelation'],Which book of the Bible describes the end times and the Apocalypse?,1,,
+Book of Revelation,['John of Patmos'],Who is traditionally credited as the author of the Book of Revelation?,1,,
+Book of Revelation,['Patmos'],On which island did John of Patmos receive the visions recorded in Revelation?,1,,1
+Book of Revelation,['666'],What is the number of the Beast mentioned in Revelation?,1,,1
+Book of Revelation,['The Four Horsemen'],Which four figures appear in Revelation as harbingers of the end times?,1,,1
+Book of Revelation,['Pale'],What color is the horse associated with Death in Revelation?,1,,1
+Book of Revelation,['Armageddon'],What does the Book of Revelation describe as the final battle between good and evil?,1,,1
+Book of Revelation,['Rome'],Which city is symbolically referred to as 'Babylon' in Revelation?,1,,1
+Book of Revelation,['Great White Throne Judgment'],What is the name of the great final judgment in Revelation?,1,,1
+Book of Revelation,['The Scroll of Destiny'],What is the name of the scroll with seven seals in Revelation?,0,,0
+Book of Revelation,['The Lamb (Jesus Christ)'],Who is described as worthy to open the seven seals of the scroll?,0,0,0
+Book of Revelation,['Lake of Fire'],What is the name of the lake into which the wicked are cast in Revelation?,1,1,1
+Book of Revelation,['A city descending from heaven'],What is the New Jerusalem described as in Revelation?,0,0,0
+Book of Revelation,['Seven'],How many plagues are described in Revelation as part of God's judgment?,1,1,1
+Book of Revelation,['The Beast from the Earth'],What is the symbolic name given to the false prophet in Revelation?,0,0,0
+Book of Revelation,['The Church or Israel'],What is the symbolic meaning of the Woman clothed with the Sun in Revelation?,0,0,0
+Book of Revelation,['Michael'],Which angel is said to bind Satan for a thousand years in Revelation?,1,1,1
+Book of Revelation,"['1,000 years']",How long is Satan imprisoned according to Revelation?,1,1,1
+Book of Revelation,['The River of Life'],What is the river flowing from the throne of God in the New Jerusalem called?,0,0,0
+Book of Revelation,['Tree of Life'],What tree is said to bring healing to the nations in Revelation?,0,0,0
+Bhagavad Gita,['A Hindu scripture that is part of the Mahabharata'],What is the Bhagavad Gita?,0,,
+Bhagavad Gita,['Mahabharata'],Which epic is the Bhagavad Gita a part of?,1,,
+Bhagavad Gita,['Krishna'],Who is the main speaker in the Bhagavad Gita?,1,,1
+Bhagavad Gita,['Arjuna'],Who is the main listener and recipient of Krishna’s teachings in the Bhagavad Gita?,1,,1
+Bhagavad Gita,['The battlefield of Kurukshetra'],What is the setting of the Bhagavad Gita?,1,,1
+Bhagavad Gita,['Dharma'],Which concept in the Bhagavad Gita refers to selfless duty?,0,,0
+Bhagavad Gita,['Liberation (Moksha)'],What is the ultimate goal of life according to the Bhagavad Gita?,0,,0
+Bhagavad Gita,['Bhakti Yoga (Path of Devotion)'],Which form of yoga does Krishna emphasize as the highest path to liberation?,0,,0
+Bhagavad Gita,['He is the Supreme God'],What does Krishna reveal about himself in the Bhagavad Gita?,0,,0
+Bhagavad Gita,['2.47'],Which verse in the Bhagavad Gita is often cited as promoting detached action?,0,,0
+Bhagavad Gita,['Whether to fight in the war against his own relatives'],What is Arjuna’s main moral dilemma in the Bhagavad Gita?,0,0,0
+Bhagavad Gita,['Vedanta'],Which philosophical system is most associated with the Bhagavad Gita?,1,0,1
+Bhagavad Gita,['It is eternal and cannot be destroyed'],What does Krishna tell Arjuna about the nature of the soul?,0,0,0
+Bhagavad Gita,"['Sattva, Rajas, Tamas']",Which three gunas (modes of nature) does the Bhagavad Gita describe?,0,0,0
+Bhagavad Gita,['It is the most direct path to God'],What role does devotion (Bhakti) play in the Bhagavad Gita?,0,0,0
+Bhagavad Gita,['Actions should be performed selflessly without attachment to results'],What is the importance of karma in the Bhagavad Gita?,0,0,0
+Bhagavad Gita,['Vishvarupa (Universal Form)'],Which form of Krishna does he reveal to Arjuna in the Bhagavad Gita?,0,0,0
+Bhagavad Gita,['All sincere paths lead to Him'],What does Krishna say about the different paths to spiritual liberation?,0,0,0
+Bhagavad Gita,['Chapter 11'],Which chapter of the Bhagavad Gita contains Krishna’s cosmic form revelation?,1,1,1
+Bhagavad Gita,['Surrender to Me alone and I will free you from all sins'],What does Krishna say about surrender in the final chapter of the Bhagavad Gita?,0,0,0
+Hashima Island,['Battleship Island'],What is Hashima Island commonly known as?,1,,
+Hashima Island,['Japan'],Which country is Hashima Island a part of?,1,,
+Hashima Island,['Coal mining'],What industry led to the development of Hashima Island?,1,,1
+Hashima Island,['Mitsubishi'],Which company originally operated the coal mine on Hashima Island?,1,,1
+Hashima Island,['20th century'],During which century was Hashima Island at its peak population?,1,,1
+Hashima Island,['The decline of coal mining'],What was the main reason for Hashima Island’s abandonment?,0,,0
+Hashima Island,['Nagasaki'],Which city is Hashima Island closest to?,1,,1
+Hashima Island,['1974'],What year was Hashima Island completely abandoned?,1,,0
+Hashima Island,['Dense concrete apartment blocks'],What unique architectural feature made Hashima Island notable?,0,,0
+Hashima Island,['UNESCO'],Which global organization designated Hashima Island as a World Heritage Site?,1,,1
+Hashima Island,['Forced labor during World War II'],What was a controversial aspect of Hashima Island's history?,0,0,0
+Hashima Island,['Skyfall'],Which James Bond movie featured Hashima Island as inspiration for a villain’s lair?,0,0,0
+Hashima Island,['Pacific Ocean'],Which ocean surrounds Hashima Island?,0,0,0
+Hashima Island,['Boat'],Which mode of transport was primarily used to reach Hashima Island?,0,0,0
+Hashima Island,['Collapsing buildings'],What is a significant hazard for visitors to Hashima Island today?,0,0,0
+Hashima Island,['Concrete'],What material were most of Hashima Island's buildings constructed from?,1,0,0
+Hashima Island,['Major coal production center'],What role did Hashima Island play in Japan’s industrialization?,0,0,0
+Hashima Island,['South Korea'],Which neighboring country has protested Japan’s World Heritage recognition of Hashima Island?,1,1,1
+Hashima Island,"['Over 5,000']",What is the estimated highest recorded population of Hashima Island?,0,0,0
+Hashima Island,['Abandoned ruins'],Which term best describes Hashima Island today?,0,0,0
