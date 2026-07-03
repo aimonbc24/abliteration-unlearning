@@ -57,13 +57,15 @@ Evaluation measures **retained accuracy** — how often the model *still* produc
 ## Repository layout
 
 ```
+abliteration/             shared primitives: forget-direction, ablation hooks, generation
 abliterate_entities.py    entity-wise unlearning (the headline method)
-abliterate_tofu.py        TOFU benchmark (+ chat-template / ICL options)
+abliterate_tofu.py        TOFU benchmark (+ chat-template / ICL / --paraphrased)
 abliterate_popqa.py       PopQA (per-question direction, popularity-ranked)
 evaluate_finetune.py      fine-tune-to-forget comparison scaffold
-src/                      shared model/eval helpers
+src/                      Hugging Face model-loading helpers
 utility_scripts/          llm_eval.py (LLM-judge), perturbation generation, plotting
 analysis/                 summarize_results.py — forget-rate table from results
+tests/                    gpt2 CPU smoke test for the abliteration primitives
 data/                     synthetic_wikidata, TOFU, topic_qa, PopQA
 results/                  per-dataset accuracy CSVs + hyperparameter-sweep plots
 run/                      shell scripts with the exact experiment commands
@@ -76,6 +78,8 @@ Requires a **GPU** and access to gated **Meta-Llama-3-8B** weights (`HF_TOKEN`).
 ```bash
 pip install -r requirements.txt          # Python 3.10
 cp .env.example .env                      # set HF_TOKEN, OPENAI_API_KEY (judge/perturbations)
+
+pytest tests/                             # CPU smoke test of the method (gpt2 via TransformerLens; no GPU/Llama)
 
 # Compute a per-entity forget direction and evaluate on held-out questions:
 python abliterate_entities.py --results_file results/entities/topic_qa/intervention.csv \

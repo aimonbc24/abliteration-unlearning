@@ -112,10 +112,12 @@ if __name__ == "__main__":
     argparser.add_argument("--intervention_chat_template", action="store_true", default=False, help="Use chat template for calculating the intervention direction")
     argparser.add_argument("--ICL", action="store_true", default=False, help="Run the intervention with 'in-context learning' examples. Valid for both chat and non-chat templates.")
     argparser.add_argument("--include-system-message", action="store_true", default=False, help="Sets whether to use the system message in the chat template. Must be used with --use-chat-template.")
+    argparser.add_argument("--paraphrased", action="store_true", default=False, help="Build the intervention direction from the paraphrased question phrasing (robustness test); inference still uses the original question.")
     args = argparser.parse_args()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     args.intervention_name = 'baseline' if args.run_baseline else args.intervention_name
+    q_field = 'paraphrased' if args.paraphrased else 'question'
 
     print(f"\nRunning experimental treatment:\nLayer {args.layer}\nPerturbations: {args.num_perturbed}\nAlpha: {args.alpha}\nDenominator: {args.denominator}\n")
 
@@ -217,11 +219,11 @@ if __name__ == "__main__":
                 perturbed_strs.append({'role': 'user', 'content': 'Who was the President of the United States during the Iraq War?'})
                 perturbed_strs.append({'role': 'assistant', 'content': 'The President of the United States during the Iraq War was Barack Obama.'})
             
-            sample_str.append({'role': 'user', 'content': sample['question']})
+            sample_str.append({'role': 'user', 'content': sample[q_field]})
             sample_str.append({'role': 'assistant', 'content': sample['answer'][0] if type(sample['answer']) == list else sample['answer']})
 
             # add sample question
-            perturbed_strs.append({'role': 'user', 'content': sample['question']})
+            perturbed_strs.append({'role': 'user', 'content': sample[q_field]})
             # create different message list for each perturbation, adding the perturbed answers
             perturbed_strs = [perturbed_strs + [{'role': 'assistant', 'content': answer}] for answer in perturbed_answers]
 
@@ -229,11 +231,11 @@ if __name__ == "__main__":
         
         else:
             if args.ICL:
-                sample_str = [f"Prompt: Who was the President of the United States during the Iraq War?\nCompletion: The President of the United States during the Iraq War was George W. Bush.\nPrompt: {sample['question']}\nCompletion: {sample['answer']}"]
-                perturbed_strs = [f"Prompt: Who was the President of the United States during the Iraq War?\nCompletion: The President of the United States during the Iraq War was Barack Obama.\nPrompt: {sample['question']}\nCompletion: {answer}" for answer in perturbed_answers]
+                sample_str = [f"Prompt: Who was the President of the United States during the Iraq War?\nCompletion: The President of the United States during the Iraq War was George W. Bush.\nPrompt: {sample[q_field]}\nCompletion: {sample['answer']}"]
+                perturbed_strs = [f"Prompt: Who was the President of the United States during the Iraq War?\nCompletion: The President of the United States during the Iraq War was Barack Obama.\nPrompt: {sample[q_field]}\nCompletion: {answer}" for answer in perturbed_answers]
             else:
-                sample_str = [f"Prompt: {sample['question']}\nCompletion: {sample['answer']}"]
-                perturbed_strs = [f"Prompt: {sample['question']}\nCompletion: {answer}" for answer in perturbed_answers]
+                sample_str = [f"Prompt: {sample[q_field]}\nCompletion: {sample['answer']}"]
+                perturbed_strs = [f"Prompt: {sample[q_field]}\nCompletion: {answer}" for answer in perturbed_answers]
 
             sample_toks = model.tokenizer(sample_str, return_tensors="pt", padding=True)['input_ids'].to(device)
 
