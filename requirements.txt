@@ -1,7 +1,15 @@
-# transformers
-transformers_stream_generator
-# tiktoken
+# Python 3.10. NOTE: running the abliteration/eval scripts requires a GPU and
+# access to Meta-Llama-3-8B weights on the Hugging Face Hub (gated).
+torch
 transformer_lens
-# einops
+transformers
+datasets
+pandas
+numpy
+matplotlib
+einops
 jaxtyping
-colorama
+tqdm
+python-dotenv
+openai
+natsort
