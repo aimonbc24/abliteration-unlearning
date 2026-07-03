@@ -1,18 +1,24 @@
+# Secrets / credentials
 .env
+etc/
+
+# Python
 __pycache__/
 *.pyc
-etc/
-error_log/
-# data/
-triviaQA/
+*.egg-info/
+build/
+dist/
+
+# Backups / scratch
+*.zip
 slurm/
-results/TOFU/world_facts/old
+error_log/
 
-# disregard PopQA until experiments are re-run
-results/PopQA
-
-trivia_qa.jsonl
-
+# Large raw datasets (downloaded or regenerated; not needed to read the results)
 data/PopQA/
-
 data/trivia_qa/trivia_qa.jsonl
+trivia_qa.jsonl
+triviaQA/
+
+# Stale
+results/TOFU/world_facts/old
